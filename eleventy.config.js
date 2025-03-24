@@ -6,10 +6,9 @@ import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
 
 export default function (eleventyConfig) {
-  //compile tailwind before eleventy processes the files
+  // Compile Tailwind before Eleventy processes the files
   eleventyConfig.on('eleventy.before', async () => {
     const tailwindInputPath = path.resolve('./src/assets/styles/index.css');
-
     const tailwindOutputPath = './dist/assets/styles/index.css';
 
     const cssContent = fs.readFileSync(tailwindInputPath, 'utf8');
@@ -28,16 +27,25 @@ export default function (eleventyConfig) {
   });
 
   const processor = postcss([
-    //compile tailwind
+    // Compile Tailwind
     tailwindcss(),
 
-    //minify tailwind css
+    // Minify Tailwind CSS
     cssnano({
       preset: 'default',
     }),
   ]);
 
+  // Add the "stories" collection for dynamic menu generation
+  eleventyConfig.addCollection("stories", function (collectionApi) {
+    return collectionApi.getFilteredByGlob("./src/stories/*.md");
+  });
+
   return {
-    dir: { input: 'src', output: 'dist' },
+    dir: {
+      input: "src", // Source files
+      includes: "_includes", // Includes folder
+      output: "dist", // Output folder
+    },
   };
 }

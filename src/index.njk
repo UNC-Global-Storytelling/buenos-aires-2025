@@ -1,5 +1,6 @@
 ---
 title: Star Wars Characters
+layout: layouts/base.njk
 ---
 
 <!DOCTYPE html>
@@ -11,6 +12,7 @@ title: Star Wars Characters
   </head>
 
   <body>
+    {% block content %}
     <div class="container mx-auto flex flex-col justify-center items-center">
       <h1 class="text-3xl font-bold text-red-50 mt-12 mb-6">Star Wars Characters</h1>
       <ul>
@@ -26,6 +28,7 @@ title: Star Wars Characters
         <li class="text-lg">Obi-Wan Kenobi</li>
       </ul>
     </div>
+    {% endblock %}
   </body>
 
 </html>

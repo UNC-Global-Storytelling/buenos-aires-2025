@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVCMH3TMZ5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DVCMH3TMZ5');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title or "Buenos Aires 2025" }}</title>
+  <meta name="description" content="{{ description or "Buenos Aires 2025 Project" }}">
+  {# this way of linking the stylesheet is super important to getting the subpage styling to work #}
+  <link rel="stylesheet" href="/assets/styles/index.css">
+</head>
+<body class="flex flex-col min-h-screen">
+<header class="bg-black text-white p-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+    <!-- Left: Logo -->
+    <a href="/" class="text-lg font-medium">logo here</a>
+
+    <!-- Center: Navigation Links -->
+    <nav aria-label="Main navigation">
+      <ul class="flex space-x-6 text-sm">
+        {% if collections.all %}
+          {% for story in collections.all %}
+            {% if story.url and story.url.includes('/stories/') %}
+              <li>
+                <a href="{{ story.url }}">
+                  {{ story.data.title or story.fileSlug or "Untitled" }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </nav>
+
+    <!-- Right: About + Language Toggle -->
+    <div class="flex items-center space-x-4 text-sm">
+      <a href="/about">About</a>
+      {# non functional language toggle#}
+      <div class="flex items-center bg-white text-black px-2 py-1 rounded-full">
+        <span class="mr-1">EN</span>
+        <div class="w-4 h-4 bg-black rounded-full"></div>
+        <span class="ml-1">ES</span>
+      </div>
+    </div>
+  </div>
+</header>
+  <main class="flex-grow flex-col bg-white">
+    {{ content | safe }}
+  </main>
+  
+  <footer>
+    <footer class="bg-[#8D926E] text-white py-4">
+  <div class="max-w-7xl mx-auto flex items-center justify-between px-4">
+    <!-- Left: Logo -->
+    <div class="font-semibold">Logo</div>
+
+    <!-- Right: Links -->
+    <nav>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#" class="font-semibold">About Hussman</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+  </footer>
+</body>
+</html>
