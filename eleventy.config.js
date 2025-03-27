@@ -36,6 +36,9 @@ export default function (eleventyConfig) {
     }),
   ]);
 
+  // Passthrough Admin folder
+  eleventyConfig.addPassthroughCopy("src/admin");
+
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {
     return collectionApi.getFilteredByGlob("./src/stories/*.md");
@@ -48,4 +51,4 @@ export default function (eleventyConfig) {
       output: "dist", // Output folder
     },
   };
-}
+} // End function

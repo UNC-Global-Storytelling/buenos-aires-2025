@@ -2,5 +2,7 @@
 layout: layouts/base.njk
 ---
 <h1>{{ title }}</h1>
+<p>{{ reporter_byline }}</p>
+<img src="{{ image }}" alt="{{ image_alt }}" />
 
-{{ content | safe }}
+<div>{{ body_copy | safe }}</div>
