@@ -1,8 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
-<h1>{{ title }}</h1>
-<p>{{ reporter_byline }}</p>
-<img src="{{ image }}" alt="{{ image_alt }}" />
+<article class="max-w-4xl mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-4">{{ title }}</h1>
+  <p class="mb-2">{{ reporter_byline }}</p>
+  <img src="{{ image }}" alt="{{ title }}" class="mb-6 w-full h-auto rounded">
 
-<div>{{ body_copy | safe }}</div>
+  <div class="markdown-content">
+    {{ body_copy | markdown | safe }}
+  </div>
+</article>

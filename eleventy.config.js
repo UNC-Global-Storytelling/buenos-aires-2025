@@ -4,6 +4,7 @@ import path from 'path';
 import cssnano from 'cssnano';
 import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
+import markdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
   // Compile Tailwind before Eleventy processes the files
@@ -36,8 +37,23 @@ export default function (eleventyConfig) {
     }),
   ]);
 
-  // Passthrough Admin folder
+  // Set up a markdown library
+  const markdownLibrary = markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  
+  eleventyConfig.setLibrary("md", markdownLibrary);
+  
+  // Add markdown filter
+  eleventyConfig.addFilter("markdown", function(content) {
+    return markdownLibrary.render(content);
+  });
+
+  // Passthrough items
   eleventyConfig.addPassthroughCopy("src/admin");
+  eleventyConfig.addPassthroughCopy("src/assets/styles/override.css");
 
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {
