@@ -1,0 +1,28 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/img/uploads"
+
+collections: 
+  - name: "stories"
+    label: "Stories"
+    folder: "src/stories"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/story"}
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Reporter Byline", name: "reporter_byline", widget: "string"}
+      - {label: "Video 1 Byline", name: "video_1_byline", widget: "string"}
+      - {label: "Video 2 Byline", name: "video_2_byline", widget: "string"}
+      - {label: "Photo Byline", name: "photo_byline", widget: "string"}
+      - {label: "Interactive 1 Byline", name: "interactive_1_byline", widget: "string"}
+      - {label: "Interactive 2 Byline", name: "interactive_2_byline", widget: "string"}
+      - {label: "UCA Contributor 1 Byline", name: "uca_contributor_1_byline", widget: "string"}
+      - {label: "UCA Contributor 2 Byline", name: "uca_contributor_2_byline", widget: "string"}
+      - {label: "Body Copy", name: "body_copy", widget: "markdown"}
+      - {label: "Header Image", name: "image", widget: "image"}
+

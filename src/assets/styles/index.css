@@ -1,1 +1,84 @@
 @import 'tailwindcss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+@theme{
+  --font-lora: 'Lora', serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+  --color-beige: #e4d6b8;
+  --color-blue: #6699C3;
+  --color-yellow: #F7B416;
+  --color-red: #981B1E;
+  --color-green: #57622E;
+  --color-ivory: #F8FBFC;
+  --color-black: #060707;
+  --color-brown: #65493E;
+}
+
+
+h1 {
+  font-size: 62px;
+  font-weight: bold;
+  line-height: 72px;
+
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h3 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 58px;
+}
+
+button {
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 28px;
+}
+
+blockquote {
+  font-size: 34px;
+  font-weight: medium;
+  line-height: 42px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: regular;
+  line-height: 28px;
+}
+
+p bold {
+  font-size: 18px;
+  font-weight: semibold;
+  line-height: 28px;
+}
+
+caption {
+  font-size: 16px;
+  font-weight: medium;
+  line-height: 24px;
+}
+
+caption bold {
+  font-size: 16px;
+  font-weight: semibold;
+  line-height: 24px;
+}
+
+
+
+
