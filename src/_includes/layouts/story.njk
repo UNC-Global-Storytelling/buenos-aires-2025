@@ -7,6 +7,6 @@ layout: layouts/base.njk
   <img src="{{ image }}" alt="{{ title }}" class="mb-6 w-full h-auto rounded">
 
   <div class="markdown-content">
-    {{ body_copy | markdown | safe }}
+    {{ body_copy | renderContent("njk") | markdown | safe }}
   </div>
 </article>

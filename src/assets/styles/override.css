@@ -16,3 +16,16 @@
     color: pink;
     font-size: 2rem;
   }
+
+  .markdown-content h2 {
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 2rem;
+  }
+
+  .markdown-content blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: pink;
+  }
