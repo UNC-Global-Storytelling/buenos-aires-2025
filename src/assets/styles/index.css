@@ -1,9 +1,7 @@
 @import 'tailwindcss';
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
 
-@theme{
+@theme {
   --font-lora: 'Lora', serif;
   --font-montserrat: 'Montserrat', sans-serif;
   --font-oswald: 'Oswald', sans-serif;
@@ -17,68 +15,181 @@
   --color-brown: #65493E;
 }
 
-
 h1 {
-  font-size: 62px;
+  font-size: 3.875rem; /* 62px */
   font-weight: bold;
-  line-height: 72px;
-
+  line-height: 4.5rem; /* 72px */
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 3rem; /* 48px */
   font-weight: bold;
-  line-height: 58px;
+  line-height: 3.625rem; /* 58px */
 }
 
 h3 {
-  font-size: 38px;
+  font-size: 2.375rem; /* 38px */
   font-weight: bold;
-  line-height: 58px;
+  line-height: 3.625rem; /* 58px */
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: bold;
-  line-height: 58px;
+  line-height: 3.625rem; /* 58px */
 }
 
 button {
-  font-size: 24px;
+  font-size: 1.5rem; /* 24px */
   font-weight: regular;
-  line-height: 28px;
+  line-height: 1.75rem; /* 28px */
 }
 
 blockquote {
-  font-size: 34px;
+  font-size: 2.125rem; /* 34px */
   font-weight: medium;
-  line-height: 42px;
+  line-height: 2.625rem; /* 42px */
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: regular;
-  line-height: 28px;
+  line-height: 1.75rem; /* 28px */
 }
 
 p bold {
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: semibold;
-  line-height: 28px;
+  line-height: 1.75rem; /* 28px */
 }
 
 caption {
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   font-weight: medium;
-  line-height: 24px;
+  line-height: 1.75rem; /* 28px */
 }
 
 caption bold {
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   font-weight: semibold;
-  line-height: 24px;
+  line-height: 1.5rem; /* 24px */
 }
 
+/* custom styles for story pages */
+.contributor-heading {
+  font-family: var(--font-lora);
+  font-size: 1.5rem; /* 28px */
+  font-weight: bold;
+  color: var(--color-green);
+  line-height: 1.75rem; /* 28px */
+}
 
+.contributor-name {
+  font-family: var(--font-lora);
+  font-size: 1.125rem; /* 18px */
+  font-weight: regular;
+  color: var(--color-black);
+  line-height: 1.75rem; /* 28px */
+}
 
+.vertical-line {
+  width: 0.25rem; /* 4px */
+  background-color: var(--color-green);
+  display: block;
+}
 
+/* story content styling */
+/* Story content styles */
+.story-content {
+  /* Base styling */
+  font-family: var(--font-lora);
+}
+
+body .story-content .video-container {
+  width: 120%; /* Make it wider than the container */
+  margin-left: -10%; /* Pull it left to center it */
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 1;
+}
+
+.story-content .video-container iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: block;
+}
+
+body .story-content .video-player {
+  width: 120%; /* Make it wider than the container */
+  margin-left: -10%; /* Center it by pulling it left */
+  position: relative;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 1;
+}
+
+.story-content .video-player iframe {
+  width: 100%; /* Ensure the iframe fills the parent */
+  aspect-ratio: 16/9; /* Maintain the aspect ratio */
+  display: block;
+}
+
+/* Optional container for better centering on very wide screens */
+.story-content .video-container-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/* Make videos responsive on smaller screens */
+@media (max-width: 768px) {
+  .story-content .video-container {
+    width: 100%;
+    transform: none;
+    left: auto;
+  }
+}
+
+/* Center images and add spacing */
+.story-content img {
+  margin: 2.5rem auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Style blockquotes */
+.story-content blockquote {
+  font-family: var(--font-montserrat);
+  font-size: 2.125rem;
+  font-style: italic;
+  color: var(--color-green);
+  border-left: 0.25rem solid var(--color-green);
+  padding-left: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+/* .story-content blockquote p {
+  font-size: 1.125rem;
+  font-weight: regular;
+  line-height: 1.75rem;
+  color: var(--color-green);
+  font-family: Montserrat;
+  font-style: normal;
+} */
+
+.story-content a {
+  color: var(--color-blue);
+  text-decoration: underline;
+  font-weight: semibold;
+  transition: color 0.2s ease-in-out;
+}
+
+.story-content h2 {
+  color: var(--color-green);
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-style: normal; 
+  font-weight: 500;
+  line-height: normal;
+}
