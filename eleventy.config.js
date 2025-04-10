@@ -56,6 +56,7 @@ export default function (eleventyConfig) {
   // Passthrough items
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets/styles/override.css");
+  eleventyConfig.addPassthroughCopy("src/assets/img")
 
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {

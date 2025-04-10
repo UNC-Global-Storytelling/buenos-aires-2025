@@ -29,3 +29,15 @@
     margin: 1rem 0;
     color: pink;
   }
+
+
+@function grid-item-width($columns, $gutter) {
+  @return calc(#{100% / $columns} - #{($gutter * ($columns - 1)) / $columns});
+}
+
+@media screen and (min-width: 768px) {
+  .mix,
+  .gap {
+      width: grid-item-width(4, 1rem); // calc(33.333% - 0.667rem)
+  }
+}

@@ -19,6 +19,7 @@
     "tailwindcss": "^4.0.14"
   },
   "dependencies": {
-    "markdown-it": "^14.1.0"
+    "markdown-it": "^14.1.0",
+    "mixitup": "^3.3.2"
   }
 }
