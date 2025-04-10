@@ -3,11 +3,13 @@ title: "En Alza: Buenos Aires On The Rise"
 layout: layouts/base.njk
 video: '{% video {videoId: "816714697"} %}'
 ---
-  {% block content %}
-  <div class="container mx-auto px-4 py-8">
-    <h1 class="text-center text-3xl font-bold text-black mt-12 mb-6">
-      Buenos Aires 2025 Coming Soon!
-    </h1>
-    {{ video | renderContent("njk") | safe }}
-  </div>
-  {% endblock %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-center text-3xl font-bold text-black mt-12 mb-6">
+    Buenos Aires 2025 Coming Soon!
+  </h1>
+
+  {{ video | renderContent("njk") | safe }}
+</div>
+{% endblock %}
