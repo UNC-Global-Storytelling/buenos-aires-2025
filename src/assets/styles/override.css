@@ -41,7 +41,7 @@
 .video-player {
   padding-top: 56.25%;
   position: relative;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .video-player iframe {
@@ -58,8 +58,8 @@
   padding: 0.5rem 1.5rem;
   font-size: 1rem;
   position: relative;
-  z-index: 3;
   cursor: pointer;
+  z-index: 1001;
 }
 
 /* Overlay styles */
@@ -70,15 +70,19 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.95);
-  z-index: 1;
-  display: none;
+  z-index: 999;
+  opacity: 0;
   pointer-events: none;
+  transition: opacity 0.5s ease;
+  visibility: hidden;
 }
 
 .overlay.active {
-  display: block;
+  opacity: 1;
   pointer-events: auto;
+  visibility: visible;
 }
+
 
 /* Card with image and text overlay */
 .card {
