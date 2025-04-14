@@ -9,6 +9,7 @@ import video from "./src/_includes/components/shortcodes/video.js";
 import timeline from "./src/_includes/components/shortcodes/timelineBueno.js";
 import dumpingFlourish from "./src/_includes/components/shortcodes/dumpingFlourish.js";
 import separationFlourish from "./src/_includes/components/shortcodes/separationFlourish.js";
+import gigGenially from "./src/_includes/components/shortcodes/gigGenially.js";
 import {EleventyRenderPlugin} from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
@@ -75,6 +76,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("timeline", timeline);
   eleventyConfig.addShortcode("dumpingFlourish", dumpingFlourish);
   eleventyConfig.addShortcode("separationFlourish", separationFlourish);
+  eleventyConfig.addShortcode("gigGenially", gigGenially);
 
   return {
     dir: {
