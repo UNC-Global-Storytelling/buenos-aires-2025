@@ -8,6 +8,7 @@ import markdownIt from "markdown-it";
 import video from "./src/_includes/components/shortcodes/video.js";
 import timeline from "./src/_includes/components/shortcodes/timelineBueno.js";
 import dumpingFlourish from "./src/_includes/components/shortcodes/dumpingFlourish.js";
+import separationFlourish from "./src/_includes/components/shortcodes/separationFlourish.js";
 import {EleventyRenderPlugin} from "@11ty/eleventy";
 
 export default function (eleventyConfig) {
@@ -73,6 +74,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("video", video);
   eleventyConfig.addShortcode("timeline", timeline);
   eleventyConfig.addShortcode("dumpingFlourish", dumpingFlourish);
+  eleventyConfig.addShortcode("separationFlourish", separationFlourish);
 
   return {
     dir: {
