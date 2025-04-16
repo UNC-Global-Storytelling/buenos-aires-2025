@@ -16,21 +16,18 @@ body_copy: >-
   Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
 
 
-  Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
+  Pull quote test code is below: 
 
 
-  Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
-
-
-  Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
-
-
-  > "Here's my pretty pull quote."
+  {% pullQuote {   "quote": "Story pull out quote here here here here here here here here here here here.",   "attribution": "Jennifer Laurence",   "role": "Actor at Actor Job for Figma Purposes" } %}
 
 
   And here's a link to [Anna's blog](https://globalstorytelling.unc.edu/cutaway/terminal-to-terminal/).
 
 
   {% video { "videoId": "768107556" } %}
+
+
+  {% separationFlourish %}
 image: /assets/img/uploads/img_1893.jpg
 ---

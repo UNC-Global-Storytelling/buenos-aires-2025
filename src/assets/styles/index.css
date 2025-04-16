@@ -10,6 +10,8 @@
   --color-yellow: #F7B416;
   --color-red: #981B1E;
   --color-green: #57622E;
+  --color-light-green: #89906C;
+  --color-lightest-green: #D2DCA9;
   --color-ivory: #F8FBFC;
   --color-black: #060707;
   --color-brown: #65493E;
@@ -158,26 +160,6 @@ body .story-content .video-player {
   display: block;
 }
 
-/* Style blockquotes */
-.story-content blockquote {
-  font-family: var(--font-montserrat);
-  font-size: 2.125rem;
-  font-style: italic;
-  color: var(--color-green);
-  border-left: 0.25rem solid var(--color-green);
-  padding-left: 1.5rem;
-  margin: 2.5rem 0;
-}
-
-/* .story-content blockquote p {
-  font-size: 1.125rem;
-  font-weight: regular;
-  line-height: 1.75rem;
-  color: var(--color-green);
-  font-family: Montserrat;
-  font-style: normal;
-} */
-
 .story-content a {
   color: var(--color-blue);
   text-decoration: underline;
@@ -193,3 +175,58 @@ body .story-content .video-player {
   font-weight: 500;
   line-height: normal;
 }
+
+/* pull quote component styling */
+/* Pull quote container */
+.pull-quote {
+  width: 100%;
+  margin: 3rem 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Decorative quote mark */
+.pull-quote::before {
+  content: '❝'; /* Decorative quote mark */
+  position: absolute;
+  top: -3rem; /* Adjust position above the quote */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-montserrat);
+  font-size: 4rem;
+  color: var(--color-lightest-green); 
+  line-height: 1;
+}
+
+/* Blockquote styling */
+.pull-quote blockquote {
+  font-family: var(--font-montserrat);
+  font-size: 2.5rem;
+  font-weight: 600; /* Semibold */
+  color: var(--color-green);
+  margin: 0; 
+  padding: 0; 
+  line-height: 1.4;
+}
+
+/* Attribution styling */
+.pull-quote blockquote footer {
+  margin-top: 1rem; /* Add spacing between quote and attribution */
+  font-family: var(--font-lora);
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--color-light-green);
+  text-align: right;
+}
+
+/* Attribution name */
+.pull-quote blockquote footer .attribution {
+  display: block; /* Ensure name is on its own line */
+}
+
+/* Attribution role */
+.pull-quote blockquote footer .role {
+  display: block; /* Ensure role is on its own line */
+  margin-top: 0.25rem; /* Add slight spacing between name and role */
+}
+
