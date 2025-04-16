@@ -1,12 +1,12 @@
 ---
 layout: layouts/story
 title: Anna's Story
-reporter_byline: Anna
+reporter_byline: Not Anna
 video_1_byline: Anna
 video_2_byline: Anna
 photo_byline: Anna
 interactive_1_byline: Anna
-interactive_2_byline: ""
+interactive_2_byline: Not Anna
 uca_contributor_1_byline: Anna
 uca_contributor_2_byline: Not Anna
 body_copy: >-
