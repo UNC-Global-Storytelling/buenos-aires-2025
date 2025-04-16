@@ -6,9 +6,9 @@ video_1_byline: Anna
 video_2_byline: Anna
 photo_byline: Anna
 interactive_1_byline: Anna
-interactive_2_byline: Anna
+interactive_2_byline: ""
 uca_contributor_1_byline: Anna
-uca_contributor_2_byline: Anna
+uca_contributor_2_byline: ""
 body_copy: >-
   ## subheading
 
@@ -53,5 +53,5 @@ body_copy: >-
 
 
   Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
-image: /assets/img/uploads/img_1893.jpg
+image: /assets/img/uploads/rodrigobuenobanner-1.jpg
 ---

@@ -3,8 +3,8 @@ layout: layouts/base.njk
 ---
 <section class="relative h-[75vh]">
   <img src="{{ image }}" alt="" class="object-cover w-full h-full">
-  <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
-    <h1 class="text-white text-4xl md:text-5xl font-semibold text-center px-4">
+  <div class="absolute inset-0 flex items-center justify-center">
+    <h1 class="text-ivory font-lora md:text-5xl font-semibold text-center px-4">
       {{ title }}
     </h1>
   </div>
@@ -20,7 +20,7 @@ layout: layouts/base.njk
         <!-- Vertical line -->
         <div class="border-l-4 border-green"></div>
         <!-- Contributor content -->
-        <div class="pl-4 space-y-6">
+        <div class="pl-4 space-y-2">
           <div>
             <p class="contributor-heading">Videographers</p>
             <p class="contributor-name">{{ video_1_byline }}</p>
@@ -40,7 +40,16 @@ layout: layouts/base.njk
           <div>
             <p class="contributor-heading">Interactive</p>
             <p class="contributor-name">{{ interactive_1_byline }}</p>
+          {% if interactive_2_byline and interactive_2_byline != "" %}
             <p class="contributor-name">{{ interactive_2_byline }}</p>
+          {% endif %}
+</div>
+          <div>
+            <p class="contributor-heading">Producers</p>
+            <p class="contributor-name">{{ uca_contributor_1_byline }}</p>
+            {% if uca_contributor_2_byline and uca_contributor_2_byline != "" %}
+            <p class="contributor-name">{{ uca_contributor_2_byline }}</p>
+          {% endif %}
           </div>
         </div>
       </div>
