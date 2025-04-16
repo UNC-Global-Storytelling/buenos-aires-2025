@@ -107,40 +107,24 @@ caption bold {
   font-family: var(--font-lora);
 }
 
-body .story-content .video-container {
-  width: 120%; /* Make it wider than the container */
-  margin-left: -10%; /* Pull it left to center it */
-  position: relative;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  z-index: 1;
-}
-
-.story-content .video-container iframe {
-  width: 100%;
-  aspect-ratio: 16/9;
-  display: block;
-}
-
+/* video styling, make it 120% of the parent width and center it */
+body .story-content .video-container,
 body .story-content .video-player {
-  width: 120%; /* Make it wider than the container */
-  margin-left: -10%; /* Center it by pulling it left */
+  width: 140%; /* 140% of the parent width, so it expands past 3/5 of grid */
+  max-width: none;
   position: relative;
+  left: 50%; /* Move the video to the center of the parent */
+  transform: translateX(-50%); /* Adjust for the extra width */
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   z-index: 1;
 }
 
+.story-content .video-container iframe,
 .story-content .video-player iframe {
-  width: 100%; /* Ensure the iframe fills the parent */
+  width: 100%; /* Ensure the iframe fills the parent container, when respondive */
   aspect-ratio: 16/9; /* Maintain the aspect ratio */
   display: block;
-}
-
-/* Optional container for better centering on very wide screens */
-.story-content .video-container-wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
 }
 
 /* Make videos responsive on smaller screens */
@@ -228,5 +212,23 @@ body .story-content .video-player {
 .pull-quote blockquote footer .role {
   display: block; /* Ensure role is on its own line */
   margin-top: 0.25rem; /* Add slight spacing between name and role */
+}
+
+/* interactive styling */
+/* Interactive styling: make it 140% of parent width & center it, same process as videos */
+body .story-content .interactive-container {
+  width: 180%; /* 140% of the parent width, might need to adjust this per story */
+  max-width: none; /* Prevent max-width constraints */
+  position: relative;
+  left: 50%; /* Move the interactive to the center of the parent */
+  transform: translateX(-50%); /* Adjust for the extra width */
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  z-index: 1;
+}
+
+.story-content .interactive-container {
+  width: 100%;
+  display: block;
 }
 
