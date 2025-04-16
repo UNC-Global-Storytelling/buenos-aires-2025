@@ -8,7 +8,7 @@ photo_byline: Anna
 interactive_1_byline: Anna
 interactive_2_byline: ""
 uca_contributor_1_byline: Anna
-uca_contributor_2_byline: ""
+uca_contributor_2_byline: Not Anna
 body_copy: >-
   ## subheading
 
