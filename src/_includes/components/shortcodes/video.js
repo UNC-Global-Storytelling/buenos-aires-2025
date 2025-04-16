@@ -20,19 +20,7 @@ export default (data) => {
   
       <div class="overlay" id="videoOverlay"></div>
   
-      <script src="https://player.vimeo.com/api/player.js"></script>  
-      <script>
-        document.addEventListener("DOMContentLoaded", () => {
-          const overlay = document.getElementById('videoOverlay');
-          const btn = document.getElementById('toggleOverlayBtn');
-  
-          if (overlay && btn) {
-            btn.addEventListener('click', () => {
-              overlay.classList.toggle('active');
-            });
-          }
-        });
-      </script>
+      <script src="https://player.vimeo.com/api/player.js"></script>
     `;
   }
   

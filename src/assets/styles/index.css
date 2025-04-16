@@ -117,7 +117,7 @@ body .story-content .video-player {
   transform: translateX(-50%); /* Adjust for the extra width */
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .story-content .video-container iframe,
@@ -224,7 +224,7 @@ body .story-content .interactive-container {
   transform: translateX(-50%); /* Adjust for the extra width */
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  z-index: 1;
+  z-index: 1000; /* Ensure it appears above other content */
 }
 
 .story-content .interactive-container {
