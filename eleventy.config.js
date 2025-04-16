@@ -47,7 +47,7 @@ export default function (eleventyConfig) {
   // Set up a markdown library
   const markdownLibrary = markdownIt({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: true
   });
   
