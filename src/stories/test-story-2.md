@@ -19,5 +19,5 @@ body_copy: |-
   1. I am cool
   2. Anna F is cool
   3. Buenos Aires was fun.
-image: https://www.supercutekawaii.com/wp-content/uploads/pusheen-2.jpg
+image: /assets/img/uploads/rodrigobuenobanner-1.jpg
 ---
