@@ -90,7 +90,6 @@ export default function (eleventyConfig) {
 
   // Run after build to create JSON files from photo stories
   eleventyConfig.on('eleventy.after', async ({ dir }) => {
-    // Get all photoStories from the collection API
     const inputDir = path.join(process.cwd(), 'src/photoStories');
     const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.md'));
 
@@ -105,13 +104,19 @@ export default function (eleventyConfig) {
       const match = /^---\n([\s\S]+?)\n---/m.exec(content);
       if (!match) continue;
       const yaml = match[1];
-      // Parse YAML front matter
       const frontmatter = (await import('js-yaml')).default.load(yaml);
-      const id = frontmatter.en?.id || file.replace(/\.md$/, '');
+      const id = frontmatter.id || file.replace(/\.md$/, '');
       const jsonPath = path.join(outputDir, `${id}.json`);
-      const { photos, ...locales } = frontmatter;
-      const jsonData = { ...locales, photos };
-      fs.writeFileSync(jsonPath, JSON.stringify(jsonData, null, 2));
+
+      // Adjust photo paths to match the new structure
+      if (frontmatter.photos) {
+        frontmatter.photos = frontmatter.photos.map(photo => ({
+          ...photo,
+          src: photo.src.replace('/assets/img/', '/photoStories/')
+        }));
+      }
+
+      fs.writeFileSync(jsonPath, JSON.stringify(frontmatter, null, 2));
       console.log(`Created JSON file: ${jsonPath}`);
     }
   });

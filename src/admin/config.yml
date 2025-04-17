@@ -42,14 +42,13 @@ collections:
     label: "Photo Stories"
     folder: "src/photoStories"
     create: true
+    slug: "{{id}}"
     i18n:
       structure: "single_file"
       locales: [en, es]
-    media_folder: "src/assets/img/{{slug}}"
     fields:
       - {label: "Story ID", name: "id", widget: "string", i18n: "duplicate"}
       - {label: "Title", name: "title", widget: "string", i18n: true}
-      - {label: "Description", name: "description", widget: "text", i18n: true}
       - label: "Photos"
         name: "photos"
         widget: "list"

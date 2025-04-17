@@ -137,12 +137,6 @@ body .story-content .video-player {
 }
 
 /* Center images and add spacing */
-.story-content img {
-  margin: 2.5rem auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 .story-content a {
   color: var(--color-blue);
@@ -234,44 +228,194 @@ body .story-content .interactive-container {
 
 /* Photo Experience Component Styles */
 .photo-experience {
-  margin: 3rem 0;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex; /* Use flexbox to align items horizontally */
+  width: 120%; /* 120% of the parent width */
+  max-width: none; /* Prevent max-width constraints */
+  position: relative;
+  left: 50%; /* Move the container to the center of the parent */
+  transform: translateX(-50%); /* Adjust for the extra width */
+  height: 90vh; /* 90% of the viewport height */
+  margin: 2.5rem auto; /* Center the container vertically with spacing */
+}
+
+/* Photo Container (Image Section) */
+.photo-container {
+  flex: 1 1 80%; /* 80% of the width for the image */
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  overflow: visible; /* Ensure the image is fully visible */
+}
+
+/* Image Styling */
+.photo-image {
+  width: auto;
+  height: auto;
+  max-width: 95%; /* Image takes up 95% of the container */
+  max-height: 95%; /* Ensures it fits within the container */
+  object-fit: contain; /* Maintains aspect ratio without cropping */
+}
+
+/* Caption and Controls Container */
+.caption-container {
+  flex: 0 0 20%; /* Fixed 20% width for the caption and controls */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border-left: 2px solid var(--color-lightest-green);
+}
+
+/* Caption Text */
+.caption-text {
+  font-size: 1rem;
+  color: var(--color-black);
+  margin-bottom: 1rem;
+}
+
+/* Position Indicator (Counter and Buttons) */
+.position-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.position-indicator button {
+  background-color: var(--color-light-green);
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.position-indicator button:hover {
+  background-color: var(--color-green);
+}
+
+/* Photo Slider Styles */
+.photo-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .photo-slider {
+    flex-direction: row;
+  }
 }
 
 .slider-container {
   position: relative;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider-image img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Handles both vertical and horizontal images gracefully */
+  border-radius: 10px;
+}
+
+.photo-caption-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-left: 4px solid var(--color-green);
+  padding-left: 1rem;
+}
+
+.caption-bar {
+  width: 50px;
+  height: 4px;
+  background-color: var(--color-green);
+}
+
+.photo-caption {
+  font-size: 1rem;
+  color: var(--color-black);
+  line-height: 1.5;
 }
 
 .slider-controls {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
   display: flex;
-  gap: 0.5rem;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--color-black);
 }
 
 .slider-controls button {
-  opacity: 0.8;
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .slider-controls button:hover {
-  opacity: 1;
+  background-color: var(--color-light-green);
+}
+
+.caption-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .caption-container {
-  min-height: 4rem;
+  margin-bottom: 1rem;
 }
 
 .position-indicator {
-  font-size: 1.25rem;
-  color: #4b5563;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.position-indicator button {
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.position-indicator button:hover {
+  background-color: var(--color-light-green);
 }
 
 @media (max-width: 768px) {
+  .photo-slider {
+    flex-direction: column;
+  }
+
+  .photo-caption-container {
+    border-left: none;
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+
+  .photo-caption {
+    text-align: center;
+  }
+
   .slider-controls {
     position: static;
     margin-top: 1rem;
