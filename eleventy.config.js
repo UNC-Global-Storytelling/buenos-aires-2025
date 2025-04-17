@@ -65,6 +65,7 @@ export default function (eleventyConfig) {
   // Passthrough items
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets/styles/override.css");
+  eleventyConfig.addPassthroughCopy("src/assets/styles/aboutstyle.css");
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/assets/js");
 
