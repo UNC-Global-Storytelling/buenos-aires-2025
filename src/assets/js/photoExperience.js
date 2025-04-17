@@ -5,24 +5,12 @@ function initPhotoExperience(storyId, language) {
     .then(res => res.json())
     .then(data => {
       const photos = (data[lang] && data[lang].photos) || data.en.photos || [];
-      const title = data[lang]?.title || 'Photo Gallery';
-      const description = data[lang]?.description || '';
-
-      // Add title and description to the page
-      const headerEl = document.createElement('div');
-      headerEl.className = 'text-center mb-8';
-      headerEl.innerHTML = `
-        <h2 class="text-3xl font-lora text-green-700 mb-2">${title}</h2>
-        <p class="text-lg font-lora">${description}</p>
-      `;
-
-      const container = document.getElementById(`photo-experience-${storyId}`);
-      container.prepend(headerEl);
 
       // Sort photos by order
       photos.sort((a, b) => a.order - b.order);
 
       if (photos.length === 0) {
+        const container = document.getElementById(`photo-experience-${storyId}`);
         container.innerHTML += '<p class="text-center">No photos available</p>';
         return;
       }
