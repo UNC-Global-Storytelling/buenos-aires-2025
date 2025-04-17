@@ -81,7 +81,6 @@
 }
 
 
-
 /* styles for the aboutpage */
 body {
   font-family: Arial, sans-serif;
@@ -181,3 +180,33 @@ body {
   width: 120px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between items */
+}
+
+.container .mix {
+  flex: 0 0 calc(20% - 1rem); /* 4 items per row on large screens */
+  margin: 0.5rem; /* Add spacing between items */
+  text-align: center; /* Center-align content */
+}
+
+.container .mix img {
+  width: 100%; /* Make images responsive */
+  max-width: 150px; /* Optional: Set a max width for images */
+  border-radius: 50%; /* Optional: Make images circular */
+}
+
+/* Medium screens: 2 items per row */
+@media (max-width: 768px) {
+  .container .mix {
+    flex: 0 0 calc(50% - 1rem); /* 2 items per row */
+  }
+}
+
+/* Small screens: 1 item per row */
+@media (max-width: 480px) {
+  .container .mix {
+    flex: 0 0 100%; /* 1 item per row */
+  }
