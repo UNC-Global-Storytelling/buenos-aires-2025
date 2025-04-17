@@ -3,3 +3,5 @@ node_modules/
 package-lock.json
 .cache
 .env
+src/assets/img/.DS_Store
+.DS_Store
