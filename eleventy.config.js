@@ -4,14 +4,18 @@ import path from 'path';
 import cssnano from 'cssnano';
 import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
-import markdownIt from "markdown-it";
-import video from "./src/_includes/components/shortcodes/video.js";
-import timeline from "./src/_includes/components/shortcodes/timelineBueno.js";
-import dumpingFlourish from "./src/_includes/components/shortcodes/dumpingFlourish.js";
-import separationFlourish from "./src/_includes/components/shortcodes/separationFlourish.js";
-import gigGenially from "./src/_includes/components/shortcodes/gigGenially.js";
-import pullQuote from "./src/_includes/components/shortcodes/pullQuote.js";
-import {EleventyRenderPlugin} from "@11ty/eleventy";
+import markdownIt from 'markdown-it';
+import video from './src/_includes/components/shortcodes/video.js';
+import timeline from './src/_includes/components/shortcodes/timelineBueno.js';
+import dumpingFlourish from './src/_includes/components/shortcodes/dumpingFlourish.js';
+import separationFlourish from './src/_includes/components/shortcodes/separationFlourish.js';
+import gigGenially from './src/_includes/components/shortcodes/gigGenially.js';
+import pullQuote from './src/_includes/components/shortcodes/pullQuote.js';
+import {EleventyRenderPlugin} from '@11ty/eleventy';
+import { EleventyI18nPlugin } from '@11ty/eleventy';
+
+//import configs for plugins
+import configI18n from './src/config/plugins/i18n.js'
 
 export default function (eleventyConfig) {
   // Compile Tailwind before Eleventy processes the files
@@ -61,6 +65,7 @@ export default function (eleventyConfig) {
   // Passthrough items
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets/styles/override.css");
+  eleventyConfig.addPassthroughCopy("src/assets/styles/aboutstyle.css");
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/assets/js");
 
@@ -71,6 +76,7 @@ export default function (eleventyConfig) {
 
   // Plug in sections
   eleventyConfig.addPlugin(EleventyRenderPlugin);
+  eleventyConfig.addPlugin(EleventyI18nPlugin, configI18n);
 
 
   // Add shortcodes
