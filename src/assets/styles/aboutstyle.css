@@ -16,6 +16,10 @@
     color: #ffffff;
     font-family: 'lora', serif;
   }
+
+  .intro {
+    background-color: #6698C3;
+  }
   
   .intro p {
     color: white; /* Change text color to white */
@@ -29,7 +33,7 @@
   }
 
   .team .control button {
-    background-color: #ffcc00;
+    background-color: #F5B41A;
     border: none;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
@@ -42,7 +46,7 @@
   }
 
   .team .control button:hover {
-    background-color: #e6b800;
+    background-color: #F5B41A;
   }
   
   .team .container {
