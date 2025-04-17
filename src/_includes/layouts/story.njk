@@ -69,3 +69,27 @@ layout: layouts/base.njk
     <div class="hidden md:block md:col-span-1"></div>
   </div>
 </div>
+<!-- More From section - Optimized with responsive grid -->
+<div class="mx-[5%] py-16">
+  <h2 class="text-3xl font-lora text-center mb-2">More from Story Name Here</h2>
+  <p class="text-center mb-10 max-w-2xl mx-auto text-gray-700">
+    la iaculis sagittis ex ut posuere. Duis rutrum justo vitae lorem rhoncus, et fringilla dui efficitur lorum 2025.
+  </p>
+  <!-- Responsive grid: 1 column (mobile), 2 columns (tablet), 4 columns (desktop) -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+    {% for story in collections.stories %}
+      {% if story.fileSlug != page.fileSlug %}
+        <a href="/stories/{{ story.fileSlug }}/" class="block relative h-64 overflow-hidden group">
+          <!-- Background image with hover effect -->
+          <div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" 
+              style="background-image: url('{{ story.data.image }}');">
+          </div>         
+          <!-- Story title -->
+          <h3 class="absolute bottom-4 left-4 text-white text-xl font-lora font-bold drop-shadow-md">
+            {{ story.data.title }}
+          </h3>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
