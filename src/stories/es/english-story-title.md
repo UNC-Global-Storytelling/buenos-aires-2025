@@ -15,5 +15,9 @@ body_copy: |-
   es test copy
 
   test copy es
+
+  {% photoExperience { "storyId": "Music", "lang": lang or "es" } %}
+
+  {% photoExperience { "storyId": "Migration", "lang": lang or "es" } %}
 image: /assets/img/uploads/rodrigobuenobanner-1.jpg
 ---

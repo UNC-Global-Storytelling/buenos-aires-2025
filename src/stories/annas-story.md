@@ -36,6 +36,7 @@ body_copy: >-
 
   Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
 
+  {% photoExperience { "storyId": "Music" } %}
 
   Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !Hi this is my *styling* **TEST** !
 

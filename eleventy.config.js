@@ -11,6 +11,7 @@ import dumpingFlourish from './src/_includes/components/shortcodes/dumpingFlouri
 import separationFlourish from './src/_includes/components/shortcodes/separationFlourish.js';
 import gigGenially from './src/_includes/components/shortcodes/gigGenially.js';
 import pullQuote from './src/_includes/components/shortcodes/pullQuote.js';
+import photoExperience from './src/_includes/components/shortcodes/photoExperience.js';
 import {EleventyRenderPlugin} from '@11ty/eleventy';
 import { EleventyI18nPlugin } from '@11ty/eleventy';
 
@@ -78,7 +79,6 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(EleventyI18nPlugin, configI18n);
 
-
   // Add shortcodes
   eleventyConfig.addShortcode("video", video);
   eleventyConfig.addShortcode("timeline", timeline);
@@ -86,6 +86,40 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("separationFlourish", separationFlourish);
   eleventyConfig.addShortcode("gigGenially", gigGenially);
   eleventyConfig.addShortcode("pullQuote", pullQuote);
+  eleventyConfig.addShortcode("photoExperience", photoExperience);
+
+  // Run after build to create JSON files from photo stories
+  eleventyConfig.on('eleventy.after', async ({ dir }) => {
+    const inputDir = path.join(process.cwd(), 'src/photoStories');
+    const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.md'));
+
+    const outputDir = path.join(dir.output, 'photoStories');
+    if (!fs.existsSync(outputDir)) {
+      fs.mkdirSync(outputDir, { recursive: true });
+    }
+
+    for (const file of files) {
+      const filePath = path.join(inputDir, file);
+      const content = fs.readFileSync(filePath, 'utf8');
+      const match = /^---\n([\s\S]+?)\n---/m.exec(content);
+      if (!match) continue;
+      const yaml = match[1];
+      const frontmatter = (await import('js-yaml')).default.load(yaml);
+      const id = frontmatter.id || file.replace(/\.md$/, '');
+      const jsonPath = path.join(outputDir, `${id}.json`);
+
+      // Adjust photo paths to match the new structure
+      if (frontmatter.photos) {
+        frontmatter.photos = frontmatter.photos.map(photo => ({
+          ...photo,
+          src: photo.src.replace('/assets/img/', '/photoStories/')
+        }));
+      }
+
+      fs.writeFileSync(jsonPath, JSON.stringify(frontmatter, null, 2));
+      console.log(`Created JSON file: ${jsonPath}`);
+    }
+  });
 
   return {
     dir: {

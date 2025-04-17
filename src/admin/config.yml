@@ -38,3 +38,25 @@ collections:
       - {label: "Body Copy", name: "body_copy", widget: "markdown", i18n: true}
       - {label: "Header Image", name: "image", widget: "image", i18n: "duplicate"}
 
+  - name: "photoStories"
+    label: "Photo Stories"
+    folder: "src/photoStories"
+    create: true
+    slug: "{{id}}"
+    i18n:
+      structure: "single_file"
+      locales: [en, es]
+    fields:
+      - {label: "Story ID", name: "id", widget: "string", i18n: "duplicate"}
+      - {label: "Title", name: "title", widget: "string", i18n: true}
+      - label: "Photos"
+        name: "photos"
+        widget: "list"
+        fields:
+          - {label: "Photo", name: "src", widget: "image"}
+          - {label: "Order", name: "order", widget: "number", value_type: "int", min: 1}
+          - {label: "English Caption", name: "caption_en", widget: "string"}
+          - {label: "Spanish Caption", name: "caption_es", widget: "string"}
+          - {label: "English Alt Text", name: "alt_en", widget: "string"}
+          - {label: "Spanish Alt Text", name: "alt_es", widget: "string"}
+
