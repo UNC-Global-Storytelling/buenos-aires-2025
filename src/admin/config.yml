@@ -1,4 +1,4 @@
-# local_backend: true
+local_backend: true
 
 backend:
   name: git-gateway
@@ -9,23 +9,32 @@ public_folder: "/assets/img/uploads"
 
 publish_mode: editorial_workflow
 
+i18n:
+  structure: "multiple_folders"
+  default_locale: "en"
+  locales: [en, es]
+
 collections: 
   - name: "stories"
     label: "Stories"
     folder: "src/stories"
     create: true
+    i18n: true
     slug: "{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/story"}
-      - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Reporter Byline", name: "reporter_byline", widget: "string", required: false}
-      - {label: "Video 1 Byline", name: "video_1_byline", widget: "string", required: false}
-      - {label: "Video 2 Byline", name: "video_2_byline", widget: "string", required: false}
-      - {label: "Photo Byline", name: "photo_byline", widget: "string", required: false}
-      - {label: "Interactive 1 Byline", name: "interactive_1_byline", widget: "string", required: false}
-      - {label: "Interactive 2 Byline", name: "interactive_2_byline", widget: "string", required: false}
-      - {label: "UCA Contributor 1 Byline", name: "uca_contributor_1_byline", widget: "string", required: false}
-      - {label: "UCA Contributor 2 Byline", name: "uca_contributor_2_byline", widget: "string", required: false}
-      - {label: "Body Copy", name: "body_copy", widget: "markdown"}
-      - {label: "Header Image", name: "image", widget: "image"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/story", i18n: "duplicate"}
+      - {label: "Language", name: "language", widget: "select", options: ["en", "es"], i18n: true}
+      - {label: "Title", name: "title", widget: "string", required: false, i18n: true}
+      - {label: "Slug", name: "slug", widget: "string", required: false, i18n: true}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false, i18n: true}
+      - {label: "Reporter Byline", name: "reporter_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Video 1 Byline", name: "video_1_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Video 2 Byline", name: "video_2_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Photo Byline", name: "photo_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Interactive 1 Byline", name: "interactive_1_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Interactive 2 Byline", name: "interactive_2_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "UCA Contributor 1 Byline", name: "uca_contributor_1_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "UCA Contributor 2 Byline", name: "uca_contributor_2_byline", widget: "string", required: false, i18n: "duplicate"}
+      - {label: "Body Copy", name: "body_copy", widget: "markdown", i18n: true}
+      - {label: "Header Image", name: "image", widget: "image", i18n: "duplicate"}
 
