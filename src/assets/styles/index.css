@@ -232,3 +232,49 @@ body .story-content .interactive-container {
   display: block;
 }
 
+/* Photo Experience Component Styles */
+.photo-experience {
+  margin: 3rem 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.slider-controls button {
+  opacity: 0.8;
+}
+
+.slider-controls button:hover {
+  opacity: 1;
+}
+
+.caption-container {
+  min-height: 4rem;
+}
+
+.position-indicator {
+  font-size: 1.25rem;
+  color: #4b5563;
+}
+
+@media (max-width: 768px) {
+  .slider-controls {
+    position: static;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+}

@@ -15,5 +15,7 @@ body_copy: |-
   en test copy
 
   test copy en
+
+  {% photoExperience { "storyId": "Music", "lang": lang or "en" } %}
 image: /assets/img/uploads/rodrigobuenobanner-1.jpg
 ---
