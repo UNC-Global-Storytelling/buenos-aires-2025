@@ -69,6 +69,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/styles/aboutstyle.css");
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy('src/_redirects');
 
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {
