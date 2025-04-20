@@ -12,6 +12,7 @@ import separationFlourish from './src/_includes/components/shortcodes/separation
 import gigGenially from './src/_includes/components/shortcodes/gigGenially.js';
 import pullQuote from './src/_includes/components/shortcodes/pullQuote.js';
 import photoExperience from './src/_includes/components/shortcodes/photoExperience.js';
+import inlinePhoto from './src/_includes/components/shortcodes/inlinePhoto.js';
 import {EleventyRenderPlugin} from '@11ty/eleventy';
 import { EleventyI18nPlugin } from '@11ty/eleventy';
 
@@ -70,6 +71,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/img");
   eleventyConfig.addPassthroughCopy("src/assets/js");
   eleventyConfig.addPassthroughCopy('src/_redirects');
+  eleventyConfig.addPassthroughCopy("src/inlinePhotos");
 
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {
@@ -87,6 +89,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("separationFlourish", separationFlourish);
   eleventyConfig.addShortcode("gigGenially", gigGenially);
   eleventyConfig.addShortcode("pullQuote", pullQuote);
+  eleventyConfig.addAsyncShortcode("inlinePhoto", inlinePhoto);
   eleventyConfig.addShortcode("photoExperience", photoExperience);
 
   // Run after build to create JSON files from photo stories
@@ -120,6 +123,41 @@ export default function (eleventyConfig) {
       fs.writeFileSync(jsonPath, JSON.stringify(frontmatter, null, 2));
       console.log(`Created JSON file: ${jsonPath}`);
     }
+
+    // Create JSON files for inline photos
+    const inlinePhotosDir = path.join(process.cwd(), 'src/inlinePhotos');
+    const inlinePhotosFiles = fs.existsSync(inlinePhotosDir) ? 
+      fs.readdirSync(inlinePhotosDir).filter(f => f.endsWith('.md')) : [];
+
+    const inlineOutputDir = path.join(dir.output, 'inlinePhotos');
+    if (!fs.existsSync(inlineOutputDir)) {
+      fs.mkdirSync(inlineOutputDir, { recursive: true });
+    }
+
+    // Process each inline photo file
+    for (const file of inlinePhotosFiles) {
+      const filePath = path.join(inlinePhotosDir, file);
+      try {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const match = /^---\n([\s\S]+?)\n---/m.exec(content);
+        if (!match) {
+          console.log(`No frontmatter found in ${file}, skipping`);
+          continue;
+        }
+        
+        const yaml = match[1];
+        const frontmatter = (await import('js-yaml')).default.load(yaml);
+        
+        // Use the story ID as the filename (cleaner than the long filename)
+        const storyId = frontmatter.en?.story || file.replace(/\.md$/, '').replace(/^map-story-|-photos.*$/g, '');
+        const jsonPath = path.join(inlineOutputDir, `${storyId}.json`);
+        
+        fs.writeFileSync(jsonPath, JSON.stringify(frontmatter, null, 2));
+        console.log(`Created inline photos JSON file: ${jsonPath}`);
+      } catch (error) {
+        console.error(`Error processing ${file}:`, error);
+      }
+    }
   });
 
   return {
@@ -130,3 +168,5 @@ export default function (eleventyConfig) {
     },
   };
 } // End function
+
+
