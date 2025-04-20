@@ -69,7 +69,14 @@ collections:
       structure: "single_file"
       locales: [en, es]
     fields:
-      - {label: "Story", name: "story", widget: "relation", collection: "stories", value_field: "slug", display_fields: ["title"], required: true}
+      - label: "Story"
+        name: "story"
+        widget: "relation"
+        collection: "stories"
+        search_fields: ["title"] 
+        value_field: "slug"
+        display_fields: ["title"]
+        required: true
       - label: "Photos"
         name: "photos"
         widget: "list"
