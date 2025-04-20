@@ -19,5 +19,9 @@ body_copy: |-
   {% photoExperience { "storyId": "Music", "lang": lang or "en" } %}
 
   {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
+
+  some more beautiful test copy before the inline photos
+
+  {% inlinePhoto "en-title", 2, lang %}
 image: /assets/img/uploads/rodrigobuenobanner-1.jpg
 ---

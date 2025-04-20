@@ -60,3 +60,25 @@ collections:
           - {label: "English Alt Text", name: "alt_en", widget: "string"}
           - {label: "Spanish Alt Text", name: "alt_es", widget: "string"}
 
+  - name: "inlinePhoto"
+    label: "Inline Photos"
+    folder: "src/inlinePhotos"
+    create: true
+    slug: "{{story}}-photos"
+    i18n:
+      structure: "single_file"
+      locales: [en, es]
+    fields:
+      - {label: "Story", name: "story", widget: "relation", collection: "stories", value_field: "slug", display_fields: ["title"], required: true}
+      - label: "Photos"
+        name: "photos"
+        widget: "list"
+        fields:
+          - {label: "Photo", name: "photo", widget: "image", required: true}
+          - {label: "Order", name: "order", widget: "number", value_type: "int", min: 1, required: true}
+          - {label: "English Caption", name: "caption_en", widget: "string"}
+          - {label: "Spanish Caption", name: "caption_es", widget: "string"}
+          - {label: "English Alt Text", name: "alt_en", widget: "string"}
+          - {label: "Spanish Alt Text", name: "alt_es", widget: "string"}
+
+
