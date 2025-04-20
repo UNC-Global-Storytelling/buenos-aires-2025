@@ -327,30 +327,6 @@ body .story-content .interactive-container {
   background-color: var(--color-light-green);
 }
 
-/* inline photo styles */
-.inline-photo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inline-photo-image {
-  max-width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.inline-photo-caption {
-  font-size: 1rem;
-  color: var(--color-black);
-  font-family: var(--font-lora);
-  font-style: italic;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-
-
 /* Responsive Adjustments for Mobile */
 @media (max-width: 768px) {
   .photo-experience{
@@ -388,4 +364,3 @@ body .story-content .interactive-container {
     justify-content: center;
   }
 }
-
