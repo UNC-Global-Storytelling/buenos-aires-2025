@@ -1,8 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
+import { optimizeImage } from '../../utils/imageOptimization.js';
 
-export default function(storySlug, photoOrder, lang = "en") {
+export default async function inlinePhoto(storySlug, photoOrder, lang = "en") {
   try {
     // Process at build time
     const inlinePhotosDir = path.join(process.cwd(), 'src/inlinePhotos');
@@ -51,10 +52,17 @@ export default function(storySlug, photoOrder, lang = "en") {
     const caption = lang === "es" ? photo.caption_es : photo.caption_en;
     const altText = lang === "es" ? photo.alt_es : photo.alt_en;
     
-    // Return the formatted HTML
+    // Apply optimization to generate responsive image HTML
+    const optimizedImageHtml = await optimizeImage(photoSrc, altText, {
+      widths: [400, 800, 1200],
+      quality: 90,
+      formats: ['webp', 'jpeg']
+    });
+    
+    // Return the full figure with optimized image
     return `
       <figure class="inline-photo">
-        <img src="${photoSrc}" alt="${altText}" class="inline-photo-image">
+        ${optimizedImageHtml}
         <figcaption class="inline-photo-caption">${caption}</figcaption>
       </figure>
     `;

@@ -89,8 +89,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("separationFlourish", separationFlourish);
   eleventyConfig.addShortcode("gigGenially", gigGenially);
   eleventyConfig.addShortcode("pullQuote", pullQuote);
+  eleventyConfig.addAsyncShortcode("inlinePhoto", inlinePhoto);
   eleventyConfig.addShortcode("photoExperience", photoExperience);
-  eleventyConfig.addShortcode("inlinePhoto", inlinePhoto);
 
   // Run after build to create JSON files from photo stories
   eleventyConfig.on('eleventy.after', async ({ dir }) => {
