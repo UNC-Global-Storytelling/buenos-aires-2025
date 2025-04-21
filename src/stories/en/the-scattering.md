@@ -1,14 +1,17 @@
 ---
 layout: layouts/story
+language: en
 title: The Scattering
+subtitle: "As Argentina Shifts, Families Break Apart: A Story of Home and Migration"
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
 photo_byline: Emma Denman
 interactive_1_byline: Anna Fetter
 interactive_2_byline: Kyren Ual
-uca_contributor_1_byline: Clara Cullen
-uca_contributor_2_byline: Delfina Bassini
+uca_contributor_1_byline: Delfina Bassini
+uca_contributor_2_byline: Clara Cullen
+slug: scattering
 body_copy: >-
   ## THE ORIGIN OF HOME
 
@@ -25,10 +28,22 @@ body_copy: >-
   She scoffs and describes herself as “nothing,” while blowing a raspberry and looking off into the lush bushes bordering the pool. Not Argentine, not Italian, not one, not the other —but she’s the opposite of nothing.  
 
 
+  {% separationFlourish %}
+
+
+  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
+
+
+  {% inlinePhoto "scattering", 3, lang %}
+
+
+  { % pullQuote({  quote: "The winds of change are sweeping through Buenos Aires."}); %}
+
+
   She’s a mother, deeply grounded in a sense of home and memory. Not home as a place, but the type of home you might find in others, in family. You can see it in her face, the way it softens when she mentions the name of one of her kids or grandkids. 
 
 
-  Jorge’s story is somewhat of a mirror to his mother’s—he grew up in European schools and ended up pursuing a graduate degree in the United States. And Sofia’s story is a common one — European immigration to Argentina during the 20th century. 
+  Jorge’s story is somewhat of a mirror to his mother’s—he grew up in European schools and ended up pursuing a graduate degree in the United States. And Sofia’s story is a common narrative: European immigrantion to Argentina during the 20th century. 
 
 
   Sofia’s parents were born in Italy and moved to Argentina just two years before she was born. She speaks Italian, but also Spanish. She switches between Italian, French, Spanish and English and asks her son to explain little words and turns of phrase for her.  
@@ -37,7 +52,7 @@ body_copy: >-
   She has lived in Buenos Aires for all 88 years of her life; she’s raised her children here, sent them to schools and watched them move to other countries. Her family has splintered.  
 
 
-  Her children and her children’s children have left home and come back.But when they do return, another leaves. The grass is overgrown in her lofty home that once housed all of her children, sometimes four to a room.   
+  Her children and her children’s children have left home and come back.But when they do return, another leaves. The grass is overgrown in her lofty home that once housed all of her children, sometimes four to a room.  
 
 
   Family is still everything. She has plans to visit her son Pablo’s children in Texas soon and attend a bar mitzvah. Sitting in her chair, she declined calls, hushing her children and grandchildren away, shaking her hands at her phone, like she was in the same room as them.  
@@ -46,7 +61,7 @@ body_copy: >-
   “We have very large phone bills,” Jorge said. “She doesn't use WhatsApp, she doesn't use the new technology. She talks with everybody lots of times, if they cannot come here. Some come here more than others.” 
 
 
-  Still, they are constantly apart, and Sofia is relentlessly independent. The big, Italian families that she remembers from her adolescence in Buenos Aires are splintering—because of distrust in the economy, because of growing opportunity overseas, and because of simple wanderlust. Her children are doctors, geologists, engineers and more.  
+  Still, they are constantly apart, and Sofia is relentlessly independent. The big, Italian families that she remembers from her adolescence in Buenos Aires are splintering—because of distrust in the economy, because of growing opportunity overseas, and because of simple wanderlust. Her children are doctors, geologists, engineers and more.   
 
 
   Sofia’s family is by no means an anomaly. It’s become a tradition of sorts for Argentines, especially those with European ancestry, to become displaced and scattered throughout the world in search of opportunity outside of their home country’s economic instability and high inflation rates. Even with a new government and some cuts to spending and privatization of national resources, Argentines are beginning to hope for better days while simultaneously holding their breath that stability may not come permanently, as crises of economy have repeated themselves time and time again. Families torn by economic instability may never come back together again. 
@@ -55,19 +70,16 @@ body_copy: >-
   ## NATION OF MIGRANTS
 
 
-  Sofia stayed in Argentina because her husband’s business was there. She lived through La Guerra Sucia, “The Dirty War,” and the presidencies of Perón, Macri, and now Milei. None of it fazes her anymore.   
+  Sofia stayed in Argentina because her husband’s business was there. She lived through La Guerra Sucia, “The Dirty War,” and the presidencies of Perón, Macri, and now Milei. None of it fazes her anymore.  
 
 
   “Argentina is phenomenal, but it's so very criticized,” she said. “If we have Milei, bye Milei, if we have Perón, well, of course, Perón was horrible.” 
 
 
-  Sofia taught all  her children Italian.Her son Jorge said it was natural that the language was passed through his mother. When Sofia married her late husband, he had to learn it too.
+  Sofia taught all  her children Italian.Her son Jorge said it was natural that the language was passed through his mother. When Sofia married her late husband, he had to learn it too. . 
 
 
-  Italy has left an indelible footprint on Argentinian culture. One of the country’s most notable figures, former president and dictator Juan Perón, was of Italian ancestry. Argentina has been labeled a “crisol de razas,” or “crucible of races,” due to the  diverse ethnic makeup , including Europeans, Indigenous communitiesand immigrants from neighboring Latin American countries. 
-
-
-  Yet Argentina remains overwhelmingly European.  
+  Italy has left an indelible footprint on Argentinian culture. One of the country’s most notable figures, former president and dictator Juan Perón, was of Italian ancestry. Argentina has been labeled a “crisol de razas,” or “crucible of races,” due to the  diverse ethnic makeup , including Europeans, Indigenous communitiesand immigrants from neighboring Latin American countries. But Argentina remains overwhelmingly European.  
 
 
   Sofia was born into a nation of immigrants—people from Spain, Italy and other western European countries came to Argentina after the First and Second World Wars. According to the 1914 census, 30 percent of the population was foreign-born, a number that continues to rise. . Between the 1850s and 1950s, 3.5 million Italians immigrated to Argentina. Today, 62 percent of Argentina’s population is of  Italian ancestry. Italian is the second most spoken language in the country after Spanish.  
@@ -167,5 +179,5 @@ body_copy: >-
 
 
   Jorge looks on at her as she talks. She says softly, “I would like to die in peace, I would like to die in a very normal way.”
-image: /assets/img/uploads/rodrigobuenobanner-1.jpg
+image: /assets/img/uploads/Deanman_20250313_BA-40.jpg
 ---

@@ -99,6 +99,33 @@ caption bold {
   background-color: var(--color-green);
   display: block;
 }
+/* language toggle styles */
+.language-toggle {
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.language-toggle .toggle-option {
+  z-index: 2;
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.language-toggle .toggle-option.active {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.language-toggle a.toggle-option {
+  text-decoration: none;
+}
+
+/* Optional hover effect on non-active language */
+.language-toggle a.toggle-option:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
 
 /* story content styling */
 /* Story content styles */
@@ -137,12 +164,6 @@ body .story-content .video-player {
 }
 
 /* Center images and add spacing */
-.story-content img {
-  margin: 2.5rem auto;
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
 
 .story-content a {
   color: var(--color-blue);
@@ -230,5 +251,168 @@ body .story-content .interactive-container {
 .story-content .interactive-container {
   width: 100%;
   display: block;
+}
+
+/* Photo Experience Component Styles */
+.photo-experience {
+  display: flex;
+  flex-direction: column; /* Stack title and slider vertically */
+  width: 140%; /* 140% of the parent width */
+  height: 90vh; /* Fixed height of 90% of the viewport */
+  position: relative;
+  left: 50%; /* Center the container horizontally */
+  transform: translateX(-50%); /* Adjust for extra width */
+  margin: 0 auto;
+  font-family: var(--font-lora); /* Use the Lora font */
+  overflow: hidden; /* Ensure no content overflows */
+}
+
+/* Title and Description */
+.photo-header {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.photo-title {
+  font-size: 2.5rem; /* Adjust title size */
+  font-weight: bold;
+  font-family: var(--font-montserrat);
+  color: var(--color-green); /* Use the green color */
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.photo-description {
+  font-size: 1.125rem;
+  color: var(--color-black);
+}
+
+/* Photo Slider */
+.photo-slider {
+  display: flex;
+  flex-direction: row; /* Align image and caption horizontally */
+  width: 100%;
+  height: calc(100% - 4rem); /* Take up remaining height after the title (adjust 4rem as needed) */
+}
+
+/* Photo Container (Image Section) */
+.photo-container {
+  flex: 1 1 70%; /* 80% of the width for the image */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.photo-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  padding: 1rem;
+  align-items: top;
+}
+
+/* Caption and Controls Container */
+.caption-container {
+  flex: 0 0 30%; /* Fixed 20% width for the caption and controls */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.caption-text {
+  font-size: 1.5rem;
+  color: var(--color-black);
+  margin-bottom: 1rem;
+  font-family: var(--font-lora);
+  font-style:italic;
+  border-left: 4px solid var(--color-green);
+  padding-left: .8rem;
+}
+
+.position-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.position-indicator button {
+  background-color: var(--color-green);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.position-indicator button:hover {
+  background-color: var(--color-light-green);
+}
+
+/* inline photo styles */
+.inline-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inline-photo-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.inline-photo-caption {
+  font-size: 1rem;
+  color: var(--color-black);
+  font-family: var(--font-lora);
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 768px) {
+  .photo-experience{
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Auto height for mobile */
+    margin: 0; /* Remove margin for mobile */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+  }
+  .interactive-container {
+    width: 100%; /* Full width on mobile */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+  }
+  .video-container {
+    width: 100%; /* Full width on mobile */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+  }
+  .photo-slider {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .caption-container {
+    flex: 1 1 auto;
+    border-left: none; /* Remove the border for mobile */
+    padding: 0.5rem;
+  }
+
+  .caption-text {
+    text-align: center;
+  }
+
+  .position-indicator {
+    justify-content: center;
+  }
 }
 
