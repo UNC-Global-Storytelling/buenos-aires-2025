@@ -1,6 +1,6 @@
 ---
 en:
-  story: en-title
+  story: scattering
   photos:
     - photo: /assets/img/uploads/denman_in-line_ba-1.jpg
       order: 1
@@ -15,5 +15,5 @@ en:
       alt_en: english alt 2
       alt_es: spanish alt 2
 es:
-  story: []
+  story: en-title
 ---
