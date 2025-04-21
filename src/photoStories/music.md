@@ -67,6 +67,35 @@ en:
         frustración contra el gobierno. El presidente Milei ha recortado los
         derechos LGBTQ+ desde que asumió el cargo: “La Motosierra nos va a
         cortar la cabeza a todos,” dijo Mari en una entrevista."
+    - src: /assets/img/uploads/20250416_richards_music-story_7.jpg
+      order: 7
+      caption_en: Fama y Guita's performances are highly political. The salsa song
+        "Yankees de Mierda," satirizes American imperialism and capitalism. "We
+        are the most countercultural, controversial and danceable band of CABA
+        (Buenos Aires)," says Mari.
+      caption_es: Las actuaciones de Fama y Guita tienen un fuerte componente
+        político. La salsa "Yankees de Mierda" satiriza el imperialismo y el
+        capitalismo estadounidenses. "Somos la banda más contracultural,
+        controvertida y bailable de CABA (Buenos Aires)", dice Mari.
+      alt_en: A person laughs while holding a toy gun.
+      alt_es: Las actuaciones de Fama y Guita tienen un fuerte componente político. La
+        salsa "Yankees de Mierda" satiriza el imperialismo y el capitalismo
+        estadounidenses. "Somos la banda más contracultural, controvertida y
+        bailable de CABA (Buenos Aires)", dice Mari.
+    - src: /assets/img/uploads/20250416_richards_music-story_8.jpg
+      order: 8
+      caption_en: Mari flies an Argentinian flag over the crowd.
+      alt_en: Hands reach towards a flag.
+      caption_es: Mari ondea una bandera argentina sobre el multitud.
+      alt_es: Mari ondea una bandera argentina sobre el multitud.
+    - src: /assets/img/uploads/20250416_richards_music-story_9.jpg
+      order: 9
+      caption_en: Mari walks with her friend down the street, away from Cultura del
+        Barrio. A storm is coming, and the wind is picking up.
+      alt_en: Two people walk away down the street.
+      caption_es: Mari camina con su amiga por la calle, alejándose de Cultura del
+        Barrio. Se avecina una tormenta y el viento arrecia.
+      alt_es: Dos personas caminan por la calle.
 es:
   id: music
 ---
