@@ -17,6 +17,20 @@ en:
       alt_en: Rixner dancing tango in the street for tips in Buenos Aires.
       alt_es: Rixner bailando tango en la calle por propinas en Buenos Aires.
       src: /assets/img/uploads/gigecon_rixnertango_riddle-1.jpg
+    - order: 2
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-2.jpg
+      caption_es: Matías Rixner, de 46 años, nunca planeó bailar tango. Un amigo lo
+        llevó a su primera clase en 2008. Mientras su amigo se rindió, Rixner se
+        quedó. A pesar de la inestabilidad económica de Argentina, eligió el
+        tango sobre trabajos más seguros, reuniendo ingresos con changas,
+        impulsado no por seguridad, sino por amor al baile.
+      caption_en: Matias Rixner, 46, never planned on dancing tango. A friend brought
+        him to his first class in 2008. While that friend quit, Rixner stayed.
+        Despite Argentina’s economic instability, he chose tango over safer
+        jobs, piecing together income through gigs—driven not by security, but
+        by love for the dance.
+      alt_en: Rinxer dancing with partner.
+      alt_es: Rinxer bailando con pareja.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
