@@ -1,6 +1,9 @@
 ---
 layout: layouts/story
+language: es
+title: Scattering Spanish
 slug: scattering-es
+subtitle: es subtitle
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
