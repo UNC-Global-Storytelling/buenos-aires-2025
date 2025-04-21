@@ -1,8 +1,8 @@
 ---
 layout: layouts/story
 language: es
-title: Spanish Seeds That Bloom
-subtitle: es subtitle
+title: Semillas Que Florecen
+subtitle: Cómo Las Manos Trabajadoras Mantienen Vivo al Barrio Rodrigo Bueno
 reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
