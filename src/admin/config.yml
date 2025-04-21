@@ -20,7 +20,7 @@ collections:
     folder: "src/stories"
     create: true
     i18n: true
-    slug: "{{slug}}"
+    slug: "{{title | slugify}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/story", i18n: "duplicate"}
       - {label: "Language", name: "language", widget: "select", options: ["en", "es"], i18n: true}
