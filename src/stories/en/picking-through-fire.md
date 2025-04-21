@@ -10,5 +10,5 @@ body_copy: |-
   {% photoExperience { "storyId": "dumping", "lang": lang or "en" } %}
 
   {% inlinePhoto "picking-through-fire", 1, lang %}
-image: /assets/img/uploads/DJI_0902.jpg
+image: /assets/img/uploads/drone_dump.jpg
 ---
