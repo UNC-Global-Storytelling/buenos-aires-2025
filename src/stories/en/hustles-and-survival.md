@@ -8,5 +8,7 @@ body_copy: |-
   {% gigGenially %}
 
   {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
+
+  {% inlinePhoto "hustles-and-survival", 1, lang %}
 image: /assets/img/uploads/GIGECON-TANGO.jpg
 ---
