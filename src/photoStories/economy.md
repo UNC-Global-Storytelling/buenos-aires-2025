@@ -31,6 +31,16 @@ en:
         by love for the dance.
       alt_en: Rinxer dancing with partner.
       alt_es: Rinxer bailando con pareja.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-3.jpg
+      caption_es: “El tango es como un desafío, una aventura. Me encanta la calle
+        porque cada día es una nueva experiencia. Nunca sabes qué va a pasar.” —
+        Matías Rixner
+      order: 3
+      caption_en: “Tango is like a challenge, an adventure. I love the street because
+        every day is a new experience. You never know what is going to happen.”
+        — Matias Rixner
+      alt_en: Tango dancing feet.
+      alt_es: Pies bailando tango.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
