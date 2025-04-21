@@ -94,7 +94,7 @@
   height: 500px;
   object-fit: cover;
   border-radius: 0.375rem;
-  filter: brightness(0.9);
+  filter: brightness(0.75);
 }
 
 .text-overlay {
@@ -126,9 +126,9 @@
 }
 
 .text-overlay h2{
-  margin: 0;
   color: white;
   font-size: 3rem;
+  margin-bottom: 3%;
 }
 
 .text-overlay p{
