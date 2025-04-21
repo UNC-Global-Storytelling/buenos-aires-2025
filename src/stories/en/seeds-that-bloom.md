@@ -2,8 +2,16 @@
 layout: layouts/story
 language: en
 title: Seeds That Bloom
-slug: seeds-that-bloom
 subtitle: How Working Hands Keep Barrio Rodrigo Bueno Alive
+reporter_byline: Anna Laible
+video_1_byline: Maggie McIntyre
+video_2_byline: Hannah Zinn
+photo_byline: Mckenzie Bulris
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
+uca_contributor_1_byline: Cinthia Savoy
+uca_contributor_2_byline: Lucía Simoncelli
+slug: seeds-that-bloom
 body_copy: >-
   {% timeline %}
 
