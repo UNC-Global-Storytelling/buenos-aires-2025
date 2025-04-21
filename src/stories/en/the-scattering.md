@@ -37,9 +37,6 @@ body_copy: >-
   {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
 
 
-  {% inlinePhoto "scattering", 3, lang %}
-
-
   She’s a mother, deeply grounded in a sense of home and memory. Not home as a place, but the type of home you might find in others, in family. You can see it in her face, the way it softens when she mentions the name of one of her kids or grandkids. 
 
 
@@ -100,6 +97,9 @@ body_copy: >-
   Current President Javier Milei has denied the number of people who disappeared during the junta dictatorship, placing blame on leftist or Perónistmilitary groups instead. In his election victory speech in 2023, he said, “There were no 30,000.” Many proponents of denialism in Argentina claim that leftist terrorists and guerrilla groups caused a higher number of these disappearances. 
 
 
+  {% inlinePhoto "scattering", 2, lang %}
+
+
   ## FUERA MILEI
 
 
@@ -127,7 +127,10 @@ body_copy: >-
   Clara Bofelli is from Patagonia, the mountainous glacier region in southern Argentina. She moved to Buenos Aires in her early 20s, living somewhat of a Bohemian lifestyle, working at a migration organization that helped migrants from Venezuela. 
 
 
-  She didn’t stay and moved to Colombia early last year because of a myriad of reasons—but primarily because of her frustration with the new Argentina government. 
+  She didn’t stay and moved to Colombia early last year because of a myriad of reasons—but primarily because of her frustration with the new Argentina government.
+
+
+  {% inlinePhoto "scattering", 3, lang %} 
 
 
   "It’s becoming less desirable under Milei’s policies,” she said.  
@@ -152,6 +155,9 @@ body_copy: >-
 
 
   When he returned, he came back to his mother.  
+
+
+  {% inlinePhoto "scattering", 4, lang %}
 
 
   While some, especially proponents of Milei, say that the Argentine economy is better than ever before, it’s still unlikely  for those who have moved away to return. The country experienced three hyperinflations during the 20th century and had the highest inflation rate in the world in 2023. This crisis is by no means finite.
