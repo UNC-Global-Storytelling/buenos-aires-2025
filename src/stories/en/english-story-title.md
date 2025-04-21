@@ -16,6 +16,8 @@ body_copy: |-
 
   test copy en
 
+  more inline test copy
+
   {% photoExperience { "storyId": "Music", "lang": lang or "en" } %}
 
   {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
