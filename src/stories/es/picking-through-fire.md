@@ -4,5 +4,5 @@ language: es
 title: Spanish Picking Through Fire
 slug: picking-through-fire-es
 body_copy: "{%dumpingFlourish%}"
-image: /assets/img/uploads/placeholder-image.png
+image: /assets/img/uploads/drone_dump.jpg
 ---
