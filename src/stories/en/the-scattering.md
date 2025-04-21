@@ -28,6 +28,9 @@ body_copy: >-
   She scoffs and describes herself as “nothing,” while blowing a raspberry and looking off into the lush bushes bordering the pool. Not Argentine, not Italian, not one, not the other —but she’s the opposite of nothing.  
 
 
+  {% inlinePhoto "scattering", 1, lang %}
+
+
   {% separationFlourish %}
 
 
