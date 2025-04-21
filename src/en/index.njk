@@ -29,9 +29,13 @@ video: '{% video {videoId: "816714697"} %}'
 
 <!-- Start of test section to see interactives; uncomment to see them -->
 
-{# <div class="timeline">
-  {% timeline %}
-</div> #}
+<div class="grid grid-cols-5 gap-4">
+  <div></div> <!-- empty -->
+  <div class="col-span-3">
+    {% timeline %}
+  </div>
+  <div></div> <!-- empty -->
+</div>
 
 {# <div class="dumpingFlourish">
   {% dumpingFlourish %}
