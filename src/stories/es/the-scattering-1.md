@@ -1,5 +1,6 @@
 ---
 layout: layouts/story
+slug: scattering-es
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
