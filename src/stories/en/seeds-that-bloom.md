@@ -7,8 +7,6 @@ subtitle: How Working Hands Keep Barrio Rodrigo Bueno Alive
 body_copy: |-
   {% timeline %}
 
-  {% separationFlourish %}
-
   {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
 
   {% inlinePhoto "seeds-that-bloom", 1, lang %}
