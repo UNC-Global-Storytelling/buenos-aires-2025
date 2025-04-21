@@ -28,6 +28,9 @@ body_copy: >-
   She scoffs and describes herself as “nothing,” while blowing a raspberry and looking off into the lush bushes bordering the pool. Not Argentine, not Italian, not one, not the other —but she’s the opposite of nothing.  
 
 
+  {% inlinePhoto "scattering", 1, lang %}
+
+
   {% separationFlourish %}
 
 
@@ -35,9 +38,6 @@ body_copy: >-
 
 
   {% inlinePhoto "scattering", 3, lang %}
-
-
-  { % pullQuote({  quote: "The winds of change are sweeping through Buenos Aires.", attribution: "", role""}); %}
 
 
   She’s a mother, deeply grounded in a sense of home and memory. Not home as a place, but the type of home you might find in others, in family. You can see it in her face, the way it softens when she mentions the name of one of her kids or grandkids. 
