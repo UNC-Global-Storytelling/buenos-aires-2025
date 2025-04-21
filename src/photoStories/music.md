@@ -1,6 +1,6 @@
 ---
 en:
-  id: Music
+  id: music
   title: Music
   description: Description
   photos:
@@ -31,7 +31,7 @@ en:
         sátira política.
       alt_es: " Dos jóvenes conversan en un lugar vacío y poco iluminado."
 es:
-  id: Music
+  id: music
   title: Musica Photo Story
   description: La descripcion
 ---
