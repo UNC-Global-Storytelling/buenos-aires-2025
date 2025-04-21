@@ -55,6 +55,18 @@ en:
         shows son una oportunidad para que la gente se exprese con la máxima
         libertad.
       alt_es: Personas jóvenes se mueven en la oscuridad de un show.
+    - src: /assets/img/uploads/20250416_richards_music-story_6.jpg
+      order: 6
+      caption_en: "The shows create a space for queer youth to express frustration
+        against the government. President Milei has rolled back LGBTQ+ rights
+        since coming into office– “The Chainsaw is going to end up cutting off
+        all our heads,” said Mari in an interview. "
+      alt_en: Two performers sing onstage.
+      caption_es: Dos cantantes tocan un show.
+      alt_es: "Los espectáculos crean un espacio para que la juventud queer exprese su
+        frustración contra el gobierno. El presidente Milei ha recortado los
+        derechos LGBTQ+ desde que asumió el cargo: “La Motosierra nos va a
+        cortar la cabeza a todos,” dijo Mari en una entrevista."
 es:
   id: music
 ---
