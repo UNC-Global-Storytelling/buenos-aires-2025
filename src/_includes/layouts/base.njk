@@ -1,77 +1,110 @@
+{% set urlParts = page.url.split('/') %}
+{% set urlLang = "en" %}
+
+{% if urlParts.length >= 3 and urlParts[1] == "stories" %}
+  {% set urlLang = urlParts[2] %}
+{% endif %}
+
+{% set currentLang = urlLang %}
 <!doctype html>
-<html lang="{{ page.lang | default('en') }}">
+<html lang="{{ currentLang }}">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DVCMH3TMZ5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DVCMH3TMZ5');
-  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or "Almas al Viento: Argentines Endure the Winds of Economic Change" }}</title>
-  <meta name="description" content="{{ description or "MEJO 584: International Projects 2025" }}">
-  {# this way of linking the stylesheet is super important to getting the subpage styling to work #}
+  <title>{{ title or "Buenos Aires 2025" }}</title>
   <link rel="stylesheet" href="/assets/styles/index.css">
   <link rel="stylesheet" href="/assets/styles/override.css">
   <link rel="stylesheet" href="/assets/styles/aboutstyle.css">
+  <!-- additional head content -->
 </head>
 <body class="flex flex-col min-h-screen">
   <header class="bg-black text-white p-4">
     <div class="max-w-7xl mx-auto flex items-center justify-between">
-      <!-- Left: Logo -->
-      <a href="/" class="text-lg font-medium">logo here</a>
 
-      <!-- Center: Navigation Links -->
+      <!-- Left: Logo - Link to current language home -->
+      <a href="/{{ currentLang }}/" class="text-lg font-medium">Logo</a>
+
+      <!-- Center: Navigation (Menu) - Use the correct language collection -->
       <nav aria-label="Main navigation">
         <ul class="flex space-x-6 text-sm">
-          {% if collections.all %}
-            {% for story in collections.all %}
-              {% if story.url and story.url.includes('/stories/') %}
-                <li>
-                  <a href="{{ story.url }}">
-                    {{ story.data.title or story.fileSlug or "Untitled" }}
-                  </a>
-                </li>
-              {% endif %}
-            {% endfor %}
+          {% if currentLang == "en" %}
+            {% set menuStories = collections.storiesEN %}
+          {% else %}
+            {% set menuStories = collections.storiesES %}
           {% endif %}
+  
+          {% for story in menuStories %}
+            <li>
+              <a href="{{ story.url }}" class="hover:text-gray-300">
+                {{ story.data.title }}
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </nav>
 
       <!-- Right: About + Language Toggle -->
       <div class="flex items-center space-x-4 text-sm">
-        <a href="/about">About</a>
-        {# non functional language toggle#}
-        <div class="flex items-center bg-white text-black px-2 py-1 rounded-full">
-          <span class="mr-1">EN</span>
-          <div class="w-4 h-4 bg-black rounded-full"></div>
-          <span class="ml-1">ES</span>
+        <a href="/{{ currentLang }}/about/">
+          {% if currentLang == "en" %}About{% else %}Acerca de{% endif %}
+        </a>
+        
+        <!-- Language Toggle -->
+        {% if currentLang == "en" %}
+          {% set otherLang = "es" %}
+        {% else %}
+          {% set otherLang = "en" %}
+        {% endif %}
+
+        <!-- Find translated URL -->
+        {% set translatedUrl = "/" ~ otherLang ~ "/" %}
+        
+        {% if '/stories/' in page.url %}
+          {% set urlSegments = page.url.split('/') %}
+          {% set storySlug = urlSegments[urlSegments.length - 1] or urlSegments[urlSegments.length - 2] %}
+          {% if storySlug == "" %}
+            {% set storySlug = urlSegments[urlSegments.length - 2] %}
+          {% endif %}
+
+          <!-- Loop through other language stories to find matching translation key -->
+          {% if currentLang == "en" and collections.storiesES.length > 0 %}
+            {% set foundMatch = false %}
+            {% for story in collections.storiesES %}
+              {% if not foundMatch and story.data.translationKey == page.data.translationKey %}
+                {% set translatedUrl = story.url %}
+                {% set foundMatch = true %}
+              {% endif %}
+            {% endfor %}
+          {% elif currentLang == "es" and collections.storiesEN.length > 0 %}
+            {% set foundMatch = false %}
+            {% for story in collections.storiesEN %}
+              {% if not foundMatch and story.data.translationKey == page.data.translationKey %}
+                {% set translatedUrl = story.url %}
+                {% set foundMatch = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endif %}
+
+        <div class="language-toggle rounded-full bg-gray-800 p-1 flex items-center">
+          {% if currentLang == "en" %}
+            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-medium transition-all">EN</span>
+            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white transition-colors">ES</a>
+          {% else %}
+            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white transition-colors">EN</a>
+            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-medium transition-all">ES</span>
+          {% endif %}
         </div>
       </div>
     </div>
   </header>
-  <main class="flex-grow flex-col bg-white">
+
+  <!-- Your main content -->
+  <main class="flex-grow bg-white">
     {{ content | safe }}
   </main>
   
-  <footer class="bg-[#8D926E] text-white py-4">
-    <div class="max-w-7xl mx-auto flex items-center justify-between px-4">
-      <!-- Left: Logo -->
-      <div class="font-semibold">Logo</div>
-
-      <!-- Right: Links -->
-      <nav>
-        <ul class="flex space-x-6 text-sm">
-          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-          <li><a href="#" class="font-semibold">About Hussman</a></li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
-  <script src="/assets/js/lightsOut.js"></script>
+  <!-- Debug info (temporary) -->
+  <script src="/assets/js/languageToggle.js"></script>
 </body>
 </html>
