@@ -32,5 +32,8 @@ body_copy: >-
 
 
   {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
+
+
+  {% inlinePhoto "scattering", 3, lang %}
 image: /assets/img/uploads/Deanman_20250313_BA-40.jpg
 ---

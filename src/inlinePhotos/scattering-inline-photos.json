@@ -1,0 +1,30 @@
+{
+  "storyId": "scattering",
+  "title": "Scattering Inline photos",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/denman_in-line_ba-1.jpg",
+      "order": 1,
+      "caption_en": "english caption 1",
+      "caption_es": "spanish caption 1",
+      "alt_en": "english alt 1",
+      "alt_es": "spanish alt 1"
+    },
+    {
+      "photo": "/assets/img/uploads/denman_in-line_ba-2.jpg",
+      "order": 1,
+      "caption_en": "English caption 2",
+      "caption_es": "spanish caption 2",
+      "alt_en": "english alt 2",
+      "alt_es": "spanish alt 2"
+    },
+    {
+      "photo": "/assets/img/uploads/denman_in-line_ba-3.jpg",
+      "order": 3,
+      "caption_en": "english caption 3",
+      "caption_es": "spanish caption 3",
+      "alt_en": "english alt 3",
+      "alt_es": "spanish alt 3"
+    }
+  ]
+}

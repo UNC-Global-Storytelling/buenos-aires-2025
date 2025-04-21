@@ -65,28 +65,34 @@ collections:
     label: "Inline Photos"
     folder: "src/inlinePhotos"
     create: true
-    slug: "{{story}}-photos"
-    i18n:
-      structure: "single_file"
-      locales: [en, es]
+    format: "json"
+    slug: "{{title | slugify}}"  # Use the title for the file name
+    i18n: false
     fields:
+      - {label: "Title", name: "title", widget: "string", required: true, hint: "A descriptive name like 'Sofia at Home' or 'Market Scene'"}
+      
       - label: "Story"
-        name: "story"
+        name: "storyId" 
         widget: "relation"
         collection: "stories"
-        search_fields: ["title"] 
+        search_fields: ["title"]
         value_field: "slug"
         display_fields: ["title"]
         required: true
+        filter:
+          field: "language"
+          value: "en"
+        hint: "Select the story these photos belong to"
+        
       - label: "Photos"
         name: "photos"
         widget: "list"
         fields:
           - {label: "Photo", name: "photo", widget: "image", required: true}
           - {label: "Order", name: "order", widget: "number", value_type: "int", min: 1, required: true}
-          - {label: "English Caption", name: "caption_en", widget: "string"}
-          - {label: "Spanish Caption", name: "caption_es", widget: "string"}
-          - {label: "English Alt Text", name: "alt_en", widget: "string"}
-          - {label: "Spanish Alt Text", name: "alt_es", widget: "string"}
+          - {label: "English Caption", name: "caption_en", widget: "string", required: false}
+          - {label: "Spanish Caption", name: "caption_es", widget: "string", required: false}
+          - {label: "English Alt Text", name: "alt_en", widget: "string", required: false}
+          - {label: "Spanish Alt Text", name: "alt_es", widget: "string", required: false}
 
 
