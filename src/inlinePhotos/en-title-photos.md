@@ -15,5 +15,5 @@ en:
       alt_en: english alt 2
       alt_es: spanish alt 2
 es:
-  story: en-title
+  story: scattering
 ---
