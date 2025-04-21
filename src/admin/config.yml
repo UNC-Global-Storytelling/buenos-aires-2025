@@ -36,7 +36,17 @@ collections:
       - {label: "UCA Contributor 1 Byline", name: "uca_contributor_1_byline", widget: "string", required: false, i18n: "duplicate"}
       - {label: "UCA Contributor 2 Byline", name: "uca_contributor_2_byline", widget: "string", required: false, i18n: "duplicate"}
       - {label: "Body Copy", name: "body_copy", widget: "markdown", i18n: true}
-      - {label: "Header Image", name: "image", widget: "image", i18n: "duplicate"}
+      - {label: "Header Image", 
+         name: "image", 
+         widget: "image", 
+         i18n: "duplicate",
+         media_library: {
+           config: {
+             max_file_size: 2000000  # 2MB in bytes
+           }
+         },
+         hint: "Keep header images under 1MB for best performance. Maximum size: 2MB."
+        }
 
   - name: "photoStories"
     label: "Photo Stories"
@@ -53,7 +63,16 @@ collections:
         name: "photos"
         widget: "list"
         fields:
-          - {label: "Photo", name: "src", widget: "image"}
+          - {label: "Photo", 
+             name: "src", 
+             widget: "image",
+             media_library: {
+               config: {
+                 max_file_size: 2000000  # 2MB in bytes
+               }
+             },
+             hint: "Keep photo story images under 1MB for best performance. Maximum size: 2MB."
+            }
           - {label: "Order", name: "order", widget: "number", value_type: "int", min: 1}
           - {label: "English Caption", name: "caption_en", widget: "string"}
           - {label: "Spanish Caption", name: "caption_es", widget: "string"}
@@ -87,7 +106,17 @@ collections:
         name: "photos"
         widget: "list"
         fields:
-          - {label: "Photo", name: "photo", widget: "image", required: true}
+          - {label: "Photo", 
+             name: "photo", 
+             widget: "image", 
+             required: true,
+             media_library: {
+               config: {
+                 max_file_size: 1500000  # 1.5MB in bytes
+               }
+             },
+             hint: "Keep inline photos under 800KB for best performance. Maximum size: 1.5MB."
+            }
           - {label: "Order", name: "order", widget: "number", value_type: "int", min: 1, required: true}
           - {label: "English Caption", name: "caption_en", widget: "string", required: false}
           - {label: "Spanish Caption", name: "caption_es", widget: "string", required: false}
