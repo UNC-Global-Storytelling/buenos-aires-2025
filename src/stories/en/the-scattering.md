@@ -2,7 +2,6 @@
 layout: layouts/story
 language: en
 title: The Scattering
-slug: scattering
 subtitle: "As Argentina Shifts, Families Break Apart: A Story of Home and Migration"
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
@@ -12,6 +11,7 @@ interactive_1_byline: Anna Fetter
 interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
+slug: scattering
 body_copy: >-
   ## THE ORIGIN OF HOME
 
