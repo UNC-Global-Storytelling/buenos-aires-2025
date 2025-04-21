@@ -96,6 +96,27 @@ en:
       caption_es: Mari camina con su amiga por la calle, alejándose de Cultura del
         Barrio. Se avecina una tormenta y el viento arrecia.
       alt_es: Dos personas caminan por la calle.
+    - src: /assets/img/uploads/20250416_richards_music-story_10.jpg
+      order: 10
+      caption_en: Ric smokes in his bedroom during a rehearsal break. On his wall are
+        mementos, photos and posters of Juan and Eva Perón. A militant left-wing
+        Peronist, he fled to Spain in the 1980's to escape the dictatorship.
+      alt_en: A man smokes on his bed.
+      caption_es: Ric fuma en su habitación durante un descanso de ensayo. En su pared
+        hay recuerdos, fotos y pósteres de Juan y Eva Perón. Peronista militante
+        de izquierda, huyó a España en la década de 1980 para escapar de la
+        dictadura.
+      alt_es: Un hombre fuma en su cama.
+    - src: /assets/img/uploads/20250416_richards_music-story_11.jpg
+      caption_en: 'Ric and Mari rehearse in Ric’s house. They use the "Pomodoro
+        Method" to budget their time. After each 20 minutes of rehearsal, a
+        timer goes off, and they take a five-minute break. '
+      alt_en: A man makes a hand motion toward a pile of books.
+      caption_es: Ric y Mari ensayan en casa de Ric. Usan el "Método Pomodoro" para
+        administrar su tiempo. Después de cada 20 minutos de ensayo, suena un
+        avisador y se toman un descanso de cinco minutos.
+      alt_es: Un hombre hace gestos en la luz de una ventana.
+      order: 11
 es:
   id: music
 ---
