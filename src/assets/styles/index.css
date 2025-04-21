@@ -99,6 +99,33 @@ caption bold {
   background-color: var(--color-green);
   display: block;
 }
+/* language toggle styles */
+.language-toggle {
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.language-toggle .toggle-option {
+  z-index: 2;
+  cursor: pointer;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.language-toggle .toggle-option.active {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.language-toggle a.toggle-option {
+  text-decoration: none;
+}
+
+/* Optional hover effect on non-active language */
+.language-toggle a.toggle-option:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
 
 /* story content styling */
 /* Story content styles */

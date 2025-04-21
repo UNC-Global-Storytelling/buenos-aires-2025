@@ -64,6 +64,16 @@ export default function (eleventyConfig) {
     return markdownLibrary.render(content);
   });
 
+  // Add a slugify filter
+  eleventyConfig.addFilter("slugify", function(text) {
+    return text.toString().toLowerCase()
+      .replace(/\s+/g, '-')           // Replace spaces with -
+      .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+      .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+      .replace(/^-+/, '')             // Trim - from start of text
+      .replace(/-+$/, '');            // Trim - from end of text
+  });
+
   // Passthrough items
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.addPassthroughCopy("src/assets/styles/override.css");
@@ -76,6 +86,33 @@ export default function (eleventyConfig) {
   // Add the "stories" collection for dynamic menu generation
   eleventyConfig.addCollection("stories", function (collectionApi) {
     return collectionApi.getFilteredByGlob("./src/stories/*.md");
+  });
+
+  // Add separate collections for English and Spanish stories
+  eleventyConfig.addCollection("storiesEN", function (collectionApi) {
+    const stories = collectionApi.getFilteredByGlob("./src/stories/en/*.md");
+    stories.forEach(story => {
+      // Generate slug from title if not present
+      if (!story.data.slug) {
+        story.data.slug = eleventyConfig.getFilter("slugify")(story.data.title);
+      }
+      // Set translationKey if not present (used for language switching)
+      if (!story.data.translationKey) {
+        story.data.translationKey = story.data.slug;
+      }
+    });
+    return stories;
+  });
+  
+  eleventyConfig.addCollection("storiesES", function (collectionApi) {
+    const stories = collectionApi.getFilteredByGlob("./src/stories/es/*.md");
+    stories.forEach(story => {
+      // Generate slug from Spanish title if not present
+      if (!story.data.slug) {
+        story.data.slug = eleventyConfig.getFilter("slugify")(story.data.title);
+      }
+    });
+    return stories;
   });
 
   // Plug in sections
