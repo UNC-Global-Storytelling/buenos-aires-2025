@@ -3,6 +3,8 @@
 
 {% if urlParts.length >= 3 and urlParts[1] == "stories" %}
   {% set urlLang = urlParts[2] %}
+{% elif urlParts.length >= 2 and (urlParts[1] == "en" or urlParts[1] == "es") %}
+  {% set urlLang = urlParts[1] %}
 {% endif %}
 
 {% set currentLang = urlLang %}
@@ -103,8 +105,6 @@
   <main class="flex-grow bg-white">
     {{ content | safe }}
   </main>
-  
-  <!-- Debug info (temporary) -->
-  <script src="/assets/js/languageToggle.js"></script>
+
 </body>
 </html>
