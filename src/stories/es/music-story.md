@@ -1,9 +1,9 @@
 ---
 layout: layouts/story
 language: es
-title: Spanish Music Name
+title: Aun así, canto
 slug: spanish-music-name
-subtitle: Music Story
+subtitle: ""
 body_copy: music body copy
 image: /assets/img/uploads/hero-image_1-2.jpg
 ---
