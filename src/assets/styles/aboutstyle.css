@@ -1,5 +1,5 @@
-    /* About Section */
-  .about {
+/* About Section */
+.about {
     margin: 0;
     position: relative;
     display: flex;
@@ -10,29 +10,31 @@
     background-image: url('/assets/img/uploads/grouppic.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
-  }
+}
 
-  .about h1 {
+.about h1 {
     color: #ffffff;
-    font-family: 'lora', serif;
-  }
+    font-family: 'Lora', serif;
+}
 
-  .intro {
+/* Intro Section */
+.intro {
     background-color: #6698C3;
-  }
-  
-  .intro p {
-    color: white; /* Change text color to white */
-    font-family: 'lora', serif;
-  }
+}
 
-  .team .control {
+.intro p {
+    color: white; /* Change text color to white */
+    font-family: 'Lora', serif;
+}
+
+/* Team Section */
+.team .control {
     display: flex;
     justify-content: center;
     margin: 3rem 0;
-  }
+}
 
-  .team .control button {
+.team .control button {
     background-color: #F5B41A;
     border: none;
     padding: 0.5rem 1rem;
@@ -43,92 +45,99 @@
     transition: background-color 0.3s ease;
     font-family: 'Montserrat', sans-serif;
     font-weight: regular;
-  }
+}
 
-  .team .control button:hover {
+.team .control button:hover {
     background-color: #F5B41A;
-  }
-  
-  .team .container {
+}
+
+.team .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: right; /* Center-align the blocks */
     gap: 1rem;
-  }
+}
 
-  .team .mix {
+.team .mix {
     text-align: center;
     width: 250px;
-  }
+}
 
-  .team .mix img {
+.team .mix img {
     border-radius: 50%;
-    width: 200px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 0.5rem;
-  }
+    width: 150px; /* Increase the width of the image */
+    height: 150px; /* Set a proportional height */
+    object-fit: cover; /* Ensure the image fits within the dimensions */
+    margin-bottom: 10px; /* Maintain spacing between the image and the text */
+}
 
-  .team .mix p {
+.team .mix p {
     font-size: 1rem;
     font-weight: bold;
     margin: 0;
-  }
-   /* Acknowledgements Section */
-  .acknowledgementpart {
+}
+
+.mix {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align content to the left */
+    margin-bottom: 20px;
+    text-align: left; /* Ensure text is left-aligned */
+}
+
+.mix div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+}
+
+.mix div p {
+    margin: 5px 0; /* Add consistent spacing between text lines */
+}
+
+.mix a {
+    display: inline-block;
+    margin-top: 5px;
+    text-align: left; /* Ensure the link is left-aligned */
+}
+
+.mix a i {
+    font-size: 20px;
+}
+
+/* Acknowledgements Section */
+.acknowledgementpart {
     padding: 2rem 1rem;
     text-align: center;
-  }
-  
-  .acknowledgements h2 {
+}
+
+.acknowledgements h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-  }
+}
 
-  .insitutions p {
+.insitutions p {
     font-size: 1rem;
     line-height: 1.6;
     margin-right: 1rem;
-  }
+}
 
-  .insitutions img {
+.insitutions img {
     width: 120px;
-  }
-  
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-  }
+}
 
-  .container p {
-    font-family: 'Lora', serif;
-    font-weight: semi-bold;
-  }
-
-  .container .mix {
-    flex: 0 0 calc(20% - 1rem); /* 4 items per row on large screens */
-    margin: 0.5rem; /* Add spacing between items */
-    text-align: center; /* Center-align content */
-  }
-
-  .container .mix img {
-    width: 100%; /* Make images responsive */
-    max-width: 150px; /* Optional: Set a max width for images */
-    border-radius: 50%; /* Optional: Make images circular */
-  }
-   /* Medium screens: 2 items per row */
-  @media (max-width: 768px) {
+/* Responsive Design */
+@media (max-width: 768px) {
     .container .mix {
-      flex: 0 0 calc(50% - 1rem); /* 2 items per row */
+        flex: 0 0 calc(50% - 1rem); /* 2 items per row */
     }
-  }
-   /* Small screens: 1 item per row */
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .container .mix {
-      flex: 0 0 100%; /* 1 item per row */
+        flex: 0 0 100%; /* 1 item per row */
     }
- }
- 
- 
- 
+}
+
+
