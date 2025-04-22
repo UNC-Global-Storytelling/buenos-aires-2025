@@ -71,10 +71,20 @@ en:
         Buenos Aires, Argentina, el domingo 9 de marzo de 2025 (derecha).
     - src: /assets/img/uploads/20240313_denman_migration_ba-5.jpg
       order: 5
-      caption_en: eng
-      caption_es: spa
-      alt_en: cap
-      alt_es: pac
+      caption_en: Marie, 51, watering plants with a hose among a garden in Rodrigo
+        Bueno, Buenos Aires, Argentina, on Friday, March 14, 2025. Marie is from
+        Peru and moved to Buenos Aires with her sister.
+      caption_es: Marie, de 51 años, regando plantas con una manguera en un jardín en
+        Rodrigo Bueno, Buenos Aires, Argentina, el viernes 14 de marzo de 2025.
+        Marie es de Perú y se mudó a Buenos Aires con su hermana.
+      alt_en: A close-up of a person's hand with a bracelet watering plants with a
+        hose (top), and a smiling woman standing among garden greenery in
+        Rodrigo Bueno, Buenos Aires, Argentina, on Friday, March 14, 2025
+        (bottom).
+      alt_es: Un primer plano de la mano de una persona con una pulsera regando
+        plantas con una manguera (arriba), y una mujer sonriente parada entre la
+        vegetación de un jardín en Rodrigo Bueno, Buenos Aires, Argentina, el
+        viernes 14 de marzo de 2025 (abajo).
 es:
   id: migration
   title: Spanish Title
