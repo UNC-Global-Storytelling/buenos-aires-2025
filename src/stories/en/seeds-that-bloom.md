@@ -7,11 +7,11 @@ reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 body_copy: >-
   {% pullQuote { "quote": "The thing I like the most that is the most beautiful
   is all the knowledge I’ve acquired. I \[like] being able to help not just
@@ -23,7 +23,6 @@ body_copy: >-
 
 
   {% pullQuote { "quote": "Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy. There are no material things that give you that trust in life and that joy.", "attribution": "Padre Pedro", "role": "Priest" } %}
-
 
 
   {% timeline %}
@@ -116,6 +115,9 @@ body_copy: >-
   Every part of La Vivera has a deeper meaning – the name is feminine because everyone who works there is a woman. The friendship bond between the women is unique. 
 
 
+  {% inlinePhoto "seeds-that-bloom", 2, lang %}
+
+
   "The relationship between all of us is magnificent,", Oviedo said.
 
 
@@ -177,6 +179,9 @@ body_copy: >-
 
 
   On the opposite side of Yma Sumac, only a few blocks from where Ángela Oviedo resides is a home full of food and family. Inside is a large kitchen where women are cooking, preparing for an eventful evening. In the middle is a woman sporting a burgundy-colored apron – Rosa de la Cruz.
+
+
+  {% inlinePhoto "seeds-that-bloom", 3, lang %}
 
 
   De la Cruz is another longstanding resident who has lived in the neighborhood since 1999 and currently lives with her three daughters. In 2020, she was the catalyst for creating the Comedor del Centro de Adulto Mayor, a soup kitchen established to provide fresh meals to elderly residents during the COVID-19 pandemic.
