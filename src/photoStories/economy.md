@@ -103,6 +103,18 @@ en:
         really left.
       alt_en: Baby picture framed.
       alt_es: Cuadro de bebé enmarcado.
+    - order: 9
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-9.jpg
+      caption_es: Su mirada es firme, pero sostiene más que enfoque. Fuera de cuadro,
+        una pantalla se ilumina con otro tipo de presentación—una que él ayudó a
+        formar. Salvador, su hijo, ahora entra al campo con la misma disciplina
+        que su padre lleva a la pista de baile.
+      caption_en: His gaze is steady, but it holds more than focus. Off-frame, a
+        screen lights up with a different kind of performance—one he helped
+        shape. Salvador, his son, now takes the field with the same discipline
+        his father brings to the dance floor.
+      alt_en: Rixner stares in space.
+      alt_es: Rixner mira fijamente al espacio.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
