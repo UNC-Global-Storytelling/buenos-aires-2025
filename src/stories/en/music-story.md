@@ -10,6 +10,6 @@ body_copy: >-
   music body copy
 
 
-  {% pullQuote {   "quote": "Story pull out quote here here here here here here here here here here here.",   "attribution": "",   "role": "" } %}
+  {% pullQuote quote="PLACE YOUR QUOTES IN THIS PULL QUOTE" attribution="" role="" %}
 image: /assets/img/uploads/hero-image_1-2.jpg
 ---
