@@ -13,10 +13,10 @@ uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering
 body_copy: >-
-  ## THE ORIGIN OF HOME
-
-
-  Maria Sofia Emma Piacentina de Arsena Eisner is known to her 11 children and 34 grandchildren as Sofia. She doesn’t quite reach five feet tall, she’s quietly perched in an orange chair, rounded against the curvature of her spine. 
+  Maria Sofia Emma Piacentina de Arsena Eisner is known to her 11 children and
+  34 grandchildren as Sofia. She doesn’t quite reach five feet tall, she’s
+  quietly perched in an orange chair, rounded against the curvature of her
+  spine. 
 
 
   It’s not her house, but it could be. Pictures of her are scattered around it, some with her hair long and brown, then short, now silver and wiry framing her face. There’s one photo on a yellow-tinted wall behind her. She’s standing tall with her late husband, Peter, as he fishes with one of their sons and a few of his children, their grandchildren. It’s about a decade old by its fray and color. 
