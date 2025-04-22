@@ -1,6 +1,6 @@
 export default function () {
     return `
-    <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%;">
+    <div class="container-wrapper-genially" style="position: relative; min-height: 400px; max-width: 100%; padding-top: 4%; padding-bottom: 4%">
     <video class="loader-genially" autoplay="autoplay" loop="loop" playsinline="playsInline" muted="muted" style="position: absolute;top: 45%;left: 50%;transform: translate(-50%, -50%);width: 80px;height: 80px;margin-bottom: 10%">
       <source src="https://static.genially.com/resources/loader-default-rebranding.mp4" type="video/mp4" />
       Your browser does not support the video tag.
