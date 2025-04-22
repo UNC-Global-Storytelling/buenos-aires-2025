@@ -66,6 +66,12 @@ en:
         invitaciones que vienen tan llenas de corazón que no se pueden rechazar.
       alt_en: Rixner and women squatting.
       alt_es: Rixner y mujeres en cuclillas.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
+      order: 6
+      caption_en: a
+      caption_es: b
+      alt_en: c
+      alt_es: d
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
