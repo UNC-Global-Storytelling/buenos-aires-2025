@@ -150,10 +150,10 @@ body_copy: >-
   > “Compartir la vida con los pobres es un regalo, porque estoy convencido de que ellos tienen una confianza en Dios y una alegría de vivir que no se puede comprar,” dijo el Padre Pedro. “No hay cosas materiales que te den esa confianza en la vida y esa alegría.”
 
 
-  ### **EL COMEDOR**
+  ## **EL COMEDOR**
 
 
-  En el lado opuesto de Yma Sumac, a solo unas cuadras de donde vive Ángela Oviedo, hay un hogar lleno de comida y familia. Adentro, una gran cocina donde mujeres cocinan y se preparan para una noche agitada. En el centro, una mujer con delantal color bordó: Rosa de la Cruz.
+  > En el lado opuesto de Yma Sumac, a solo unas cuadras de donde vive Ángela Oviedo, hay un hogar lleno de comida y familia. Adentro, una gran cocina donde mujeres cocinan y se preparan para una noche agitada. En el centro, una mujer con delantal color bordó: Rosa de la Cruz.
 
 
   De la Cruz es otra residente de larga data que vive en el barrio desde 1999 y actualmente reside con sus tres hijas. En 2020, fue la impulsora del Comedor del Centro de Adulto Mayor, una cocina comunitaria creada para ofrecer comidas frescas a personas mayores durante la pandemia del COVID-19.
@@ -161,14 +161,19 @@ body_copy: >-
 
   > “Comenzó en la pandemia con la idea principal de ayudar a quienes debían quedarse adentro, que eran principalmente los ancianos,” dijo Elena Vera, prima de de la Cruz. “El valor principal del comedor es el amor al prójimo, y eso incluye a todos.”
 
+  >
 
-  Cinco años después, el comedor sigue siendo un recurso vital. Tres veces por semana, un equipo de seis mujeres liderado por Cruz sirve comida a 80 señores o jubilados del barrio. Muchos de ellos viven aislados y con acceso limitado a alimentos frescos. El gobierno brinda un pequeño presupuesto mensual para alimentos, pero no alcanza para cubrir todo el mes.
+  > Cinco años después, el comedor sigue siendo un recurso vital. Tres veces por semana, un equipo de seis mujeres liderado por Cruz sirve comida a 80 señores o jubilados del barrio. Muchos de ellos viven aislados y con acceso limitado a alimentos frescos. El gobierno brinda un pequeño presupuesto mensual para alimentos, pero no alcanza para cubrir todo el mes.
 
 
   Para suplir esa carencia, de la Cruz prepara comidas adicionales para vender y usa los ingresos para comprar más alimentos. A pesar de los desafíos financieros y las limitaciones gubernamentales, el comedor sigue firme.
 
 
   > “Siento mucha satisfacción porque creo que es muy importante que los adultos tengan un plato de comida los fines de semana, porque la mayoría están solos,” dijo de la Cruz.
+
+  >
+
+  > {% pullQuote { "quote": "Siento mucha satisfacción porque creo que es muy importante que los adultos tengan un plato de comida los fines de semana, porque la mayoría están solos.", "attribution": "Rosa de la Cruz" } %}
 
   >
 
@@ -181,8 +186,6 @@ body_copy: >-
   >
 
   > Vivir a uno u otro lado de Yma Sumac tiene sus desafíos, pero las amistades forjadas entre las mujeres de ambos lados están hechas para perdurar.
-
-  >
 
   >
 
