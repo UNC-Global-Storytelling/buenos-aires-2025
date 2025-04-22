@@ -1,6 +1,6 @@
 export default function () {
   return `
-    <div style="position: relative; max-width: 80%; margin: 0 auto;">
+    <div style="position: relative; max-width: 90%; margin: 0 auto;">
     <!-- Main Timeline Image -->
     <img 
       src="/assets/img/uploads/Rodrigo-Bueno-Interactive-Graphic.jpg" 
@@ -44,9 +44,6 @@ export default function () {
     <h1 style="position: absolute; top: 4%; left: 60%; transform: translateX(-50%); line-height: 1.1; color: #57622E; font-size: 1.8rem; font-family: sans-serif;">
       The History of Rodrigo Bueno
     </h1>
-    <p style="position: absolute; top: 21%; left: 50%; transform: translateX(-50%); color: Black; font-size: .8rem; font-family: sans-serif;">
-    Click the leaves to reveal
-    </p>
   
     <!-- Year Labels -->
     <h3 style="position: absolute; top: 0%; left: 6%; color: #57622E; font-size: 1.1rem;">1980<sub>s</sub></h3>
@@ -82,6 +79,11 @@ export default function () {
       The Hilton Buenos Aires commits to purchasing 100% of its organic produce from La Vivera.
     </div>
   </div>
+
+  <!-- Instruction below the interactive -->
+  <p style="text-align: center; font-style: italic; margin-top: 1rem;">
+    Click the leaves to reveal
+  </p>
   
   <script>
     function showText(id) {

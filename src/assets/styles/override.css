@@ -149,9 +149,38 @@ h1{
 }
 
 @media (max-width: 768px) {
-  .buttonsize {
+  .card {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .buttonsize{
     width: 20%;
-    height: auto;
+  }
+
+  .card img {
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .text-overlay.left,
+  .text-overlay.right {
+    text-align: center;
+  }
+
+  .card img {
+    margin-bottom: 0;
   }
 }
 
