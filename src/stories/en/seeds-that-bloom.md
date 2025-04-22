@@ -107,7 +107,7 @@ body_copy: >-
   Every part of La Vivera has a deeper meaning – the name is feminine because everyone who works there is a woman. The friendship bond between the women is unique. 
 
 
-  “The relationship between all of us is magnificent,” Oviedo said. 
+  {% pullQuote {   "quote": "The relationship between all of us is magnificent.",   "attribution": "Ángela Oviedo",   "role": "Housekeeper" } %}
 
 
   Oviedo started working at the garden in 2017, a year and a half before the neighborhood’s urbanization. When she came to Argentina, she didn’t know how to plant in pots so she taught herself. Now she’s a pro—arranging plants in neat rows of four, keeping count of each new addition with a pink pen and a small piece of paper.  
