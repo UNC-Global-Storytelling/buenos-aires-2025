@@ -152,7 +152,16 @@ body_copy: >-
   “We’re exhausted,” Szlago said. “I think this happens everywhere in the world, but in Argentina, I think it’s the first time we’re experiencing it with such deep sadness.”
 
 
-  Sakatumba, another neo-rock band, describes its music as speaking to the typical 23-year-old Argentine — broke and burdened with worries about the future. Buenos Vampiros, from Mar del Plata and set to debut this year in Europe, explore the tension between light and darkness in both their sound and themes. Their song "Desmotivada" captures the feelings of young people who are "desmotivada, triste y aburrida" — unmotivated, sad and bored. Post-punk band Mujer Cebra tackles many of these same themes in their lyrics, Lola said. 
+  Sakatumba, another neo-rock band, describes its music as speaking to the typical 23-year-old Argentine — broke and burdened with worries about the future. Buenos Vampiros, from Mar del Plata and set to debut this year in Europe, explore the tension between light and darkness in both their sound and themes. Their song "Desmotivada" captures the feelings of young people who are "desmotivada, triste y aburrida" — unmotivated, sad and bored. 
+
+
+  Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Merda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
+
+
+  **(PHOTO STORY HERE)**
+
+
+  But the "under" isn’t defined by one sound or style. Where Fama y Guita choose irony and volume, Lola leans into vulnerability and glitter.
 
 
   “Many of the bands — not mine, but many of the bands in the under scene — are quite pessimistic,” Lola said. “Their lyrics tend to reflect that…. I think the worst and most brutal aspect of Milei’s government regarding music isn’t censorship of Lali. It’s how they’ve left us so poor and struggling that we can’t even make music. 
