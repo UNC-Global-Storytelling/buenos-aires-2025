@@ -7,25 +7,25 @@ reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 body_copy: >-
-  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
-
-
-  {% inlinePhoto "seeds-that-bloom", 1, lang %}
-
-
-  In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided Argentine neighborhood contrasted by the sole divide of one street – Yma Sumac. Named after a Peruvian singer, her name means “how beautiful” in Quechua. 
+  In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided
+  Argentine neighborhood contrasted by the sole divide of one street – Yma
+  Sumac. Named after a Peruvian singer, her name means “how beautiful” in
+  Quechua. 
 
 
   On the left side of Yma Sumac, the red and white brick walls and roofs are dilapidated. Some families living there do not have a roof over their heads. Their only form of protection in bad weather is a black mesh tarp hung seven feet in the air. 
 
 
   The right side of Yma Sumac has newly built three-story brick buildings with a home on each level and balconies that accompany them. Families typically have one or two refrigerators and washers, unlike those across the street, who often wash their clothes by hand and lack modern appliances.
+
+
+  {% inlinePhoto "seeds-that-bloom", 1, lang %}
 
 
   In the middle of the neighborhood stands a modern municipal center and a clean park where young boys play pick-up soccer every night. Beyond the houses, past the main street, is the promenade: A concrete sidewalk that overlooks the River Plate and is a representation of Buenos Aires. 
@@ -47,6 +47,9 @@ body_copy: >-
 
 
   “I like living here in my neighborhood because I feel like I have more company, having a country, seeing my fellow countrymen,” she said. “Now even more, because my family is grown, and nothing would move me from here.” 
+
+
+  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
 
 
   Like Oviedo, many barrio residents emigrated from Perú and Paraguay. However, many do not share her positive outlook on their poor circumstances. Because of the severe poverty they face, the residents are socially and physically disconnected from their adjacent neighborhoods. Many parts of the barrio lack access to urban services, with high risks of crime and drug issues resulting in a heavy police presence. 
