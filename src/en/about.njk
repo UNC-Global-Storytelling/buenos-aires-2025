@@ -2,19 +2,15 @@
 title: about
 layout: layouts/base.njk
 ---
+    
     <section class="bg" style="position: relative;">
         <div class="about">
             <h1>Meet the Team</h1>
         </div>
     </section>
 
-<<<<<<< HEAD:src/en/about.njk
-    <section class="intro" style="padding: 5rem 1rem;">
-        <div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-=======
     <section class="intro" style="background-color: #6699c3; padding: 5rem 1rem;">
         <div style="display: flex; justify-content: center; align-items: center; text-align: center; margin-left: 5%; margin-right: 5%;">
->>>>>>> 281343274aaaab52206a948909b47090c928de8b:src/about.njk
             <p>We are a group of journalists, photographers, videographers and designers from the UNC Hussman School of Journalism and Media. As part of UNC Global Storytelling, we are committed to telling important stories from around the world.</p>
         </div>
     </section>
@@ -22,141 +18,29 @@ layout: layouts/base.njk
     <section class="team">
             <div class="control">
                 <button type="button" data-filter="all">All</button>
-                <button type="button" data-filter=".Reporters">Reporters</button>
-                <button type="button" data-filter=".Photographers">Photographers</button>
-                <button type="button" data-filter=".Videographers">Videographers</button>
+                <button type="button" data-filter=".Reporter">Reporters</button>
+                <button type="button" data-filter=".Photographer">Photographers</button>
+                <button type="button" data-filter=".Videographer">Videographers</button>
                 <button type="button" data-filter=".Interactive">Interactive Team</button>
-                <button type="button" data-filter=".Producers">Producers</button>
-                <button type="button" data-filter=".Coaches">Coaches</button>
+                <button type="button" data-filter=".Producer">Producers</button>
+                <button type="button" data-filter=".Coach">Coaches</button>
             </div>
-<<<<<<< HEAD:src/en/about.njk
-            <div class="container">
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">
-                    <p>Jiayi</p>
-                    <p>Reporters</p>
-                    <a href="https://instagram.com/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+            
+            <div class="container-about">
+                {% for member in aboutPage %}
+                <div class="team-member mix {{ member.role }}">
+                    <img src="{{ member.imgOneURL }}" alt="{{ member.name }}">
+                    <p>{{ member.name }}</p>
+                    <p>{{ member.role }}</p>
+                    {% if member.instagram %}
+                        <a href="https://instagram.com/{{ member.instagram }}" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    {% endif %}
                 </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">                
-                    <p>Jiayi</p>
-                </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">                
-                    <p>Jiayi</p>
-                </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
+                {% endfor %}
             </div>
-=======
- 
-<div class="container-about">
-        <div class="Reporters team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Photographers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Interactive team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 3">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Videographers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 4">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-                <div class="Reporters team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Photographers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Interactive team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 3">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Videographers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 4">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-                <div class="Reporters team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Photographers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Interactive team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 3">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Producers team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 4">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        <div class="Coaches team-member">
-            <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 4">
-            <h6>Name</h6>
-            <p>Team</p>
-        </div>
-        
-        <!-- More entries -->
-    </div>
->>>>>>> 281343274aaaab52206a948909b47090c928de8b:src/about.njk
+            
     </section>
 
     <section class="acknowledgementpart">
