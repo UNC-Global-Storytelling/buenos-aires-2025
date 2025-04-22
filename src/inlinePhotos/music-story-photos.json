@@ -1,4 +1,14 @@
 {
   "storyId": "music-story",
-  "title": "music story inline photos"
+  "title": "music story inline photos",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/20250308_richards_famayguita-performance-1547-4.jpg",
+      "order": 1,
+      "caption_en": "Young people dance together at a Fama y Guita concert.",
+      "caption_es": "Jóvenes bailan juntos en un show de Fama y Guita.",
+      "alt_es": "Jóvenes bailan juntos en un show de Fama y Guita.",
+      "alt_en": "Young people dance together at a Fama y Guita concert."
+    }
+  ]
 }
