@@ -51,58 +51,71 @@
     background-color: #F5B41A;
 }
 
-.team .container {
+.team .container-about {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right; /* Center-align the blocks */
-    gap: 1rem;
+    justify-content: space-between;
+    margin: 20px auto;
 }
 
-.team .mix {
-    text-align: center;
-    width: 250px;
-}
 
 .team .mix img {
     border-radius: 50%;
-    width: 150px; /* Increase the width of the image */
-    height: 150px; /* Set a proportional height */
+    width: 200px; /* Increase the width of the image */
+    height: 200px; /* Set a proportional height */
     object-fit: cover; /* Ensure the image fits within the dimensions */
-    margin-bottom: 10px; /* Maintain spacing between the image and the text */
+    margin-bottom: 20px; /* Maintain spacing between the image and the text */
 }
 
 .team .mix p {
     font-size: 1rem;
     font-weight: bold;
     margin: 0;
+    font-family: 'Lora', serif;
+}
+
+/* For large screens: 4 blocks per row */
+.team .mix {
+    width: calc(25% - 1rem); /* 4 items per row */
+}
+
+/* For medium screens: 2 blocks per row */
+@media (max-width: 1024px) {
+    .team .mix {
+        width: calc(50% - 1rem); /* 2 items per row */
+    }
+}
+
+/* For small screens: 1 block per row */
+@media (max-width: 600px) {
+    .team .mix {
+        width: 100%; /* 1 item per row */
+    }
+
+    .team .control {
+        display: none;
+    }
 }
 
 .mix {
     display: flex;
     flex-direction: column; /* Stack content vertically */
-    align-items: flex-start; /* Align content to the left */
-    margin-bottom: 20px;
-    text-align: left; /* Ensure text is left-aligned */
+    align-items: center; /* Align content to the left */
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center; /* Ensure text is left-aligned */
 }
 
-.mix div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align text to the left */
-}
 
-.mix div p {
-    margin: 5px 0; /* Add consistent spacing between text lines */
-}
-
-.mix a {
-    display: inline-block;
-    margin-top: 5px;
-    text-align: left; /* Ensure the link is left-aligned */
-}
 
 .mix a i {
     font-size: 20px;
+}
+
+.team-member a {
+    display: inline-block;
+    margin-right: 0.5rem; /* optional: space between icons */
+    vertical-align: middle;
 }
 
 /* Acknowledgements Section */
@@ -127,17 +140,6 @@
     width: 120px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .container .mix {
-        flex: 0 0 calc(50% - 1rem); /* 2 items per row */
-    }
-}
 
-@media (max-width: 480px) {
-    .container .mix {
-        flex: 0 0 100%; /* 1 item per row */
-    }
-}
 
 

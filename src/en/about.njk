@@ -31,16 +31,48 @@ layout: layouts/base.njk
                 <div class="team-member mix {{ member.role }}">
                     <img src="{{ member.imgOneURL }}" alt="{{ member.name }}">
                     <p>{{ member.name }}</p>
+                    <p>{{ member.storyGroup }}</p>
                     <p>{{ member.role }}</p>
-                    {% if member.instagram %}
-                        <a href="https://instagram.com/{{ member.instagram }}" target="_blank">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                    {% endif %}
+                    <div class="flex">
+                        {% if member.instagram %}
+                            <a href="https://instagram.com/{{ member.instagram | replace('@', '') }}" target="_blank">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.facebook %}
+                            <a href="https://www.facebook.com/{{ member.facebook }}" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.LinkedIn %}
+                            <a href="{{ member.LinkedIn }}" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.portfolio %}
+                            <a href="{{ member.portfolio }}" target="_blank">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.X %}
+                            <a href="https://twitter.com/{{ member.X | replace('@', '') }}" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.bluesky %}
+                            <a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank">
+                                <i class="fa-brands fa-square-bluesky"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.Substack %}
+                            <a href="https://{{ member.Substack }}" target="_blank">
+                                <i class="fa-solid fa-bookmark"></i>
+                            </a>
+                        {% endif %}
+                    </div>
                 </div>
                 {% endfor %}
-            </div>
-            
+            </div>    
     </section>
 
     <section class="acknowledgementpart">
