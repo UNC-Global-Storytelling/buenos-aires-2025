@@ -11,11 +11,11 @@ video_2_byline: Quincy Marks
 photo_byline: Grace Richards
 interactive_1_byline: Jiayi Zhang
 body_copy: >-
-  
-
-
-
-  La luz del atardecer se cuela por la única ventana del tercer piso del apartamento de Lola Tabarovsky en el barrio del Abasto, tiñendo la pequeña habitación del mismo rosa algodón de azúcar que el atardecer en el exterior. Las paredes blancas y agrietadas se desvanecen por momentos, y un zumbido silencioso se eleva desde la calle. 
+  La luz del atardecer se cuela por la única ventana del tercer piso del
+  apartamento de Lola Tabarovsky en el barrio del Abasto, tiñendo la pequeña
+  habitación del mismo rosa algodón de azúcar que el atardecer en el exterior.
+  Las paredes blancas y agrietadas se desvanecen por momentos, y un zumbido
+  silencioso se eleva desde la calle. 
 
 
   Sin embargo, dentro, el ruido y el caos de Buenos Aires parecen estar muy lejos. Su apartamento es un mundo en sí mismo. Y es rosa.
@@ -60,7 +60,7 @@ body_copy: >-
   Y se niega a ser silenciada.
 
 
-  {% pullQuote { "quote": 'Primero soy feminista,' afirma Lola. 'Y luego soy música, productora, estudiante, mujer... cualquiera de esas cosas. Creo que pongo un sello feminista en todo lo que hago.', "attribution": "Lola Tabarovsky", "role": "Música" } %}
+  {% pullQuote { "quote": "Primero soy feminista. Y luego soy música, productora, estudiante, mujer... cualquiera de esas cosas. Creo que pongo un sello feminista en todo lo que hago.", "attribution": "Lola Tabarovsky", "role": "Música" } %}
 
 
   ## BORRADO CULTURAL
@@ -162,7 +162,7 @@ body_copy: >-
   Es un poco desilusionante.”
 
 
-  {% pullQuote { "quote": 'Estamos agotados. Creo que esto pasa en todas partes del mundo, pero en Argentina creo que es la primera vez que lo vivimos con una tristeza tan profunda', "attribution": "Sofía Szlago", "role": "Música" } %}
+  {% pullQuote { "quote": "Estamos agotados. Creo que esto pasa en todas partes del mundo, pero en Argentina creo que es la primera vez que lo vivimos con una tristeza tan profunda", "attribution": "Sofía Szlago", "role": "Música" } %}
 
 
   ## EL "UNDER"
@@ -189,7 +189,7 @@ body_copy: >-
   Es gran parte de lo que hace que Lola siga adelante. La música y los fans, por supuesto, pero también su reciente fichaje por el sello Geiser.
 
 
-  {% pullQuote { "quote": 'El ‘under’ es un símbolo de la escena emergente en este momento. La idea principal es decir lo que está pasando. Decir lo que quieres decir, lo que necesitas decir. Creo que el underground es muy importante ahora mismo... es la voz de mucha gente joven.', "attribution": "Santino Isnardes", "role": "Melómano" } %}
+  {% pullQuote { "quote": "El ‘under’ es un símbolo de la escena emergente en este momento. La idea principal es decir lo que está pasando. Decir lo que quieres decir, lo que necesitas decir. Creo que el underground es muy importante ahora mismo... es la voz de mucha gente joven.", "attribution": "Santino Isnardes", "role": "Melómano" } %}
 
 
   Durante años, el sueño de Lola fue firmar con este sello. Cada vez que veía una estrella fugaz o soplaba las velas de su cumpleaños, lo deseaba.
