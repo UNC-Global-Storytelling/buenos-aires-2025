@@ -131,7 +131,7 @@ body_copy: >-
   While the ways of living looks different, the roles of the two señoras are the same – to help their community by giving their time and talents.  
 
 
-  ## A Gift
+  ## A GIFT
 
 
   The Rodrigo Bueno community has many impactful leaders like Rosa and Ángela, but others help the neighborhood in meaningful ways too.
