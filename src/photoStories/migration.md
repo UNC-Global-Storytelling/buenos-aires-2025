@@ -42,10 +42,19 @@ en:
         Argentina (abajo).
     - src: /assets/img/uploads/20240313_denman_migration_ba-3.jpg
       order: 3
-      caption_en: eng
-      caption_es: spa
-      alt_en: cap
-      alt_es: pac
+      caption_en: "Rodrigo Noboa, 23, playing a guitar while seated in his home in
+        Palermo, Buenos Aires, Argentina, on Wednesday, March 12, 2025. Noboa
+        brought the guitar with him from Uruguay. "
+      caption_es: Rodrigo Noboa, de 23 años, tocando una guitarra mientras está
+        sentado en su casa en Palermo, Buenos Aires, Argentina, el miércoles 12
+        de marzo de 2025. Noboa trajo la guitarra con él desde Uruguay.
+      alt_en: A person playing a black electric guitar while seated (top), and a
+        close-up portrait of a smiling man with glasses and a beard in Palermo,
+        Buenos Aires, Argentina, on Wednesday, March 12, 2025 (bottom).
+      alt_es: Una persona tocando una guitarra eléctrica negra mientras está sentada
+        (arriba), y un retrato en primer plano de un hombre sonriente con gafas
+        y barba en Palermo, Buenos Aires, Argentina, el miércoles 12 de marzo de
+        2025 (abajo).
     - src: /assets/img/uploads/story-4.jpg
       order: 4
       caption_en: eng
