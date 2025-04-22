@@ -160,7 +160,7 @@ body_copy: >-
   {% pullQuote { "quote": 'We’re exhausted. I think this happens everywhere in the world, but in Argentina, I think it’s the first time we’re experiencing it with such deep sadness.'", "attribution": "Sofía Szlago" "role": "Musician" } %}
 
 
-  ## **THE “UNDER”**
+  ## THE “UNDER”
 
 
   Even in this moment of exhaustion and uncertainty, Buenos Aires’ underground scene refuses to fade.
