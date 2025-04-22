@@ -207,6 +207,20 @@ en:
         honesto, espontáneo y profundamente humano. Sin personajes, sin
         clichés—solo conexión. Aquí, en la calle, en una pausa compartida entre
         pasos, esa verdad cobra vida."
+    - order: 17
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-17.jpg
+      caption_es: Cada domingo, Rixner y Luana Albeniz bailan para vivir. En un país
+        donde más del 40% vive en pobreza, esto es más que arte—es
+        supervivencia. “Siento que tengo muchas cosas. No me siento pobre. No
+        necesito más, más, más.” — Matías Rixner En un mundo que insiste en
+        pedir más, él ha encontrado su ritmo en lo suficiente.
+      caption_en: Every Sunday, Rixner and Luana Albeniz dance for a living. In a
+        country where over 40% live in poverty, this is more than art—it’s
+        survival.  “I feel I have a lot of things. I don’t feel poor. I don’t
+        need more, more, more.” — Matias Rixner  In a world that pushes for
+        more, he has found his rhythm in enough.
+      alt_en: Rixner and Luana strike a pose.
+      alt_es: Rixner y Luana posan.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
