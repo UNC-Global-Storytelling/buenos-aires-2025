@@ -21,7 +21,7 @@ body_copy: >-
   “Mi familia siempre ha vivido acá buscando trabajo”, dijo Enriques.
 
 
-  {% pullQuote { "quote": "La mayoría de nosotros no sabe hacer otra cosa que reciclar y estar acá.", "attribution": "Joana Enriques", "role": "Recolectora en La Quema" } %}
+  {% pullQuote quote="La mayoría de nosotros no sabe hacer otra cosa que reciclar y estar acá." attribution="Joana Enriques" role="Recolectora en La Quema" %}
 
 
   Mientras los trabajadores se ven obligados a responder a las demandas del vertedero, el humo se eleva hacia el cielo húmedo de Luján. El aire se espesa con el hedor a azufre y polvo cuando uno de los 15 camiones pasa por el camino de tierra de 700 metros para descargar unas 180 toneladas de basura en La Playa—la zona de descarga. Con su mirada penetrante y sus garras, las aves carroñeras se abren paso entre la neblina y solo aterrizan cuando encuentran algo de valor.
@@ -84,7 +84,7 @@ body_copy: >-
   Se estima que el 33% de la fuerza laboral argentina opera dentro de lo que economistas como Donza llaman “economía popular”, donde los empleos se alejan del trabajo tradicional y carecen de protección laboral. Los cartoneros forman parte de esta economía. Estos trabajos surgen por supervivencia cuando el mercado laboral no puede sostener a sus ciudadanos.
 
 
-  {% pullQuote { "quote": "En niveles muy cercanos a la subsistencia, esto implica grandes niveles de exclusión y la imposibilidad de acceder a alimentos mínimos.", "attribution": "Eduardo Donza", "role": "Profesor en la Universidad de Buenos Aires" } %}
+  {% pullQuote quote="En niveles muy cercanos a la subsistencia, esto implica grandes niveles de exclusión y la imposibilidad de acceder a alimentos mínimos." attribution="Eduardo Donza" role="Profesor en la Universidad de Buenos Aires" %}
 
 
   Enriques dijo que hay otros trabajos en Luján, como en fábricas, pero requieren educación. Esta falta de oportunidades coloca a personas como Enriques en ese 33%, pero dijo que tener control sobre su propio trabajo lo vale.
@@ -102,7 +102,7 @@ body_copy: >-
   Las llamas de La Quema marcaron la mente y el cuerpo de Sergio Esteban Almada desde 1993. Todo comenzó con psoriasis, una enfermedad cutánea con sarpullido y picazón, cuando tenía seis años. Su padre había trabajado en el vertedero desde su apertura en 1970. Almada siguió sus pasos.
 
 
-  {% pullQuote { "quote": "Era un mar de residuos. Residuos sobre residuos.", "attribution": "Sergio Esteban Almada", "role": "Activista ambiental" } %}
+  {% pullQuote quote="Era un mar de residuos. Residuos sobre residuos." attribution="Sergio Esteban Almada" role="Activista ambiental" %}
 
 
   Las erupciones crecieron, al igual que la humillación. Fue acosado en la escuela por su apariencia. Su piel se agrietaba y sangraba, dificultando su movimiento.
@@ -129,7 +129,7 @@ body_copy: >-
   Su nieta y su hijo tienen asma y problemas pulmonares. Cuando fueron al médico, les dijeron que dejaran de fumar en casa, pero nadie fumaba. Pensó en todas las posibilidades y se dio cuenta de que era el vertedero. Incluso perdió a un bebé por los gases tóxicos.
 
 
-  {% pullQuote { "quote": "El poco tiempo que han vivido, es como si hubieran estado expuestos a cigarrillos constantemente.", "attribution": "Sergio Esteban Almada", "role": "Activista ambiental" } %}
+  {% pullQuote quote="El poco tiempo que han vivido, es como si hubieran estado expuestos a cigarrillos constantemente." attribution="Sergio Esteban Almada" role="Activista ambiental" %}
 
 
   Dijo que las consecuencias para la salud que él, su familia y la comunidad enfrentan lo motivan a seguir luchando.
@@ -213,7 +213,7 @@ body_copy: >-
   Ahora, las industrias prefieren comprar materiales extranjeros, lo que incentiva a los cartoneros a volver a La Quema para ganar por kilo recogido.
 
 
-  {% pullQuote { "quote": "Un gobierno como el de Milei, que se enfoca en cuadrar las cuentas, hace que todo se vuelva obstáculos, restricciones.", "attribution": "Marcelo Santiago Viagra", "role": "Reciclador en Cielo Abierto" } %}
+  {% pullQuote quote="Un gobierno como el de Milei, que se enfoca en cuadrar las cuentas, hace que todo se vuelva obstáculos, restricciones." attribution="Marcelo Santiago Viagra" role="Reciclador en Cielo Abierto" %}
 
 
   Cooperativas como Cielo Abierto simbolizan esperanza, pero tienen capacidad limitada. La ciudad de Buenos Aires tiene contratos con 12 cooperativas que emplean a 6,500 recicladores y no están en expansión.
