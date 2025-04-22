@@ -1,4 +1,14 @@
 {
   "title": "Community inline photos",
-  "storyId": "seeds-that-bloom"
+  "storyId": "seeds-that-bloom",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/20250421_-bulris_communityinlineb-1.jpg",
+      "order": 1,
+      "caption_en": "A resident of Rodrigo Bueno uses her phone on the balcony of one of the buildings constructed as part of the neighborhood's urbanization effort.",
+      "caption_es": "Una residente de Rodrigo Bueno utiliza su teléfono en el balcón de uno de los edificios construidos en el marco de la urbanización del barrio.",
+      "alt_en": "A woman leans on the balcony of a four story brick building.",
+      "alt_es": "Una mujer se asoma al balcón de un edificio de ladrillo de cuatro plantas."
+    }
+  ]
 }
