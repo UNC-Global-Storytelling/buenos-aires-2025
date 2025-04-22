@@ -7,11 +7,11 @@ reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 body_copy: >-
   {% pullQuote { "quote": "The thing I like the most that is the most beautiful
   is all the knowledge I’ve acquired. I \[like] being able to help not just
@@ -28,6 +28,12 @@ body_copy: >-
   {% timeline %}
 
 
+  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
+
+
+  {% inlinePhoto "seeds-that-bloom", 1, lang %}
+
+
   In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided Argentine neighborhood contrasted by the sole divide of one street – Yma Sumac. Named after a Peruvian singer, her name means “how beautiful” in Quechua. 
 
 
@@ -35,9 +41,6 @@ body_copy: >-
 
 
   The right side of Yma Sumac has newly built three-story brick buildings with a home on each level and balconies that accompany them. Families typically have one or two refrigerators and washers, unlike those across the street, who often wash their clothes by hand and lack modern appliances.
-
-
-  {% inlinePhoto "seeds-that-bloom", 1, lang %}
 
 
   In the middle of the neighborhood stands a modern municipal center and a clean park where young boys play pick-up soccer every night. Beyond the houses, past the main street, is the promenade: A concrete sidewalk that overlooks the River Plate and is a representation of Buenos Aires. 
@@ -86,9 +89,6 @@ body_copy: >-
 
 
   It remains to be seen whether this progress will continue during President Javier Milei’s term or how his efforts to cut public programs will affect people like Oviedo. Regardless, the women of the barrio are not waiting for the city or the federal government to help them improve their situation – they are taking active measures to revamp their community now.
-
-
-  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
 
 
   ## LA VIVERA
