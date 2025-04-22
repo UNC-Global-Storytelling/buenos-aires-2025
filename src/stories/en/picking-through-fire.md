@@ -10,11 +10,11 @@ video_2_byline: Sophie Hughett
 photo_byline: Dallia Lindell
 interactive_1_byline: Ella Campbell
 body_copy: >-
-  {% pullQuote {   "quote": "PLACE YOUR QUOTES IN THIS PULL
-  QUOTE",   "attribution": "",   "role": "" } %}
-
-
-  At 10 a.m., Joana Enriques begins her shift to feed the fire. In Luján, a city 50 miles from Argentina’s capital of Buenos Aires, exists “La Quema,” an open-air dump that translates to—The Burning. Waste pickers like Enriques collect and sort through heaps of garbage to feed the dump’s fire and their families.
+  At 10 a.m., Joana Enriques begins her shift to feed the fire. In Luján, a city
+  50 miles from Argentina’s capital of Buenos Aires, exists “La Quema,” an
+  open-air dump that translates to—The Burning. Waste pickers like Enriques
+  collect and sort through heaps of garbage to feed the dump’s fire and their
+  families.
 
 
   “All my family has always lived here looking for work,” Enriques said. “Most of us don’t know how to do anything else but recycle and be here.”
@@ -80,7 +80,7 @@ body_copy: >-
   An estimated 33% of the Argentine workforce operates within what economists like Donza call the “popular economy,” where jobs diverge from traditional employment and lack labor protections. Cartoneros are a part of this popular economy. These professions grow out of survival as the labor market fails to support its citizens, he said.
 
 
-  “At levels that are very close to the levels of subsistence,” Donza said. “This implies issues of great exclusion and the impossibility of acquiring minimal food.”
+  {% pullQuote {   "quote": "At levels that are very close to the levels of subsistence,",   "Donza said.": "",   "role": "This implies issues of great exclusion and the impossibility of acquiring minimal food." } %}
 
 
   Enriques said there are other jobs in Luján, such as factories, but they require an education. This lack of opportunity puts those like Enriques in the 33%, but she said having control over her labor is worthwhile.
