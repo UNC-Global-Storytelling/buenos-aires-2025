@@ -30,7 +30,7 @@ body_copy: >-
   Su vida, antes definida por los ritmos de la crianza, ha sido reescrita a la fuerza por la crisis económica que ha barrido Argentina. Hasta hace poco, el ingreso estable de su esposo era suficiente para mantener a la familia. Pero a medida que la inestabilidad financiera del país se profundizó, esa base se derrumbó, dejando a Orellana sin otra opción que ingresar al mundo de las entregas.
 
 
-  “Quería ayudarlo para que no se sacrifique tanto, para que no se mate trabajando. Por eso decidí empezar a trabajar”, dice Orellana.
+  {% pullQuote { "quote": "Quería ayudarlo para que no se sacrifique tanto, para que no se mate trabajando. Por eso decidí empezar a trabajar.", "attribution": "Orellana", "role": "Repartidora de Rappi" } %}
 
 
   La economía de trabajos por encargo se ha convertido en un componente central para que muchas personas sobrevivan a la crisis económica que ha acechado al país por más de 100 años. Y ahora, con el nuevo presidente imponiendo medidas de austeridad para controlar la economía, las filas de trabajadores independientes están creciendo, lo que añade caos y competencia por ingresos extra. Queda por ver si los recortes de Javier Milei lograrán estabilizar la economía.

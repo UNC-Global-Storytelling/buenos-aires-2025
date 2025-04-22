@@ -36,9 +36,6 @@ body_copy: >-
   Her life, once defined by the rhythms of motherhood, has been forcibly rewritten by the economic turmoil that has swept through Argentina. Until recently, her husband’s steady income was enough to support their family. But as the country’s financial instability deepens, what was once a stable foundation has crumbled, leaving Orellana with no choice but to step into the world of food delivery. 
 
 
-  “I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working,” Orellana said. 
-
-
   {% pullQuote { "quote": "I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working.", "attribution": "Orellana", "role": "Rappi driver" } %}
 
 
