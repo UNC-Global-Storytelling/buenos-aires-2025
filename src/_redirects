@@ -1,2 +1,5 @@
 /   /es/        200   Language=es
 /   /en/        200
+
+/es/*    /es/404.html   404
+/*       /404.html      404
