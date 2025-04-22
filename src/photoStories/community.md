@@ -56,7 +56,7 @@ en:
         landscapes and the photo of a child.
       alt_es: Una pared está decorada con una plétora de adornos, como cuadros de
         paisajes y la foto de un niño.
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-5.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitypatch-1.jpg
       order: 5
       caption_en: Local children play football on a concrete pad in the middle of the
         neighborhood. Pickup matches are a common sight throughout the
@@ -106,8 +106,11 @@ en:
       alt_es: Una huella de pata queda impresa en el hormigón.
     - order: 10
       src: /assets/img/uploads/20250421_-bulris_communityfinal-10.jpg
-      caption_en: A dog sunbathes in the home of Rosa de la Cruz.
-      caption_es: Un perro toma el sol en casa de Rosa de la Cruz.
+      caption_en: As part of urbanization efforts, residences in Rodrigo Bueno now
+        have street addresses, aiding in navigation and emergencies.
+      caption_es: Como parte de los esfuerzos de urbanización, las residencias de
+        Rodrigo Bueno ahora tienen direcciones de calles, lo que ayuda en la
+        navegación y las emergencias.
       alt_en: A dog lays down in a house.
       alt_es: Un perro se tumba en una casa.
     - order: 11
@@ -132,16 +135,21 @@ en:
       alt_es: Un grupo de personas se sienta alrededor de una mesa para comer.
     - order: 12
       src: /assets/img/uploads/20250421_-bulris_communityfinal-1-2.jpg
-      caption_en: A papa rellenas is prepared in the Comedor del Centro de Adulto Mayor.
-      caption_es: En el Comedor del Centro de Adulto Mayor se prepara una papa rellena.
+      caption_en: A papa rellenas is prepared in the Comedor del Centro de Adulto
+        Mayor. The soup kitchen feeds around 80 retirees per week.
+      caption_es: Se prepara una papa rellena en el Comedor del Centro de Adulto
+        Mayor. El comedor da de comer a unos 80 jubilados a la semana.
       alt_es: Un par de manos utilizan una cuchara para colocar carne en una patata.
       alt_en: A pair of hands use a spoon to place beef into a potato.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-2-2.jpg
       order: 14
-      caption_en: The historic section of Barrio Rodrigo Bueno sits near the Eastern
-        edge of Buenos Aires.
+      caption_en: "The historic section of Barrio Rodrigo Bueno sits near the Eastern
+        edge of Buenos Aires. Nearby land is poised to become a luxury
+        development, leaving the future of the community uncertain. "
       caption_es: "El histórico Barrio Rodrigo Bueno se encuentra en el extremo
-        oriental de Buenos Aires. "
+        oriental de Buenos Aires. Los terrenos cercanos están a punto de
+        convertirse en una urbanización de lujo, por lo que el futuro de la
+        comunidad es incierto. "
       alt_en: A group of buildings lay between a green field and blue sky.
       alt_es: Un grupo de edificios se extiende entre un campo verde y el cielo azul.
 es:
