@@ -68,33 +68,36 @@ en:
       alt_es: Unos niños juegan al fútbol en una pista de cemento.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-6.jpg
       order: 6
-      caption_en: Martha Caillahua, a member of La Vivera’s staff, poses for a
-        portrait while watering the garden’s plants. La Vivera is a community
-        garden in the heart of Rodrigo Bueno staffed entirely by women.
-      caption_es: Martha Caillahua, miembro del personal de La Vivera, posa para un
-        retrato mientras riega las plantas del huerto. La Vivera es un huerto
-        comunitario en el corazón de Rodrigo Bueno atendido íntegramente por
-        mujeres.
+      caption_en: Martha Caillahua, a member of La Vivera Orgánica's staff, poses for
+        a portrait while watering the garden’s plants. La Vivera Orgánica is a
+        community garden in the heart of Rodrigo Bueno staffed entirely by
+        women.
+      caption_es: Martha Caillahua, miembro del personal de La Vivera Orgánica, posa
+        para un retrato mientras riega las plantas del huerto. La Vivera
+        Orgánica es un huerto comunitario en el corazón de Rodrigo Bueno
+        atendido íntegramente por mujeres.
       alt_en: A woman stands confidently in a garden, surrounded by greenery.
       alt_es: Una mujer está de pie en un jardín, rodeada de vegetación.
     - order: 7
       src: /assets/img/uploads/20250421_-bulris_communityfinal-7.jpg
       caption_en: Ángela Oviedo prepares an order of plants for delivery. Oviedo has
         lived in Rodrigo Bueno since 1999 after migrating to Buenos Aires from
-        Peru, and has worked at La Vivera as a second job for the past seven
-        years.
+        Peru, and has worked at La Vivera Orgánica as a second job for the past
+        seven years.
       caption_es: Ángela Oviedo prepara un pedido de plantas para su entrega. Oviedo
         vive en Rodrigo Bueno desde 1999, tras emigrar a Buenos Aires desde
-        Perú, y trabaja en La Vivera como segundo empleo desde hace siete años.
+        Perú, y trabaja en La Vivera Orgánica como segundo empleo desde hace
+        siete años.
       alt_en: Two women stand behind a desk. One woman looks intensely at the other.
       alt_es: Dos mujeres de pie detrás de un escritorio. Una mira intensamente a la
         otra.
     - order: 8
       src: /assets/img/uploads/20250421_-bulris_communityfinal-8.jpg
-      caption_en: The woman of La Vivera, led by co-founder Elizabeth Cuenca, unload a
-        delivery of plants. The garden 's staff is composed entirely of women.
+      caption_en: The woman of La Vivera Orgánica, led by co-founder Elizabeth Cuenca,
+        unload a delivery of plants. The garden 's staff is composed entirely of
+        women.
       caption_es: Las mujeres, dirigidas por Elizabeth Cuenca, cofundadora de La
-        Vivera, descargan una entrega de plantas.
+        Vivera Orgánica, descargan una entrega de plantas.
       alt_en: A group of women unload bags of plants from a white van.
       alt_es: Un grupo de mujeres descarga bolsas de plantas de una furgoneta blanca.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-9.jpg
