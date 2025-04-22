@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import Nunjucks from 'nunjucks'; 
 
 import cssnano from 'cssnano';
 import postcss from 'postcss';
@@ -49,6 +50,19 @@ export default function (eleventyConfig) {
       preset: 'default',
     }),
   ]);
+
+  // Set Nunjucks environment
+  const nunjucksEnvironment = new Nunjucks.Environment(
+
+    // Specify the directories where your templates reside.
+    new Nunjucks.FileSystemLoader(["./", "_includes", "layouts"]),
+
+    // Apply rendering options
+    { 
+      lstripBlocks: true,
+      trimBlocks: true,
+    }
+  );
 
   // Set up a markdown library
   const markdownLibrary = markdownIt({
@@ -196,6 +210,9 @@ export default function (eleventyConfig) {
       }
     }
   });
+
+  // Apply Nunjuks environment config
+  eleventyConfig.setLibrary("njk", nunjucksEnvironment);
 
   return {
     dir: {
