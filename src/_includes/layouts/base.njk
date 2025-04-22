@@ -17,73 +17,79 @@
   <link rel="stylesheet" href="/assets/styles/index.css">
   <link rel="stylesheet" href="/assets/styles/override.css">
   <link rel="stylesheet" href="/assets/styles/aboutstyle.css">
+  <style>
+    .gradient-overlay::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 200px;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+      z-index: 10;
+      pointer-events: none;
+    }
+  </style>
   <!--Font awesome link-->
   <script src="https://kit.fontawesome.com/c677fdde8d.js" crossorigin="anonymous"></script>
 </head>
-<body class="flex flex-col min-h-screen">
-  <header class="bg-[#8D926E] text-white p-4">
-    <div class="max-w-7xl mx-auto flex items-center justify-between">
+<body class="flex flex-col min-h-screen bg-white">
 
-      <!-- Left: Logo - Link to current language home -->
-      <a href="/{{ currentLang }}/" class="text-lg font-medium">Logo</a>
+  <!-- Transparent nav -->
+  <header class="absolute top-0 left-0 w-full z-50 bg-transparent text-white">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-6">
 
-      <!-- Center: Navigation (Menu) - Use the correct language collection -->
+      <!-- Logo -->
+  <a href="/{{ currentLang }}/" class="flex items-center">
+  <img src="/assets/img/uploads/almas-logo-resize.svg" alt="Logo" class="h-16">
+  </a>
+
+      <!-- Navigation -->
       <nav aria-label="Main navigation">
-        <ul class="flex space-x-6 text-sm">
+        <ul class="flex space-x-6 text-base font-bold">
           {% if currentLang == "en" %}
             {% set menuStories = collections.storiesEN %}
           {% else %}
             {% set menuStories = collections.storiesES %}
           {% endif %}
-  
+
           {% for story in menuStories %}
             <li>
-              <a href="{{ story.url }}" class="hover:text-gray-300">
-                {{ story.data.title }}
-              </a>
+              <a href="{{ story.url }}" class="hover:underline hover:text-gray-300">{{ story.data.title }}</a>
             </li>
           {% endfor %}
         </ul>
       </nav>
 
-      <!-- Right: About + Language Toggle -->
-      <div class="flex items-center space-x-4 text-sm">
-        <a href="/{{ currentLang }}/about/">
+      <!-- About + Language Toggle -->
+      <div class="flex items-center space-x-4 text-base font-bold">
+        <a href="/{{ currentLang }}/about/" class="hover:underline">
           {% if currentLang == "en" %}About{% else %}Acerca de{% endif %}
         </a>
-        
-        <!-- Language Toggle -->
+
         {% if currentLang == "en" %}
           {% set otherLang = "es" %}
         {% else %}
           {% set otherLang = "en" %}
         {% endif %}
-
-        <!-- Find translated URL -->
         {% set translatedUrl = "/" ~ otherLang ~ "/" %}
-        
+
         {% if '/stories/' in page.url %}
           {% set urlSegments = page.url.split('/') %}
           {% set storySlug = urlSegments[urlSegments.length - 1] or urlSegments[urlSegments.length - 2] %}
           {% if storySlug == "" %}
             {% set storySlug = urlSegments[urlSegments.length - 2] %}
           {% endif %}
-
-          <!-- Loop through other language stories to find matching translation key -->
           {% if currentLang == "en" and collections.storiesES.length > 0 %}
-            {% set foundMatch = false %}
             {% for story in collections.storiesES %}
-              {% if not foundMatch and story.data.translationKey == page.data.translationKey %}
+              {% if story.data.translationKey == page.data.translationKey %}
                 {% set translatedUrl = story.url %}
-                {% set foundMatch = true %}
               {% endif %}
             {% endfor %}
           {% elif currentLang == "es" and collections.storiesEN.length > 0 %}
-            {% set foundMatch = false %}
             {% for story in collections.storiesEN %}
-              {% if not foundMatch and story.data.translationKey == page.data.translationKey %}
+              {% if story.data.translationKey == page.data.translationKey %}
                 {% set translatedUrl = story.url %}
-                {% set foundMatch = true %}
               {% endif %}
             {% endfor %}
           {% endif %}
@@ -91,34 +97,35 @@
 
         <div class="language-toggle rounded-full bg-gray-800 p-1 flex items-center">
           {% if currentLang == "en" %}
-            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-medium transition-all">EN</span>
-            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white transition-colors">ES</a>
+            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-bold">EN</span>
+            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white hover:underline font-bold">ES</a>
           {% else %}
-            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white transition-colors">EN</a>
-            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-medium transition-all">ES</span>
+            <a href="{{ translatedUrl }}" class="toggle-option py-1 px-3 text-gray-300 hover:text-white hover:underline font-bold">EN</a>
+            <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-bold">ES</span>
           {% endif %}
         </div>
       </div>
     </div>
   </header>
 
-  <!-- Your main content -->
-  <main class="flex-grow bg-white">
+  <!-- Content w/ gradient overlay -->
+  <main class="flex-grow relative gradient-overlay">
     {{ content | safe }}
   </main>
+
+  <!-- Footer -->
   <footer class="bg-[#8D926E] text-white py-4">
-     <div class="max-w-7xl mx-auto flex items-center justify-between px-4">
-       <!-- Left: Logo -->
-       <div class="font-semibold">Logo</div>
-         <ul class="flex space-x-6 text-sm">
-           <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
-           <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-           <li><a href="#">Blog</a></li>
-           <li><a href="#" class="font-semibold">About Hussman</a></li>
-         </ul>
-       </nav>
-     </div>
-   </footer>
-   <script src="/assets/js/lightsOut.js"></script>
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-4">
+      <div class="font-semibold">Logo</div>
+      <ul class="flex space-x-6 text-sm">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#" class="font-semibold">About Hussman</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="/assets/js/lightsOut.js"></script>
 </body>
 </html>
