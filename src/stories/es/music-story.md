@@ -1,7 +1,7 @@
 ---
 layout: layouts/story
 language: es
-title: Spanish Music Name
+title: Aun así, canto
 slug: spanish-music-name
 subtitle: Music Story
 body_copy: music body copy
