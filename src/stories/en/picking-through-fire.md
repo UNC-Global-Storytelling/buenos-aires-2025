@@ -245,9 +245,6 @@ body_copy: >-
   “Don’t sell me dreams,” she said. 
 
 
-  {% photoExperience { "storyId": "dumping", "lang": lang or "en" } %}
-
-
   {% inlinePhoto "picking-through-fire", 1, lang %}
 image: /assets/img/uploads/drone_dump.jpg
 ---
