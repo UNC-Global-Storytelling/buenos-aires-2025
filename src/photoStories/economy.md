@@ -79,6 +79,16 @@ en:
         diciendo."
       alt_en: Woman and yoga.
       alt_es: Mujer y yoga.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-7.jpg
+      order: 7
+      caption_en: “Yoga helps me a lot with the physical side of tango—especially
+        balance, body awareness, and understanding both my own body and my
+        partner’s.” — Matias Rixner
+      alt_en: Yoga Stretching.
+      alt_es: Estiramientos de yoga
+      caption_es: “El yoga me ayuda mucho con la parte física del tango—especialmente
+        con el equilibrio, la conciencia corporal y el entendimiento tanto de mi
+        cuerpo como del de mi pareja.” — Matías Rixner
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
