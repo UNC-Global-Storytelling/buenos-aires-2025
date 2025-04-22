@@ -66,6 +66,161 @@ en:
         invitaciones que vienen tan llenas de corazón que no se pueden rechazar.
       alt_en: Rixner and women squatting.
       alt_es: Rixner y mujeres en cuclillas.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-6.jpg
+      order: 6
+      caption_en: Yoga has quietly grown in popularity across Argentina, especially
+        among older adults seeking movement and mindfulness. For Rixner, it is
+        more than a practice—it’s a conversation between bodies, much like
+        tango. In this moment, the room is silent, but something is being said.
+      caption_es: "El yoga ha crecido silenciosamente en Argentina, especialmente
+        entre adultos mayores que buscan movimiento y conciencia. Para Rixner,
+        es más que una práctica: es una conversación entre cuerpos, como el
+        tango. En este momento, la sala está en silencio, pero algo se está
+        diciendo."
+      alt_en: Woman and yoga.
+      alt_es: Mujer y yoga.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-7.jpg
+      order: 7
+      caption_en: “Yoga helps me a lot with the physical side of tango—especially
+        balance, body awareness, and understanding both my own body and my
+        partner’s.” — Matias Rixner
+      alt_en: Yoga Stretching.
+      alt_es: Estiramientos de yoga
+      caption_es: “El yoga me ayuda mucho con la parte física del tango—especialmente
+        con el equilibrio, la conciencia corporal y el entendimiento tanto de mi
+        cuerpo como del de mi pareja.” — Matías Rixner
+    - order: 8
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-18.jpg
+      caption_es: Antes de las clases de tango y las calles de la ciudad, estaba
+        esto—su hijo, su razón. Rixner lo llamó Salvador, en honor a una ciudad
+        ligada a las raíces de la capoeira. Hoy, con 19 años y jugando
+        profesionalmente en el Club Atlético Platense, Salvador sigue su propio
+        ritmo. Pero en este pequeño marco, nunca se ha ido del todo.
+      caption_en: Before tango lessons and city streets, there was this—his son, his
+        reason. Rixner named him Salvador, after a city tied to Capoeira’s
+        roots. Now 19 and playing professionally with Club Atlético Platense,
+        Salvador moves to his own rhythm. But in this small frame, he never
+        really left.
+      alt_en: Baby picture framed.
+      alt_es: Cuadro de bebé enmarcado.
+    - order: 9
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-9.jpg
+      caption_es: Su mirada es firme, pero sostiene más que enfoque. Fuera de cuadro,
+        una pantalla se ilumina con otro tipo de presentación—una que él ayudó a
+        formar. Salvador, su hijo, ahora entra al campo con la misma disciplina
+        que su padre lleva a la pista de baile.
+      caption_en: His gaze is steady, but it holds more than focus. Off-frame, a
+        screen lights up with a different kind of performance—one he helped
+        shape. Salvador, his son, now takes the field with the same discipline
+        his father brings to the dance floor.
+      alt_en: Rixner stares in space.
+      alt_es: Rixner mira fijamente al espacio.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle.jpg
+      order: 10
+      caption_es: Club Atlético Platense. Un nuevo escenario. Un ritmo distinto. Desde
+        las calles de Buenos Aires hasta la cancha, padre e hijo persiguen la
+        pasión en sus propios tiempos. No comparten los reflectores, pero se
+        mueven en sincronía, siempre.
+      caption_en: Club Atlético Platense. A new stage. A different rhythm. From Buenos
+        Aires streets to the pitch, father and son chase passion in their own
+        time zones. They do not share a spotlight—but they move in sync, always.
+      alt_en: Soccer game online.
+      alt_es: " Juego de fútbol en línea."
+    - order: 11
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-11.jpg
+      caption_en: In the quiet between steps, Rixner pauses—still, but never idle. The
+        work does not end when the music stops. In this home, he shares not just
+        space, but a rhythm of survival and expression with his roommate
+        Valeria. Their tango lessons unfold here, one student, one story at a
+        time.
+      alt_en: Rixner sitting and watching.
+      alt_es: Rixner sentado y mirando.
+      caption_es: En el silencio entre pasos, Rixner se detiene—quieto, pero nunca
+        inactivo. El trabajo no termina cuando la música se detiene. En este
+        hogar, comparte no solo el espacio, sino un ritmo de supervivencia y
+        expresión con su compañera de piso, Valeria. Sus clases de tango se
+        desarrollan aquí, un alumno, una historia a la vez.
+    - order: 12
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-12.jpg
+      caption_es: "En el espacio abierto, Valeria enseña con una gracia cultivada por
+        la práctica. Ella y Rixner comparten más que un apartamento: comparten
+        una vocación. Desde este pequeño espacio, ofrecen a viajeros y
+        locales—muchos enfrentando el aumento de los costos y la presión
+        económica—una muestra del corazón del tango, transformando la tradición
+        en sustento paso a paso."
+      alt_es: " Compañera de cuarto enseñando tango."
+      alt_en: Roommate teaching tango.
+      caption_en: In the open space, Valeria teaches with practiced grace. She and
+        Rixner share more than an apartment—they share a calling. From this
+        small space, they offer travelers and locals—many navigating rising
+        costs and economic strain—a taste of tango’s heart, turning tradition
+        into livelihood one step at a time.
+    - order: 13
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-13.jpg
+      caption_es: Antes de que comience la música, hay una calibración silenciosa—un
+        intercambio de respiración, postura y confianza. Para Rixner y Valeria,
+        enseñar tango desde casa no es solo un trabajo. Es un ritual de cuidado,
+        una forma de invitar a otros a algo que han construido durante años.
+      alt_es: Dando clase de tango.
+      alt_en: Giving tango lessons.
+      caption_en: Before the music begins, there is quiet calibration—an exchange of
+        breath, posture, and trust. For Rixner and Valeria, teaching tango from
+        home is not just a gig. It’s a ritual of care, a way of inviting others
+        into something they have spent years building together.
+    - order: 14
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-14.jpg
+      caption_en: There is a quiet precision in the way Rixner moves—rooted in years
+        of yoga, shaped by the pulse of tango. He teaches not to perfect the
+        form, but to deepen the feeling. To him, technique is a tool, not the
+        point.
+      alt_en: Rixner demonstrates moves
+      alt_es: Rixner demuestra movimientos.
+      caption_es: Hay una precisión silenciosa en la forma en que Rixner se
+        mueve—arraigada en años de yoga, moldeada por el pulso del tango. No
+        enseña para perfeccionar la forma, sino para profundizar la sensación.
+        Para él, la técnica es una herramienta, no el objetivo.
+    - order: 15
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-15.jpg
+      caption_es: La mayoría de los alumnos llegan como viajeros—curiosos, con jet
+        lag, quizás un poco inseguros. Pero para Rixner, cuya vida se desarrolla
+        en una economía marcada por el cambio constante, el tango es más que
+        tradición. Con cada paso, ofrece no solo danza, sino conexión, confianza
+        y una historia que vale la pena contar.
+      alt_es: Ayudando a sus clientes a bailar.
+      alt_en: Helping his clients dance.
+      caption_en: Most students arrive as travelers—curious, jet-lagged, maybe a
+        little unsure. But for Rixner, whose life unfolds in an economy marked
+        by constant flux, tango is more than tradition. With every step, he
+        offers not just dance, but connection, confidence, and a story worth
+        retelling.
+    - order: 16
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-16.jpg
+      caption_en: "This is Real Tango—the name of Rixner’s project, and the heart of
+        his philosophy. More than a business, it’s a belief: that tango should
+        be honest, unscripted, and deeply human. No characters, no clichés—just
+        connection. Here on the street, in a shared pause between steps, that
+        truth comes to life."
+      alt_en: Rixner and Luana Albeniz dance.
+      alt_es: " Rixner y Luana Albéniz bailan."
+      caption_es: "Esto es Real Tango—el nombre del proyecto de Rixner y el corazón de
+        su filosofía. Más que un negocio, es una creencia: que el tango debe ser
+        honesto, espontáneo y profundamente humano. Sin personajes, sin
+        clichés—solo conexión. Aquí, en la calle, en una pausa compartida entre
+        pasos, esa verdad cobra vida."
+    - order: 17
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-17.jpg
+      caption_es: Cada domingo, Rixner y Luana Albeniz bailan para vivir. En un país
+        donde más del 40% vive en pobreza, esto es más que arte—es
+        supervivencia. “Siento que tengo muchas cosas. No me siento pobre. No
+        necesito más, más, más.” — Matías Rixner En un mundo que insiste en
+        pedir más, él ha encontrado su ritmo en lo suficiente.
+      caption_en: Every Sunday, Rixner and Luana Albeniz dance for a living. In a
+        country where over 40% live in poverty, this is more than art—it’s
+        survival.  “I feel I have a lot of things. I don’t feel poor. I don’t
+        need more, more, more.” — Matias Rixner  In a world that pushes for
+        more, he has found his rhythm in enough.
+      alt_en: Rixner and Luana strike a pose.
+      alt_es: Rixner y Luana posan.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
