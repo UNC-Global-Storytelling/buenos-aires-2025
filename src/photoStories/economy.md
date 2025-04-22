@@ -193,6 +193,20 @@ en:
         by constant flux, tango is more than tradition. With every step, he
         offers not just dance, but connection, confidence, and a story worth
         retelling.
+    - order: 16
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-16.jpg
+      caption_en: "This is Real Tango—the name of Rixner’s project, and the heart of
+        his philosophy. More than a business, it’s a belief: that tango should
+        be honest, unscripted, and deeply human. No characters, no clichés—just
+        connection. Here on the street, in a shared pause between steps, that
+        truth comes to life."
+      alt_en: Rixner and Luana Albeniz dance.
+      alt_es: " Rixner y Luana Albéniz bailan."
+      caption_es: "Esto es Real Tango—el nombre del proyecto de Rixner y el corazón de
+        su filosofía. Más que un negocio, es una creencia: que el tango debe ser
+        honesto, espontáneo y profundamente humano. Sin personajes, sin
+        clichés—solo conexión. Aquí, en la calle, en una pausa compartida entre
+        pasos, esa verdad cobra vida."
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
