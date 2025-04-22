@@ -25,10 +25,21 @@ en:
         tatuaje de lo que parece ser una ruta migratoria o un mapa de viaje.
     - src: /assets/img/uploads/20240313_denman_migration_ba-2.jpg
       order: 2
-      caption_en: eng
-      caption_es: spa
-      alt_en: cap
-      alt_es: pac
+      caption_en: Constanza Pistone, 20, sitting on the steps of Iglesia Corazón
+        Eucarístico de Jesús with a doll she brought with her from her home
+        province of Neuquen in Barrio Recoleta, Buenos Aires, Argentina, on
+        Wednesday, March 12, 2025.
+      caption_es: Constanza Pistone, de 20 años, sentada en las escaleras de la
+        Iglesia Corazón Eucarístico de Jesús con una muñeca que trajo desde su
+        provincia natal de Neuquén en el Barrio Recoleta, Buenos Aires,
+        Argentina, el miércoles 12 de marzo de 2025.
+      alt_en: A woman with red hair sitting on the church Iglesia Corazón Eucarístico
+        de Jesús’ marble steps with a doll on Wednesday, March 12, 2025 (top).
+        The same church in Barrio Recoleta, Buenos Aires, Argentina (bottom).
+      alt_es: Una mujer pelirroja sentada en la escalinata de mármol de la Iglesia
+        Corazón Eucarístico de Jesús con una muñeca el miércoles 12 de marzo de
+        2025 (arriba). La misma iglesia en el Barrio Recoleta, Buenos Aires,
+        Argentina (abajo).
     - src: /assets/img/uploads/20240313_denman_migration_ba-3.jpg
       order: 3
       caption_en: eng
