@@ -28,9 +28,6 @@ body_copy: >-
   {% timeline %}
 
 
-  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
-
-
   {% inlinePhoto "seeds-that-bloom", 1, lang %}
 
 
@@ -89,6 +86,9 @@ body_copy: >-
 
 
   It remains to be seen whether this progress will continue during President Javier Milei’s term or how his efforts to cut public programs will affect people like Oviedo. Regardless, the women of the barrio are not waiting for the city or the federal government to help them improve their situation – they are taking active measures to revamp their community now.
+
+
+  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
 
 
   ## LA VIVERA
