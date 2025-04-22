@@ -140,6 +140,21 @@ en:
         hogar, comparte no solo el espacio, sino un ritmo de supervivencia y
         expresión con su compañera de piso, Valeria. Sus clases de tango se
         desarrollan aquí, un alumno, una historia a la vez.
+    - order: 12
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-12.jpg
+      caption_es: "En el espacio abierto, Valeria enseña con una gracia cultivada por
+        la práctica. Ella y Rixner comparten más que un apartamento: comparten
+        una vocación. Desde este pequeño espacio, ofrecen a viajeros y
+        locales—muchos enfrentando el aumento de los costos y la presión
+        económica—una muestra del corazón del tango, transformando la tradición
+        en sustento paso a paso."
+      alt_es: " Compañera de cuarto enseñando tango."
+      alt_en: Roommate teaching tango.
+      caption_en: In the open space, Valeria teaches with practiced grace. She and
+        Rixner share more than an apartment—they share a calling. From this
+        small space, they offer travelers and locals—many navigating rising
+        costs and economic strain—a taste of tango’s heart, turning tradition
+        into livelihood one step at a time.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
