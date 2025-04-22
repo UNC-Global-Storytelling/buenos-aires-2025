@@ -1,7 +1,7 @@
 export default function () {
   return `
   <div class="interactive-container">
-    <div style="width: 80%; height: auto; overflow: hidden; margin: 0 auto;">
+    <div style="width: 50%; height: auto; overflow: hidden; margin: 0 auto;">
       <div class="flourish-embed flourish-map" data-src="visualisation/22573429" style="width: 100%; height: 100%;">
         <script src="https://public.flourish.studio/resources/embed.js"></script>
         <noscript>
