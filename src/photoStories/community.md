@@ -116,6 +116,40 @@ en:
       caption_es: Un perro toma el sol en casa de Rosa de la Cruz.
       alt_en: A dog lays down in a house.
       alt_es: Un perro se tumba en una casa.
+    - order: 11
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-11.jpg
+      caption_en: Women with the Comedor del Centro de Adulto Mayor work in Cruz’s
+        kitchen to prep for a meal. The soup kitchen was originally formed to
+        assist elderly residents of the neighborhood during the COVID-19
+        pandemic.
+      caption_es: Mujeres del Comedor del Centro de Adulto Mayor trabajan en la cocina
+        de Cruz para preparar una comida. El comedor se creó originalmente para
+        ayudar a los ancianos del barrio durante la pandemia de COVID-19.
+      alt_en: Women work in a kitchen while a refrigerator lies in the foreground.
+      alt_es: Mujeres trabajan en una cocina mientras en primer plano se ve un
+        frigorífico.
+    - order: 13
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-13.jpg
+      caption_en: "Patrons from the Comedor del Centro de Adulto Mayor eat a meal in
+        the heart of Rodrigo Bueno’s historic section. "
+      caption_es: " Comensales del Comedor del Centro de Adulto Mayor degustan una
+        comida en pleno casco histórico de Rodrigo Bueno."
+      alt_en: A group of people sit around a table eating a meal.
+      alt_es: Un grupo de personas se sienta alrededor de una mesa para comer.
+    - order: 12
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-1-2.jpg
+      caption_en: A papa rellenas is prepared in the Comedor del Centro de Adulto Mayor.
+      caption_es: En el Comedor del Centro de Adulto Mayor se prepara una papa rellena.
+      alt_es: Un par de manos utilizan una cuchara para colocar carne en una patata.
+      alt_en: A pair of hands use a spoon to place beef into a potato.
+    - src: /assets/img/uploads/20250421_-bulris_communityfinal-2-2.jpg
+      order: 14
+      caption_en: The historic section of Barrio Rodrigo Bueno sits near the Eastern
+        edge of Buenos Aires.
+      caption_es: "El histórico Barrio Rodrigo Bueno se encuentra en el extremo
+        oriental de Buenos Aires. "
+      alt_en: A group of buildings lay between a green field and blue sky.
+      alt_es: Un grupo de edificios se extiende entre un campo verde y el cielo azul.
 es:
   id: community
 ---
