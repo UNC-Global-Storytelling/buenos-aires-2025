@@ -1,12 +1,10 @@
 {% set urlParts = page.url.split('/') %}
 {% set urlLang = "en" %}
-
 {% if urlParts.length >= 3 and urlParts[1] == "stories" %}
   {% set urlLang = urlParts[2] %}
 {% elif urlParts.length >= 2 and (urlParts[1] == "en" or urlParts[1] == "es") %}
   {% set urlLang = urlParts[1] %}
 {% endif %}
-
 {% set currentLang = urlLang %}
 <!doctype html>
 <html lang="{{ currentLang }}">
@@ -41,9 +39,9 @@
     <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-6">
 
       <!-- Logo -->
-  <a href="/{{ currentLang }}/" class="flex items-center">
-  <img src="/assets/img/almas-logo-resize.svg" alt="Logo" class="h-16">
-  </a>
+    <a href="/{{ currentLang }}/" class="flex items-center">
+      <img src="/assets/img/almas-logo-resize.svg" alt="Logo" class="h-16">
+    </a>
 
       <!-- Navigation -->
       <nav aria-label="Main navigation">
