@@ -31,9 +31,6 @@ body_copy: >-
   {% inlinePhoto "scattering", 1, lang %}
 
 
-  {% separationFlourish %}
-
-
   {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
 
 
@@ -62,6 +59,9 @@ body_copy: >-
 
 
   Sofia’s family is by no means an anomaly. It’s become a tradition of sorts for Argentines, especially those with European ancestry, to become displaced and scattered throughout the world in search of opportunity outside of their home country’s economic instability and high inflation rates. Even with a new government and some cuts to spending and privatization of national resources, Argentines are beginning to hope for better days while simultaneously holding their breath that stability may not come permanently, as crises of economy have repeated themselves time and time again. 
+
+
+  {% separationFlourish %}
 
 
   ## NATION OF MIGRANTS
