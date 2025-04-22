@@ -6,10 +6,9 @@ slug: music-story
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
 reporter_byline: Shelby Swanson
-body_copy: >-
+body_copy: |-
   music body copy
 
-
-  {% pullQuote quote="PLACE YOUR QUOTES IN THIS PULL QUOTE" attribution="" role="" %}
+  {% pullQuote { "quote": "Text", "attribution": "Name", "role": "Title" } %}
 image: /assets/img/uploads/hero-image_1-2.jpg
 ---
