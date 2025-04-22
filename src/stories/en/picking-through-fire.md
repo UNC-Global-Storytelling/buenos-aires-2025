@@ -20,7 +20,7 @@ body_copy: >-
   “All my family has always lived here looking for work,” Enriques said.
 
 
-  {% pullQuote {   "quote": "Most of us don’t know how to do anything else but recycle and be here.",   "attribution": "Joana Enriques",   "role": "Waste picker at La Quema" } %}
+  {% pullQuote quote="Most of us don’t know how to do anything else but recycle and be here." attribution="Joana Enriques" role="Waste picker at La Quema" %}
 
 
   As workers are obliged to the dump’s demands, smoke billows into the humid sky of Luján. The air thickens with putrid sulfur stench and dust when one of the 15 trucks passes by the 700-meter dirt path to unload around 180 tons of cargo onto La Playa—“The Beach”—the landing zone of trash. With their piercing gaze and talons, scavenger birds are undeterred, cutting through the haze and landing only when they find something of value. 
@@ -83,7 +83,7 @@ body_copy: >-
   An estimated 33% of the Argentine workforce operates within what economists like Donza call the “popular economy,” where jobs diverge from traditional employment and lack labor protections. Cartoneros are a part of this popular economy. These professions grow out of survival as the labor market fails to support its citizens, he said.
 
 
-  {% pullQuote {   "quote": "At levels that are very close to the levels of subsistence, this implies issues of great exclusion and the impossibility of acquiring minimal food.",   "attribution": "Eduardo Donza",   "role": "Professor at University of Buenos Aires" } %}
+  {% pullQuote quote="At levels that are very close to the levels of subsistence, this implies issues of great exclusion and the impossibility of acquiring minimal food." attribution="Eduardo Donza" role="Professor at University of Buenos Aires" %}
 
 
   Enriques said there are other jobs in Luján, such as factories, but they require an education. This lack of opportunity puts those like Enriques in the 33%, but she said having control over her labor is worthwhile.
@@ -101,7 +101,7 @@ body_copy: >-
   The flames of The Burning scorched Sergio Esteban Almada’s mind and body beginning in 1993. It began with psoriasis, a skin disease causing itchy rashes when he was six. His father worked at the dump in 1970, when it opened. Almada followed suit. 
 
 
-  {% pullQuote {   "quote": "It was a sea of waste. Waste upon waste.",   "attribution": "Sergio Esteban Almada",   "role": "Environmental Activist" } %}
+  {% pullQuote quote="It was a sea of waste. Waste upon waste." attribution="Sergio Esteban Almada" role="Environmental Activist" %}
 
 
   The rashes grew, and so did the humiliation. He was bullied in school for how he looked. His skin cracked and bled, making it hard to move. 
@@ -128,7 +128,7 @@ body_copy: >-
   Almada’s granddaughter and son both have asthma and pulmonary issues. When his family went to the doctor, they were told to stop smoking at home, but no one did. He racked his mind for answers and then realized it was the dump. He even lost his baby to toxic fumes from the dump.
 
 
-  {% pullQuote {   "quote": "The little time they’ve lived, it’s like they’ve been exposed to cigarettes constantly.",   "attribution": "Sergio Esteban Almada",   "role": "Environmental Activist" } %}
+  {% pullQuote quote="The little time they’ve lived, it’s like they’ve been exposed to cigarettes constantly." attribution="Sergio Esteban Almada" role="Environmental Activist" %}
 
 
   Almada said the health consequences he, his family and the community face motivate him to advocate.
@@ -215,7 +215,7 @@ body_copy: >-
   Now that companies can buy raw materials cheaper from other countries, waste pickers have an incentive to turn to La Quema to get paid based on the amount of material each cartonero brings to The Indian.
 
 
-  {% pullQuote {   "quote": "A government like Milei’s, that focuses on balancing the books, all the doors start to close. Everything becomes obstacles, restrictions.",   "attribution": "Marcelo Santiago Viagra",   "role": "Recycler at Open Sky" } %}
+  {% pullQuote quote="A government like Milei’s, that focuses on balancing the books, all the doors start to close. Everything becomes obstacles, restrictions." attribution="Marcelo Santiago Viagra" role="Recycler at Open Sky" %}
 
 
   Cooperatives like Open Sky symbolize hope for cartoneros in La Quema and those picking trash on the streets of the City of Buenos Aires. However, cooperatives have limits on how many workers they can employ. The City of Buenos Aires currently holds contracts with 12 cooperatives, who formally employs 6,500 recyclers and are not currently expanding.
