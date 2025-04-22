@@ -1,11 +1,15 @@
 ---
 layout: layouts/story
-language: es
 title: Aun así, canto
+reporter_byline: Shelby Swanson
 slug: spanish-music-name
+language: es
 subtitle: En medio de la represión de Milei, los artistas underground de Buenos
   Aires mantienen viva la resistencia
-reporter_byline: Shelby Swanson
+video_1_byline: Aayas Joshi
+video_2_byline: Quincy Marks
+photo_byline: Grace Richards
+interactive_1_byline: Jiayi Zhang
 body_copy: >-
   
 

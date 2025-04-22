@@ -1,11 +1,15 @@
 ---
 layout: layouts/story
-language: en
 title: Aun así, canto
+reporter_byline: Shelby Swanson
 slug: music-story
+language: en
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
-reporter_byline: Shelby Swanson
+video_1_byline: Aayas Joshi
+video_2_byline: Quincy Marks
+photo_byline: Grace Richards
+interactive_1_byline: Jiayi Zhang
 body_copy: >-
   Late afternoon light spills through the only window in Lola Tabarovsky’s
   third-floor apartment in the Abasto barrio, turning the small room the same
