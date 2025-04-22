@@ -55,7 +55,7 @@ en:
         not currency, keeps him going, especially in a city where pesos lose
         value faster than memories fade.
     - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
-      order: 4
+      order: 5
       caption_en: Rixner never planned on adding a weekly yoga class to his schedule,
         but when a group of older women asked him to teach, he shifted
         everything. Now, every Thursday at 4 p.m., he shows up—because some
@@ -66,12 +66,19 @@ en:
         invitaciones que vienen tan llenas de corazón que no se pueden rechazar.
       alt_en: Rixner and women squatting.
       alt_es: Rixner y mujeres en cuclillas.
-    - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
-      order: 5
-      caption_en: a
-      caption_es: b
-      alt_en: c
-      alt_es: d
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-6.jpg
+      order: 6
+      caption_en: Yoga has quietly grown in popularity across Argentina, especially
+        among older adults seeking movement and mindfulness. For Rixner, it is
+        more than a practice—it’s a conversation between bodies, much like
+        tango. In this moment, the room is silent, but something is being said.
+      caption_es: "El yoga ha crecido silenciosamente en Argentina, especialmente
+        entre adultos mayores que buscan movimiento y conciencia. Para Rixner,
+        es más que una práctica: es una conversación entre cuerpos, como el
+        tango. En este momento, la sala está en silencio, pero algo se está
+        diciendo."
+      alt_en: Woman and yoga.
+      alt_es: Mujer y yoga.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
