@@ -62,6 +62,60 @@ en:
         landscapes and the photo of a child.
       alt_es: Una pared está decorada con una plétora de adornos, como cuadros de
         paisajes y la foto de un niño.
+    - src: /assets/img/uploads/20250421_-bulris_communityfinal-5.jpg
+      order: 5
+      caption_en: Local children play football on a concrete pad in the middle of the
+        neighborhood. Pickup matches are a common sight throughout the
+        neighborhood.
+      caption_es: Los niños de la zona juegan al fútbol en una pista de cemento en
+        medio del barrio. Los partidos de fútbol son habituales en todo el
+        barrio.
+      alt_en: Children play football on a concrete pad.
+      alt_es: Unos niños juegan al fútbol en una pista de cemento.
+    - src: /assets/img/uploads/20250421_-bulris_communityfinal-6.jpg
+      order: 6
+      caption_en: Martha Caillahua, a member of La Vivera’s staff, poses for a
+        portrait while watering the garden’s plants. La Vivera is a community
+        garden in the heart of Rodrigo Bueno staffed entirely by women.
+      caption_es: Martha Caillahua, miembro del personal de La Vivera, posa para un
+        retrato mientras riega las plantas del huerto. La Vivera es un huerto
+        comunitario en el corazón de Rodrigo Bueno atendido íntegramente por
+        mujeres.
+      alt_en: A woman stands confidently in a garden, surrounded by greenery.
+      alt_es: Una mujer está de pie en un jardín, rodeada de vegetación.
+    - order: 7
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-7.jpg
+      caption_en: Ángela Oviedo prepares an order of plants for delivery. Oviedo has
+        lived in Rodrigo Bueno since 1999 after migrating to Buenos Aires from
+        Peru, and has worked at La Vivera as a second job for the past seven
+        years.
+      caption_es: Ángela Oviedo prepara un pedido de plantas para su entrega. Oviedo
+        vive en Rodrigo Bueno desde 1999, tras emigrar a Buenos Aires desde
+        Perú, y trabaja en La Vivera como segundo empleo desde hace siete años.
+      alt_en: Two women stand behind a desk. One woman looks intensely at the other.
+      alt_es: Dos mujeres de pie detrás de un escritorio. Una mira intensamente a la
+        otra.
+    - order: 8
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-8.jpg
+      caption_en: The woman of La Vivera, led by co-founder Elizabeth Cuenca, unload a
+        delivery of plants. The garden 's staff is composed entirely of women.
+      caption_es: Las mujeres, dirigidas por Elizabeth Cuenca, cofundadora de La
+        Vivera, descargan una entrega de plantas.
+      alt_en: A group of women unload bags of plants from a white van.
+      alt_es: Un grupo de mujeres descarga bolsas de plantas de una furgoneta blanca.
+    - src: /assets/img/uploads/20250421_-bulris_communityfinal-9.jpg
+      order: 9
+      caption_en: A dog’s paw print sits in the concrete in Rodrigo Bueno’s modern section.
+      caption_es: La huella de un perro en el cemento de La Vivera, en la zona moderna
+        de Rodrigo Bueno.
+      alt_en: A paw print sits imprinted in concrete.
+      alt_es: Una huella de pata queda impresa en el hormigón.
+    - order: 10
+      src: /assets/img/uploads/20250421_-bulris_communityfinal-10.jpg
+      caption_en: A dog sunbathes in the home of Rosa de la Cruz.
+      caption_es: Un perro toma el sol en casa de Rosa de la Cruz.
+      alt_en: A dog lays down in a house.
+      alt_es: Un perro se tumba en una casa.
 es:
   id: community
 ---
