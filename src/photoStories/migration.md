@@ -21,6 +21,12 @@ en:
       caption_es: spa
       alt_en: cap
       alt_es: pac
+    - src: /assets/img/uploads/story-4.jpg
+      order: 4
+      caption_en: eng
+      caption_es: spa
+      alt_en: cap
+      alt_es: pac
 es:
   id: migration
   title: Spanish Title
