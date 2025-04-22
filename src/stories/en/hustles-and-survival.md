@@ -90,7 +90,7 @@ body_copy: >-
   Milei’s deregulation of the state has opened the doors for more people to work in the gig economy, doubling up their jobs like Orellana’s family and changing how family’s function. 
 
 
-  {% pullQuote { "quote": "It’s not a topic in the political agenda today, unfortunately from what we understand this president doesn’t believe in the regulation of the state.", "attribution": "Pereyra", "role": "Economics Department of the Universidad Nacional General Sarmiento" } %}
+  {% pullQuote { "quote": "It’s not a topic in the political agenda today, unfortunately from what we understand this president doesn’t believe in the regulation of the state.", "attribution": "Pereyra" } %}
 
 
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
