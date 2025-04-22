@@ -21,10 +21,18 @@
     {
       "photo": "/assets/img/uploads/denman_in-line_ba-3.jpg",
       "order": 3,
-      "caption_en": "english caption 3",
-      "caption_es": "spanish caption 3",
-      "alt_en": "english alt 3",
-      "alt_es": "spanish alt 3"
+      "caption_en": "A \"Migraciones\" (Immigration) van is parked outside the Museum of Immigration in Buenos Aires, Argentina, on Thursday, March 13, 2025. A historical photograph of immigrants is displayed on a banner in the background.",
+      "caption_es": "Una camioneta de Migraciones está estacionada afuera del Museo de la Inmigración en Buenos Aires, Argentina, el jueves 13 de marzo de 2025. Una fotografía histórica de inmigrantes se  muestra en una pancarta al fondo.",
+      "alt_en": "A Migraciones van is parked outside the Museum of Immigration.",
+      "alt_es": "Una camioneta de Migraciones está estacionada afuera del Museo de la Inmigración."
+    },
+    {
+      "photo": "/assets/img/uploads/inline4.jpg",
+      "caption_en": "Visitors view a recreation of immigration dormitory bunks at the Museum of Immigration in Buenos Aires, Argentina, on Thursday, March 13, 2025. Historical photographs displayed on the wall document the immigrant experience.",
+      "order": 4,
+      "alt_en": "A recreation of immigration dormitory bunks at the Museum of Immigration.",
+      "alt_es": "Una recreación de las literas de los dormitorios de inmigrantes en el Museo de la Inmigración.",
+      "caption_es": "Los visitantes observan una recreación de las literas de los dormitorios de inmigrantes en el Museo de la Inmigración en Buenos Aires, Argentina, el jueves 13 de marzo de 2025. Fotografías históricas exhibidas en la pared documentan la experiencia de los inmigrantes."
     }
   ]
 }
