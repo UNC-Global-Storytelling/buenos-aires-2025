@@ -117,6 +117,23 @@ en:
         avisador y se toman un descanso de cinco minutos.
       alt_es: Un hombre hace gestos en la luz de una ventana.
       order: 11
+    - src: /assets/img/uploads/20250416_richards_music-story_12.jpg
+      order: 112
+      caption_en: ​​In the morning, Mari cleans the lipstick stains off her flags. “I
+        have no idea how they got there,” she says. Fama y Guita will have
+        another show tomorrow.
+      alt_en: A woman lifts a flag in her bedroom, and a cat walks on the bed.
+      caption_es: Por la mañana, Mari limpia las manchas de lápiz labial de sus
+        banderas. "No tengo ni idea de cómo llegaron ahí", dice. Fama y Guita
+        tendrán otro espectáculo mañana.
+      alt_es: Una mujer levanta una bandera de la cama, mientras que un gato camina
+        por el frente.
+    - src: /assets/img/uploads/20250313_richards_casa-de-mari-857.jpg
+      order: 13
+      caption_en: Mari in her windowsill.
+      alt_en: A woman stands pressed against her windowsill.
+      caption_es: Mari en su ventana.
+      alt_es: Una mujer en la ventana.
 es:
   id: music
 ---
