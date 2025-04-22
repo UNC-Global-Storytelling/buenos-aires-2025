@@ -13,9 +13,6 @@ uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering
 body_copy: >-
-  {% pullQuote { "quote": "Text", "attribution": "Name", "role": "Title" } %}
-
-
   ## THE ORIGIN OF HOME
 
 
