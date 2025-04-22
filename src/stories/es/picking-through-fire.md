@@ -243,9 +243,6 @@ body_copy: >-
   “No me vendan sueños”, dijo.
 
 
-  {% photoExperience { "storyId": "dumping", "lang": lang or "en" } %}
-
-
   {% inlinePhoto "picking-through-fire", 1, lang %}
 image: /assets/img/uploads/drone_dump.jpg
 ---
