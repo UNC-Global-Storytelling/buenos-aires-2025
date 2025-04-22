@@ -39,6 +39,9 @@ body_copy: >-
   “I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working,” Orellana said. 
 
 
+  {% pullQuote { "quote": "I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working.", "attribution": "Orellana", "role": "Rappi driver" } %}
+
+
   Gig economy has become a central component for many people in Argentina to survive the economic crisis that has been haunting the country for over 100 years. And now with the new president imposing austerity measures to control the economy the ranks of the gig economy workers are swelling adding to the chaos and competition for extra money. It remains to be seen whether President Javier Milei’s cuts can create a more stable economy or not. 
 
 
