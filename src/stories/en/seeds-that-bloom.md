@@ -13,19 +13,17 @@ uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
 body_copy: >-
-  {% pullQuote {   "quote": "The thing I like the most that is the most
-  beautiful is all the knowledge I’ve acquired,” he said. “I \[like] being able
-  to help not just others in Rodrigo Bueno but others throughout the country as
-  well.",   "attribution": "Diego Armando",   "Rodrigo Bueno Urbanization
-  project leader": "" } %}
+  {% pullQuote quote="The thing I like the most that is the most beautiful is
+  all the knowledge I’ve acquired,” he said. “I \[like] being able to help not
+  just others in Rodrigo Bueno but others throughout the country as well."
+  attribution="Diego Armando" role="Rodrigo Bueno Urbanization project leader"
+  %}
 
 
-  {% pullQuote {  "quote": "La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces.",   "attribution": "Ángela Oviedo",   "role": "Housekeeper" } %}
+  {% pullQuote quote="La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces." attribution="Ángela Oviedo" role="Housekeeper" %}
 
 
-  {% pullQuote {   "quote": “Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy. There are no material things that give you that trust in life and that joy."  "attribution": "Padre Pedro",   "Priest": "" } %}
-
-
+  {% pullQuote quote="Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy. There are no material things that give you that trust in life and that joy." attribution="Padre Pedro" role="Priest" %}
 
 
   {% timeline %}
