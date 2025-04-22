@@ -5,26 +5,34 @@
     {
       "photo": "/assets/img/uploads/denman_in-line_ba-1.jpg",
       "order": 1,
-      "caption_en": "english caption 1",
-      "caption_es": "spanish caption 1",
-      "alt_en": "english alt 1",
-      "alt_es": "spanish alt 1"
+      "caption_en": "An Italian flag flies outside the Italian consulate on Thursday, March 13, 2025, in Buenos Aires, Argentina.",
+      "caption_es": "Una bandera italiana ondea afuera del consulado italiano el jueves 13 de marzo de 2025, en Buenos Aires, Argentina.",
+      "alt_en": "An Italian flag flies outside the Italian consulate.",
+      "alt_es": "Una bandera italiana ondea afuera del consulado italiano."
     },
     {
       "photo": "/assets/img/uploads/denman_in-line_ba-2.jpg",
       "order": 1,
-      "caption_en": "English caption 2",
-      "caption_es": "spanish caption 2",
-      "alt_en": "english alt 2",
-      "alt_es": "spanish alt 2"
+      "caption_en": "\"In memory of all people who were victims of genocidal violence for racial, religious, or political reasons, in their homeland or in their adopted country,\" Visitors sit in a memorial listening to stories that honor victims of genocidal violence at the Museum of Immigration in Buenos Aires, on Thursday, March 13, 2025.",
+      "caption_es": "&quot;A la memoria de todas las personas que fueron víctimas de la violencia genocida por motivos raciales, religiosos o políticos, en la patria de origen o en la de adopción, &quot; Los visitantes se sientan en un monumento escuchando historias que honran a las víctimas de la violencia genocida en el Museo de la Inmigración en Buenos Aires, el jueves 13 de marzo de 2025.",
+      "alt_en": "Visitors sit in a memorial listening to stories that honor victims of worldwide genocidal violence.",
+      "alt_es": "Los visitantes se sientan en un monumento escuchando historias que honran a las víctimas de la violencia genocida mundial."
     },
     {
       "photo": "/assets/img/uploads/denman_in-line_ba-3.jpg",
       "order": 3,
-      "caption_en": "english caption 3",
-      "caption_es": "spanish caption 3",
-      "alt_en": "english alt 3",
-      "alt_es": "spanish alt 3"
+      "caption_en": "A \"Migraciones\" (Immigration) van is parked outside the Museum of Immigration in Buenos Aires, Argentina, on Thursday, March 13, 2025. A historical photograph of immigrants is displayed on a banner in the background.",
+      "caption_es": "Una camioneta de Migraciones está estacionada afuera del Museo de la Inmigración en Buenos Aires, Argentina, el jueves 13 de marzo de 2025. Una fotografía histórica de inmigrantes se  muestra en una pancarta al fondo.",
+      "alt_en": "A Migraciones van is parked outside the Museum of Immigration.",
+      "alt_es": "Una camioneta de Migraciones está estacionada afuera del Museo de la Inmigración."
+    },
+    {
+      "photo": "/assets/img/uploads/inline4.jpg",
+      "caption_en": "Visitors view a recreation of immigration dormitory bunks at the Museum of Immigration in Buenos Aires, Argentina, on Thursday, March 13, 2025. Historical photographs displayed on the wall document the immigrant experience.",
+      "order": 4,
+      "alt_en": "A recreation of immigration dormitory bunks at the Museum of Immigration.",
+      "alt_es": "Una recreación de las literas de los dormitorios de inmigrantes en el Museo de la Inmigración.",
+      "caption_es": "Los visitantes observan una recreación de las literas de los dormitorios de inmigrantes en el Museo de la Inmigración en Buenos Aires, Argentina, el jueves 13 de marzo de 2025. Fotografías históricas exhibidas en la pared documentan la experiencia de los inmigrantes."
     }
   ]
 }
