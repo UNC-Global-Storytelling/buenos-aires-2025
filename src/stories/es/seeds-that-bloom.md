@@ -150,10 +150,10 @@ body_copy: >-
   > “Compartir la vida con los pobres es un regalo, porque estoy convencido de que ellos tienen una confianza en Dios y una alegría de vivir que no se puede comprar,” dijo el Padre Pedro. “No hay cosas materiales que te den esa confianza en la vida y esa alegría.”
 
 
-  ### **EL COMEDOR**
+  ## **EL COMEDOR**
 
 
-  En el lado opuesto de Yma Sumac, a solo unas cuadras de donde vive Ángela Oviedo, hay un hogar lleno de comida y familia. Adentro, una gran cocina donde mujeres cocinan y se preparan para una noche agitada. En el centro, una mujer con delantal color bordó: Rosa de la Cruz.
+  > En el lado opuesto de Yma Sumac, a solo unas cuadras de donde vive Ángela Oviedo, hay un hogar lleno de comida y familia. Adentro, una gran cocina donde mujeres cocinan y se preparan para una noche agitada. En el centro, una mujer con delantal color bordó: Rosa de la Cruz.
 
 
   De la Cruz es otra residente de larga data que vive en el barrio desde 1999 y actualmente reside con sus tres hijas. En 2020, fue la impulsora del Comedor del Centro de Adulto Mayor, una cocina comunitaria creada para ofrecer comidas frescas a personas mayores durante la pandemia del COVID-19.
@@ -168,6 +168,10 @@ body_copy: >-
 
   Para suplir esa carencia, de la Cruz prepara comidas adicionales para vender y usa los ingresos para comprar más alimentos. A pesar de los desafíos financieros y las limitaciones gubernamentales, el comedor sigue firme.
 
+
+  > “Siento mucha satisfacción porque creo que es muy importante que los adultos tengan un plato de comida los fines de semana, porque la mayoría están solos,” dijo de la Cruz.
+
+  >
 
   > {% pullQuote { "quote": "Siento mucha satisfacción porque creo que es muy importante que los adultos tengan un plato de comida los fines de semana, porque la mayoría están solos.", "attribution": "Rosa de la Cruz" } %}
 
