@@ -54,6 +54,18 @@ en:
         moves with intention—each step toward another space where connection,
         not currency, keeps him going, especially in a city where pesos lose
         value faster than memories fade.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
+      order: 5
+      caption_en: Rixner never planned on adding a weekly yoga class to his schedule,
+        but when a group of older women asked him to teach, he shifted
+        everything. Now, every Thursday at 4 p.m., he shows up—because some
+        invitations are too full of heart to turn down.
+      caption_es: Rixner nunca pensó en añadir una clase semanal de yoga a su horario,
+        pero cuando un grupo de mujeres mayores le pidió que enseñara,
+        reorganizó todo. Ahora, cada jueves a las 4 p.m., se presenta—porque hay
+        invitaciones que vienen tan llenas de corazón que no se pueden rechazar.
+      alt_en: Rixner and women squatting.
+      alt_es: Rixner y mujeres en cuclillas.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
