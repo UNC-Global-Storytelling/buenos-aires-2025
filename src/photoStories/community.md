@@ -21,10 +21,9 @@ en:
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-2.jpg
       order: 2
       caption_en: Rodrigo Bueno is divided into two sides by Yma Sumac, one of the
-        main roads in the barrio. On one side is the barrio’s original informal
-        portion, referred to as the historical section. On the other is a series
-        of government-sponsored housing intended to improve the living
-        conditions of residents.
+        main roads in the barrio. On one side is the barrio’s informal, or
+        historical section. On the other is government-sponsored housing
+        intended to improve the living conditions of residents.
       caption_es: Rodrigo Bueno está dividido en dos partes por Yma Sumac, una de las
         principales vías del barrio. Por un lado está la parte informal original
         del barrio, conocida como la parte histórica. En el otro lado hay una
