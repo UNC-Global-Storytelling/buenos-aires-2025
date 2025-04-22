@@ -17,6 +17,12 @@
   --color-brown: #65493E;
 }
 
+.blue-text {
+  color: var(--color-blue);
+}
+.green-text {
+  color: var(--color-green);
+}
 h1 {
   font-size: 3.875rem; /* 62px */
   font-weight: bold;
@@ -132,6 +138,30 @@ caption bold {
 .story-content {
   /* Base styling */
   font-family: var(--font-lora);
+}
+
+.story-content p {
+  margin-bottom: 1.5rem; /* Adjust this value to control spacing */
+}
+
+.story-content > p:first-of-type {
+  line-height: 1.6;
+  position: relative;
+  text-indent: 0; /* reset any weird browser defaults */
+}
+
+.story-content > p:first-of-type::first-letter {
+  font-size: 4rem;
+  color: var(--color-green);
+  float: left;
+  margin-right: 0.25em; /* slightly less space for tighter fit */
+  font-weight: 400;
+  line-height: 0.6;
+  margin-top: -0.3em;
+}
+
+.story-content > p:first-of-type::first-line {
+  padding-left: 0.05em; /* nudges the text line left to fix gap */
 }
 
 /* video styling, make it 120% of the parent width and center it */
@@ -391,6 +421,13 @@ body .story-content .interactive-container {
     width: 100%; /* Full width on mobile */
     left: 0; /* Reset left position */
     transform: none; /* Reset transform */
+  }
+  body .story-content .interactive-container {
+    width: 100%; /* Full width on mobile */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+    margin-top: 1rem; /* Adjust margin for mobile */
+    margin-bottom: 1rem; /* Adjust margin for mobile */
   }
   .video-container {
     width: 100%; /* Full width on mobile */
