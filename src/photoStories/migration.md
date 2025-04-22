@@ -15,6 +15,12 @@ en:
       caption_es: spa
       alt_en: cap
       alt_es: pac
+    - src: /assets/img/uploads/20240313_denman_migration_ba-3.jpg
+      order: 3
+      caption_en: eng
+      caption_es: spa
+      alt_en: cap
+      alt_es: pac
 es:
   id: migration
   title: Spanish Title
