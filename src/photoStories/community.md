@@ -5,11 +5,10 @@ en:
   photos:
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-1.jpg
       order: 1
-      caption_en: Barrio Rodrigo Bueno originated as an informal settlement on the
-        Eastern edge of Buenos Aires. Traditionally disconnected from the
-        greater city, recent government efforts have prompted the neighborhood’s
-        integration with the surrounding areas, triggering a new era for the
-        barrio.
+      caption_en: Rodrigo Bueno began as an informal settlement on Buenos Aires'
+        eastern edge. Long isolated from the city, recent government efforts are
+        now integrating the neighborhood with surrounding areas, ushering in a
+        new era for the barrio.
       caption_es: El Barrio Rodrigo Bueno se originó como un asentamiento informal en
         la periferia este de Buenos Aires. Tradicionalmente desconectado de la
         gran ciudad, las recientes iniciativas del gobierno han impulsado la
