@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/assets/styles/index.css">
   <link rel="stylesheet" href="/assets/styles/override.css">
   <link rel="stylesheet" href="/assets/styles/aboutstyle.css">
+  <link rel="icon" href="/assets/img/almas-al-viento-favicon.png" type="image/png">
   <style>
     .gradient-overlay::before {
       content: "";
@@ -41,7 +42,7 @@
 
       <!-- Logo -->
   <a href="/{{ currentLang }}/" class="flex items-center">
-  <img src="/assets/img/uploads/almas-logo-resize.svg" alt="Logo" class="h-16">
+  <img src="/assets/img/almas-logo-resize.svg" alt="Logo" class="h-16">
   </a>
 
       <!-- Navigation -->
@@ -113,18 +114,45 @@
     {{ content | safe }}
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-[#8D926E] text-white py-4">
-    <div class="max-w-7xl mx-auto flex items-center justify-between px-4">
-      <div class="font-semibold">Logo</div>
-      <ul class="flex space-x-6 text-sm">
-        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#" class="font-semibold">About Hussman</a></li>
-      </ul>
+<footer class="bg-[#060707] text-white py-6">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center justify-between gap-6">
+    
+    <!-- Logos on the left -->
+    <div class="flex items-center gap-4 md:gap-6">
+      <a href="/" aria-label="Home" class="inline-block">
+        <img src="/assets/img/almas-logo-resize.svg" alt="Almas al Viento Logo" class="h-10 md:h-12">
+      </a>
+      <a href="https://globalstorytelling.unc.edu/" target="_blank" rel="noopener" aria-label="Global Storytelling" class="inline-block">
+        <img src="/assets/img/global-storytelling.png" alt="Global Story Logo" class="h-10 md:h-12">
+      </a>
     </div>
-  </footer>
+
+    <!-- Right section: Socials + About -->
+    <div class="flex items-center gap-6">
+      <!-- Social icons -->
+      <div class="flex space-x-6 text-xl">
+        <a href="https://www.instagram.com/uncglobalstory/" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-gray-400">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/unc-global-storytelling/" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-gray-400">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/uncglobalstory/" target="_blank" rel="noopener" aria-label="Facebook" class="hover:text-gray-400">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+
+      <!-- About link -->
+      <div class="text-sm md:text-base font-semibold">
+        <a href="/about" class="hover:underline">About</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6 text-center text-xs text-gray-400">
+    © 2025 UNC Global Storytelling
+  </div>
+</footer>
 
   <script src="/assets/js/lightsOut.js"></script>
 </body>
