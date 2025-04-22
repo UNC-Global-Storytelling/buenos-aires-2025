@@ -13,10 +13,10 @@ uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
 body_copy: >-
-  {% timeline %}
-
-
-  En un suburbio de Buenos Aires, Argentina, caminos de tierra rodean un barrio argentino de dos caras, dividido únicamente por una calle: Yma Sumac. Nombrada en honor a una cantante peruana, su nombre significa "qué hermosa" en quechua.​
+  En un suburbio de Buenos Aires, Argentina, caminos de tierra rodean un barrio
+  argentino de dos caras, dividido únicamente por una calle: Yma Sumac. Nombrada
+  en honor a una cantante peruana, su nombre significa "qué hermosa" en
+  quechua.​
 
 
   En el lado izquierdo de Yma Sumac, las paredes y techos de ladrillo rojo y blanco están deteriorados. Algunas familias que viven allí no tienen techo sobre sus cabezas. Su única forma de protección en mal tiempo es una lona negra colgada a siete pies de altura.​
@@ -71,6 +71,9 @@ body_copy: >-
 
 
   Queda por ver si este progreso continuará durante el mandato del presidente Javier Milei o cómo sus esfuerzos por recortar programas públicos afectarán a personas como Oviedo. Aun así, las mujeres del barrio no están esperando que la ciudad ni el gobierno federal las ayuden a mejorar su situación: están tomando medidas activas para transformar su comunidad ahora.
+
+
+  {% timeline %}
 
 
   ### **LA VIVERA**
