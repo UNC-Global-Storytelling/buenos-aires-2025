@@ -215,7 +215,7 @@ body_copy: >-
   Now that companies can buy raw materials cheaper from other countries, waste pickers have an incentive to turn to La Quema to get paid based on the amount of material each cartonero brings to The Indian.
 
 
-  {% pullQuote quote="A government like Milei’s, that focuses on balancing the books, all the doors start to close. Everything becomes obstacles, restrictions." attribution="Marcelo Santiago Viagra" role="Recycler at Open Sky" %}
+  {% pullQuote { "quote": "A government like Milei’s, that focuses on balancing the books, all the doors start to close. Everything becomes obstacles, restrictions." , "attribution": "Marcelo Santiago Viagra", "role": "Recycler at Open Sky" } %}
 
 
   Cooperatives like Open Sky symbolize hope for cartoneros in La Quema and those picking trash on the streets of the City of Buenos Aires. However, cooperatives have limits on how many workers they can employ. The City of Buenos Aires currently holds contracts with 12 cooperatives, who formally employs 6,500 recyclers and are not currently expanding.
