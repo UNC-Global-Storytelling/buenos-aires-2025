@@ -94,7 +94,7 @@ en:
     - order: 8
       src: /assets/img/uploads/20250421_-bulris_communityfinal-8.jpg
       caption_en: The woman of La Vivera Orgánica, led by co-founder Elizabeth Cuenca,
-        unload a delivery of plants. The garden 's staff is composed entirely of
+        unload a delivery of plants. The garden's staff is composed entirely of
         women.
       caption_es: Las mujeres, dirigidas por Elizabeth Cuenca, cofundadora de La
         Vivera Orgánica, descargan una entrega de plantas.
