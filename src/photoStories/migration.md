@@ -57,10 +57,18 @@ en:
         2025 (abajo).
     - src: /assets/img/uploads/story-4.jpg
       order: 4
-      caption_en: eng
-      caption_es: spa
-      alt_en: cap
-      alt_es: pac
+      caption_en: Jhessica, 25, playing her violin in San Telmo, Buenos Aires,
+        Argentina, on Sunday, March 9, 2025. She brought this item with her from
+        Venezuela. Jhessica has been in Buenos Aires for 3 years.
+      caption_es: Jhessica, de 25 años, tocando su violín en San Telmo, Buenos Aires,
+        Argentina, el domingo 9 de marzo de 2025. Trajo este objeto desde
+        Venezuela. Jhessica lleva tres años en Buenos Aires.
+      alt_en: A close-up of hands playing a violin (left) alongside a portrait of a
+        female violinist holding her instrument in San Telmo, Buenos Aires,
+        Argentina, on Sunday, March 9, 2025 (right).
+      alt_es: Un primer plano de unas manos tocando un violín (izquierda) junto a un
+        retrato de una violinista sosteniendo su instrumento en San Telmo,
+        Buenos Aires, Argentina, el domingo 9 de marzo de 2025 (derecha).
     - src: /assets/img/uploads/20240313_denman_migration_ba-5.jpg
       order: 5
       caption_en: eng
