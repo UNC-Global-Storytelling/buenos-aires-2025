@@ -179,6 +179,20 @@ en:
         mueve—arraigada en años de yoga, moldeada por el pulso del tango. No
         enseña para perfeccionar la forma, sino para profundizar la sensación.
         Para él, la técnica es una herramienta, no el objetivo.
+    - order: 15
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-15.jpg
+      caption_es: La mayoría de los alumnos llegan como viajeros—curiosos, con jet
+        lag, quizás un poco inseguros. Pero para Rixner, cuya vida se desarrolla
+        en una economía marcada por el cambio constante, el tango es más que
+        tradición. Con cada paso, ofrece no solo danza, sino conexión, confianza
+        y una historia que vale la pena contar.
+      alt_es: Ayudando a sus clientes a bailar.
+      alt_en: Helping his clients dance.
+      caption_en: Most students arrive as travelers—curious, jet-lagged, maybe a
+        little unsure. But for Rixner, whose life unfolds in an economy marked
+        by constant flux, tango is more than tradition. With every step, he
+        offers not just dance, but connection, confidence, and a story worth
+        retelling.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
