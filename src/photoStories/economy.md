@@ -115,6 +115,17 @@ en:
         his father brings to the dance floor.
       alt_en: Rixner stares in space.
       alt_es: Rixner mira fijamente al espacio.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle.jpg
+      order: 10
+      caption_es: Club Atlético Platense. Un nuevo escenario. Un ritmo distinto. Desde
+        las calles de Buenos Aires hasta la cancha, padre e hijo persiguen la
+        pasión en sus propios tiempos. No comparten los reflectores, pero se
+        mueven en sincronía, siempre.
+      caption_en: Club Atlético Platense. A new stage. A different rhythm. From Buenos
+        Aires streets to the pitch, father and son chase passion in their own
+        time zones. They do not share a spotlight—but they move in sync, always.
+      alt_en: Soccer game online.
+      alt_es: " Juego de fútbol en línea."
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
