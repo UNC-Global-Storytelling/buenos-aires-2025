@@ -156,13 +156,13 @@ body_copy: >-
   Sakatumba, otra banda de neo-rock, describe su música como la del típico joven argentino de 23 años, arruinado y preocupado por el futuro. Buenos Vampiros, de Mar del Plata, que debutará este año en Europa, explora la tensión entre la luz y la oscuridad tanto en su sonido como en sus temas. Su canción “Desmotivada” capta los sentimientos de los jóvenes “desmotivados, tristes y aburridos.” 
 
 
-  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones -como la ferozmente satírica «¡Yankees de Merda!» - se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
+  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Merda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
 
 
   (FOTOGRAFÍA AQUÍ)
 
 
-  Pero el "under" no se define por un sonido o un estilo. Donde Fama y Guita optan por la ironía y el volumen, Lola se inclina por la vulnerabilidad y el brillo.
+  Pero el under no se define por un sonido o un estilo. Donde Fama y Guita optan por la ironía y el volumen, Lola se inclina por la vulnerabilidad y el brillo.
 
 
   “Muchas de las bandas — no la mía, pero sí muchas de las de la escena under — on bastante pesimistas,” dijo Lola. "Sus letras tienden a reflejar eso.... Creo que lo peor y más brutal del gobierno de Milei con respecto a la música no es la censura de Lali. Es cómo nos han dejado tan pobres y luchadores que ni siquiera podemos hacer música.
