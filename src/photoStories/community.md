@@ -3,42 +3,36 @@ en:
   id: community
   title: Life in the Barrio
   photos:
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-1.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitylast-1.jpg
       order: 1
-      caption_en: Barrio Rodrigo Bueno originated as an informal settlement on the
-        Eastern edge of Buenos Aires. Established in the 1980s, the community
-        has a large migrant population and was traditionally disconnected from
-        the greater city. Government programs prompted the neighborhood’s
-        integration with the surrounding areas, triggering a new era for the
-        barrio.
-      caption_es: El Barrio Rodrigo Bueno se originó como asentamiento informal en la
-        periferia oriental de Buenos Aires. Establecido en la década de 1980, la
-        comunidad tiene una gran población inmigrante y tradicionalmente estaba
-        desconectada de la gran ciudad. Los programas gubernamentales impulsaron
-        la integración del barrio con las zonas circundantes, desencadenando una
+      caption_en: Rodrigo Bueno began as an informal settlement on Buenos Aires'
+        eastern edge. Long isolated from the city, recent government efforts are
+        now integrating the neighborhood with surrounding areas, ushering in a
+        new era for the barrio.
+      caption_es: El Barrio Rodrigo Bueno se originó como un asentamiento informal en
+        la periferia este de Buenos Aires. Tradicionalmente desconectado de la
+        gran ciudad, las recientes iniciativas del gobierno han impulsado la
+        integración del barrio con las zonas circundantes, desencadenando una
         nueva era para el barrio.
       alt_en: The landscape of a city sits in the distance, with a small neighborhood
         in the foreground.
       alt_es: A lo lejos se ve el paisaje de una ciudad, con un pequeño barrio en
         primer plano.
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-2.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitylast-2.jpg
       order: 2
       caption_en: Rodrigo Bueno is divided into two sides by Yma Sumac, one of the
-        main roads in the barrio. On one side is the barrio’s original informal
-        portion, referred to as the historical section. On the other is a series
-        of government-sponsored housing intended to improve the living
-        conditions of residents.
+        main roads in the barrio. On one side is the barrio’s informal, or
+        historical section. On the other is government-sponsored housing
+        intended to improve the living conditions of residents.
       caption_es: Rodrigo Bueno está dividido en dos partes por Yma Sumac, una de las
         principales vías del barrio. Por un lado está la parte informal original
         del barrio, conocida como la parte histórica. En el otro lado hay una
         serie de viviendas subvencionadas por el gobierno para mejorar las
         condiciones de vida de los residentes.
-      alt_en: Two photos sit side by side. On the left, a building sits with a
-        construction truck in front. On the right, a brick apartment building
-        sits.
-      alt_es: Hay dos fotos una al lado de la otra. A la izquierda, un edificio con un
-        camión de obras delante. A la derecha, un edificio de apartamentos de
-        ladrillo.
+      alt_en: "A woman sits in the window of a building with a construction truck in
+        front. "
+      alt_es: "Una mujer sentada en la ventana de un edificio con un camión de obras
+        delante. "
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-3.jpg
       order: 3
       caption_en: Elena Vera leans out of the window of her home in the historic
@@ -62,7 +56,7 @@ en:
         landscapes and the photo of a child.
       alt_es: Una pared está decorada con una plétora de adornos, como cuadros de
         paisajes y la foto de un niño.
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-5.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitypatch-1.jpg
       order: 5
       caption_en: Local children play football on a concrete pad in the middle of the
         neighborhood. Pickup matches are a common sight throughout the
@@ -74,33 +68,36 @@ en:
       alt_es: Unos niños juegan al fútbol en una pista de cemento.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-6.jpg
       order: 6
-      caption_en: Martha Caillahua, a member of La Vivera’s staff, poses for a
-        portrait while watering the garden’s plants. La Vivera is a community
-        garden in the heart of Rodrigo Bueno staffed entirely by women.
-      caption_es: Martha Caillahua, miembro del personal de La Vivera, posa para un
-        retrato mientras riega las plantas del huerto. La Vivera es un huerto
-        comunitario en el corazón de Rodrigo Bueno atendido íntegramente por
-        mujeres.
+      caption_en: Martha Caillahua, a member of La Vivera Orgánica's staff, poses for
+        a portrait while watering the garden’s plants. La Vivera Orgánica is a
+        community garden in the heart of Rodrigo Bueno staffed entirely by
+        women.
+      caption_es: Martha Caillahua, miembro del personal de La Vivera Orgánica, posa
+        para un retrato mientras riega las plantas del huerto. La Vivera
+        Orgánica es un huerto comunitario en el corazón de Rodrigo Bueno
+        atendido íntegramente por mujeres.
       alt_en: A woman stands confidently in a garden, surrounded by greenery.
       alt_es: Una mujer está de pie en un jardín, rodeada de vegetación.
     - order: 7
       src: /assets/img/uploads/20250421_-bulris_communityfinal-7.jpg
       caption_en: Ángela Oviedo prepares an order of plants for delivery. Oviedo has
         lived in Rodrigo Bueno since 1999 after migrating to Buenos Aires from
-        Peru, and has worked at La Vivera as a second job for the past seven
-        years.
+        Peru, and has worked at La Vivera Orgánica as a second job for the past
+        seven years.
       caption_es: Ángela Oviedo prepara un pedido de plantas para su entrega. Oviedo
         vive en Rodrigo Bueno desde 1999, tras emigrar a Buenos Aires desde
-        Perú, y trabaja en La Vivera como segundo empleo desde hace siete años.
+        Perú, y trabaja en La Vivera Orgánica como segundo empleo desde hace
+        siete años.
       alt_en: Two women stand behind a desk. One woman looks intensely at the other.
       alt_es: Dos mujeres de pie detrás de un escritorio. Una mira intensamente a la
         otra.
     - order: 8
       src: /assets/img/uploads/20250421_-bulris_communityfinal-8.jpg
-      caption_en: The woman of La Vivera, led by co-founder Elizabeth Cuenca, unload a
-        delivery of plants. The garden 's staff is composed entirely of women.
+      caption_en: The woman of La Vivera Orgánica, led by co-founder Elizabeth Cuenca,
+        unload a delivery of plants. The garden 's staff is composed entirely of
+        women.
       caption_es: Las mujeres, dirigidas por Elizabeth Cuenca, cofundadora de La
-        Vivera, descargan una entrega de plantas.
+        Vivera Orgánica, descargan una entrega de plantas.
       alt_en: A group of women unload bags of plants from a white van.
       alt_es: Un grupo de mujeres descarga bolsas de plantas de una furgoneta blanca.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-9.jpg
@@ -112,8 +109,11 @@ en:
       alt_es: Una huella de pata queda impresa en el hormigón.
     - order: 10
       src: /assets/img/uploads/20250421_-bulris_communityfinal-10.jpg
-      caption_en: A dog sunbathes in the home of Rosa de la Cruz.
-      caption_es: Un perro toma el sol en casa de Rosa de la Cruz.
+      caption_en: As part of urbanization efforts, residences in Rodrigo Bueno now
+        have street addresses, aiding in navigation and emergencies.
+      caption_es: Como parte de los esfuerzos de urbanización, las residencias de
+        Rodrigo Bueno ahora tienen direcciones de calles, lo que ayuda en la
+        navegación y las emergencias.
       alt_en: A dog lays down in a house.
       alt_es: Un perro se tumba en una casa.
     - order: 11
@@ -138,18 +138,24 @@ en:
       alt_es: Un grupo de personas se sienta alrededor de una mesa para comer.
     - order: 12
       src: /assets/img/uploads/20250421_-bulris_communityfinal-1-2.jpg
-      caption_en: A papa rellenas is prepared in the Comedor del Centro de Adulto Mayor.
-      caption_es: En el Comedor del Centro de Adulto Mayor se prepara una papa rellena.
+      caption_en: A papa rellenas is prepared in the Comedor del Centro de Adulto
+        Mayor. The soup kitchen feeds around 80 retirees per week.
+      caption_es: Se prepara una papa rellena en el Comedor del Centro de Adulto
+        Mayor. El comedor da de comer a unos 80 jubilados a la semana.
       alt_es: Un par de manos utilizan una cuchara para colocar carne en una patata.
       alt_en: A pair of hands use a spoon to place beef into a potato.
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-2-2.jpg
       order: 14
-      caption_en: The historic section of Barrio Rodrigo Bueno sits near the Eastern
-        edge of Buenos Aires.
+      caption_en: "The historic section of Barrio Rodrigo Bueno sits near the Eastern
+        edge of Buenos Aires. Nearby land is poised to become a luxury
+        development, leaving the future of the community uncertain. "
       caption_es: "El histórico Barrio Rodrigo Bueno se encuentra en el extremo
-        oriental de Buenos Aires. "
+        oriental de Buenos Aires. Los terrenos cercanos están a punto de
+        convertirse en una urbanización de lujo, por lo que el futuro de la
+        comunidad es incierto. "
       alt_en: A group of buildings lay between a green field and blue sky.
       alt_es: Un grupo de edificios se extiende entre un campo verde y el cielo azul.
 es:
   id: community
+  title: ""
 ---

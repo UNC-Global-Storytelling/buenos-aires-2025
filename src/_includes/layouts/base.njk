@@ -38,13 +38,13 @@
   <header class="absolute top-0 left-0 w-full z-50 bg-transparent text-white">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-4 py-6">
 
-      <!-- Logo -->
-    <a href="/{{ currentLang }}/" class="flex items-center">
-      <img src="/assets/img/almas-logo-resize.svg" alt="Logo" class="h-16">
-    </a>
+      <!-- Logo (shown on all devices) -->
+      <a href="/{{ currentLang }}/" class="flex items-center">
+        <img src="/assets/img/almas-logo-resize.svg" alt="Logo" class="h-16 md:h-16">
+      </a>
 
-      <!-- Navigation -->
-      <nav aria-label="Main navigation">
+      <!-- Middle section - Desktop Navigation (hidden on mobile) -->
+      <nav class="hidden md:flex items-center">
         <ul class="flex space-x-6 text-base font-bold">
           {% if currentLang == "en" %}
             {% set menuStories = collections.storiesEN %}
@@ -60,12 +60,14 @@
         </ul>
       </nav>
 
-      <!-- About + Language Toggle -->
+      <!-- Right section - About + Language toggle (desktop) / Hamburger (mobile) -->
       <div class="flex items-center space-x-4 text-base font-bold">
-        <a href="/{{ currentLang }}/about/" class="hover:underline">
+        <!-- About link (desktop only) -->
+        <a href="/{{ currentLang }}/about/" class="hidden md:inline hover:underline">
           {% if currentLang == "en" %}About{% else %}Acerca de{% endif %}
         </a>
 
+        <!-- Language Toggle (shown on all devices) -->
         {% if currentLang == "en" %}
           {% set otherLang = "es" %}
         {% else %}
@@ -73,6 +75,7 @@
         {% endif %}
         {% set translatedUrl = "/" ~ otherLang ~ "/" %}
 
+        <!-- Story translation URL handling -->
         {% if '/stories/' in page.url %}
           {% set urlSegments = page.url.split('/') %}
           {% set storySlug = urlSegments[urlSegments.length - 1] or urlSegments[urlSegments.length - 2] %}
@@ -103,9 +106,53 @@
             <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-bold">ES</span>
           {% endif %}
         </div>
+
+        <!-- Hamburger button (mobile only) -->
+        <button id="mobile-menu-button" class="md:hidden flex items-center p-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
       </div>
     </div>
   </header>
+
+  <!-- Mobile menu overlay (moved to root level) -->
+  <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-95 z-[9999] transform translate-x-full transition-transform duration-300">
+    <!-- Close button -->
+    <div class="flex justify-end p-4">
+      <button id="close-menu-button" class="text-white p-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Mobile menu content -->
+    <div class="flex flex-col items-center overflow-y-auto h-full pt-8 pb-16 px-6">
+      <!-- Stories section -->
+      <h2 class="text-white text-2xl font-montserrat mb-6 border-b border-gray-700 pb-2 w-full text-center">
+        {% if currentLang == "es" %}Historias{% else %}Stories{% endif %}
+      </h2>
+      
+      <div class="flex flex-col items-center gap-4 mb-10">
+        {% if currentLang == "en" %}
+          {% for story in collections.storiesEN %}
+            <a href="{{ story.url }}" class="text-white text-xl font-lora hover:text-color-blue transition-colors">{{ story.data.title }}</a>
+          {% endfor %}
+        {% else %}
+          {% for story in collections.storiesES %}
+            <a href="{{ story.url }}" class="text-white text-xl font-lora hover:text-color-blue transition-colors">{{ story.data.title }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+      
+      <!-- About link -->
+      <a href="/{{ currentLang }}/about/" class="text-white text-2xl font-montserrat hover:text-color-blue transition-colors mb-10">
+        {% if currentLang == "es" %}Acerca de{% else %}About{% endif %}
+      </a>
+    </div>
+  </div>
 
   <!-- Content w/ gradient overlay -->
   <main class="flex-grow relative gradient-overlay">
@@ -152,7 +199,7 @@
   </div>
 
 </footer>
-
+  <script src="/assets/js/burgerMenu.js"></script>
   <script src="/assets/js/lightsOut.js"></script>
 </body>
 </html>

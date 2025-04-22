@@ -4,7 +4,7 @@ layout: layouts/base.njk
 <section class="relative h-[75vh]">
   <img src="{{ image }}" alt="" class="object-cover w-full h-full">
   <div class="absolute inset-0 flex items-center justify-center">
-    <h1 class="text-ivory font-lora md:text-5xl font-semibold text-center px-4">
+    <h1 class="text-ivory font-lora md:text-5xl font-semibold text-center px-4 text-shadow-prominent">
       {{ title }}
     </h1>
   </div>
@@ -107,16 +107,9 @@ layout: layouts/base.njk
 </div>
 <!-- More From section - Optimized with responsive grid -->
 <div class="mx-[5%] py-16">
-  <h2 class="text-3xl font-lora text-center mb-2">
-    {% if language == "es" %}Más de Buenos Aires 2025{% else %}More from Buenos Aires 2025{% endif %}
+  <h2 class="text-3xl font-montserrat blue-text text-center mb-2">
+    {% if language == "es" %}Más de Almas al Viento{% else %}More from Almas al Viento{% endif %}
   </h2>
-  <p class="text-center mb-10 max-w-2xl mx-auto text-gray-700">
-    {% if language == "es" %}
-      Descubre más historias.
-    {% else %}
-      Discover more stories.
-    {% endif %}
-  </p>
   
   <!-- Responsive grid: 1 column (mobile), 2 columns (tablet), 4 columns (desktop) -->
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -134,7 +127,7 @@ layout: layouts/base.njk
               style="background-image: url('{{ story.data.image }}');">
           </div>         
           <!-- Story title -->
-          <h3 class="absolute bottom-4 left-4 text-white text-xl font-lora font-bold drop-shadow-md">
+          <h3 class="absolute bottom-4 left-4 text-white text-xl font-lora font-bold text-shadow-prominent">
             {{ story.data.title }}
           </h3>
         </a>

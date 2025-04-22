@@ -7,15 +7,23 @@ video: '{% video {videoId: "816714697"} %}'
 {% block content %}
 
 <!-- Hero Section -->
-<div class="relative w-full overflow-hidden" style="height: 500px;">
-  <img src="/assets/img/uploads/GIGECON-TANGO.jpg" alt="Image 1" class="w-full h-full object-cover rounded-lg mb-4">
-  <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-center px-4">
-    <h1 class="text-white text-4xl md:text-5xl font-bold drop-shadow-md">
-      Almas al Viento
-    </h1>
-    <p class="text-white text-lg md:text-xl mt-4 max-w-2xl drop-shadow-md">
-      Los Argentinos Resisten los Vientos del Cambio Económico
-    </p>
+<!-- Hero Section -->
+<div class="relative w-full">
+  <video
+    autoplay
+    muted
+    playsinline
+    class="w-full h-full object-cover mb-4"
+    onended="this.pause(); this.currentTime = this.duration - 0.03;"
+  >
+    <source src="/assets/img/almas-al-viento-hero-vid.mp4" type="video/mp4">
+  </video>
+
+  <!-- Arrow icon for scroll cue -->
+  <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white drop-shadow" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
   </div>
 </div>
 
@@ -46,7 +54,7 @@ Argentina es una nación en una encrucijada, donde las drásticas reformas econ�
 
   <!-- Card 2 -->
   <a href="/stories/en/music-story/" class="card rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 bg-white absolute" style="top: 80px;">
-    <img src="/assets/img/uploads/DJI_0902.jpg" alt="Image 5" class="w-full h-full object-cover rounded-lg mb-4">
+    <img src="/assets/img/uploads/drone_dump.jpg" alt="Image 5" class="w-full h-full object-cover rounded-lg mb-4">
     <div class="text-overlay right">
       <div class="text-cards-padding">
         <h2 class="text-xl font-semibold mb-2">Escarbar entre las llamas</h2>
