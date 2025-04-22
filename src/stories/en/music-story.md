@@ -113,6 +113,9 @@ body_copy: >-
   Like so many others in Argentina’s underground scene, Lola’s using her music to preserve what the government is trying to erase.
 
 
+  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
+
+
   ## DEEP SADNESS
 
 
