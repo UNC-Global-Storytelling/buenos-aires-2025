@@ -187,6 +187,9 @@ body_copy: >-
   “I feel a lot of satisfaction because I think it’s very important that adults have a plate of food on the weekend because most of them are alone,” de la Cruz said. 
 
 
+  {% pullQuote { "quote": "I feel a lot of satisfaction because I think it’s very important that adults have a plate of food on the weekend because most of them are alone.", "attribution": "Rosa de la Cruz" } %}
+
+
   After hours of preparation, two white tables with red and white tablecloths are set outside the soup kitchen with chairs lining both sides. One by one, the team of cooks fills the potatoes with lettuce, meat, eggs, and olives before boiling them to create Papa Rellenas. Once those are ready, members of the Rodrigo Bueno community say grace and feast on the fresh meal. Yerba Mate tea is then brought out with Magdalena cookies for dessert. 
 
 
