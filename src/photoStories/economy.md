@@ -155,6 +155,18 @@ en:
         small space, they offer travelers and locals—many navigating rising
         costs and economic strain—a taste of tango’s heart, turning tradition
         into livelihood one step at a time.
+    - order: 13
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-13.jpg
+      caption_es: Antes de que comience la música, hay una calibración silenciosa—un
+        intercambio de respiración, postura y confianza. Para Rixner y Valeria,
+        enseñar tango desde casa no es solo un trabajo. Es un ritual de cuidado,
+        una forma de invitar a otros a algo que han construido durante años.
+      alt_es: Dando clase de tango.
+      alt_en: Giving tango lessons.
+      caption_en: Before the music begins, there is quiet calibration—an exchange of
+        breath, posture, and trust. For Rixner and Valeria, teaching tango from
+        home is not just a gig. It’s a ritual of care, a way of inviting others
+        into something they have spent years building together.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
