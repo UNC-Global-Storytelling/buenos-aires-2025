@@ -7,11 +7,11 @@ reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 body_copy: >-
   En un suburbio de Buenos Aires, Argentina, caminos de tierra rodean un barrio
   argentino de dos caras, dividido únicamente por una calle: Yma Sumac. Nombrada
