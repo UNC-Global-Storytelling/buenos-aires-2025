@@ -98,7 +98,7 @@ body_copy: >-
   As the sun rises, four women arrive every morning at 7 a.m. at La Vivera Orgánica, or “The Garden,” to serve the Barrio Rodrigo Bueno community. 
 
 
-  {% pullQuote {   "quote": “La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces,” "attribution": “Angela Oviedo“,   "role": “housekeeper“ } %}
+  {% pullQuote {   "quote": “La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces",   "attribution": "Ángela Oviedo",   "role": "Housekeeper" } %}
 
 
   In 2017, a small group of women from the neighborhood united to help transform their surroundings and recover traditions. Led by co-founder Elizabeth Cuenca, 52, the women started a community garden that grew into an agroecological nursery, growing over 25 species of vegetables and 50 species of native plants.
