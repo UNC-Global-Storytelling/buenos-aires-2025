@@ -146,6 +146,13 @@ h1{
   width: 15%;
 }
 
+@media (max-width: 768px) {
+  .buttonsize {
+    width: 20%;
+    height: auto;
+  }
+}
+
 
 
 
