@@ -41,6 +41,19 @@ en:
         — Matias Rixner
       alt_en: Tango dancing feet.
       alt_es: Pies bailando tango.
+    - src: /assets/img/uploads/gigecon_rixnertango_riddle-4.jpg
+      order: 4
+      alt_en: Rixner walking with his bag in the city.
+      alt_es: Rixner caminando con su bolso por la ciudad.
+      caption_es: "Entre actuaciones y clases privadas, los días se desdibujan. Pero
+        Rixner se mueve con intención: cada paso lo lleva a otro espacio donde
+        la conexión, no la moneda, lo mantiene en marcha, especialmente en una
+        ciudad donde el peso pierde valor más rápido que los recuerdos se
+        desvanecen."
+      caption_en: Between performances and private lessons, the days blur. But Rixner
+        moves with intention—each step toward another space where connection,
+        not currency, keeps him going, especially in a city where pesos lose
+        value faster than memories fade.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
