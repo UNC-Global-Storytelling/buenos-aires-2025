@@ -126,6 +126,20 @@ en:
         time zones. They do not share a spotlight—but they move in sync, always.
       alt_en: Soccer game online.
       alt_es: " Juego de fútbol en línea."
+    - order: 11
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-11.jpg
+      caption_en: In the quiet between steps, Rixner pauses—still, but never idle. The
+        work does not end when the music stops. In this home, he shares not just
+        space, but a rhythm of survival and expression with his roommate
+        Valeria. Their tango lessons unfold here, one student, one story at a
+        time.
+      alt_en: Rixner sitting and watching.
+      alt_es: Rixner sentado y mirando.
+      caption_es: En el silencio entre pasos, Rixner se detiene—quieto, pero nunca
+        inactivo. El trabajo no termina cuando la música se detiene. En este
+        hogar, comparte no solo el espacio, sino un ritmo de supervivencia y
+        expresión con su compañera de piso, Valeria. Sus clases de tango se
+        desarrollan aquí, un alumno, una historia a la vez.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
