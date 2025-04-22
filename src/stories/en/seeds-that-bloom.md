@@ -13,6 +13,10 @@ uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
 body_copy: >-
+  {% pullQuote {   "quote": "PLACE YOUR QUOTES IN THIS PULL
+  QUOTE",   "attribution": "",   "role": "" } %}
+
+
   {% timeline %}
 
 
