@@ -1,4 +1,14 @@
 {
   "title": "Dumping inline photos",
-  "storyId": "picking-through-fire"
+  "storyId": "picking-through-fire",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-4.jpg",
+      "order": 1,
+      "caption_en": "english",
+      "caption_es": "spanish",
+      "alt_en": "english",
+      "alt_es": "spanish"
+    }
+  ]
 }
