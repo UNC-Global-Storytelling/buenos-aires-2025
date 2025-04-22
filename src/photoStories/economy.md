@@ -89,6 +89,20 @@ en:
       caption_es: “El yoga me ayuda mucho con la parte física del tango—especialmente
         con el equilibrio, la conciencia corporal y el entendimiento tanto de mi
         cuerpo como del de mi pareja.” — Matías Rixner
+    - order: 8
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-18.jpg
+      caption_es: Antes de las clases de tango y las calles de la ciudad, estaba
+        esto—su hijo, su razón. Rixner lo llamó Salvador, en honor a una ciudad
+        ligada a las raíces de la capoeira. Hoy, con 19 años y jugando
+        profesionalmente en el Club Atlético Platense, Salvador sigue su propio
+        ritmo. Pero en este pequeño marco, nunca se ha ido del todo.
+      caption_en: Before tango lessons and city streets, there was this—his son, his
+        reason. Rixner named him Salvador, after a city tied to Capoeira’s
+        roots. Now 19 and playing professionally with Club Atlético Platense,
+        Salvador moves to his own rhythm. But in this small frame, he never
+        really left.
+      alt_en: Baby picture framed.
+      alt_es: Cuadro de bebé enmarcado.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
