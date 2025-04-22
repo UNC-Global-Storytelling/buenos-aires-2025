@@ -10,19 +10,19 @@ export default function () {
   
     <!-- Clickable Leaves -->
     <img 
-      src="/assets/img/uploads/Leaf-1 copy 2.png"
+      src="/assets/img/uploads/Leaf-1copy2.png"
       alt="Leaf 1 Copy 2"
       style="position: absolute; top: 43%; left: 28%; width: 10%; cursor: pointer;"
       onclick="showMultipleTexts(['text2017', 'text2021'])"
     />
     <img 
-      src="/assets/img/uploads/Leaf-1 copy 3.png"
+      src="/assets/img/uploads/Leaf-1copy3.png"
       alt="Leaf 1 Copy 3"
       style="position: absolute; top: 72%; left: 25%; width: 10%; cursor: pointer;"
       onclick="showText('text2019')"
     />
     <img 
-      src="/assets/img/uploads/Leaf-1 copy.png"
+      src="/assets/img/uploads/Leaf-1copy.png"
       alt="Leaf 1 Copy"
       style="position: absolute; top: 39%; left: 9%; width: 10%; cursor: pointer;"
       onclick="showText('text2016')"

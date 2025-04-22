@@ -3,42 +3,36 @@ en:
   id: community
   title: Life in the Barrio
   photos:
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-1.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitylast-1.jpg
       order: 1
-      caption_en: Barrio Rodrigo Bueno originated as an informal settlement on the
-        Eastern edge of Buenos Aires. Established in the 1980s, the community
-        has a large migrant population and was traditionally disconnected from
-        the greater city. Government programs prompted the neighborhood’s
-        integration with the surrounding areas, triggering a new era for the
-        barrio.
-      caption_es: El Barrio Rodrigo Bueno se originó como asentamiento informal en la
-        periferia oriental de Buenos Aires. Establecido en la década de 1980, la
-        comunidad tiene una gran población inmigrante y tradicionalmente estaba
-        desconectada de la gran ciudad. Los programas gubernamentales impulsaron
-        la integración del barrio con las zonas circundantes, desencadenando una
+      caption_en: Rodrigo Bueno began as an informal settlement on Buenos Aires'
+        eastern edge. Long isolated from the city, recent government efforts are
+        now integrating the neighborhood with surrounding areas, ushering in a
+        new era for the barrio.
+      caption_es: El Barrio Rodrigo Bueno se originó como un asentamiento informal en
+        la periferia este de Buenos Aires. Tradicionalmente desconectado de la
+        gran ciudad, las recientes iniciativas del gobierno han impulsado la
+        integración del barrio con las zonas circundantes, desencadenando una
         nueva era para el barrio.
       alt_en: The landscape of a city sits in the distance, with a small neighborhood
         in the foreground.
       alt_es: A lo lejos se ve el paisaje de una ciudad, con un pequeño barrio en
         primer plano.
-    - src: /assets/img/uploads/20250421_-bulris_communityfinal-2.jpg
+    - src: /assets/img/uploads/20250421_-bulris_communitylast-2.jpg
       order: 2
       caption_en: Rodrigo Bueno is divided into two sides by Yma Sumac, one of the
-        main roads in the barrio. On one side is the barrio’s original informal
-        portion, referred to as the historical section. On the other is a series
-        of government-sponsored housing intended to improve the living
-        conditions of residents.
+        main roads in the barrio. On one side is the barrio’s informal, or
+        historical section. On the other is government-sponsored housing
+        intended to improve the living conditions of residents.
       caption_es: Rodrigo Bueno está dividido en dos partes por Yma Sumac, una de las
         principales vías del barrio. Por un lado está la parte informal original
         del barrio, conocida como la parte histórica. En el otro lado hay una
         serie de viviendas subvencionadas por el gobierno para mejorar las
         condiciones de vida de los residentes.
-      alt_en: Two photos sit side by side. On the left, a building sits with a
-        construction truck in front. On the right, a brick apartment building
-        sits.
-      alt_es: Hay dos fotos una al lado de la otra. A la izquierda, un edificio con un
-        camión de obras delante. A la derecha, un edificio de apartamentos de
-        ladrillo.
+      alt_en: "A woman sits in the window of a building with a construction truck in
+        front. "
+      alt_es: "Una mujer sentada en la ventana de un edificio con un camión de obras
+        delante. "
     - src: /assets/img/uploads/20250421_-bulris_communityfinal-3.jpg
       order: 3
       caption_en: Elena Vera leans out of the window of her home in the historic
@@ -152,4 +146,5 @@ en:
       alt_es: Un grupo de edificios se extiende entre un campo verde y el cielo azul.
 es:
   id: community
+  title: ""
 ---

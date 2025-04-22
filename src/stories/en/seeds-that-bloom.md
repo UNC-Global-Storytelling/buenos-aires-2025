@@ -6,42 +6,26 @@ subtitle: How Working Hands Keep Barrio Rodrigo Bueno Alive
 reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
-photo_byline: Mckenzie Bulris
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
+photo_byline: McKenzie Bulris
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 body_copy: >-
-  {% pullQuote { "quote": "The thing I like the most that is the most beautiful
-  is all the knowledge I’ve acquired. I \[like] being able to help not just
-  others in Rodrigo Bueno but others throughout the country as well.",
-  "attribution": "Diego Armando", "role": "Rodrigo Bueno Urbanization project
-  leader" } %}
-
-  {% pullQuote { "quote": "La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces.", "attribution": "Ángela Oviedo", "role": "Housekeeper" } %}
-
-
-  {% pullQuote { "quote": "Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy. There are no material things that give you that trust in life and that joy.", "attribution": "Padre Pedro", "role": "Priest" } %}
-
-
-
-  {% timeline %}
-
-
-  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
-
-
-  {% inlinePhoto "seeds-that-bloom", 1, lang %}
-
-
-  In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided Argentine neighborhood contrasted by the sole divide of one street – Yma Sumac. Named after a Peruvian singer, her name means “how beautiful” in Quechua. 
+  In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided
+  Argentine neighborhood contrasted by the sole divide of one street – Yma
+  Sumac. Named after a Peruvian singer, her name means “how beautiful” in
+  Quechua. 
 
 
   On the left side of Yma Sumac, the red and white brick walls and roofs are dilapidated. Some families living there do not have a roof over their heads. Their only form of protection in bad weather is a black mesh tarp hung seven feet in the air. 
 
 
   The right side of Yma Sumac has newly built three-story brick buildings with a home on each level and balconies that accompany them. Families typically have one or two refrigerators and washers, unlike those across the street, who often wash their clothes by hand and lack modern appliances.
+
+
+  {% inlinePhoto "seeds-that-bloom", 1, lang %}
 
 
   In the middle of the neighborhood stands a modern municipal center and a clean park where young boys play pick-up soccer every night. Beyond the houses, past the main street, is the promenade: A concrete sidewalk that overlooks the River Plate and is a representation of Buenos Aires. 
@@ -63,6 +47,9 @@ body_copy: >-
 
 
   “I like living here in my neighborhood because I feel like I have more company, having a country, seeing my fellow countrymen,” she said. “Now even more, because my family is grown, and nothing would move me from here.” 
+
+
+  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
 
 
   Like Oviedo, many barrio residents emigrated from Perú and Paraguay. However, many do not share her positive outlook on their poor circumstances. Because of the severe poverty they face, the residents are socially and physically disconnected from their adjacent neighborhoods. Many parts of the barrio lack access to urban services, with high risks of crime and drug issues resulting in a heavy police presence. 
@@ -92,6 +79,9 @@ body_copy: >-
   It remains to be seen whether this progress will continue during President Javier Milei’s term or how his efforts to cut public programs will affect people like Oviedo. Regardless, the women of the barrio are not waiting for the city or the federal government to help them improve their situation – they are taking active measures to revamp their community now.
 
 
+  {% timeline %}
+
+
   ## LA VIVERA
 
 
@@ -107,7 +97,7 @@ body_copy: >-
   As the sun rises, four women arrive every morning at 7 a.m. at La Vivera Orgánica, or “The Garden,” to serve the Barrio Rodrigo Bueno community. 
 
 
-  “La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces," Oviedo said.
+  {% pullQuote { "quote": "La Vivera, which has a connection with the neighborhood, understood that having a nursery helps them to set up their small orchard, their gardens since the whole neighborhood has very nice and large spaces.", "attribution": "Ángela Oviedo", "role": "Housekeeper" } %}
 
 
   In 2017, a small group of women from the neighborhood united to help transform their surroundings and recover traditions. Led by co-founder Elizabeth Cuenca, 52, the women started a community garden that grew into an agroecological nursery, growing over 25 species of vegetables and 50 species of native plants.
@@ -116,7 +106,10 @@ body_copy: >-
   Every part of La Vivera has a deeper meaning – the name is feminine because everyone who works there is a woman. The friendship bond between the women is unique. 
 
 
-  "The relationship between all of us is magnificent,", Oviedo said.
+  {% inlinePhoto "seeds-that-bloom", 2, lang %}
+
+
+  "The relationship between all of us is magnificent," Oviedo said.
 
 
   Oviedo started working at the garden in 2017, a year and a half before the neighborhood’s urbanization. When she came to Argentina, she didn’t know how to plant in pots so she taught herself. Now she’s a pro—arranging plants in neat rows of four, keeping count of each new addition with a pink pen and a small piece of paper.  
@@ -149,7 +142,7 @@ body_copy: >-
   It has been a privilege for Armando to be a representative of a neighborhood in which he has lived so much of his life. 
 
 
-  “The thing I like the most that is the most beautiful is all the knowledge I’ve acquired,” he said. “I \[like] being able to help not just others in Rodrigo Bueno but others throughout the country as well.”
+  {% pullQuote { "quote": "The thing I like the most that is the most beautiful is all the knowledge I’ve acquired. I \[like] being able to help not just others in Rodrigo Bueno but others throughout the country as well.", "attribution": "Diego Armando", "role": "Rodrigo Bueno Urbanization project leader" } %}
 
 
   The responsibility that comes with Armando’s role does take a toll sometimes. He has to help mediate the dialogue between the government and his neighbors and try to make both sides happy, which can be nearly impossible at times.
@@ -170,13 +163,16 @@ body_copy: >-
   There, he assisted in preparing meals for the homeless—spaghetti with meat and tomato sauce being the favorite—to offer a free meal to those living in poor housing conditions. Even during difficult times, the experience of serving those in need left a lasting impact he won’t forget. 
 
 
-  “Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy,” Padre Pedro said. “There are no material things that give you that trust in life and that joy.”  
+  {% pullQuote { "quote": "Sharing life with the poor – it’s a gift because I am convinced that they have trust in God and joy of life that you can’t buy. There are no material things that give you that trust in life and that joy.", "attribution": "Padre Pedro", "role": "Priest" } %}
 
 
   ## El COMEDOR
 
 
   On the opposite side of Yma Sumac, only a few blocks from where Ángela Oviedo resides is a home full of food and family. Inside is a large kitchen where women are cooking, preparing for an eventful evening. In the middle is a woman sporting a burgundy-colored apron – Rosa de la Cruz.
+
+
+  {% inlinePhoto "seeds-that-bloom", 3, lang %}
 
 
   De la Cruz is another longstanding resident who has lived in the neighborhood since 1999 and currently lives with her three daughters. In 2020, she was the catalyst for creating the Comedor del Centro de Adulto Mayor, a soup kitchen established to provide fresh meals to elderly residents during the COVID-19 pandemic.
@@ -192,6 +188,9 @@ body_copy: >-
 
 
   “I feel a lot of satisfaction because I think it’s very important that adults have a plate of food on the weekend because most of them are alone,” de la Cruz said. 
+
+
+  {% pullQuote { "quote": "I feel a lot of satisfaction because I think it’s very important that adults have a plate of food on the weekend because most of them are alone.", "attribution": "Rosa de la Cruz" } %}
 
 
   After hours of preparation, two white tables with red and white tablecloths are set outside the soup kitchen with chairs lining both sides. One by one, the team of cooks fills the potatoes with lettuce, meat, eggs, and olives before boiling them to create Papa Rellenas. Once those are ready, members of the Rodrigo Bueno community say grace and feast on the fresh meal. Yerba Mate tea is then brought out with Magdalena cookies for dessert. 
