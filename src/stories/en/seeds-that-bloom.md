@@ -28,9 +28,6 @@ body_copy: >-
   {% timeline %}
 
 
-  {% inlinePhoto "seeds-that-bloom", 1, lang %}
-
-
   In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided Argentine neighborhood contrasted by the sole divide of one street – Yma Sumac. Named after a Peruvian singer, her name means “how beautiful” in Quechua. 
 
 
@@ -38,6 +35,9 @@ body_copy: >-
 
 
   The right side of Yma Sumac has newly built three-story brick buildings with a home on each level and balconies that accompany them. Families typically have one or two refrigerators and washers, unlike those across the street, who often wash their clothes by hand and lack modern appliances.
+
+
+  {% inlinePhoto "seeds-that-bloom", 1, lang %}
 
 
   In the middle of the neighborhood stands a modern municipal center and a clean park where young boys play pick-up soccer every night. Beyond the houses, past the main street, is the promenade: A concrete sidewalk that overlooks the River Plate and is a representation of Buenos Aires. 
