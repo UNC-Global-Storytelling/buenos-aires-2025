@@ -55,7 +55,7 @@ en:
         not currency, keeps him going, especially in a city where pesos lose
         value faster than memories fade.
     - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
-      order: 5
+      order: 4
       caption_en: Rixner never planned on adding a weekly yoga class to his schedule,
         but when a group of older women asked him to teach, he shifted
         everything. Now, every Thursday at 4 p.m., he shows up—because some
@@ -67,7 +67,7 @@ en:
       alt_en: Rixner and women squatting.
       alt_es: Rixner y mujeres en cuclillas.
     - src: /assets/img/uploads/gigecon_rixnertango_riddle-5.jpg
-      order: 6
+      order: 5
       caption_en: a
       caption_es: b
       alt_en: c
