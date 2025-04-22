@@ -15,9 +15,6 @@ body_copy: >-
   {% pullQuote { "quote": "Text", "attribution": "Name", "role": "Title" } %}
 
 
-  {% gigGenially %}
-
-
   {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
 
 
@@ -49,6 +46,9 @@ body_copy: >-
 
 
   Meanwhile others have found jobs in the gig economy doing all kinds of work just to make ends meet. Some have become Uber drivers, others providing tourists lessons in Tango, and many women have found doing OnlyFans work the best way to make extra money. People are waiting to see if Milei’s austerity measures will stabilize the economy and families like Orellana can return to a two-income household or whether the gig economy is here to stay and become a new normal for Argentina. 
+
+
+  {% gigGenially %}
 
 
   ## **MULTIPLE JOBS** 
