@@ -59,7 +59,7 @@ body_copy: >-
   And it refuses to be silenced.
 
 
-  {% pullQuote { "quote": 'I am a feminist first. And then I’m a musician, producer, student, woman — any of those things.'", "attribution": "Lola Tabarovsky", "role": "Musician" } %}
+  {% pullQuote { "quote": "I am a feminist first. And then I’m a musician, producer, student, woman — any of those things.", "attribution": "Lola Tabarovsky", "role": "Musician" } %}
 
 
   ## CULTURAL ERASURE
@@ -161,7 +161,7 @@ body_copy: >-
   It’s a bit disillusioning.”
 
 
-  {% pullQuote { "quote": 'We’re exhausted. I think this happens everywhere in the world, but in Argentina, I think it’s the first time we’re experiencing it with such deep sadness.'", "attribution": "Sofía Szlago" "role": "Musician" } %}
+  {% pullQuote { "quote": "We’re exhausted. I think this happens everywhere in the world, but in Argentina, I think it’s the first time we’re experiencing it with such deep sadness.", "attribution": "Sofía Szlago", "role": "Musician" } %}
 
 
   ## THE “UNDER”
@@ -188,7 +188,7 @@ body_copy: >-
   It’s a big part of what keeps Lola going. The music and fans, of course, but also her recent signing with the label Geiser. 
 
 
-  {% pullQuote { "quote": 'The ‘under’ is a symbol of the emerging scene right now. The main idea is to say what’s happening. To say what you want to say, what you need to say. I think the underground is really important right now… it’s the voice of a lot of young people.' "attribution": "Santino Isnardes" "role": "Music fan" } %}
+  {% pullQuote { "quote": "The ‘under’ is a symbol of the emerging scene right now. The main idea is to say what’s happening. To say what you want to say, what you need to say. I think the underground is really important right now… it’s the voice of a lot of young people.", "attribution": "Santino Isnardes", "role": "Music fan" } %}
 
 
   For years, Lola’s dream was to sign with this label. Every time she saw a shooting star or blew out birthday candles, she’d wish for this. 
