@@ -33,7 +33,7 @@ body_copy: >-
   Her life, once defined by the rhythms of motherhood, has been forcibly rewritten by the economic turmoil that has swept through Argentina. Until recently, her husband’s steady income was enough to support their family. But as the country’s financial instability deepens, what was once a stable foundation has crumbled, leaving Orellana with no choice but to step into the world of food delivery. 
 
 
-  {% pullQuote { "quote": "I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working.", "attribution": "Orellana", "role": "Rappi driver" } %}
+  {% pullQuote { "quote": "I wanted to help him so that he doesn't sacrifice himself or kill himself so much, I decided to start working.", "attribution": "Milagros Orellana", "role": "Rappi driver" } %}
 
 
   Gig economy has become a central component for many people in Argentina to survive the economic crisis that has been haunting the country for over 100 years. And now with the new president imposing austerity measures to control the economy the ranks of the gig economy workers are swelling adding to the chaos and competition for extra money. It remains to be seen whether President Javier Milei’s cuts can create a more stable economy or not. 
@@ -90,7 +90,7 @@ body_copy: >-
   Milei’s deregulation of the state has opened the doors for more people to work in the gig economy, doubling up their jobs like Orellana’s family and changing how family’s function. 
 
 
-  {% pullQuote { "quote": "It’s not a topic in the political agenda today, unfortunately from what we understand this president doesn’t believe in the regulation of the state.", "attribution": "Pereyra" } %}
+  {% pullQuote { "quote": "It’s not a topic in the political agenda today, unfortunately from what we understand this president doesn’t believe in the regulation of the state.", "attribution": "Francisca Pereyra" } %}
 
 
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
@@ -123,7 +123,7 @@ body_copy: >-
   Gig work has evolved over the years. While it’s still male-dominated, more women are now entering the field. 
 
 
-  “You register on a platform, so it's all much more anonymous, more impersonal, and that encouraged many women to try their luck,” said Pereyra. 
+  {% pullQuote { "quote": "You register on a platform, so it's all much more anonymous, more impersonal, and that encouraged many women to try their luck.", "attribution": "Francisca Pereyra" } %}
 
 
   In 2023, President Milei’s went into office cutting many female-focused programs, like the Ministry of Women, Gender, and Diversity. Leaving many women with fewer resources—pushing some, like Fernández, toward platforms like OnlyFans for income.
@@ -156,7 +156,7 @@ body_copy: >-
   Because of the constant economic need for survival many parents, like Orellana and her husband, are forced to miss chapters in their children’s lives.  
 
 
-  “There are things he wants to do with the kids, and he can't because he's working. And there are things I want to do with my children, and I can't because I'm working. So, both of us are losing things because of our children. We both understand that if we don't work, we don't have money to buy things for our children,” says Orellana. 
+  {% pullQuote { "quote": "There are things he wants to do with the kids, and he can't because he's working. And there are things I want to do with my children, and I can't because I'm working. So, both of us are losing things because of our children. We both understand that if we don't work, we don't have money to buy things for our children.", "attribution": "Milagros Orellana" } %}
 
 
   While these gig workers are resourceful, their individual triumphs are mere patches in a much larger fabric of systemic challenges. As they chase financial stability, the question remains: can the country ever resolve this crisis, or is survival in the gig economy the new normal for generations to come?

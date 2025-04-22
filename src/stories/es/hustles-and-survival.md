@@ -81,7 +81,7 @@ body_copy: >-
   La desregulación del Estado bajo Milei ha abierto más puertas para quienes desean trabajar en esta economía, duplicando los empleos en familias como la de Orellana y transformando el funcionamiento familiar.
 
 
-  “No es un tema en la agenda política hoy. Lamentablemente, por lo que entendemos, este presidente no cree en la regulación del Estado”, dijo Pereyra.
+  {% pullQuote { "quote": "No es un tema en la agenda política hoy. Lamentablemente, por lo que entendemos, este presidente no cree en la regulación del Estado.", "attribution": "Francisca Pereyra" } %}
 
 
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
@@ -114,7 +114,7 @@ body_copy: >-
   El trabajo independiente ha evolucionado. Aunque sigue dominado por hombres, cada vez más mujeres se están sumando.
 
 
-  “Te registras en una plataforma, entonces todo es más anónimo, más impersonal, y eso animó a muchas mujeres a probar suerte”, dijo Pereyra.
+  {% pullQuote { "quote": "Te registras en una plataforma, entonces todo es más anónimo, más impersonal, y eso animó a muchas mujeres a probar suerte.", "attribution": "Francisca Pereyra" } %}
 
 
   En 2023, Milei asumió el poder y recortó muchos programas centrados en mujeres, como el Ministerio de Mujeres, Géneros y Diversidad. Esto dejó a muchas mujeres con menos recursos, empujando a algunas, como Fernández, a plataformas como OnlyFans.
@@ -147,7 +147,7 @@ body_copy: >-
   Por la necesidad constante de sobrevivir, muchos padres como Orellana y su esposo se ven forzados a perderse momentos clave en la vida de sus hijos.
 
 
-  “Hay cosas que él quiere hacer con los chicos y no puede porque está trabajando. Y hay cosas que yo quiero hacer con mis hijos y tampoco puedo porque estoy trabajando. Entonces, los dos estamos perdiéndonos cosas por nuestros hijos. Pero entendemos que, si no trabajamos, no tenemos dinero para comprarles cosas”, dice Orellana.
+  {% pullQuote { "quote": "Hay cosas que él quiere hacer con los chicos y no puede porque está trabajando. Y hay cosas que yo quiero hacer con mis hijos y tampoco puedo porque estoy trabajando. Entonces, los dos estamos perdiéndonos cosas por nuestros hijos. Pero entendemos que, si no trabajamos, no tenemos dinero para comprarles cosas.", "attribution": "Milagros Orellana" } %}
 
 
   Aunque estos trabajadores independientes son ingeniosos, sus triunfos individuales son solo parches en un entramado de desafíos sistémicos. Mientras persiguen la estabilidad financiera, la pregunta sigue siendo: ¿podrá el país resolver esta crisis alguna vez, o será la supervivencia en la economía gig la nueva normalidad para las futuras generaciones?
