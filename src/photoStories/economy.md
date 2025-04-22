@@ -167,6 +167,18 @@ en:
         breath, posture, and trust. For Rixner and Valeria, teaching tango from
         home is not just a gig. It’s a ritual of care, a way of inviting others
         into something they have spent years building together.
+    - order: 14
+      src: /assets/img/uploads/gigecon_rixnertango_riddle-14.jpg
+      caption_en: There is a quiet precision in the way Rixner moves—rooted in years
+        of yoga, shaped by the pulse of tango. He teaches not to perfect the
+        form, but to deepen the feeling. To him, technique is a tool, not the
+        point.
+      alt_en: Rixner demonstrates moves
+      alt_es: Rixner demuestra movimientos.
+      caption_es: Hay una precisión silenciosa en la forma en que Rixner se
+        mueve—arraigada en años de yoga, moldeada por el pulso del tango. No
+        enseña para perfeccionar la forma, sino para profundizar la sensación.
+        Para él, la técnica es una herramienta, no el objetivo.
 es:
   id: economy
   title: En el Ritmo de lo Suficiente
