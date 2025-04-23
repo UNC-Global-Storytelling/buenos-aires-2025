@@ -166,6 +166,12 @@ body_copy: >-
   ### PHOTO #20
 
 
+
+
+  {% inlinePhoto "picking-through-fire", 6, lang %}
+
+
+
   Almada took all of these complaints and evidence of La Quema’s impact on the community to the municipal government. In 2019, Juan Cabandié, the Minister of Environment and Sustainable Development of Argentina, visited Luján to begin plans to build an environmental center.
 
 
