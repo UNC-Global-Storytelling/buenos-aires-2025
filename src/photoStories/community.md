@@ -157,5 +157,5 @@ en:
       alt_es: Un grupo de edificios se extiende entre un campo verde y el cielo azul.
 es:
   id: community
-  title: ""
+  title: La Vida en el Barrio
 ---
