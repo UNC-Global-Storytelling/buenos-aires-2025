@@ -108,9 +108,11 @@ en:
         dictadura.
       alt_es: Un hombre fuma en su cama.
     - src: /assets/img/uploads/20250416_richards_music-story_11.jpg
-      caption_en: 'Ric and Mari rehearse in Ric’s house. They use the "Pomodoro
-        Method" to budget their time. After each 20 minutes of rehearsal, a
-        timer goes off, and they take a five-minute break. '
+      caption_en: "Left, Ric and Mari rehearse in Ric’s house. They use the \"Pomodoro
+        Method\" to budget their time. After each 20 minutes of rehearsal, a
+        timer goes off, and they take a five-minute break. Right, Mari's
+        bookshelf is piled high: she has The Communist Manifesto, books on Lou
+        Reed, and many volumes of poetry."
       alt_en: A man makes a hand motion toward a pile of books.
       caption_es: Ric y Mari ensayan en casa de Ric. Usan el "Método Pomodoro" para
         administrar su tiempo. Después de cada 20 minutos de ensayo, suena un
