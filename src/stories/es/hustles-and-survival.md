@@ -54,7 +54,7 @@ body_copy: >-
   {% gigGenially %}
 
 
-  ## **TRABAJOS MÚLTIPLES**
+  ## TRABAJOS MÚLTIPLES
 
 
   El trabajo tradicional está quedando atrás; el trabajo informal es la nueva manera en que la sociedad se gana la vida.
@@ -102,10 +102,10 @@ body_copy: >-
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "en", "title": "En el Ritmo de Suficiente" } %}
 
 
-  ## **SÓLO TÚ**
+  ## SÓLO TÚ
 
 
   En una habitación tenuemente iluminada de un hotel alquilado, con un tubo de pole dance brillando bajo luces de neón y una bañera en el centro de la escena, la joven Marisol Fernández, de 23 años, prepara su cámara. Una rápida revisión de su teléfono le recuerda por qué está ahí: la demanda de contenido exótico en OnlyFans ha sido su salvación en un país que se desmorona. Con la crisis económica apretando, Fernández y muchas mujeres como ella abandonaron el trabajo tradicional para ingresar a la economía digital, donde su cuerpo, confianza y creatividad son sus mayores activos.
@@ -147,7 +147,7 @@ body_copy: >-
   Tanto Fernández como Orellana sueñan con volver a estudiar. Fernández desea retomar sus estudios de psicología, mientras que Orellana quiere terminar el secundario y seguir una carrera en matemáticas. Pero por ahora, Fernández y miles de mujeres moldean su realidad a través del contenido que crean en OnlyFans, donde su identidad, ingresos y aspiraciones están profundamente entrelazadas. Mientras tanto, Orellana y otros repartidores viven al ritmo de la velocidad y las entregas.
 
 
-  ## **EN MOVIMIENTO: TRAZANDO EL FUTURO DEL TRABAJO GIG**
+  ## EN MOVIMIENTO: TRAZANDO EL FUTURO DEL TRABAJO GIG
 
 
   Para todos, la economía gig representa un medio de sobrevivir y prosperar en un país donde los empleos tradicionales son cada vez más difíciles de conseguir.
