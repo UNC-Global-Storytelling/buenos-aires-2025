@@ -81,6 +81,9 @@ body_copy: >-
   La vida de Rixner es un acto de equilibrio entre la pasión y la incertidumbre financiera. “Nunca sé cuánto voy a ganar… a veces me preocupo, pero siempre me va bien”, comenta.
 
 
+  {% inlinePhoto "hustles-and-survival", 2, lang %}
+
+
   En un país donde la estabilidad económica es cada vez más escasa, ha logrado forjar su camino enseñando a otros no solo a moverse, sino a reconectarse: con sus cuerpos, su respiración y la constante incertidumbre de la vida en Buenos Aires.
 
 
