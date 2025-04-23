@@ -122,6 +122,9 @@ body_copy: >-
   At underground shows across Buenos Aires, the air is thick with smoke, sweat and something harder to define — something electric. The government may be cracking down on public dissent, but in these cramped “DIY” venues, the resistance is louder than ever. 
 
 
+  {% inlinePhoto "music-story", 1, lang %}
+
+
   On stage with her band, Lola grips the mic and surveys the crowd — a sea of young faces cheering, reaching their arms out. 
 
 
