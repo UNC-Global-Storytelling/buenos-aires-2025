@@ -33,6 +33,9 @@ body_copy: >-
   Milagros es repartidora de Rappi y forma parte de la creciente economía de trabajos informal en Argentina, donde muchas personas se ven obligadas a tener múltiples empleos solo para sobrevivir. Para Orellana, su resiliencia se sostiene en su propósito principal: la maternidad.
 
 
+  {% inlinePhoto "hustles-and-survival", 1, lang %}
+
+
   Su vida, antes definida por los ritmos de la crianza, ha sido reescrita a la fuerza por la crisis económica que ha barrido Argentina. Hasta hace poco, el ingreso estable de su esposo era suficiente para mantener a la familia. Pero a medida que la inestabilidad financiera del país se profundizó, esa base se derrumbó, dejando a Orellana sin otra opción que ingresar al mundo de las entregas.
 
 
@@ -94,6 +97,9 @@ body_copy: >-
 
 
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
+
+
+  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
 
 
   ## **SÓLO TÚ**
