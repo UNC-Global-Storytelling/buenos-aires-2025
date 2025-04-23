@@ -30,6 +30,9 @@ body_copy: >-
   Hay poco espacio para la camaradería; cada persona vela por sí misma. Con la presión aumentando desde todos los frentes, Orellana ha aprendido a mantener la guardia alta y los ojos siempre atentos a la calle. En cada turno, lucha contra el agotamiento, equilibrando las necesidades de sus hijos con las exigencias de una economía informal que no perdona. El reloj es su enemigo constante, mientras corre contra el tiempo; cada entrega es una pequeña victoria en la lucha continua por la supervivencia de su familia.
 
 
+  {% inlinePhoto "hustles-and-survival", 1, lang %}
+
+
   Milagros es repartidora de Rappi y forma parte de la creciente economía de trabajos informal en Argentina, donde muchas personas se ven obligadas a tener múltiples empleos solo para sobrevivir. Para Orellana, su resiliencia se sostiene en su propósito principal: la maternidad.
 
 
@@ -51,7 +54,7 @@ body_copy: >-
   {% gigGenially %}
 
 
-  ## **TRABAJOS MÚLTIPLES**
+  ## TRABAJOS MÚLTIPLES
 
 
   El trabajo tradicional está quedando atrás; el trabajo informal es la nueva manera en que la sociedad se gana la vida.
@@ -78,6 +81,9 @@ body_copy: >-
   La vida de Rixner es un acto de equilibrio entre la pasión y la incertidumbre financiera. “Nunca sé cuánto voy a ganar… a veces me preocupo, pero siempre me va bien”, comenta.
 
 
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
+
+
   En un país donde la estabilidad económica es cada vez más escasa, ha logrado forjar su camino enseñando a otros no solo a moverse, sino a reconectarse: con sus cuerpos, su respiración y la constante incertidumbre de la vida en Buenos Aires.
 
 
@@ -96,16 +102,19 @@ body_copy: >-
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es", "title": "En el Ritmo de Suficiente" } %}
 
 
-  ## **SÓLO TÚ**
+  ## SÓLO TÚ
 
 
   En una habitación tenuemente iluminada de un hotel alquilado, con un tubo de pole dance brillando bajo luces de neón y una bañera en el centro de la escena, la joven Marisol Fernández, de 23 años, prepara su cámara. Una rápida revisión de su teléfono le recuerda por qué está ahí: la demanda de contenido exótico en OnlyFans ha sido su salvación en un país que se desmorona. Con la crisis económica apretando, Fernández y muchas mujeres como ella abandonaron el trabajo tradicional para ingresar a la economía digital, donde su cuerpo, confianza y creatividad son sus mayores activos.
 
 
   La habitación, rentada por solo tres horas, es su estudio: su espacio seguro para actuar, crear y, lo más importante, sobrevivir en un panorama financiero que ofrece pocas opciones para mujeres jóvenes como ella. Mientras el país lidia con la inflación y el desempleo, el mundo de Fernández gira en torno al equilibrio precario entre su personaje online y un mercado impredecible que ha aprendido a navegar, clic a clic.
+
+
+  {% inlinePhoto "hustles-and-survival", 2, lang %}
 
 
   Gracias a OnlyFans y Telegrama, ha logrado sobrevivir. Su plataforma también le consiguió un “sugar daddy”, un hombre mayor que le da regalos o dinero a cambio de compañía, y en ocasiones, sexo. Lo ve una vez a la semana y pasa el día con él a cambio de hasta 300 dólares, unos 323.000 pesos argentinos. En solo cinco meses, él le ha regalado joyas, carteras, zapatos y perfumes caros.
@@ -138,7 +147,7 @@ body_copy: >-
   Tanto Fernández como Orellana sueñan con volver a estudiar. Fernández desea retomar sus estudios de psicología, mientras que Orellana quiere terminar el secundario y seguir una carrera en matemáticas. Pero por ahora, Fernández y miles de mujeres moldean su realidad a través del contenido que crean en OnlyFans, donde su identidad, ingresos y aspiraciones están profundamente entrelazadas. Mientras tanto, Orellana y otros repartidores viven al ritmo de la velocidad y las entregas.
 
 
-  ## **EN MOVIMIENTO: TRAZANDO EL FUTURO DEL TRABAJO GIG**
+  ## EN MOVIMIENTO: TRAZANDO EL FUTURO DEL TRABAJO GIG
 
 
   Para todos, la economía gig representa un medio de sobrevivir y prosperar en un país donde los empleos tradicionales son cada vez más difíciles de conseguir.
