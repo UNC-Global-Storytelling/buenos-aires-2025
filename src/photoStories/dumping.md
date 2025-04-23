@@ -215,7 +215,7 @@ en:
       alt_en: Pérez smiles joyfully standing in front of an intersection.
       alt_es: Pérez sonríe alegre parado frente a una intersección.
     - src: /assets/img/uploads/lindell_finalsequence-16.jpg
-      order: 15
+      order: 16
       caption_en: " The father-son duo hits a jackpot as they finish their round in La
         Plaza. Pérez and his son begin walking into a crowd of protestors where
         more metal cans wait for them. Informal recyclers, like Pérez, gravitate
