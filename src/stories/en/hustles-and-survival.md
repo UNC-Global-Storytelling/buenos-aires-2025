@@ -7,11 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
+interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
 topic: Economy
-interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
   is already on her feet. As the chill of the early morning lingers in the air,
@@ -28,6 +28,9 @@ body_copy: >-
 
 
   There’s little room for camaraderie—every person is out for themselves. With the pressure mounting from all sides, Orellana has learned to keep her guard up and her eyes always scanning the road. With each shift, she pushes through exhaustion, balancing the weight of her children's needs with the demands of an unforgiving gig economy. The clock is her constant enemy, as she races against time, each delivery another small victory in the ongoing struggle for her family’s survival. 
+
+
+  {% inlinePhoto "hustles-and-survival", 1, lang %}
 
 
   Milagros is a Rappi driver and a member of the growing gig economy in Argentina as people take on multiple jobs just to survive. For Orellana, her resilience comes back to her main purpose, motherhood. 

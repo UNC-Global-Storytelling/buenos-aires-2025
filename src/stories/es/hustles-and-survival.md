@@ -7,11 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
+interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
 topic: Economía
-interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
   Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire,
@@ -28,6 +28,9 @@ body_copy: >-
 
 
   Hay poco espacio para la camaradería; cada persona vela por sí misma. Con la presión aumentando desde todos los frentes, Orellana ha aprendido a mantener la guardia alta y los ojos siempre atentos a la calle. En cada turno, lucha contra el agotamiento, equilibrando las necesidades de sus hijos con las exigencias de una economía informal que no perdona. El reloj es su enemigo constante, mientras corre contra el tiempo; cada entrega es una pequeña victoria en la lucha continua por la supervivencia de su familia.
+
+
+  {% inlinePhoto "hustles-and-survival", 1, lang %}
 
 
   Milagros es repartidora de Rappi y forma parte de la creciente economía de trabajos informal en Argentina, donde muchas personas se ven obligadas a tener múltiples empleos solo para sobrevivir. Para Orellana, su resiliencia se sostiene en su propósito principal: la maternidad.
