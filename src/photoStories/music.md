@@ -118,7 +118,7 @@ en:
       alt_es: Un hombre hace gestos en la luz de una ventana.
       order: 11
     - src: /assets/img/uploads/20250416_richards_music-story_12.jpg
-      order: 112
+      order: 12
       caption_en: ​​In the morning, Mari cleans the lipstick stains off her flags. “I
         have no idea how they got there,” she says. Fama y Guita will have
         another show tomorrow.
