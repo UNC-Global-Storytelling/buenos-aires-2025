@@ -156,6 +156,20 @@ en:
       alt_es: Un empleado señala la cinta transportadora de la cooperativa de la
         ciudad mientras está sentado frente a toneladas de materiales reciclados
         ya clasificados.
+    - src: /assets/img/uploads/lindell_finalsequence-11.jpg
+      order: 11
+      caption_en: The city of Buenos Aires produces 5,792 tons of waste a day. One
+        third of approximately 25,000 recorded recyclers are formally contracted
+        with a cooperative, leaving the rest to sell to private companies or the
+        black market.
+      caption_es: La ciudad de Buenos Aires produce 5.792 toneladas de residuos al
+        día. Un tercio de los aproximadamente 25.000 recicladores registrados se
+        contrata formalmente con una cooperativa, dejando el resto para vender a
+        empresas privadas o al mercado negro.
+      alt_en: A mountain of white, “city of Buenos Aires” marked bags filled with
+        separated materials sits in the corner of a building.
+      alt_es: En la esquina de un edificio se encuentra una montaña de bolsas blancas
+        con la leyenda "ciudad de Buenos Aires" llenas de materiales separados.
 es:
   id: dumping
 ---
