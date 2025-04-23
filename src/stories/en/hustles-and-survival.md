@@ -9,7 +9,7 @@ video_2_byline: Jing Chen
 photo_byline: Anna Riddle
 interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
-uca_contributor_2_byline: ""
+uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
