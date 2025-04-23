@@ -53,7 +53,7 @@ body_copy: >-
   “I like living here in my neighborhood because I feel like I have more company, having a country, seeing my fellow countrymen,” she said. “Now even more, because my family is grown, and nothing would move me from here.” 
 
 
-  {% photoExperience { "storyId": "community", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "community", "lang": lang or "en", "title": "Life in the Barrio" } %}
 
 
   Like Oviedo, many barrio residents emigrated from Perú and Paraguay. However, many do not share her positive outlook on their poor circumstances. Because of the severe poverty they face, the residents are socially and physically disconnected from their adjacent neighborhoods. Many parts of the barrio lack access to urban services, with high risks of crime and drug issues resulting in a heavy police presence. 
