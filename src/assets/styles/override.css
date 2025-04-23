@@ -97,7 +97,7 @@ h1{
   width: 100%;
   height: 500px;
   object-fit: cover;
-  filter: brightness(0.80);
+  filter: brightness(0.90);
   margin-bottom: 0;
 }
 
@@ -183,6 +183,21 @@ h1{
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 430px) {
+
+  .buttonsize{
+    width: 30%;
+  }
+
+  .midtext{
+    font-size: .9rem;
+  }
+
+}
+
+
+
 
 
 
