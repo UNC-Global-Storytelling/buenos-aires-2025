@@ -196,19 +196,20 @@ en:
         señora que pasa.
     - src: /assets/img/uploads/lindell_finalsequence-14.jpg
       order: 14
-      caption_en: "Pérez and his son, Manuel Pérez, work together to search trash bins
-        on both sides of the street. The father-son duo hits a jackpot as they
-        find trash from a protest. "
-      caption_es: Pérez y su hijo, Manuel Pérez, trabajan juntos para buscar
-        contenedores de basura a ambos lados de la calle. El dúo de padre e hijo
-        gana un premio gordo cuando encuentran basura de una protesta.
+      caption_en: Occasionally Pérez will bring his son, Manuel Pérez, with him to
+        work. Together they search trash bins on each side of the street leading
+        to the Plaza.
+      caption_es: De vez en cuando, Pérez lleva a su hijo, Manuel Pérez, al trabajo.
+        Juntos buscan en los contenedores de basura a cada lado de la calle que
+        conduce a la Plaza.
       alt_en: Pérez and his son search through a trash can in front of a street.
       alt_es: Pérez y su hijo buscan en un bote de basura frente a una calle.
     - src: /assets/img/uploads/lindell_finalsequence-15.jpg
       order: 15
-      caption_en: Pérez laughs while talking to a stranger in front of Calle Bolivar.
+      caption_en: "Pérez laughs while talking to a stranger in front of Calle Bolivar.
         He said a part of why he enjoys his job is the ability to talk to
-        people.
+        people. The father-son duo hits a jackpot as they find trash from a
+        protest. "
       caption_es: Pérez se ríe mientras habla con un desconocido frente a la calle
         Bolívar. Dijo que parte de la razón por la que disfruta de su trabajo es
         la capacidad de hablar con la gente.
