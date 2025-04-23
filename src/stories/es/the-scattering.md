@@ -28,6 +28,9 @@ body_copy: >-
   Se ríe con desdén y se describe como “nada”, haciendo una frambuesa con los labios y mirando hacia los arbustos frondosos junto a la piscina. Ni argentina, ni italiana, ni una cosa ni la otra, pero es todo lo contrario a nada.
 
 
+  {% inlinePhoto "scattering", 1, lang %}
+
+
   Es madre, profundamente arraigada a un sentido de hogar y de memoria. No un hogar como lugar físico, sino el tipo de hogar que se encuentra en los demás, en la familia. Se ve en su rostro, en cómo se suaviza cuando menciona el nombre de alguno de sus hijos o nietos.
 
 
@@ -50,6 +53,9 @@ body_copy: >-
 
 
   La familia de Sofia no es una excepción. Se ha convertido casi en una tradición para los argentinos, especialmente los de ascendencia europea, dispersarse por el mundo en busca de oportunidades fuera de la inestabilidad económica e inflación de su país. Incluso con un nuevo gobierno y recortes en el gasto y privatización de recursos nacionales, los argentinos empiezan a tener esperanzas de días mejores, aunque siguen conteniendo el aliento, pues las crisis económicas se han repetido una y otra vez. Familias desgarradas por la inestabilidad económica tal vez nunca vuelvan a unirse.
+
+
+  {% separationFlourish %}
 
 
   ## **NACIÓN DE MIGRANTES**
@@ -118,6 +124,9 @@ body_copy: >-
   Clara Bofelli, de la región patagónica, vivió en Buenos Aires en sus veintitantos, trabajando en una organización de migración que ayudaba a migrantes venezolanos. Se mudó a Colombia el año pasado, principalmente por su frustración con el nuevo gobierno.
 
 
+  {% inlinePhoto "scattering", 3, lang %}
+
+
   “Está dejando de ser deseable con las políticas de Milei”, dijo.
 
 
@@ -140,6 +149,9 @@ body_copy: >-
 
 
   Cuando volvió, regresó con su madre.
+
+
+  {% inlinePhoto "scattering", 4, lang %}
 
 
   Aunque algunos, especialmente quienes apoyan a Milei, dicen que la economía argentina está mejor que nunca, es poco probable que quienes se han ido regresen. El país vivió tres hiperinflaciones en el siglo XX y tuvo la tasa de inflación más alta del mundo en 2023. Esta crisis está lejos de terminar.
