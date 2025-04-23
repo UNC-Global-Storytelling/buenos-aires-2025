@@ -37,6 +37,9 @@ body_copy: >-
   Gold in the wasteland is plastic, cardboard and metals. The workers, known by the community as “cartoneros,” or cardboard pickers, sort each material into a large white plastic bag to hand over to El Indio, “The Indian,” who acts as a middleman by selling the raw materials picked by the dump workers to industries seeking out the inventory. The Indian takes most of the cut while the cartoneros get a slim commission, but it is enough for them to survive.
 
 
+  {% video { videoId: "1077997764" } %}
+
+
   The weight of desolation is almost unapproachable, but Enriques finds the scene familiar.
 
 
