@@ -56,7 +56,7 @@ function initPhotoExperience(storyId, language) {
 
 function buildImmersiveSlides(storyId, photos, lang) {
   const container = document.getElementById(`immersive-content-${storyId}`);
-  container.innerHTML = ''; // Clear previous content
+  container.innerHTML = '';
 
   photos.forEach((photo, index) => {
     const caption = lang === "es" ? photo.caption_es : photo.caption_en;
@@ -73,11 +73,11 @@ function buildImmersiveSlides(storyId, photos, lang) {
         <img 
           src="${photo.src}" 
           alt="${alt || ''}" 
-          class="immersive-photo max-h-[80vh] w-auto md:max-w-[85vw] md:max-h-[80vh] max-h-[65vh] object-contain scale-100 opacity-100 transition-transform duration-700 ease-in-out"
+          class="immersive-photo max-h-[80vh] w-auto md:max-w-[85vw] max-h-[65vh] object-contain scale-100 opacity-100 transition-transform duration-700 ease-in-out"
           data-slide="${index}"
         >
         <p 
-          class=class="immersive-caption opacity-0 pt-4 text-white text-base md:text-lg leading-relaxed font-light md:max-w-xl transition-opacity duration-700 ease-in-out"
+          class="immersive-caption opacity-0 pt-4 text-white text-base md:text-lg leading-relaxed font-light md:max-w-xl transition-opacity duration-700 ease-in-out"
           data-slide="${index}"
         >
           ${caption || ''}
@@ -88,7 +88,6 @@ function buildImmersiveSlides(storyId, photos, lang) {
     section.appendChild(scene);
     container.appendChild(section);
 
-    // Spacer between scenes
     if (index < photos.length - 1) {
       const spacer = document.createElement('div');
       spacer.className = "h-[100vh] bg-black";
@@ -102,15 +101,22 @@ function buildImmersiveSlides(storyId, photos, lang) {
     };
   });
 
-  // Animate images + captions
   const scenes = document.querySelectorAll(`#immersive-content-${storyId} section`);
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      const img = entry.target.querySelector('.immersive-photo');
-      const caption = entry.target.querySelector('.immersive-caption');
+      const section = entry.target;
+      const img = section.querySelector('.immersive-photo');
+      const caption = section.querySelector('.immersive-caption');
 
       if (entry.isIntersecting) {
+        const index = parseInt(img.dataset.slide);
+        if (index === 0) {
+          const overlay = document.getElementById(`title-overlay-${storyId}`);
+          overlay?.classList.add('opacity-0');
+          overlay?.classList.remove('opacity-100');
+        }
+
         img.classList.add('scale-90');
         caption.classList.add('opacity-100');
       } else {
@@ -123,16 +129,52 @@ function buildImmersiveSlides(storyId, photos, lang) {
   scenes.forEach(scene => observer.observe(scene));
 }
 
-
-
-
 window.initPhotoExperience = initPhotoExperience;
 
 window.launchImmersive = function(storyId, lang) {
   const immersive = document.getElementById(`immersive-${storyId}`);
   immersive.classList.remove("hidden");
   immersive.scrollTo({ top: 0, behavior: 'smooth' });
+
+  const overlayId = `title-overlay-${storyId}`;
+  if (!document.getElementById(overlayId)) {
+    const titleOverlay = document.createElement('div');
+    titleOverlay.className = `
+      fixed inset-0 z-[1001] flex items-center justify-center bg-black/40 text-white pointer-events-none 
+      transition-opacity duration-700 ease-in-out opacity-100
+    `;
+    titleOverlay.id = overlayId;
+    titleOverlay.innerHTML = `
+      <div class="text-center px-6 space-y-4">
+        <h1 class="text-3xl md:text-5xl font-bold">${document.querySelector(`#photo-experience-${storyId} .photo-title`)?.innerText || 'Photo Story'}</h1>
+        <p class="text-base md:text-lg font-light text-gray-300">Scroll to begin</p>
+      </div>
+    `;
+    immersive.appendChild(titleOverlay);
+
+    // 👇 Fade out on scroll
+    immersive.addEventListener('scroll', function handleScroll() {
+      titleOverlay.classList.add('opacity-0');
+      titleOverlay.classList.remove('opacity-100');
+      immersive.removeEventListener('scroll', handleScroll); // Only trigger once
+    });
+  }
+
+  const hash = `#immersive-${storyId}`;
+  if (window.location.hash !== hash) {
+    history.pushState(null, "", hash);
+  }
 };
+
+
+window.addEventListener('popstate', () => {
+  const immersiveEls = document.querySelectorAll('[id^="immersive-"]');
+  immersiveEls.forEach(el => {
+    if (!location.hash.includes(el.id)) {
+      el.classList.add('hidden');
+    }
+  });
+});
 
 document.addEventListener('click', (e) => {
   if (e.target.matches('[id^="close-immersive-"]')) {
