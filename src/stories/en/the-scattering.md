@@ -3,7 +3,7 @@ layout: layouts/story
 language: en
 topic: Family
 title: The Scattering
-subtitle: "As Argentina Shifts, Families Break Apart: A Story of Home and Migration"
+subtitle: A Story of Home and Migration
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
