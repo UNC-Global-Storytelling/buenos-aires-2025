@@ -125,9 +125,6 @@ body_copy: >-
   Clara Bofelli, de la región patagónica, vivió en Buenos Aires en sus veintitantos, trabajando en una organización de migración que ayudaba a migrantes venezolanos. Se mudó a Colombia el año pasado, principalmente por su frustración con el nuevo gobierno.
 
 
-  {% inlinePhoto "scattering", 3, lang %}
-
-
   “Está dejando de ser deseable con las políticas de Milei”, dijo.
 
 
