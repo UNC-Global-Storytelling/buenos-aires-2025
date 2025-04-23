@@ -38,6 +38,9 @@ body_copy: >-
   El oro en este páramo son el plástico, el cartón y los metales. Los trabajadores, conocidos por la comunidad como “cartoneros”, clasifican cada material en una gran bolsa blanca de plástico para entregársela a El Indio, quien actúa como intermediario vendiendo las materias primas recogidas por los trabajadores del vertedero a industrias que las compran. El Indio se queda con la mayor parte de la ganancia mientras que los cartoneros reciben una comisión pequeña, pero suficiente para sobrevivir.
 
 
+  {% video { videoId: "1077997764" } %}
+
+
   El peso de la desolación es casi inabordable, pero Enriques encuentra la escena familiar.
 
 
