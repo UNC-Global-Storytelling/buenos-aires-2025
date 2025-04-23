@@ -7,11 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
+interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
 topic: Economy
-interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
   is already on her feet. As the chill of the early morning lingers in the air,
@@ -99,7 +99,7 @@ body_copy: >-
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en", "title": "As Argentina Shifts, Families Scatter: A Story of Home and Migration" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
 
 
   ## **ONLY YOU**
@@ -109,6 +109,9 @@ body_copy: >-
 
 
   The hotel room, rented for just three hours, is her studio—her safe space to perform, create, and, most importantly, survive in a financial landscape that offers few options for young women like her. As the country grapples with inflation and unemployment, Fernández’s world now revolves around the precarious balance between her online persona and the unpredictable market she’s learned to navigate—one click at a time.
+
+
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   Through Only Fans and Telegram, a messaging app, she has been able to survive. Her increased platform has also been able to get her a “sugar daddy,” which is typically an older man who gives gifts or money for a younger woman’s company and sometimes sex work. She sees him and spends a day with him during the week in exchange for up to $300 USD, which is about $323,000 in Argentine pesos. Only knowing him for five months, he has gifted her many things like jewelry, handbags, shoes, and expensive perfumes.  

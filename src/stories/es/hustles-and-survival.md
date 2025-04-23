@@ -7,11 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
+interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
 topic: Economía
-interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
   Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire,
@@ -106,6 +106,9 @@ body_copy: >-
 
 
   La habitación, rentada por solo tres horas, es su estudio: su espacio seguro para actuar, crear y, lo más importante, sobrevivir en un panorama financiero que ofrece pocas opciones para mujeres jóvenes como ella. Mientras el país lidia con la inflación y el desempleo, el mundo de Fernández gira en torno al equilibrio precario entre su personaje online y un mercado impredecible que ha aprendido a navegar, clic a clic.
+
+
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   Gracias a OnlyFans y Telegrama, ha logrado sobrevivir. Su plataforma también le consiguió un “sugar daddy”, un hombre mayor que le da regalos o dinero a cambio de compañía, y en ocasiones, sexo. Lo ve una vez a la semana y pasa el día con él a cambio de hasta 300 dólares, unos 323.000 pesos argentinos. En solo cinco meses, él le ha regalado joyas, carteras, zapatos y perfumes caros.
