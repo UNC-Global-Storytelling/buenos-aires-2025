@@ -224,5 +224,5 @@ body_copy: >-
 
 
   Y eso, a su manera, es una especie de revolución.
-image: /assets/img/uploads/20250311_richards_lola-bedroom-554.jpg
+image: /assets/img/uploads/20250311_richards_lola-bedroom-693.jpg
 ---

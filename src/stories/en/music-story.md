@@ -226,5 +226,5 @@ body_copy: >-
 
 
   And that, in its own way, is a kind of revolution.
-image: /assets/img/uploads/20250311_richards_lola-bedroom-554.jpg
+image: /assets/img/uploads/20250311_richards_lola-bedroom-693.jpg
 ---
