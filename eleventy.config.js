@@ -19,6 +19,8 @@ import { EleventyI18nPlugin } from '@11ty/eleventy';
 
 //import configs for plugins
 import configI18n from './src/config/plugins/i18n.js'
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+
 
 export default function (eleventyConfig) {
   // Compile Tailwind before Eleventy processes the files
@@ -132,6 +134,7 @@ export default function (eleventyConfig) {
   // Plug in sections
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(EleventyI18nPlugin, configI18n);
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
   // Add shortcodes
   eleventyConfig.addShortcode("video", video);
