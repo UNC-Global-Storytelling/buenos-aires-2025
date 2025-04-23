@@ -1,16 +1,16 @@
 ---
 layout: layouts/story
 language: es
-reporter_byline: Shelby Swanson
-video_1_byline: Aayas Joshi
-video_2_byline: Quincy Marks
-photo_byline: Grace Richards
-uca_contributor_1_byline: Clara Etchegoyhen
-slug: spanish-music-name
 title: Aun así, canto
 subtitle: En medio de la represión de Milei, los artistas underground de Buenos
   Aires mantienen viva la resistencia
+reporter_byline: Shelby Swanson
+video_1_byline: Aayas Joshi
+video_2_byline: Quincy Marks
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: spanish-music-name
+photo_byline: Grace Richards
 body_copy: >-
   La luz del atardecer se cuela por la única ventana del tercer piso del
   apartamento de Lola Tabarovsky en el barrio del Abasto, tiñendo la pequeña
@@ -224,5 +224,5 @@ body_copy: >-
 
 
   Y eso, a su manera, es una especie de revolución.
-image: /assets/img/uploads/20250315_richards_lola-rehearsal-567.jpg
+image: /assets/img/uploads/20250311_richards_lola-bedroom-554.jpg
 ---
