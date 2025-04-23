@@ -29,7 +29,7 @@ body_copy: >-
   Mientras los trabajadores se ven obligados a responder a las demandas del vertedero, el humo se eleva hacia el cielo húmedo de Luján. El aire se espesa con el hedor a azufre y polvo cuando uno de los 15 camiones pasa por el camino de tierra de 700 metros para descargar unas 180 toneladas de basura en La Playa—la zona de descarga. Con su mirada penetrante y sus garras, las aves carroñeras se abren paso entre la neblina y solo aterrizan cuando encuentran algo de valor.
 
 
-  {% inlinePhoto "picking-through-fire", 3, lang %}
+  {% inlinePhoto "picking-through-fire", 3, lang or "es" %}
 
 
   Entre cebollas podridas, osos de peluche, cuadernos escolares desechados, tierra y de vez en cuando una cabra muerta, los trabajadores de La Quema, como las aves carroñeras, buscan oro en las 27 hectáreas del basural.
@@ -47,7 +47,7 @@ body_copy: >-
   “Siempre veníamos de chicos, hasta solo a jugar con los pájaros”, dijo Enriques, de 26 años. “La mayoría no viene solo a trabajar—las mujeres vienen a buscar ropa o venden cosas que encuentran en las ferias.”
 
 
-  {% inlinePhoto "picking-through-fire", 1, lang %}
+  {% inlinePhoto "picking-through-fire", 1, lang or "es" %}
 
 
   Su familia ha trabajado allí por generaciones, y ella trabaja en el vertedero desde los 12 años.
@@ -131,7 +131,7 @@ body_copy: >-
   “Sentía vergüenza”, dijo Almada. “Moverme era difícil, pero el verdadero dolor era la vergüenza; no podía mirarme.”
 
 
-  {% inlinePhoto "picking-through-fire", 5, lang %}
+  {% inlinePhoto "picking-through-fire", 5, lang or "es" %}
 
 
   Eso cambió cuando Almada empezó a protestar contra el basural.
@@ -155,7 +155,7 @@ body_copy: >-
   Según Almada, el 60% de la comunidad sufre enfermedades crónicas como problemas de piel, huesos, respiratorios y abortos espontáneos.
 
 
-  {% inlinePhoto "picking-through-fire", 6, lang %}
+  {% inlinePhoto "picking-through-fire", 6, lang or "es" %}
 
 
   Llevó todas estas denuncias y pruebas al gobierno municipal. En 2019, Juan Cabandié, entonces ministro de Medio Ambiente y Desarrollo Sostenible de Argentina, visitó Luján para iniciar el plan de construcción de un centro ambiental.
@@ -194,7 +194,7 @@ body_copy: >-
   “Tuve problemas de salud por esto, pero mis compañeros siguen viniendo porque es su forma de ganarse la vida”, dijo.
 
 
-  {% inlinePhoto "picking-through-fire", 2, lang %}
+  {% inlinePhoto "picking-through-fire", 2, lang or "es" %}
 
 
   La congelación fue levantada en 2024, y la construcción del centro se reanudó. A pesar del mandato judicial, el centro ha quedado estancado por la negativa del gobierno de Milei a financiarlo.
@@ -221,7 +221,7 @@ body_copy: >-
   Viagra recolecta materiales como plástico, PVC y cartón. Aunque recolectan materiales similares a los cartoneros, prefieren el término “reciclador”.
 
 
-  {% inlinePhoto "picking-through-fire", 4, lang %}
+  {% inlinePhoto "picking-through-fire", 4, lang or "es" %}
 
 
   Para ellos, hay una diferencia: en La Quema cada quien trabaja para sí mismo, mientras que en la cooperativa se reparten las ganancias.
