@@ -144,4 +144,5 @@ en:
       alt_es: Una mujer en la ventana.
 es:
   id: music
+  title: Canciones del Underground
 ---
