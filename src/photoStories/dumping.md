@@ -206,20 +206,20 @@ en:
       alt_es: Pérez y su hijo buscan en un bote de basura frente a una calle.
     - src: /assets/img/uploads/lindell_finalsequence-15.jpg
       order: 15
-      caption_en: "Pérez laughs while talking to a stranger in front of Calle Bolivar.
-        He said a part of why he enjoys his job is the ability to talk to
-        people. The father-son duo hits a jackpot as they find trash from a
-        protest. "
-      caption_es: Pérez se ríe mientras habla con un desconocido frente a la calle
-        Bolívar. Dijo que parte de la razón por la que disfruta de su trabajo es
-        la capacidad de hablar con la gente.
+      caption_en: The exhausting and poorly paid labor never stops Pérez from talking
+        with the people that pass him daily on the street. Pérez said a part of
+        his enjoyment comes from interacting with the environment he works in.
+      caption_es: El trabajo agotador y mal pagado nunca impide a Pérez hablar con las
+        personas que lo pasan diariamente por la calle. Pérez dijo que parte de
+        su disfrute proviene de interactuar con el entorno en el que trabaja.
       alt_en: Pérez smiles joyfully standing in front of an intersection.
       alt_es: Pérez sonríe alegre parado frente a una intersección.
     - src: /assets/img/uploads/lindell_finalsequence-16.jpg
       order: 15
-      caption_en: "Informal recyclers, like Pérez, gravitate to events, protests, and
-        marches to get more materials. Pérez and his son begin walking into a
-        crowd of protestors after finishing their route on La Plaza de Mayo. "
+      caption_en: " The father-son duo hits a jackpot as they find trash from a
+        protest. Informal recyclers, like Pérez, gravitate to events, protests,
+        and marches to get more materials. Pérez and his son begin walking into
+        a crowd of protestors after finishing their route on La Plaza de Mayo. "
       caption_es: Recicladores informales, como Pérez, gravitan a eventos, protestas y
         marchas para conseguir más materiales. Pérez y su hijo comienzan a
         caminar entre una multitud de manifestantes después de terminar su ruta
