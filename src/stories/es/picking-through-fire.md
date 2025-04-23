@@ -1,15 +1,17 @@
 ---
 layout: layouts/story
-title: Escarbar entre las llamas
-reporter_byline: Gowri Abhinanda
-slug: picking-through-fire-es
 language: es
+title: Escarbar entre las llamas
 subtitle: En medio de la crisis económica, los argentinos hurgan entre la basura
   para sobrevivir.
+reporter_byline: Gowri Abhinanda
 video_1_byline: Max Feliu
 video_2_byline: Sophie Hughett
 photo_byline: Dallia Lindell
 interactive_1_byline: Ella Campbell
+uca_contributor_1_byline: Agustina Tettamanti
+uca_contributor_2_byline: Guadalupe Zapata Vicario
+slug: picking-through-fire-es
 body_copy: >-
   A las 10 de la mañana, Joana Enriques comienza su turno para alimentar el
   fuego. En Luján, una ciudad a 80 kilómetros de la capital argentina, Buenos
@@ -27,6 +29,9 @@ body_copy: >-
   Mientras los trabajadores se ven obligados a responder a las demandas del vertedero, el humo se eleva hacia el cielo húmedo de Luján. El aire se espesa con el hedor a azufre y polvo cuando uno de los 15 camiones pasa por el camino de tierra de 700 metros para descargar unas 180 toneladas de basura en La Playa—la zona de descarga. Con su mirada penetrante y sus garras, las aves carroñeras se abren paso entre la neblina y solo aterrizan cuando encuentran algo de valor.
 
 
+  ### PHOTO #9
+
+
   Entre cebollas podridas, osos de peluche, cuadernos escolares desechados, tierra y de vez en cuando una cabra muerta, los trabajadores de La Quema, como las aves carroñeras, buscan oro en las 27 hectáreas del basural.
 
 
@@ -39,13 +44,16 @@ body_copy: >-
   “Siempre veníamos de chicos, hasta solo a jugar con los pájaros”, dijo Enriques, de 26 años. “La mayoría no viene solo a trabajar—las mujeres vienen a buscar ropa o venden cosas que encuentran en las ferias.”
 
 
+  ### PHOTO #3
+
+
   Su familia ha trabajado allí por generaciones, y ella trabaja en el vertedero desde los 12 años.
 
 
-  {%dumpingFlourish%}
-
-
   La Quema es el vertedero a cielo abierto más grande de Argentina y uno de los más grandes de Sudamérica. También es ilegal. La quema de residuos libera toxinas al aire, y los camiones atraviesan el mar de basura, aplastando aves o, en ocasiones, trabajadores. Aunque los cartoneros aceptan el riesgo, entra en conflicto con los residentes que viven alrededor del enorme basural en Luján.
+
+
+  {%dumpingFlourish%}
 
 
   Ambientalistas en Luján han pedido el cierre de La Quema. En diciembre, un tribunal federal ordenó reanudar los esfuerzos de limpieza para convertir el vertedero en un centro ambiental. También se ordenó al gobierno municipal de Luján que detuviera la disposición de residuos y trabajara en la incorporación de “recicladores informales” en procesos de gestión de residuos reformados.
@@ -79,6 +87,9 @@ body_copy: >-
 
 
   Eduardo Donza, profesor de la Universidad de Buenos Aires especializado en mercado laboral, desigualdad social y pobreza, dijo que el trabajo informal continúa creciendo a nivel nacional.
+
+
+  ### PHOTO #19
 
 
   Se estima que el 33% de la fuerza laboral argentina opera dentro de lo que economistas como Donza llaman “economía popular”, donde los empleos se alejan del trabajo tradicional y carecen de protección laboral. Los cartoneros forman parte de esta economía. Estos trabajos surgen por supervivencia cuando el mercado laboral no puede sostener a sus ciudadanos.
@@ -117,6 +128,9 @@ body_copy: >-
   “Sentía vergüenza”, dijo Almada. “Moverme era difícil, pero el verdadero dolor era la vergüenza; no podía mirarme.”
 
 
+  ### PHOTO OF SERGIO OVER MOWER
+
+
   Eso cambió cuando Almada empezó a protestar contra el basural.
 
 
@@ -136,6 +150,9 @@ body_copy: >-
 
 
   Según Almada, el 60% de la comunidad sufre enfermedades crónicas como problemas de piel, huesos, respiratorios y abortos espontáneos.
+
+
+  ### PHOTO #20
 
 
   Llevó todas estas denuncias y pruebas al gobierno municipal. En 2019, Juan Cabandié, entonces ministro de Medio Ambiente y Desarrollo Sostenible de Argentina, visitó Luján para iniciar el plan de construcción de un centro ambiental.
@@ -174,6 +191,9 @@ body_copy: >-
   “Tuve problemas de salud por esto, pero mis compañeros siguen viniendo porque es su forma de ganarse la vida”, dijo.
 
 
+  ### PHOTO #5
+
+
   La congelación fue levantada en 2024, y la construcción del centro se reanudó. A pesar del mandato judicial, el centro ha quedado estancado por la negativa del gobierno de Milei a financiarlo.
 
 
@@ -196,6 +216,9 @@ body_copy: >-
 
 
   Viagra recolecta materiales como plástico, PVC y cartón. Aunque recolectan materiales similares a los cartoneros, prefieren el término “reciclador”.
+
+
+  ### PHOTO #22
 
 
   Para ellos, hay una diferencia: en La Quema cada quien trabaja para sí mismo, mientras que en la cooperativa se reparten las ganancias.
