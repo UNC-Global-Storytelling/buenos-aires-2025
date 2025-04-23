@@ -110,6 +110,20 @@ en:
         to the entrance of Open Sky, Three Stars Cooperative.
       alt_es: Un reciclador lleva un carrito lleno de botellas de cartón, plástico y
         vidrio a la entrada de Open Sky, Cooperativa Tres Estrellas.
+    - src: /assets/img/uploads/lindell_finalsequence-8.jpg
+      order: 8
+      caption_en: Some cartoneros and recyclers can work for urban cooperatives that
+        are funded by the city of Buenos Aires. They are employed directly by
+        the government, and have access to protective gear and helpful
+        equipment.
+      caption_es: Algunos cartoneros y recicladores pueden trabajar para cooperativas
+        urbanas que son financiadas por la ciudad de Buenos Aires. Son empleados
+        directamente por el gobierno, y tienen acceso a equipo de protección y
+        equipo útil.
+      alt_en: "Two formal recyclers stand side-by-side on a conveyor belt as they talk
+        to the supervisor. "
+      alt_es: Dos recicladores formales se paran uno al lado del otro en una cinta
+        transportadora mientras hablan con el supervisor.
 es:
   id: dumping
 ---
