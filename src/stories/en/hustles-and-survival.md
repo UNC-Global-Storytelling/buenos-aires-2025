@@ -54,7 +54,7 @@ body_copy: >-
   {% gigGenially %}
 
 
-  ## **MULTIPLE JOBS** 
+  ## MULTIPLE JOBS 
 
 
   Traditional work is out, and gig work is in. It has become the new way for society to earn a means of living. 
@@ -105,10 +105,10 @@ body_copy: >-
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es", "title": "In the Rhythm of Enough" } %}
 
 
-  ## **ONLY YOU**
+  ## ONLY YOU
 
 
   In the dimly lit room of a rented hotel, with a stripper pole gleaming under neon lights and a bathtub in the middle of the room that promises to become the backdrop of another sensual scene, 23-year-old Marisol Fernández, sets up her camera. A quick check of her phone reminds her why she’s there: the demand for exotic content on OnlyFans has been her lifeline in a country that was unraveling at the seams. With Argentina's economic crisis tightening its grip, Fernández and many women like her, left behind the hustle of traditional work and turned to the gig economy, where their body, confidence, and creativity are their greatest assets. 
@@ -150,7 +150,7 @@ body_copy: >-
   Both Fernández and Orellana dream of returning to school. Fernández hopes to resume her university studies in psychology, while Orellana aims to finish high school and eventually pursue a degree in mathematics. However, for now, Fernández and thousands of other women shape their reality through the content they create on OnlyFans, where their identity, income, and aspirations are closely tied. Meanwhile, Orellana and other Rappi drivers' realities revolve around the fast-paced demands of their deliveries.
 
 
-  ## **IN MOTION: CHARTING THE FUTURE OF GIG WORK** 
+  ## IN MOTION: CHARTING THE FUTURE OF GIG WORK 
 
 
   For all, the gig economy represents a means to survive and thrive in a country where traditional jobs are increasingly difficult to secure, and gig work has become a vital lifeline in Argentina.
