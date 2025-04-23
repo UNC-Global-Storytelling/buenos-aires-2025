@@ -3,12 +3,44 @@
   "storyId": "picking-through-fire",
   "photos": [
     {
-      "photo": "/assets/img/uploads/lindell_inlines-4.jpg",
+      "photo": "/assets/img/uploads/lindell_inlines-2.jpg",
       "order": 1,
+      "caption_en": "Joana Enriques stands on the muddy pathway leading to the sea of waste that provides a livelihood for many families in Luján.",
+      "caption_es": "Joana Enriques se encuentra en el camino fangoso que conduce al mar de residuos que proporciona un sustento para muchas familias en Luján.",
+      "alt_en": "Joana Enriques stands on a path leading to the main site of the dump.",
+      "alt_es": "Joana Enriques se encuentra en un camino que conduce al sitio principal del vertedero."
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-4.jpg",
+      "order": 2,
       "caption_en": "english",
       "caption_es": "spanish",
       "alt_en": "english",
       "alt_es": "spanish"
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-9.jpg",
+      "order": 3,
+      "caption_en": "Waste sits on the edge of the Luján River that comes through the dumping area at La Quema.",
+      "caption_es": "Los residuos se encuentran en la orilla del Río Luján que pasa por el área de vertedero de La Quema.",
+      "alt_en": "The Luján River stands in the background with a pile of waste in the foreground.",
+      "alt_es": "El río Luján se alza al fondo con una pila de desechos en primer plano."
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines.jpg",
+      "order": 4,
+      "caption_en": "An empty bag of Saladix snacks lies on the mud leading to the La Quema dump site.",
+      "caption_es": "Una bolsa vacía de bocadillos Saladix yace en el barro que conduce al vertedero de La Quema.",
+      "alt_en": "An empty bag of Saladix snacks lies on the mud leading to the La Quema dump site.",
+      "alt_es": "Una bolsa vacía de bocadillos Saladix yace en el barro que conduce al vertedero de La Quema."
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-10.jpg",
+      "order": 5,
+      "caption_en": "Marcelo Santiago Viera weighs bags of recycled materials at Open Sky, Three Stars Cooperative in Lujan on March 10.",
+      "caption_es": "Marcelo Santiago Viera pesa bolsas de materiales reciclados en la Cooperativa de Open Sky, Tres Estrellas en Luján el 10 de marzo.",
+      "alt_en": "Marcelo Santiago Viera, a recycler at Open Sky, Three Stars Cooperative, weighs bags of recycled materials.",
+      "alt_es": "Marcelo Santiago Viera, reciclador de Open Sky, Cooperativa Tres Estrellas, pesa sacos de materiales reciclados."
     }
   ]
 }
