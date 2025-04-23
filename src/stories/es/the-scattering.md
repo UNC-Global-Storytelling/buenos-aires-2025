@@ -1,6 +1,6 @@
 ---
 layout: layouts/story
-language: en
+language: es
 title: The Scattering
 subtitle: "As Argentina Shifts, Families Break Apart: A Story of Home and Migration"
 reporter_byline: Walker Livingston
