@@ -50,6 +50,9 @@ body_copy: >-
   "Me gusta vivir aquí en mi barrio porque siento que tengo más compañía, tener un país, ver a mis compatriotas", dijo. "Ahora aún más, porque mi familia ha crecido, y nada me movería de aquí".​
 
 
+  {% photoExperience { "storyId": "community", "lang": lang or "es" } %}
+
+
   Al igual que Oviedo, muchos residentes del barrio emigraron de Perú y Paraguay. Sin embargo, muchos no comparten su visión positiva de sus pobres circunstancias. Debido a la grave pobreza que enfrentan, los residentes están social y físicamente desconectados de sus barrios adyacentes. Muchas partes del barrio carecen de acceso a servicios urbanos, con altos riesgos de delincuencia y problemas de drogas que resultan en una fuerte presencia policial.​
 
 

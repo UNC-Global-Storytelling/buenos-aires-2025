@@ -7,10 +7,13 @@ topic: Resistencia
 title: Aun así, canto
 subtitle: En medio de la represión de Milei, los artistas underground de Buenos
   Aires mantienen viva la resistencia
+reporter_byline: Shelby Swanson
 video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
-photo_byline: Grace Richards
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: spanish-music-name
+photo_byline: Grace Richards
 body_copy: >-
   La luz del atardecer se cuela por la única ventana del tercer piso del
   apartamento de Lola Tabarovsky en el barrio del Abasto, tiñendo la pequeña
@@ -44,6 +47,9 @@ body_copy: >-
 
 
   La escena musical underground de Buenos Aires — que Lola y sus compañeros llaman “el under” — no es un movimiento masivo y comercial. Es rebelde, antiestablishment y local. No se trata de bandas que llenan estadios, sino de grupos de jóvenes adultos que prosperan en locales íntimos, pequeños clubes y bares de mala muerte donde pueden crear una base de seguidores “boca a boca.” Puede que su alcance no sea masivo, pero su influencia en la cultura local — proporcionando música auténtica y sin filtros que habla directamente de las luchas y frustraciones de hoy en día — es innegable.
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   Y aquí está la cosa: Lola cree — no, sabe — que la música puede ofrecer una vía de escape. Que una guitarra rosa, una camisa de tul y un estribillo pop que se puede corear a gritos pueden ser reafirmantes y catárticos a partes iguales.
@@ -160,7 +166,7 @@ body_copy: >-
   Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Merda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
 
 
-  **(FOTOGRAFÍA AQUÍ)**
+  {% photoExperience { "storyId": "music", "lang": lang or "es" } %}
 
 
   Pero el under no se define por un sonido o un estilo. Donde Fama y Guita optan por la ironía y el volumen, Lola se inclina por la vulnerabilidad y el brillo.

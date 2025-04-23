@@ -7,10 +7,13 @@ topic: Resistance
 title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
+reporter_byline: Shelby Swanson
 video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
-photo_byline: Grace Richards
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: music-story
+photo_byline: Grace Richards
 body_copy: >-
   Late afternoon light spills through the only window in Lola Tabarovsky’s
   third-floor apartment in the Abasto barrio, turning the small room the same
@@ -43,6 +46,9 @@ body_copy: >-
 
 
   Buenos Aires’ underground music scene — which Lola and her peers call “el under” — isn’t a massive, commercial movement. It’s rebellious, anti-establishment and local. These aren’t arena-filling bands, but rather groups of young adults that thrive in intimate venues, small clubs and dive bars where they can build a grassroots “boca a boca” following. Their reach may not be massive, but their influence on local culture — providing authentic, unfiltered music that speaks directly to modern day struggles and frustrations — is undeniable.
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   And here’s the thing: Lola believes — no, knows — that music can offer an escape. That a pink guitar, a tulle shirt, a pop chorus you can scream along to can be equally reaffirming and cathartic. 
@@ -102,6 +108,9 @@ body_copy: >-
   Rising rap star Milo J faced similar repression. When he planned a show at the [ex-ESMA memorial site](https://whc.unesco.org/en/list/1681/) — once a torture center under Argentina’s 1980s military junta dictatorship — Milei’s government blocked it, sparking outrage and accusations of censorship.
 
 
+  {% inlinePhoto "music-story", 2, lang %}
+
+
   This crackdown on culture assault echoes Argentina’s past. Under the military junta (1976-1983), artists were censored, exiled or disappeared. Today, Milei’s administration engages in a similar form of erasure — downplaying human rights violations of that era. Milei has slashed funding for the National Genetic Database, which identifies the remains of the military dictatorship’s victims, and closed the National Identity Commission’s [investigation unit](https://buenosairesherald.com/human-rights/milei-dissolves-investigation-unit-that-helped-find-dictatorship-era-appropiated-children) for forced disappearances. 
 
 
@@ -112,9 +121,6 @@ body_copy: >-
 
 
   Like so many others in Argentina’s underground scene, Lola’s using her music to preserve what the government is trying to erase.
-
-
-  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
 
 
   ## DEEP SADNESS
@@ -162,7 +168,7 @@ body_copy: >-
   Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Merda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
-  **(PHOTO STORY HERE)**
+  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
 
 
   But the "under" isn’t defined by one sound or style. Where Fama y Guita choose irony and volume, Lola leans into vulnerability and glitter.

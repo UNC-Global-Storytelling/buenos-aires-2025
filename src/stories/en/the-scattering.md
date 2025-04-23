@@ -32,9 +32,6 @@ body_copy: >-
   {% inlinePhoto "scattering", 1, lang %}
 
 
-  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
-
-
   She’s a mother, deeply grounded in a sense of home and memory. Not home as a place, but the type of home you might find in others, in family. You can see it in her face, the way it softens when she mentions the name of one of her kids or grandkids. 
 
 
@@ -96,6 +93,9 @@ body_copy: >-
 
 
   Current President Javier Milei has denied the number of people who disappeared during the junta dictatorship, placing blame on leftist or Perónistmilitary groups instead. In his election victory speech in 2023, he said, “There were no 30,000.” Many proponents of denialism in Argentina claim that leftist terrorists and guerrilla groups caused a higher number of these disappearances. 
+
+
+  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
 
 
   ## FUERA MILEI

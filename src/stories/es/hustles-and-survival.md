@@ -8,15 +8,20 @@ video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
 uca_contributor_1_byline: Jazmín Lell
-uca_contributor_2_byline: ""
+uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
 topic: Economía
 interactive_1_byline: Hailey Clodfelter
 body_copy: >-
-  {% gigGenially %}
-
-
-  El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire, esta madre de tres hijos, de 24 años, se prepara para enfrentar, una vez más, una jornada agitada. De día, es el corazón cariñoso de su familia; de noche, se convierte en una trabajadora callejera audaz que se desliza entre el tráfico para entregar comida, víveres y otros productos a clientes en algunas de las zonas más difíciles de Buenos Aires. Arriesga su vida cada noche para ganar un poco más de dinero, dependiendo de cuánto pedalea y cuánto tiempo tarda en llegar.
+  El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
+  Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire,
+  esta madre de tres hijos, de 24 años, se prepara para enfrentar, una vez
+  más, una jornada agitada. De día, es el corazón cariñoso de su familia; de
+  noche, se convierte en una trabajadora callejera audaz que se desliza entre el
+  tráfico para entregar comida, víveres y otros productos a clientes en algunas
+  de las zonas más difíciles de Buenos Aires. Arriesga su vida cada noche para
+  ganar un poco más de dinero, dependiendo de cuánto pedalea y cuánto tiempo
+  tarda en llegar.
 
 
   Orellana se abre paso entre las caóticas calles con una concentración aguda. En dos ruedas, forma parte de un mundo feroz e implacable, donde la supervivencia depende de reflejos rápidos y determinación fría. Como mujer en un trabajo dominado por hombres, enfrenta una dinámica constante de tensión: los hombres, a menudo desdeñosos, la ven como competencia, mientras que otras mujeres la miran con desconfianza por trabajar junto a ellos en este entorno duro y estresante.
@@ -41,6 +46,9 @@ body_copy: >-
 
 
   Mientras tanto, otros han encontrado empleo en esta economía haciendo todo tipo de trabajos para llegar a fin de mes. Algunos se han convertido en conductores de Uber, otros dan clases de tango a turistas, y muchas mujeres han encontrado en OnlyFans la mejor forma de generar ingresos extra. La gente espera ver si las medidas de Milei estabilizarán la economía y permitirán que familias como la de Orellana vuelvan a tener dos ingresos estables, o si la economía gig ha llegado para quedarse como la nueva normalidad en Argentina.
+
+
+  {% gigGenially %}
 
 
   ## **TRABAJOS MÚLTIPLES**
@@ -86,6 +94,9 @@ body_copy: >-
 
 
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
+
+
+  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
 
 
   ## **SÓLO TÚ**

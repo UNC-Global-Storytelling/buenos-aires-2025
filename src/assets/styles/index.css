@@ -185,14 +185,20 @@ body.overflow-hidden {
   font-family: var(--font-lora);
 }
 
-.story-content p {
-  margin-bottom: 1.5rem; /* Adjust this value to control spacing */
-}
-
 .story-content > p:first-of-type {
   line-height: 1.6;
   position: relative;
   text-indent: 0; /* reset any weird browser defaults */
+}
+
+/* Apply general margin to all story content paragraphs */
+.story-content p {
+  margin: 1.5rem 0;
+}
+
+/* Reset margin for any <p> inside the photo-experience component */
+.story-content .photo-experience p {
+  margin: 0;
 }
 
 .story-content > p:first-of-type::first-letter {
@@ -254,6 +260,7 @@ body .story-content .video-player {
   font-style: normal; 
   font-weight: 500;
   line-height: normal;
+  padding-top: 1rem;
 }
 
 /* pull quote component styling */
@@ -342,10 +349,15 @@ body .story-content .interactive-container {
   overflow: hidden; /* Ensure no content overflows */
 }
 
+.photo-experience{
+  margin: 0;
+}
+
 /* Title and Description */
 .photo-header {
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 0; /* Remove extra spacing below */
+  padding-bottom: 0; /* Just in case */
 }
 
 .photo-title {
@@ -353,8 +365,6 @@ body .story-content .interactive-container {
   font-weight: bold;
   font-family: var(--font-montserrat);
   color: var(--color-green); /* Use the green color */
-  margin-bottom: 0.5rem;
-  padding-left: 1rem;
 }
 
 .photo-description {
@@ -383,8 +393,9 @@ body .story-content .interactive-container {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-  padding: 1rem;
   align-items: top;
+  padding-top: 1rem; 
+  padding-right: 1rem;
 }
 
 /* Caption and Controls Container */
@@ -497,4 +508,5 @@ body .story-content .interactive-container {
     justify-content: center;
   }
 }
+
 

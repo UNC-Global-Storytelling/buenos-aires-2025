@@ -1,4 +1,30 @@
 {
   "storyId": "music-story",
-  "title": "music story photos"
+  "title": "music story inline photos",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/20250308_richards_famayguita-performance-1547-4.jpg",
+      "order": 1,
+      "caption_en": "Young people dance together at a Fama y Guita concert.",
+      "caption_es": "Jóvenes bailan juntos en un show de Fama y Guita.",
+      "alt_es": "Jóvenes bailan juntos en un show de Fama y Guita.",
+      "alt_en": "Young people dance together at a Fama y Guita concert."
+    },
+    {
+      "photo": "/assets/img/uploads/20250309_richards_international-womens-day-1158.jpg",
+      "order": 2,
+      "caption_en": "On March 8, 2025, thousands of Argentinians took to the streets to march for International Woman’s Day. The march celebrated past struggles for women’s, LGBTQ+ and minority rights.",
+      "caption_es": "El 8 de marzo de 2025, miles de argentinos salieron a las calles para marchar por el Día Internacional de la Mujer. La marcha celebró las luchas pasadas por los derechos de las mujeres, la comunidad LGBTQ+ y las minorías.",
+      "alt_en": "Women chant in the streets.",
+      "alt_es": "Mujeres gritan en las calles."
+    },
+    {
+      "photo": "/assets/img/uploads/20250309_richards_international-womens-day-587.jpg",
+      "order": 3,
+      "caption_en": "People wheat paste posters onto a wall on March 8, 2025 at the International Women's Day march.",
+      "caption_es": "La gente pega carteles con pegamento en una pared el 8 de marzo de 2025 durante la marcha del Día Internacional de la Mujer.",
+      "alt_en": "People paste papers on a wall.",
+      "alt_es": "Personas pegan papeles en una pared."
+    }
+  ]
 }
