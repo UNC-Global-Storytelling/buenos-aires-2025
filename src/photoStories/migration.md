@@ -1,7 +1,7 @@
 ---
 en:
   id: migration
-  title: "As Argentina Shifts, Families Scatter: A Story of Home and Migration"
+  title: A Story of Home and Migration
   photos:
     - src: /assets/img/uploads/20240313_denman_migration_ba-1.jpg
       order: 1
