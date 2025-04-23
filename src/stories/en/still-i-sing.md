@@ -1,7 +1,7 @@
 ---
 layout: layouts/story
 language: en
-title: Aun así, canto
+title: Still, I Sing
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
 reporter_byline: Shelby Swanson
@@ -9,7 +9,7 @@ video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
 photo_byline: Grace Richards
 uca_contributor_1_byline: Clara Etchegoyhen
-slug: music-story
+slug: still-i-sing
 order: 5
 topic: Resistance
 interactive_1_byline: Jiayi Zhang
