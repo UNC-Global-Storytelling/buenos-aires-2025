@@ -3,8 +3,7 @@ layout: layouts/story
 language: es
 topic: Familia
 title: La Dispersión
-subtitle: "Mientras Argentina Cambia, las Familias se Dispersan: Una Historia de
-  Hogar y Migración"
+subtitle: Una Historia de Hogar y Migración
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
