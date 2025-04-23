@@ -174,7 +174,7 @@ en:
     - src: /assets/img/uploads/lindell_finalsequence-12.jpg
       order: 12
       caption_en: Marcelo Pérez is an informal recycler who has worked for the last
-        four years on his own. He collects metal cans for the low price of 10
+        four years on his own. He collects metal cans for the low price of 1,000
         pesos per kilogram of metal.
       caption_es: Marcelo Pérez es un reciclador informal que trabaja por su cuenta
         desde hace cuatro años. Colecciona latas de metal por el módico precio
