@@ -7,11 +7,11 @@ reporter_byline: Anna Laible
 video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
+interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
-interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 body_copy: >-
   In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided
   Argentine neighborhood contrasted by the sole divide of one street – Yma
@@ -32,6 +32,9 @@ body_copy: >-
 
 
   Ángela Oviedo, 59, knows what it feels like to be displaced - to live without a true sense of home. Oviedo emigrated from Ancash, Peru, in 1998 and has lived in Barrio Rodrigo Bueno since 1999. Her family was among the first 40 to settle in what is now considered the historic part of the neighborhood.  
+
+
+  {% video { videoId: "1077433744" } %}
 
 
   “Well, in my ‘historic house,’ it is composed of just a first floor,” Oviedo said. “It was where we used to live only there. First floor only.” 
