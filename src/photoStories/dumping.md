@@ -217,6 +217,19 @@ en:
         la capacidad de hablar con la gente.
       alt_en: Pérez smiles joyfully standing in front of an intersection.
       alt_es: Pérez sonríe alegre parado frente a una intersección.
+    - src: /assets/img/uploads/lindell_finalsequence-16.jpg
+      order: 15
+      caption_en: "Informal recyclers, like Pérez, gravitate to events, protests, and
+        marches to get more materials. Pérez and his son begin walking into a
+        crowd of protestors after finishing their route on La Plaza de Mayo. "
+      caption_es: Recicladores informales, como Pérez, gravitan a eventos, protestas y
+        marchas para conseguir más materiales. Pérez y su hijo comienzan a
+        caminar entre una multitud de manifestantes después de terminar su ruta
+        en La Plaza de Mayo.
+      alt_en: Marcelo and Manuel Pérez walk down La Plaza de Mayo in front of the
+        national congress building.
+      alt_es: Marcelo y Manuel Pérez caminan por la Plaza de Mayo frente al edificio
+        del Congreso Nacional.
 es:
   id: dumping
 ---
