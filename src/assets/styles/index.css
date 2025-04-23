@@ -191,6 +191,16 @@ body.overflow-hidden {
   text-indent: 0; /* reset any weird browser defaults */
 }
 
+/* Apply general margin to all story content paragraphs */
+.story-content p {
+  margin: 1.5rem 0;
+}
+
+/* Reset margin for any <p> inside the photo-experience component */
+.story-content .photo-experience p {
+  margin: 0;
+}
+
 .story-content > p:first-of-type::first-letter {
   font-size: 4rem;
   color: var(--color-green);
