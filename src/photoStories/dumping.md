@@ -96,6 +96,20 @@ en:
         rests on the wooden bench.
       alt_es: La mano de Marcelo Santiago Viagra sostiene un cigarrillo encendido
         mientras descansa sobre el banco de madera.
+    - src: /assets/img/uploads/lindell_finalsequence-7.jpg
+      order: 7
+      caption_en: Open Sky, Three Stars is a collective of recyclers in Luján that
+        collect materials, like plastic and cardboard, from streets and homes.
+        At the cooperative they work under a roof with protective gear, and are
+        paid evenly amongst all the employees.
+      caption_es: Cielo Abierto, Tres Estrellas es un colectivo de recicladores en
+        Luján que recogen materiales, como plástico y cartón, de calles y
+        hogares. En la cooperativa trabajan bajo un techo con equipo de
+        protección, y se les paga equitativamente entre todos los empleados.
+      alt_en: A recycler brings a cart full of cardboard, plastic, and glass bottles
+        to the entrance of Open Sky, Three Stars Cooperative.
+      alt_es: Un reciclador lleva un carrito lleno de botellas de cartón, plástico y
+        vidrio a la entrada de Open Sky, Cooperativa Tres Estrellas.
 es:
   id: dumping
 ---
