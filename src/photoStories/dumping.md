@@ -138,6 +138,24 @@ en:
       alt_es: Un empleado de la cooperativa urbana se sienta al teléfono mientras la
         cinta transportadora transporta los residuos por la cinta para
         separarlos.
+    - src: /assets/img/uploads/lindell_finalsequence-10.jpg
+      order: 10
+      caption_en: "Recyclers that directly work with the city and are considered to be
+        “formal recyclers.” They receive incentives and benefits like insurance,
+        unlike informal recyclers. Still, over the last ten years, the number of
+        informal recyclers has drastically increased and the number of formal
+        recyclers has remained the same. "
+      caption_es: Recicladores que trabajan directamente con la ciudad y son
+        considerados como “recicladores formales”. Reciben incentivos y
+        beneficios como seguros, a diferencia de los recicladores informales.
+        Sin embargo, en los últimos diez años, el número de recicladores
+        informales ha aumentado drásticamente y el número de recicladores
+        formales se ha mantenido igual.
+      alt_en: An employee points at the conveyor belt in the city cooperative while
+        sitting in front of tons of already sorted recycled materials.
+      alt_es: Un empleado señala la cinta transportadora de la cooperativa de la
+        ciudad mientras está sentado frente a toneladas de materiales reciclados
+        ya clasificados.
 es:
   id: dumping
 ---
