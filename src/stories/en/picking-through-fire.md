@@ -1,9 +1,10 @@
 ---
 layout: layouts/story
-title: Picking Through Fire
+language: en
 reporter_byline: Gowri Abhinanda
 slug: picking-through-fire
-language: en
+topic: Environment
+title: Picking Through Fire
 subtitle: Amid economic turmoil, Argentines sort through waste to survive.
 video_1_byline: Max Feliu
 video_2_byline: Sophie Hughett

@@ -7,10 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
-interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: ""
 slug: rebusques-y-supervivencia
+topic: Economía
+interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   {% gigGenially %}
 
