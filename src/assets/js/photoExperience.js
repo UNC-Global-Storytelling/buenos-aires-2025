@@ -7,7 +7,7 @@ function initPhotoExperience(storyId, language) {
       const photos = (data[lang] && data[lang].photos) || data.en.photos || [];
       photos.sort((a, b) => a.order - b.order);
       buildImmersiveSlides(storyId, photos, lang);
-      
+
       if (photos.length === 0) {
         const container = document.getElementById(`photo-experience-${storyId}`);
         container.innerHTML += '<p class="text-center">No photos available</p>';
@@ -63,27 +63,36 @@ function buildImmersiveSlides(storyId, photos, lang) {
     const alt = lang === "es" ? photo.alt_es : photo.alt_en;
 
     const slide = document.createElement('section');
-    slide.className = "h-screen flex flex-col justify-center items-center px-4 space-y-6";
+    slide.className = "h-screen flex items-center justify-center px-4";
 
     slide.innerHTML = `
-      <img 
-        src="${photo.src}" 
-        alt="${alt || ''}" 
-        class="max-h-[70vh] w-auto opacity-0 translate-x-20 transition-all duration-700 ease-in-out immersive-photo"
-        data-slide="${index}"
-      >
-      <p 
-        class="max-w-3xl text-lg md:text-xl text-center text-white opacity-0 translate-x-20 transition-all delay-200 duration-700 ease-in-out immersive-caption"
-        data-slide="${index}"
-      >
-        ${caption || ''}
-      </p>
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-6xl immersive-inner">
+        <img 
+          src="${photo.src}" 
+          alt="${alt || ''}" 
+          class="max-h-[70vh] w-auto opacity-0 translate-x-20 transition-all duration-700 ease-in-out immersive-photo"
+          data-slide="${index}"
+        >
+        <p 
+          class="max-w-xl text-lg md:text-xl text-center md:text-left text-white opacity-0 translate-x-20 transition-all delay-200 duration-700 ease-in-out immersive-caption"
+          data-slide="${index}"
+        >
+          ${caption || ''}
+        </p>
+      </div>
     `;
 
     container.appendChild(slide);
+
+    // Orientation detection goes here
+    const imgEl = slide.querySelector('img');
+    imgEl.onload = () => {
+      const isLandscape = imgEl.naturalWidth > imgEl.naturalHeight;
+      slide.classList.add(isLandscape ? 'landscape' : 'portrait');
+    };
   });
 
-  // Observe and animate on scroll
+  // Animate when in view
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -96,6 +105,7 @@ function buildImmersiveSlides(storyId, photos, lang) {
   document.querySelectorAll(`#immersive-content-${storyId} .immersive-photo, #immersive-content-${storyId} .immersive-caption`)
     .forEach(el => observer.observe(el));
 }
+
 
 
 window.initPhotoExperience = initPhotoExperience;

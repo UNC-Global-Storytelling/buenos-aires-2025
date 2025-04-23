@@ -48,15 +48,15 @@ export default function(data) {
       id="immersive-${storyId}" 
       class="fixed inset-0 bg-black text-white z-[1000] hidden flex-col overflow-y-auto scroll-smooth"
     >
-      <div class="flex justify-end p-4">
-        <button 
-          id="close-immersive-${storyId}" 
-          class="text-white text-2xl font-bold hover:text-gray-300" 
-          aria-label="Close immersive experience"
-        >
-          &times;
-        </button>
-      </div>
+    <div class="fixed top-0 right-0 z-[1010] p-4">
+    <button 
+      id="close-immersive-${storyId}" 
+      class="text-white text-2xl font-bold hover:text-gray-300" 
+      aria-label="Close immersive experience"
+    >
+      &times;
+    </button>
+</div>
       <div id="immersive-content-${storyId}" class="w-full">
         <div class="w-full h-screen flex items-center justify-center text-center px-4">
           <h1 class="text-4xl font-bold">${title}</h1>
