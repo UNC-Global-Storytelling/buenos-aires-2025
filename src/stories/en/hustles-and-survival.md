@@ -30,9 +30,6 @@ body_copy: >-
   There’s little room for camaraderie—every person is out for themselves. With the pressure mounting from all sides, Orellana has learned to keep her guard up and her eyes always scanning the road. With each shift, she pushes through exhaustion, balancing the weight of her children's needs with the demands of an unforgiving gig economy. The clock is her constant enemy, as she races against time, each delivery another small victory in the ongoing struggle for her family’s survival. 
 
 
-  {% inlinePhoto "hustles-and-survival", 1, lang %}
-
-
   Milagros is a Rappi driver and a member of the growing gig economy in Argentina as people take on multiple jobs just to survive. For Orellana, her resilience comes back to her main purpose, motherhood. 
 
 
@@ -84,9 +81,6 @@ body_copy: >-
   Rixner’s livelihood is a balancing act between passion and financial uncertainty. “I never know how much I’m going to make… sometimes I’m worried, but it always goes well for me,” he says.
 
 
-  {% inlinePhoto "hustles-and-survival", 2, lang %}
-
-
   In a country where economic stability is increasingly rare, he has managed to carve out a path by teaching others not only how to move, but how to reconnect – with their bodies, their breath, and the constant flux of life in Buenos Aires. 
 
 
@@ -105,7 +99,7 @@ body_copy: >-
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en", "title": "" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
 
 
   ## **ONLY YOU**
