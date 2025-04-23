@@ -124,6 +124,20 @@ en:
         to the supervisor. "
       alt_es: Dos recicladores formales se paran uno al lado del otro en una cinta
         transportadora mientras hablan con el supervisor.
+    - src: /assets/img/uploads/lindell_finalsequence9.jpg
+      order: 9
+      caption_en: El Álamo is an urban cooperative that collects tons of recyclables a
+        day from homes and businesses. This cooperative has equipment, like the
+        conveyor belt, to help employees work faster while separating materials.
+      caption_es: El Álamo es una cooperativa urbana que recolecta toneladas de
+        materiales reciclables al día de hogares y negocios. Esta cooperativa
+        tiene equipos, como la cinta transportadora, para ayudar a los empleados
+        a trabajar más rápido mientras separan los materiales.
+      alt_en: An employee at the urban cooperative sits on the phone while the
+        conveyor belt carries waste up the belt to be separated.
+      alt_es: Un empleado de la cooperativa urbana se sienta al teléfono mientras la
+        cinta transportadora transporta los residuos por la cinta para
+        separarlos.
 es:
   id: dumping
 ---
