@@ -184,14 +184,12 @@ en:
         gente.
     - src: /assets/img/uploads/lindell_finalsequence-13.jpg
       order: 13
-      caption_en: Pérez works everyday within the area surrounding La Plaza de Mayo in
-        Buenos Aires. The plaza is very populated, and gives Pérez opportunities
-        to find metal cans. He routinely follows a path where he comes across
-        familiar faces.
-      caption_es: Pérez trabaja todos los días dentro del área que rodea La Plaza de
-        Mayo en Buenos Aires. La plaza está muy poblada, y le da a Pérez la
-        oportunidad de encontrar latas de metal. Él sigue rutinariamente un
-        camino donde se encuentra con caras familiares.
+      caption_en: Pérez starts his rounds in La Plaza de Mayo in Buenos Aires. The
+        plaza is a very populated location and provides Pérez opportunities to
+        collect metal cans and other valuables.
+      caption_es: Pérez comienza sus rondas en la Plaza de Mayo de Buenos Aires. La
+        plaza es un lugar muy poblado y le brinda a Pérez la oportunidad de
+        recolectar latas de metal y otros objetos de valor.
       alt_en: Pérez holds two cans and smokes a cigarette while talking with a lady
         passing by.
       alt_es: Pérez sostiene dos latas y fuma un cigarrillo mientras conversa con una
