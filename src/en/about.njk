@@ -10,8 +10,9 @@ layout: layouts/base.njk
     </section>
 
     <section class="intro" style="background-color: #6699c3; padding: 5rem 1rem;">
-        <div style="display: flex; justify-content: center; align-items: center; text-align: center; margin-left: 5%; margin-right: 5%;">
-            <p>We are a group of journalists, photographers, videographers and designers from the UNC Hussman School of Journalism and Media. As part of UNC Global Storytelling, we are committed to telling important stories from around the world.</p>
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin-left: 5%; margin-right: 5%;">
+            <p>We are a team of student journalists and faculty committed to telling impactful global stories.</p>
+            <p>Almas al Viento, a project from MEJO 584 at UNC-Chapel Hill, explores Argentina’s inflation crisis through personal stories of struggle, resilience, and hope. As we learn to navigate the challenges of cross-cultural reporting, we aim to spark conversation and inspire action.</p>
         </div>
     </section>
 
@@ -30,8 +31,7 @@ layout: layouts/base.njk
                 {% for member in aboutPage %}
                 <div class="team-member mix {{ member.role }}">
                     <img src="{{ member.imgOneURL }}" alt="{{ member.name }}">
-                    <p>{{ member.name }}</p>
-                    <p>{{ member.storyGroup }}</p>
+                    <h4>{{ member.name }}</h4>
                     <p>{{ member.role }}</p>
                     <div class="flex">
                         {% if member.instagram %}
@@ -77,13 +77,30 @@ layout: layouts/base.njk
 
     <section class="acknowledgementpart">
         <div class="acknowledgements" style="display: flex; justify-content: center; align-items: center; text-align: center;">
-            <h2>Acknowledgements</h2>
+            <h2>A Special Thanks To:</h2>
         </div>
         <div class="insitutions" style="display: flex; justify-content: center; align-items: center; text-align: center;">
             <p style="margin-right: 20px; line-height: 1.4;">
-                Lorem ipsum odor amet, consectetur adipiscing elit.
+                Hernan Cappiello
             </p>
-            <img src="/assets/img/uploads/grouppic.JPG" alt="Group Picture" style="width: 100px;">
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Soledad Arreguez
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Kyle Winters
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Gary Kirk
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Charlie Tuggle
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Raul Reis
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Students in MEJO 557: Advanced Editing
+            </p>
         </div>
     </section>
 
