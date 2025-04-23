@@ -1,7 +1,7 @@
 ---
 en:
   id: music
-  title: Music
+  title: Songs from Underground
   photos:
     - src: /assets/img/uploads/20250416_richards_music-story_1.jpg
       caption_en: Mari is a 24-year-old Argentine writer, performer and singer born in
