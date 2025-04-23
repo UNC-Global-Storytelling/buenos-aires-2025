@@ -1,7 +1,7 @@
 ---
 en:
   id: dumping
-  title: Dumping
+  title: "From Waste to Worth: Chronicles of Buenos Aires Recycling"
   photos:
     - src: /assets/img/uploads/lindell_finalsequence.jpg
       order: 1
