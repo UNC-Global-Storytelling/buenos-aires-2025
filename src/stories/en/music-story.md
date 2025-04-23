@@ -1,9 +1,6 @@
 ---
 layout: layouts/story
 language: en
-reporter_byline: Shelby Swanson
-slug: music-story
-topic: Resistance
 title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
@@ -43,6 +40,9 @@ body_copy: >-
 
 
   But Lola’s work isn’t just about the past or the future. In the face of Argentina’s growing authoritarianism under President Javier Milei, Lola and other artists are channeling their frustrations into their music. 
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   Buenos Aires’ underground music scene — which Lola and her peers call “el under” — isn’t a massive, commercial movement. It’s rebellious, anti-establishment and local. These aren’t arena-filling bands, but rather groups of young adults that thrive in intimate venues, small clubs and dive bars where they can build a grassroots “boca a boca” following. Their reach may not be massive, but their influence on local culture — providing authentic, unfiltered music that speaks directly to modern day struggles and frustrations — is undeniable.
@@ -138,6 +138,9 @@ body_copy: >-
   And in a country ruled by machismo, under a president who mocks feminism, that kind of release feels radical.
 
 
+  {% musicflourish %}
+
+
   For Argentina’s underground artists, the fight against Milei isn’t abstract — although their art may be. His policies have directly impacted the arts. In March, his administration deregulated royalty collection through collective management societies that support artists with pensions, financial aid and legal services. In August, he removed copyright fees for music in private spaces like hotels and parties, a move critics say cuts a vital income source for artists.
 
 
@@ -165,7 +168,7 @@ body_copy: >-
   Sakatumba, another neo-rock band, describes its music as speaking to the typical 23-year-old Argentine — broke and burdened with worries about the future. Buenos Vampiros, from Mar del Plata and set to debut this year in Europe, explore the tension between light and darkness in both their sound and themes. Their song "Desmotivada" captures the feelings of young people who are "desmotivada, triste y aburrida" — unmotivated, sad and bored. 
 
 
-  Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Merda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
+  Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Mierda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
   {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
