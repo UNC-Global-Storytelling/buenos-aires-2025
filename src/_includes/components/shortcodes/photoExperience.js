@@ -1,14 +1,19 @@
 export default function(data) {
   const storyId = data.storyId;
   const lang = data.lang || 'en';
+  const title = data.title;
   const hasDescription = data.description && data.description.trim() !== '';
 
   return `
-    <div class="photo-experience" id="photo-experience-${storyId}">
+    <div class="photo-experience flex items-center justify-between" id="photo-experience-${storyId}">
       <!-- Title and Description -->
-      <div class="photo-header">
-        <h2 class="photo-title">${data.title || 'Photo Story Title'}</h2>
-        ${hasDescription ? `<p class="photo-description">${data.description}</p>` : ''}
+      <div class="photo-header flex justify-between items-center mb-4 w-full">
+        <h2 class="photo-title text-xl font-semibold">
+          ${title}
+      </h2>
+      <button class="immersive-btn bg-[#D2DCA9] text-black text-sm px-4 py-2 rounded hover:bg-green-700 transition">
+        Launch Immersive Mode
+      </button>
       </div>
 
       <!-- Main Photo Slider -->
