@@ -1,7 +1,7 @@
 ---
 en:
   id: dumping
-  title: dumping
+  title: Dumping
 es:
   id: dumping
 ---
