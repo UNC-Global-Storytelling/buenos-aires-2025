@@ -1,6 +1,8 @@
 ---
+order: 4
 layout: layouts/story
 language: en
+topic: Economy
 title: Hustles and Survival
 subtitle: Gig Work and Multiple Jobs Now Defining Life in Buenos Aires
 reporter_byline: Ashley Santillan
@@ -11,8 +13,6 @@ interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
-order: 4
-topic: Economy
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
   is already on her feet. As the chill of the early morning lingers in the air,
@@ -182,5 +182,5 @@ body_copy: >-
 
 
   Orellana’s 13-year-old brother, whom she has cared for since their mother’s death, represents the future of gig work. Juggling school and teenage life, he also works as a Rappi driver, navigating the same streets and traffic that his sister faces.
-image: /assets/img/uploads/GIGECON-TANGO.jpg
+image: /assets/img/uploads/hustle-hero.jpg
 ---
