@@ -128,7 +128,8 @@ en:
       order: 9
       caption_en: El Álamo is an urban cooperative that collects tons of recyclables a
         day from homes and businesses. This cooperative has equipment, like the
-        conveyor belt, to help employees work faster while separating materials.
+        conveyor belt, to help employees work faster while shifting through
+        materials.
       caption_es: El Álamo es una cooperativa urbana que recolecta toneladas de
         materiales reciclables al día de hogares y negocios. Esta cooperativa
         tiene equipos, como la cinta transportadora, para ayudar a los empleados
@@ -141,15 +142,15 @@ en:
     - src: /assets/img/uploads/lindell_finalsequence-10.jpg
       order: 10
       caption_en: "Recyclers that directly work with the city and are considered to be
-        “formal recyclers.” They receive incentives and benefits like insurance,
-        unlike informal recyclers. Still, over the last ten years, the number of
-        informal recyclers has drastically increased and the number of formal
-        recyclers has remained the same. "
+        “formal recyclers.” Unlike informal recyclers, they receive incentives
+        and benefits like insurance. Still, over the last ten years, the number
+        of informal recyclers has drastically increased, and the number of
+        formal recyclers has remained the same. "
       caption_es: Recicladores que trabajan directamente con la ciudad y son
-        considerados como “recicladores formales”. Reciben incentivos y
-        beneficios como seguros, a diferencia de los recicladores informales.
+        considerados como “recicladores formales”. A diferencia de los
+        recicladores informales, reciben incentivos y beneficios como seguros.
         Sin embargo, en los últimos diez años, el número de recicladores
-        informales ha aumentado drásticamente y el número de recicladores
+        informales ha aumentado drásticamente, y el número de recicladores
         formales se ha mantenido igual.
       alt_en: An employee points at the conveyor belt in the city cooperative while
         sitting in front of tons of already sorted recycled materials.
