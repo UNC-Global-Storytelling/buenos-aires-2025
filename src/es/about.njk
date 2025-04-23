@@ -2,104 +2,119 @@
 title: about
 layout: layouts/base.njk
 ---
+    
     <section class="bg" style="position: relative;">
         <div class="about">
-            <h1>Meet the Team</h1>
+            <h1>Conozca al Equipo</h1>
         </div>
     </section>
 
-    <section class="intro" style="padding: 5rem 1rem;">
-        <div style="display: flex; justify-content: center; align-items: center; text-align: center;">
-            <p>We are a group of journalists, photographers, videographers and designers from the UNC Hussman School of Journalism and Media. As part of UNC Global Storytelling, we are committed to telling important stories from around the world.</p>
+    <section class="intro" style="background-color: #6699c3; padding: 5rem 1rem;">
+        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; margin-left: 5%; margin-right: 5%;">
+            <p>Somos un equipo de estudiantes de periodismo y profesores comprometidos con contar historias globales impactantes.</p>
+            <p>Almas al Viento, un proyecto de MEJO 584 en UNC-Chapel Hill, explora la crisis de inflación en Argentina a través de historias personales de lucha, resiliencia y esperanza. Mientras aprendemos a enfrentar los desafíos del periodismo intercultural, nuestro objetivo es generar conversación e inspirar a la acción.</p>
         </div>
     </section>
 
     <section class="team">
             <div class="control">
-                <button type="button" data-filter="all">All</button>
-                <button type="button" data-filter=".Reporters">Reporters</button>
-                <button type="button" data-filter=".Photographers">Photographers</button>
-                <button type="button" data-filter=".Videographers">Videographers</button>
-                <button type="button" data-filter=".Interactive">Interactive Team</button>
-                <button type="button" data-filter=".Producers">Producers</button>
-                <button type="button" data-filter=".Coaches">Coaches</button>
+                <button type="button" data-filter="all">Todos</button>
+                <button type="button" data-filter=".Reporter">Reporteros</button>
+                <button type="button" data-filter=".Photographer">Fotógrafos</button>
+                <button type="button" data-filter=".Videographer">Videógrafos</button>
+                <button type="button" data-filter=".Interactive">Equipo Interactivo</button>
+                <button type="button" data-filter=".Producer">Productores</button>
+                <button type="button" data-filter=".Coach">Mentores</button>
             </div>
-            <div class="container">
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">
-                    <p><strong>Name:</strong> Jiayi</p>
-                    <p><strong>Team:</strong> Reporters</p>
-                    <a href="https://instagram.com/jiayi_profile" target="_blank">
-                        <img src="/assets/img/icons/instagram-icon.png" alt="Instagram" style="width: 20px;">
-                    </a>
-
-
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">                
-                    <p>Jiayi</p>
+            
+            <div class="container-about">
+                {% for member in aboutPage %}
+                <div class="team-member mix {{ member.role }}">
+                    <img src="{{ member.imgOneURL }}" alt="{{ member.name }}">
+                    <h4>{{ member.name }}</h4>
+                    <p>{{ member.role }}</p>
+                    <div class="flex">
+                        {% if member.instagram %}
+                            <a href="https://instagram.com/{{ member.instagram | replace('@', '') }}" target="_blank">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.facebook %}
+                            <a href="https://www.facebook.com/{{ member.facebook }}" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.LinkedIn %}
+                            <a href="{{ member.LinkedIn }}" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.portfolio %}
+                            <a href="{{ member.portfolio }}" target="_blank">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.X %}
+                            <a href="https://twitter.com/{{ member.X | replace('@', '') }}" target="_blank">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.bluesky %}
+                            <a href="https://bsky.app/profile/{{ member.bluesky }}" target="_blank">
+                                <i class="fa-brands fa-square-bluesky"></i>
+                            </a>
+                        {% endif %}
+                        {% if member.Substack %}
+                            <a href="https://{{ member.Substack }}" target="_blank">
+                                <i class="fa-solid fa-bookmark"></i>
+                            </a>
+                        {% endif %}
+                    </div>
                 </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">                
-                    <p>Jiayi</p>
-                </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Reporters">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 1" style="width: 100px;">                
-                    <p>Jiayi</p>
-                </div>
-                <div class="mix Photographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-
-                </div>
-                <div class="mix Interactive Team">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-                <div class="mix Videographers">
-                    <img src="/assets/img/uploads/Zhang1.jpg" alt="Portrait 2" style="width: 100px;">                
-                    <p>Kyren</p>
-                </div>
-            </div>
+                {% endfor %}
+            </div>    
     </section>
 
     <section class="acknowledgementpart">
         <div class="acknowledgements" style="display: flex; justify-content: center; align-items: center; text-align: center;">
-            <h2>Acknowledgements</h2>
+            <h2>Un agradecimiento especial a los siguientes:</h2>
         </div>
         <div class="insitutions" style="display: flex; justify-content: center; align-items: center; text-align: center;">
             <p style="margin-right: 20px; line-height: 1.4;">
-                Lorem ipsum odor amet, consectetur adipiscing elit.
+                Hernan Cappiello
             </p>
-            <img src="/assets/img/uploads/grouppic.JPG" alt="Group Picture" style="width: 100px;">
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Soledad Arreguez
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Kyle Winters
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Gary Kirk
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Charlie Tuggle
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Raul Reis
+            </p>
+            <p style="margin-right: 20px; line-height: 1.4;">
+                Estudiantes en MEJO 557: Edición avanzada
+            </p>
         </div>
     </section>
 
 <script src="https://cdn.jsdelivr.net/npm/mixitup@3/dist/mixitup.min.js"></script>
-<script>
-   var containerEl = document.querySelector('.container');
-   var mixer = mixitup(containerEl);
-</script>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        mixitup('.container-about', {
+            selectors: {
+                target: '.team-member'
+            },
+            animation: {
+                duration: 300
+            }
+        });
+    });
+</script>

@@ -58,7 +58,6 @@
     margin: 20px auto;
 }
 
-
 .team .mix img {
     border-radius: 50%;
     width: 200px; /* Increase the width of the image */
@@ -76,7 +75,7 @@
 
 /* For large screens: 4 blocks per row */
 .team .mix {
-    width: calc(25% - 1rem); /* 4 items per row */
+    width: calc(25% - 1rem);
 }
 
 /* For medium screens: 2 blocks per row */
@@ -112,6 +111,12 @@
     font-size: 20px;
 }
 
+.team-member {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: left; /* Center align items */
+}
+
 .team-member a {
     display: inline-block;
     margin-right: 0.5rem; /* optional: space between icons */
@@ -138,6 +143,14 @@
 
 .insitutions img {
     width: 120px;
+}
+
+.insitutions {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adjust value for more space between blocks */
 }
 
 
