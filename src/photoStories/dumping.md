@@ -20,6 +20,19 @@ en:
       alt_es: Dos caminos de tierra con edificios y bosques al fondo durante el
         amanecer. Un camino conduce al vertedero de La Quema y el otro conduce
         al edificio de oficinas.
+    - src: /assets/img/uploads/lindell_finalsequence-2.jpg
+      order: 2
+      caption_en: At dawn, waste like plastic, tires, and snack wrappers are burnt
+        into ash and toxic fumes. This daily practice is cleared off by dump
+        trucks that will soon bring more waste to La Quema throughout the day.
+      caption_es: Al amanecer, los desechos como el plástico, los neumáticos y las
+        envolturas de bocadillos se queman en cenizas y vapores tóxicos. Esta
+        práctica diaria es despejada por camiones volquetes que pronto traerán
+        más residuos a La Quema durante todo el día.
+      alt_en: "Two flamelets are surrounded by smoke as paper, plastic, rubber, and
+        other waste burn out. "
+      alt_es: Dos llamas están rodeadas de humo a medida que el papel, el plástico, el
+        caucho y otros desechos se queman.
 es:
   id: dumping
 ---
