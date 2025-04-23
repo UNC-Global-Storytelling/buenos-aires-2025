@@ -224,5 +224,5 @@ body_copy: >-
 
 
   Y eso, a su manera, es una especie de revolución.
-image: /assets/img/uploads/hero-image_1-2.jpg
+image: /assets/img/uploads/20250315_richards_lola-rehearsal-567.jpg
 ---

@@ -226,5 +226,5 @@ body_copy: >-
 
 
   And that, in its own way, is a kind of revolution.
-image: /assets/img/uploads/hero-image_1-2.jpg
+image: /assets/img/uploads/20250315_richards_lola-rehearsal-567.jpg
 ---
