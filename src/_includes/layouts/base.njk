@@ -149,7 +149,7 @@
       
       <!-- About link -->
       <a href="/{{ currentLang }}/about/" class="text-white text-2xl font-montserrat hover:text-color-blue transition-colors mb-10">
-        {% if currentLang == "es" %}Acerca de{% else %}About{% endif %}
+        {% if currentLang == "es" %}Sobre Nostros{% else %}About{% endif %}
       </a>
     </div>
   </div>
@@ -193,7 +193,7 @@
 
       <!-- About link -->
       <div class="text-sm md:text-base font-semibold">
-        <a href="/{{ currentLang }}/about" class="hover:underline">About</a>
+        <a href="/{{ currentLang }}/about" class="hover:underline">{% if currentLang == "es" %}Sobre Nostros{% else %}About{% endif %}</a>
       </div>
     </div>
   </div>
