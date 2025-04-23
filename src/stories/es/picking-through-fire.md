@@ -62,6 +62,9 @@ body_copy: >-
   Pese al esfuerzo por incluirlos en el futuro, cartoneros como Enriques se resisten a las medidas judiciales para proteger su sustento. La resistencia se ve agravada por la pobreza causada por los nuevos programas de austeridad del presidente Javier Milei, que han contribuido al aumento del desempleo y duplicado la cantidad de cartoneros.
 
 
+  {% photoExperience { "storyId": "dumping", "lang": lang or "es", "title": "La Quema" } %}
+
+
   ## ECONOMÍA POPULAR
 
 
