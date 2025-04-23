@@ -163,7 +163,7 @@ body_copy: >-
   Sakatumba, otra banda de neo-rock, describe su música como la del típico joven argentino de 23 años, arruinado y preocupado por el futuro. Buenos Vampiros, de Mar del Plata, que debutará este año en Europa, explora la tensión entre la luz y la oscuridad tanto en su sonido como en sus temas. Su canción “Desmotivada” capta los sentimientos de los jóvenes “desmotivados, tristes y aburridos.” 
 
 
-  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Merda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
+  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Mierda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
 
 
   {% photoExperience { "storyId": "music", "lang": lang or "es" } %}

@@ -165,7 +165,7 @@ body_copy: >-
   Sakatumba, another neo-rock band, describes its music as speaking to the typical 23-year-old Argentine — broke and burdened with worries about the future. Buenos Vampiros, from Mar del Plata and set to debut this year in Europe, explore the tension between light and darkness in both their sound and themes. Their song "Desmotivada" captures the feelings of young people who are "desmotivada, triste y aburrida" — unmotivated, sad and bored. 
 
 
-  Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Merda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
+  Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Mierda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
   {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
