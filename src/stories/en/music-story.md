@@ -1,16 +1,16 @@
 ---
 layout: layouts/story
 language: en
-title: Aun así, canto
-subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
-  Resistance Loud
 reporter_byline: Shelby Swanson
 video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
-interactive_1_byline: Jiayi Zhang
+photo_byline: Grace Richards
 uca_contributor_1_byline: Clara Etchegoyhen
 slug: music-story
-photo_byline: Grace Richards
+title: Aun así, canto
+subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
+  Resistance Loud
+interactive_1_byline: Jiayi Zhang
 body_copy: >-
   Late afternoon light spills through the only window in Lola Tabarovsky’s
   third-floor apartment in the Abasto barrio, turning the small room the same
@@ -168,7 +168,7 @@ body_copy: >-
   Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Mierda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
-  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "music", "lang": lang or "en", "title": "In the Rhythm of Enough" } %}
 
 
   But the "under" isn’t defined by one sound or style. Where Fama y Guita choose irony and volume, Lola leans into vulnerability and glitter.
