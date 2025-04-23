@@ -50,6 +50,22 @@ en:
         truck in La Quema.
       alt_es: Un grupo de cartoneros comienza a buscar entre los desechos que deja un
         camión de volteo en La Quema.
+    - src: /assets/img/uploads/lindell_finalsequence-4.jpg
+      order: 3
+      caption_en: A proposal for the creation of a “school of thought” is left beneath
+        the mud at La Quema. Many personal items left at La Quema are found
+        intertwined with the environment of trash, metal, and even dead animals.
+      caption_es: Una propuesta para la creación de una “escuela de pensamiento” se
+        deja bajo el barro en La Quema. Muchos objetos personales que quedan en
+        La Quema se encuentran entrelazados con el entorno de basura, metal e
+        incluso animales muertos.
+      alt_en: A printed letter or proposal lies crinkled and stained in the muddy
+        ground. Much of the letter is untranscribable, but mentions a
+        ‘cosmovision’ or ‘school of thought.’
+      alt_es: Una carta impresa o una propuesta de matrimonio yacen arrugadas y
+        manchadas en el suelo fangoso. Gran parte de la carta es
+        intranscribible, pero menciona una "cosmovisión" o "escuela de
+        pensamiento".
 es:
   id: dumping
 ---
