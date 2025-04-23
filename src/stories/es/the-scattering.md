@@ -9,11 +9,11 @@ video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
 photo_byline: Emma Denman
 interactive_1_byline: Anna Fetter
-interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering-es
 topic: Familia
+interactive_2_byline: Kyren Ual
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner es conocida por sus 11 hijos y 34
   nietos como Sofia. No llega a medir metro y medio, está sentada tranquilamente

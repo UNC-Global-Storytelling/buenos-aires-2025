@@ -8,11 +8,11 @@ video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
 photo_byline: Emma Denman
 interactive_1_byline: Anna Fetter
-interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering
 topic: Family
+interactive_2_byline: Kyren Ual
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner is known to her 11 children and
   34 grandchildren as Sofia. She doesn’t quite reach five feet tall, she’s
@@ -95,7 +95,7 @@ body_copy: >-
   Current President Javier Milei has denied the number of people who disappeared during the junta dictatorship, placing blame on leftist or Perónistmilitary groups instead. In his election victory speech in 2023, he said, “There were no 30,000.” Many proponents of denialism in Argentina claim that leftist terrorists and guerrilla groups caused a higher number of these disappearances. 
 
 
-  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "Migration", "lang": lang or "en", "title": "As Argentina Shifts, Families Scatter: A Story of Home and Migration" } %}
 
 
   ## FUERA MILEI
