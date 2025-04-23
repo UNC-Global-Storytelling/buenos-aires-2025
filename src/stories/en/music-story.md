@@ -1,9 +1,6 @@
 ---
 layout: layouts/story
 language: en
-reporter_byline: Shelby Swanson
-slug: music-story
-topic: Resistance
 title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
@@ -43,6 +40,9 @@ body_copy: >-
 
 
   But Lola’s work isn’t just about the past or the future. In the face of Argentina’s growing authoritarianism under President Javier Milei, Lola and other artists are channeling their frustrations into their music. 
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   Buenos Aires’ underground music scene — which Lola and her peers call “el under” — isn’t a massive, commercial movement. It’s rebellious, anti-establishment and local. These aren’t arena-filling bands, but rather groups of young adults that thrive in intimate venues, small clubs and dive bars where they can build a grassroots “boca a boca” following. Their reach may not be massive, but their influence on local culture — providing authentic, unfiltered music that speaks directly to modern day struggles and frustrations — is undeniable.
