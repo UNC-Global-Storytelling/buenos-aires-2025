@@ -51,6 +51,11 @@ body_copy: >-
   ### PHOTO #3
 
 
+
+  {% inlinePhoto "picking-through-fire", 1, lang %}
+
+
+
   Her family has worked here for generations, and she has worked at the dump since she was 12. 
 
 
