@@ -53,8 +53,8 @@
           {% endif %}
 
           {% for story in menuStories %}
-            <li>
-              <a href="{{ story.url }}" class="hover:underline hover:text-gray-300">{{ story.data.title }}</a>
+            <li style="text-align: center;">
+              <a href="{{ story.url }}" class="hover:underline hover:text-gray-300">{% if story.data.topic%}{{ story.data.topic }}:{% endif %} {{ story.data.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -64,7 +64,7 @@
       <div class="flex items-center space-x-4 text-base font-bold">
         <!-- About link (desktop only) -->
         <a href="/{{ currentLang }}/about/" class="hidden md:inline hover:underline">
-          {% if currentLang == "en" %}About{% else %}Acerca de{% endif %}
+          {% if currentLang == "en" %}About{% else %}Sobre nosotros{% endif %}
         </a>
 
         <!-- Language Toggle (shown on all devices) -->
@@ -74,7 +74,6 @@
           {% set otherLang = "en" %}
         {% endif %}
         {% set translatedUrl = "/" ~ otherLang ~ "/" %}
-
         <!-- Story translation URL handling -->
         {% if '/stories/' in page.url %}
           {% set urlSegments = page.url.split('/') %}
@@ -96,7 +95,6 @@
             {% endfor %}
           {% endif %}
         {% endif %}
-
         <div class="language-toggle rounded-full bg-gray-800 p-1 flex items-center">
           {% if currentLang == "en" %}
             <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-bold">EN</span>
@@ -106,7 +104,6 @@
             <span class="toggle-option active py-1 px-3 rounded-full bg-white text-black font-bold">ES</span>
           {% endif %}
         </div>
-
         <!-- Hamburger button (mobile only) -->
         <button id="mobile-menu-button" class="md:hidden flex items-center p-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -116,7 +113,6 @@
       </div>
     </div>
   </header>
-
   <!-- Mobile menu overlay (moved to root level) -->
   <div id="mobile-menu" class="fixed inset-0 bg-black bg-opacity-95 z-[9999] transform translate-x-full transition-transform duration-300">
     <!-- Close button -->
@@ -127,14 +123,12 @@
         </svg>
       </button>
     </div>
-    
     <!-- Mobile menu content -->
     <div class="flex flex-col items-center overflow-y-auto h-full pt-8 pb-16 px-6">
       <!-- Stories section -->
       <h2 class="text-white text-2xl font-montserrat mb-6 border-b border-gray-700 pb-2 w-full text-center">
         {% if currentLang == "es" %}Historias{% else %}Stories{% endif %}
       </h2>
-      
       <div class="flex flex-col items-center gap-4 mb-10">
         {% if currentLang == "en" %}
           {% for story in collections.storiesEN %}
@@ -146,14 +140,12 @@
           {% endfor %}
         {% endif %}
       </div>
-      
       <!-- About link -->
       <a href="/{{ currentLang }}/about/" class="text-white text-2xl font-montserrat hover:text-color-blue transition-colors mb-10">
         {% if currentLang == "es" %}Sobre Nostros{% else %}About{% endif %}
       </a>
     </div>
   </div>
-
   <!-- Content w/ gradient overlay -->
   <main class="flex-grow relative gradient-overlay">
     {{ content | safe }}

@@ -8,10 +8,11 @@ video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
 photo_byline: Emma Denman
 interactive_1_byline: Anna Fetter
-interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering
+topic: Family
+interactive_2_byline: Kyren Ual
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner is known to her 11 children and
   34 grandchildren as Sofia. She doesn’t quite reach five feet tall, she’s

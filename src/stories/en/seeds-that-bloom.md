@@ -8,10 +8,11 @@ video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
 interactive_1_byline: Emily Rollins
-interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+topic: Community
+interactive_2_byline: Hailey Patterson
 body_copy: >-
   In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided
   Argentine neighborhood contrasted by the sole divide of one street – Yma

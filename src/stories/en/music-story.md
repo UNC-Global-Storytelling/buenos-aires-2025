@@ -1,6 +1,9 @@
 ---
 layout: layouts/story
 language: en
+reporter_byline: Shelby Swanson
+slug: music-story
+topic: Resistance
 title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud

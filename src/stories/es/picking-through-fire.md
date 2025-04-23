@@ -1,9 +1,10 @@
 ---
 layout: layouts/story
-title: Escarbar entre las llamas
+language: es
 reporter_byline: Gowri Abhinanda
 slug: picking-through-fire-es
-language: es
+topic: Ambiente
+title: Escarbar entre las llamas
 subtitle: En medio de la crisis económica, los argentinos hurgan entre la basura
   para sobrevivir.
 video_1_byline: Max Feliu
