@@ -114,6 +114,9 @@ body_copy: >-
   In the dimly lit room of a rented hotel, with a stripper pole gleaming under neon lights and a bathtub in the middle of the room that promises to become the backdrop of another sensual scene, 23-year-old Marisol Fernández, sets up her camera. A quick check of her phone reminds her why she’s there: the demand for exotic content on OnlyFans has been her lifeline in a country that was unraveling at the seams. With Argentina's economic crisis tightening its grip, Fernández and many women like her, left behind the hustle of traditional work and turned to the gig economy, where their body, confidence, and creativity are their greatest assets. 
 
 
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
+
+
   The hotel room, rented for just three hours, is her studio—her safe space to perform, create, and, most importantly, survive in a financial landscape that offers few options for young women like her. As the country grapples with inflation and unemployment, Fernández’s world now revolves around the precarious balance between her online persona and the unpredictable market she’s learned to navigate—one click at a time.
 
 
