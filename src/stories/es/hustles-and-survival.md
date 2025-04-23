@@ -1,6 +1,7 @@
 ---
 layout: layouts/story
 language: es
+topic: Economía
 title: Rebusques y Supervivencia
 subtitle: El trabajo informal y los empleos múltiples definen la vida en Buenos Aires.
 reporter_byline: Ashley Santillan
@@ -11,7 +12,6 @@ interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
-topic: Economía
 body_copy: >-
   El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
   Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire,

@@ -1,6 +1,7 @@
 ---
 layout: layouts/story
 language: en
+topic: Economy
 title: Hustles and Survival
 subtitle: Gig Work and Multiple Jobs Now Defining Life in Buenos Aires
 reporter_byline: Ashley Santillan
@@ -11,12 +12,16 @@ interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
-topic: Economy
 body_copy: >-
-  emily
-
-
-  The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana is already on her feet. As the chill of the early morning lingers in the air, the 24-year-old mother of three prepares to face once again a busy schedule. By day, she is the nurturing heart of her family; by night, she becomes a daring, racing street worker weaving through traffic to deliver food, groceries, and other goods to customers on the streets of Buenos Aires in some of the toughest neighborhoods. She risks her life nightly to earn a little extra money based on how far she peddles her bike and the time it takes to get there.  
+  The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
+  is already on her feet. As the chill of the early morning lingers in the air,
+  the 24-year-old mother of three prepares to face once again a busy schedule.
+  By day, she is the nurturing heart of her family; by night, she becomes a
+  daring, racing street worker weaving through traffic to deliver food,
+  groceries, and other goods to customers on the streets of Buenos Aires in some
+  of the toughest neighborhoods. She risks her life nightly to earn a little
+  extra money based on how far she peddles her bike and the time it takes to get
+  there.  
 
 
   Orellana weaves through the chaotic streets with a sharp focus. On two wheels, she’s part of a fierce, unforgiving world where survival depends on quick reflexes and cold determination. As a woman in a male-dominated gig, she faces a constant push-and-pull dynamic; men, often dismissive of her presence, see her as competition, while other women eye her with distrust, resenting her for working alongside men in this gritty, high-stress environment. 
