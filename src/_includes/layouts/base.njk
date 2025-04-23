@@ -73,7 +73,12 @@
         {% else %}
           {% set otherLang = "en" %}
         {% endif %}
-        {% set translatedUrl = "/" ~ otherLang ~ "/" %}
+        {# Debug the current URL and segments #}
+        {% if page.fileSlug != "en" and page.fileSlug != "es" %}
+          {% set translatedUrl = "/" ~ otherLang ~ "/" ~ page.fileSlug %}
+        {% else %}
+          {% set translatedUrl = "/" ~ otherLang ~ "/" %}
+        {% endif %}
         <!-- Story translation URL handling -->
         {% if '/stories/' in page.url %}
           {% set urlSegments = page.url.split('/') %}
@@ -83,15 +88,15 @@
           {% endif %}
           {% if currentLang == "en" and collections.storiesES.length > 0 %}
             {% for story in collections.storiesES %}
-              {% if story.data.translationKey == page.data.translationKey %}
-                {% set translatedUrl = story.url %}
-              {% endif %}
+              {# {% if story.data.translationKey == page.data.translationKey %} #}
+                {% set translatedUrl = "/stories/es/" ~ page.fileSlug %}
+              {# {% endif %} #}
             {% endfor %}
           {% elif currentLang == "es" and collections.storiesEN.length > 0 %}
             {% for story in collections.storiesEN %}
-              {% if story.data.translationKey == page.data.translationKey %}
-                {% set translatedUrl = story.url %}
-              {% endif %}
+              {# {% if story.data.translationKey == page.data.translationKey %} #}
+                {% set translatedUrl = "/stories/en/" ~ page.fileSlug %}
+              {# {% endif %} #}
             {% endfor %}
           {% endif %}
         {% endif %}
