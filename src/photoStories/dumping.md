@@ -170,6 +170,19 @@ en:
         separated materials sits in the corner of a building.
       alt_es: En la esquina de un edificio se encuentra una montaña de bolsas blancas
         con la leyenda "ciudad de Buenos Aires" llenas de materiales separados.
+    - src: /assets/img/uploads/lindell_finalsequence-12.jpg
+      order: 12
+      caption_en: "Marcelo Pérez is an informal recycler who has worked for the last
+        four years to provide for his family. He only collects metal cans
+        because the selling price, 10 pesos per kilogram, is the highest rate at
+        the moment. "
+      caption_es: Marcelo Pérez es un reciclador informal que ha trabajado durante los
+        últimos cuatro años para mantener a su familia. Solo recoge latas de
+        metal porque el precio de venta, 10 pesos por kilogramo, es la tasa más
+        alta en este momento.
+      alt_en: Marcelo Pérez looking into a garbage can at the crosswalk full of people.
+      alt_es: Marcelo Pérez mirando un bote de basura en el paso de peatones lleno de
+        gente.
 es:
   id: dumping
 ---
