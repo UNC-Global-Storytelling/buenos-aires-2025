@@ -22,6 +22,7 @@ collections:
     i18n: true
     slug: "{{title | slugify}}"
     fields:
+      - { label: "Order", name: "order", widget: "number", value_type: "int", min: 1, i18n: "duplicate" }
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/story", i18n: "duplicate"}
       - {label: "Language", name: "language", widget: "select", options: ["en", "es"], i18n: true}
       - {label: "Translation Key", name: "translationKey", widget: "hidden", i18n: "duplicate"}

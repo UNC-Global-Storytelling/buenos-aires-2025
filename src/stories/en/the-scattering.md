@@ -1,7 +1,6 @@
 ---
 layout: layouts/story
 language: en
-topic: Family
 title: The Scattering
 subtitle: A Story of Home and Migration
 reporter_byline: Walker Livingston
@@ -13,6 +12,8 @@ interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering
+order: 2
+topic: Migration
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner is known to her 11 children and
   34 grandchildren as Sofia. She doesn’t quite reach five feet tall, she’s

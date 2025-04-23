@@ -11,6 +11,8 @@ interactive_1_byline: Ella Campbell
 uca_contributor_1_byline: Agustina Tettamanti
 uca_contributor_2_byline: Guadalupe Zapata Vicario
 slug: picking-through-fire
+order: 3
+topic: Environment
 body_copy: >-
   At 10 a.m., Joana Enriques begins her shift to feed the fire. In Luján, a city
   50 miles from Argentina’s capital of Buenos Aires, exists “La Quema,” an
