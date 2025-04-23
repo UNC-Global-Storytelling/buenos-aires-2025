@@ -95,7 +95,7 @@ body_copy: >-
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
 
 
   ## **SÓLO TÚ**
