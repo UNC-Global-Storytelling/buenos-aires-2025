@@ -28,7 +28,7 @@ body_copy: >-
   Se ríe con desdén y se describe como “nada”, haciendo una frambuesa con los labios y mirando hacia los arbustos frondosos junto a la piscina. Ni argentina, ni italiana, ni una cosa ni la otra, pero es todo lo contrario a nada.
 
 
-  {% inlinePhoto "scattering", 1, lang %}
+  {% inlinePhoto "scattering", 1, "es" %}
 
 
   Es madre, profundamente arraigada a un sentido de hogar y de memoria. No un hogar como lugar físico, sino el tipo de hogar que se encuentra en los demás, en la familia. Se ve en su rostro, en cómo se suaviza cuando menciona el nombre de alguno de sus hijos o nietos.
