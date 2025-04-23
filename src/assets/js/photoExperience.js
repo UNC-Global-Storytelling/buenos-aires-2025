@@ -56,25 +56,28 @@ function initPhotoExperience(storyId, language) {
 
 function buildImmersiveSlides(storyId, photos, lang) {
   const container = document.getElementById(`immersive-content-${storyId}`);
-  container.innerHTML = ''; // clear placeholder
+  container.innerHTML = ''; // Clear previous content
 
   photos.forEach((photo, index) => {
     const caption = lang === "es" ? photo.caption_es : photo.caption_en;
     const alt = lang === "es" ? photo.alt_es : photo.alt_en;
 
-    const slide = document.createElement('section');
-    slide.className = "h-screen flex items-center justify-center px-4";
+    const section = document.createElement('section');
+    section.className = "relative h-[300vh] bg-black";
 
-    slide.innerHTML = `
-      <div class="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-6xl immersive-inner">
+    const scene = document.createElement('div');
+    scene.className = "scene-wrapper sticky top-0 h-screen flex flex-col items-center justify-center";
+
+    scene.innerHTML = `
+      <div class="max-w-6xl mx-auto w-full h-full flex flex-col items-center justify-center px-4 text-center space-y-6">
         <img 
           src="${photo.src}" 
           alt="${alt || ''}" 
-          class="max-h-[70vh] w-auto opacity-0 translate-x-20 transition-all duration-700 ease-in-out immersive-photo"
+          class="immersive-photo max-h-[80vh] w-auto md:max-w-[85vw] md:max-h-[80vh] max-h-[65vh] object-contain scale-100 opacity-100 transition-transform duration-700 ease-in-out"
           data-slide="${index}"
         >
         <p 
-          class="max-w-xl text-lg md:text-xl text-center md:text-left text-white opacity-0 translate-x-20 transition-all delay-200 duration-700 ease-in-out immersive-caption"
+          class=class="immersive-caption opacity-0 pt-4 text-white text-base md:text-lg leading-relaxed font-light md:max-w-xl transition-opacity duration-700 ease-in-out"
           data-slide="${index}"
         >
           ${caption || ''}
@@ -82,29 +85,44 @@ function buildImmersiveSlides(storyId, photos, lang) {
       </div>
     `;
 
-    container.appendChild(slide);
+    section.appendChild(scene);
+    container.appendChild(section);
 
-    // Orientation detection goes here
-    const imgEl = slide.querySelector('img');
+    // Spacer between scenes
+    if (index < photos.length - 1) {
+      const spacer = document.createElement('div');
+      spacer.className = "h-[100vh] bg-black";
+      container.appendChild(spacer);
+    }
+
+    const imgEl = scene.querySelector('img');
     imgEl.onload = () => {
       const isLandscape = imgEl.naturalWidth > imgEl.naturalHeight;
-      slide.classList.add(isLandscape ? 'landscape' : 'portrait');
+      section.classList.add(isLandscape ? 'landscape' : 'portrait');
     };
   });
 
-  // Animate when in view
+  // Animate images + captions
+  const scenes = document.querySelectorAll(`#immersive-content-${storyId} section`);
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
+      const img = entry.target.querySelector('.immersive-photo');
+      const caption = entry.target.querySelector('.immersive-caption');
+
       if (entry.isIntersecting) {
-        entry.target.classList.remove('opacity-0', 'translate-x-20');
-        entry.target.classList.add('opacity-100', 'translate-x-0');
+        img.classList.add('scale-90');
+        caption.classList.add('opacity-100');
+      } else {
+        img.classList.remove('scale-90');
+        caption.classList.remove('opacity-100');
       }
     });
-  }, { threshold: 0.3 });
+  }, { threshold: 0.5 });
 
-  document.querySelectorAll(`#immersive-content-${storyId} .immersive-photo, #immersive-content-${storyId} .immersive-caption`)
-    .forEach(el => observer.observe(el));
+  scenes.forEach(scene => observer.observe(scene));
 }
+
 
 
 
