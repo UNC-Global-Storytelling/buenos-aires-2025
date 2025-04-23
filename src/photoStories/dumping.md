@@ -53,12 +53,12 @@ en:
     - src: /assets/img/uploads/lindell_finalsequence-4.jpg
       order: 4
       caption_en: A proposal for the creation of a “school of thought” is left beneath
-        the mud at La Quema. Many personal items left at La Quema are found
-        intertwined with the environment of trash, metal, and even dead animals.
-      caption_es: Una propuesta para la creación de una “escuela de pensamiento” se
-        deja bajo el barro en La Quema. Muchos objetos personales que quedan en
-        La Quema se encuentran entrelazados con el entorno de basura, metal e
-        incluso animales muertos.
+        the mud at La Quema. Many personal items are found intertwined with the
+        environment of trash, metal, and even dead animals.
+      caption_es: Una propuesta para la creación de una "escuela de pensamiento" queda
+        bajo el barro en La Quema. Muchos objetos personales se encuentran
+        entrelazados con el entorno de la basura, el metal e incluso los
+        animales muertos.
       alt_en: A printed letter or proposal lies crinkled and stained in the muddy
         ground. Much of the letter is untranscribable, but mentions a
         ‘cosmovision’ or ‘school of thought.’
@@ -100,12 +100,12 @@ en:
       order: 7
       caption_en: Open Sky, Three Stars is a collective of recyclers in Luján that
         collect materials, like plastic and cardboard, from streets and homes.
-        At the cooperative they work under a roof with protective gear, and are
-        paid evenly amongst all the employees.
+        At the cooperative they work under a roof with protective gear, and all
+        employees are paid evenly.
       caption_es: Cielo Abierto, Tres Estrellas es un colectivo de recicladores en
         Luján que recogen materiales, como plástico y cartón, de calles y
         hogares. En la cooperativa trabajan bajo un techo con equipo de
-        protección, y se les paga equitativamente entre todos los empleados.
+        protección, y todos los empleados reciben un pago uniforme.
       alt_en: A recycler brings a cart full of cardboard, plastic, and glass bottles
         to the entrance of Open Sky, Three Stars Cooperative.
       alt_es: Un reciclador lleva un carrito lleno de botellas de cartón, plástico y
