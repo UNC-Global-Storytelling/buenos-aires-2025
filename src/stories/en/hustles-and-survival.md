@@ -84,7 +84,7 @@ body_copy: >-
   Rixner’s livelihood is a balancing act between passion and financial uncertainty. “I never know how much I’m going to make… sometimes I’m worried, but it always goes well for me,” he says.
 
 
-  {% inlinePhoto "hustles-and-survival", 2, lang %}
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   In a country where economic stability is increasingly rare, he has managed to carve out a path by teaching others not only how to move, but how to reconnect – with their bodies, their breath, and the constant flux of life in Buenos Aires. 
@@ -114,10 +114,10 @@ body_copy: >-
   In the dimly lit room of a rented hotel, with a stripper pole gleaming under neon lights and a bathtub in the middle of the room that promises to become the backdrop of another sensual scene, 23-year-old Marisol Fernández, sets up her camera. A quick check of her phone reminds her why she’s there: the demand for exotic content on OnlyFans has been her lifeline in a country that was unraveling at the seams. With Argentina's economic crisis tightening its grip, Fernández and many women like her, left behind the hustle of traditional work and turned to the gig economy, where their body, confidence, and creativity are their greatest assets. 
 
 
-  {% inlinePhoto "hustles-and-survival", 3, lang %}
-
-
   The hotel room, rented for just three hours, is her studio—her safe space to perform, create, and, most importantly, survive in a financial landscape that offers few options for young women like her. As the country grapples with inflation and unemployment, Fernández’s world now revolves around the precarious balance between her online persona and the unpredictable market she’s learned to navigate—one click at a time.
+
+
+  {% inlinePhoto "hustles-and-survival", 2, lang %}
 
 
   Through Only Fans and Telegram, a messaging app, she has been able to survive. Her increased platform has also been able to get her a “sugar daddy,” which is typically an older man who gives gifts or money for a younger woman’s company and sometimes sex work. She sees him and spends a day with him during the week in exchange for up to $300 USD, which is about $323,000 in Argentine pesos. Only knowing him for five months, he has gifted her many things like jewelry, handbags, shoes, and expensive perfumes.  
