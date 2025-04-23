@@ -35,7 +35,7 @@ body_copy: >-
   She’s a mother, deeply grounded in a sense of home and memory. Not home as a place, but the type of home you might find in others, in family. You can see it in her face, the way it softens when she mentions the name of one of her kids or grandkids. 
 
 
-  Jorge’s story is somewhat of a mirror to his mother’s—he grew up in European schools and ended up pursuing a graduate degree in the United States. And Sofia’s story is a common narrative: European immigrantion to Argentina during the 20th century. 
+  Jorge’s story is somewhat of a mirror to his mother’s—he grew up in European schools and ended up pursuing a graduate degree in the United States. And Sofia’s story is a common narrative: European immigration to Argentina during the 20th century. 
 
 
   Sofia’s parents were born in Italy and moved to Argentina just two years before she was born. She speaks Italian, but also Spanish. She switches between Italian, French, Spanish and English and asks her son to explain little words and turns of phrase for her.  
@@ -44,7 +44,7 @@ body_copy: >-
   She has lived in Buenos Aires for all 88 years of her life; she’s raised her children here, sent them to schools and watched them move to other countries. Her family has splintered.  
 
 
-  Her children and her children’s children have left home and come back.But when they do return, another leaves. The grass is overgrown in her lofty home that once housed all of her children, sometimes four to a room.  
+  Her children and her children’s children have left home and come back. But when they do return, another leaves. The grass is overgrown in her lofty home that once housed all of her children, sometimes four to a room.  
 
 
   {% video { videoId: "1077827152" } %}
@@ -77,7 +77,7 @@ body_copy: >-
   Sofia taught all  her children Italian.Her son Jorge said it was natural that the language was passed through his mother. When Sofia married her late husband, he had to learn it too. . 
 
 
-  Italy has left an indelible footprint on Argentinian culture. One of the country’s most notable figures, former president and dictator Juan Perón, was of Italian ancestry. Argentina has been labeled a “crisol de razas,” or “crucible of races,” due to the  diverse ethnic makeup , including Europeans, Indigenous communitiesand immigrants from neighboring Latin American countries. But Argentina remains overwhelmingly European.  
+  Italy has left an indelible footprint on Argentinian culture. One of the country’s most notable figures, former president and dictator Juan Perón, was of Italian ancestry. Argentina has been labeled a “crisol de razas,” or “crucible of races,” due to the  diverse ethnic makeup , including Europeans, Indigenous communities and immigrants from neighboring Latin American countries. But Argentina remains overwhelmingly European.  
 
 
   Sofia was born into a nation of immigrants—people from Spain, Italy and other western European countries came to Argentina after the First and Second World Wars. According to the 1914 census, 30 percent of the population was foreign-born, a number that continues to rise. . Between the 1850s and 1950s, 3.5 million Italians immigrated to Argentina. Today, 62 percent of Argentina’s population is of  Italian ancestry. Italian is the second most spoken language in the country after Spanish.  
@@ -95,7 +95,7 @@ body_copy: >-
   “We have this theory of the two demons,” Jorge said. “The military was one of the demons, but the terrorists were the other demons.” 
 
 
-  Current President Javier Milei has denied the number of people who disappeared during the junta dictatorship, placing blame on leftist or Perónistmilitary groups instead. In his election victory speech in 2023, he said, “There were no 30,000.” Many proponents of denialism in Argentina claim that leftist terrorists and guerrilla groups caused a higher number of these disappearances. 
+  Current President Javier Milei has denied the number of people who disappeared during the junta dictatorship, placing blame on leftist or Perónist military groups instead. In his election victory speech in 2023, he said, “There were no 30,000.” Many proponents of denialism in Argentina claim that leftist terrorists and guerrilla groups caused a higher number of these disappearances. 
 
 
   {% photoExperience { "storyId": "Migration", "lang": lang or "en", "title": "As Argentina Shifts, Families Scatter: A Story of Home and Migration" } %}
@@ -161,7 +161,7 @@ body_copy: >-
   While some, especially proponents of Milei, say that the Argentine economy is better than ever before, it’s still unlikely  for those who have moved away to return. The country experienced three hyperinflations during the 20th century and had the highest inflation rate in the world in 2023. This crisis is by no means finite.
 
 
-  Sofia’s granddaughter, who bears her name, wants to leave and isn’t thinking twice about it. She’s planning to moveto Spain and says it won’t splinter any of her familial bonds because of the number of family members who have chosen to leave before her. 
+  Sofia’s granddaughter, who bears her name, wants to leave and isn’t thinking twice about it. She’s planning to move to Spain and says it won’t splinter any of her familial bonds because of the number of family members who have chosen to leave before her. 
 
 
   As his mother talks, Jorge’s eyebrows bunch up and raise, following his mother’s utterance of every word. He follows her, but she only follows herself—a matriarch to her core. Jorge visits with his mother and drives her around, her sitting in the back of his tiny black car. 
