@@ -61,7 +61,7 @@ body_copy: >-
   Despite this effort for future inclusion, cartoneros like Enriques are resisting the court’s efforts to protect their ability to provide for themselves. The resistance is exacerbated by the poverty brought on by Argentina’s President Javier Milei’s new austerity programs, which have contributed to the rising unemployment rate and doubled the population of cartoneros.
 
 
-  {% photoExperience { "storyId": "dumping", "lang": lang or "en", "title": "La Quema" } %}
+  {% photoExperience { "storyId": "dumping", "lang": lang or "en", "title": "From Waste to Worth" } %}
 
 
   ## POPULAR ECONOMY
