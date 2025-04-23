@@ -11,36 +11,44 @@
       "alt_es": "Joana Enriques se encuentra en un camino que conduce al sitio principal del vertedero."
     },
     {
-      "photo": "/assets/img/uploads/lindell_inlines-4.jpg",
+      "photo": "/assets/img/uploads/lindell_inlines-6.jpg",
       "order": 2,
-      "caption_en": "english",
-      "caption_es": "spanish",
-      "alt_en": "english",
-      "alt_es": "spanish"
+      "caption_en": "A man drives with construction materials into La Quema de Luján on March 13.",
+      "caption_es": "Un hombre conduce con materiales de construcción hacia La Quema de Luján el 13 de marzo.",
+      "alt_en": "A man drives a truck full of construction materials into the dumping ground.",
+      "alt_es": "Un hombre conduce un camión lleno de materiales de construcción hacia el vertedero."
     },
     {
-      "photo": "/assets/img/uploads/lindell_inlines-9.jpg",
+      "photo": "/assets/img/uploads/lindell_inlines11.jpg",
       "order": 3,
-      "caption_en": "Waste sits on the edge of the Luján River that comes through the dumping area at La Quema.",
-      "caption_es": "Los residuos se encuentran en la orilla del Río Luján que pasa por el área de vertedero de La Quema.",
-      "alt_en": "The Luján River stands in the background with a pile of waste in the foreground.",
-      "alt_es": "El río Luján se alza al fondo con una pila de desechos en primer plano."
-    },
-    {
-      "photo": "/assets/img/uploads/lindell_inlines.jpg",
-      "order": 4,
-      "caption_en": "An empty bag of Saladix snacks lies on the mud leading to the La Quema dump site.",
-      "caption_es": "Una bolsa vacía de bocadillos Saladix yace en el barro que conduce al vertedero de La Quema.",
-      "alt_en": "An empty bag of Saladix snacks lies on the mud leading to the La Quema dump site.",
-      "alt_es": "Una bolsa vacía de bocadillos Saladix yace en el barro que conduce al vertedero de La Quema."
+      "caption_en": "A group of cartoneros walk through piles of trash at La Quema.",
+      "caption_es": "Un grupo de cartoneros camina entre montones de basura en La Quema.",
+      "alt_en": "A group of cartoneros walk through piles of trash at La Quema.",
+      "alt_es": "Un grupo de cartoneros camina entre montones de basura en La Quema."
     },
     {
       "photo": "/assets/img/uploads/lindell_inlines-10.jpg",
-      "order": 5,
+      "order": 4,
       "caption_en": "Marcelo Santiago Viera weighs bags of recycled materials at Open Sky, Three Stars Cooperative in Lujan on March 10.",
       "caption_es": "Marcelo Santiago Viera pesa bolsas de materiales reciclados en la Cooperativa de Open Sky, Tres Estrellas en Luján el 10 de marzo.",
       "alt_en": "Marcelo Santiago Viera, a recycler at Open Sky, Three Stars Cooperative, weighs bags of recycled materials.",
       "alt_es": "Marcelo Santiago Viera, reciclador de Open Sky, Cooperativa Tres Estrellas, pesa sacos de materiales reciclados."
+    },
+    {
+      "photo": "/assets/img/uploads/sergio-in-line.jpeg",
+      "order": 5,
+      "caption_en": "Sergio Esteban Almada grasps on the wheel of his lawnmower as he prepares to cut his grass.",
+      "caption_es": "Sergio Esteban Almada se agarra a la rueda de su cortadora de césped mientras se prepara para cortar el césped.",
+      "alt_en": "Sergio Esteban Almada gets onto his lawnmower.",
+      "alt_es": "Sergio Esteban Almada se sube a su cortadora de césped."
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-9.jpg",
+      "order": 6,
+      "caption_en": "Waste sits on the edge of the Luján River that comes through the dumping area at La Quema.",
+      "caption_es": "Los residuos se encuentran en la orilla del Río Luján que pasa por el área de vertedero de La Quema.",
+      "alt_en": "The Luján River stands in the background with a pile of waste in the foreground.",
+      "alt_es": "El río Luján se alza al fondo con una pila de desechos en primer plano."
     }
   ]
 }
