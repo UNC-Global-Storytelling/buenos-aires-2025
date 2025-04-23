@@ -9,7 +9,7 @@ video_2_byline: Jing Chen
 photo_byline: Anna Riddle
 interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
-uca_contributor_2_byline: ""
+uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
 body_copy: >-
   El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
@@ -95,7 +95,7 @@ body_copy: >-
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
 
 
   ## **SÓLO TÚ**

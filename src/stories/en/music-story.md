@@ -1,15 +1,16 @@
 ---
 layout: layouts/story
-title: Aun así, canto
-reporter_byline: Shelby Swanson
-slug: music-story
 language: en
+title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
+reporter_byline: Shelby Swanson
 video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
-photo_byline: Grace Richards
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: music-story
+photo_byline: Grace Richards
 body_copy: >-
   Late afternoon light spills through the only window in Lola Tabarovsky’s
   third-floor apartment in the Abasto barrio, turning the small room the same
@@ -42,6 +43,9 @@ body_copy: >-
 
 
   Buenos Aires’ underground music scene — which Lola and her peers call “el under” — isn’t a massive, commercial movement. It’s rebellious, anti-establishment and local. These aren’t arena-filling bands, but rather groups of young adults that thrive in intimate venues, small clubs and dive bars where they can build a grassroots “boca a boca” following. Their reach may not be massive, but their influence on local culture — providing authentic, unfiltered music that speaks directly to modern day struggles and frustrations — is undeniable.
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   And here’s the thing: Lola believes — no, knows — that music can offer an escape. That a pink guitar, a tulle shirt, a pop chorus you can scream along to can be equally reaffirming and cathartic. 
@@ -120,9 +124,6 @@ body_copy: >-
 
 
   At underground shows across Buenos Aires, the air is thick with smoke, sweat and something harder to define — something electric. The government may be cracking down on public dissent, but in these cramped “DIY” venues, the resistance is louder than ever. 
-
-
-  {% inlinePhoto "music-story", 1, lang %}
 
 
   On stage with her band, Lola grips the mic and surveys the crowd — a sea of young faces cheering, reaching their arms out. 
