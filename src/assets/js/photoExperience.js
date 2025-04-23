@@ -66,22 +66,24 @@ function buildImmersiveSlides(storyId, photos, lang) {
     section.className = "relative h-[300vh] bg-black";
 
     const scene = document.createElement('div');
-    scene.className = "scene-wrapper sticky top-0 h-screen flex flex-col items-center justify-center";
+    scene.className = "sticky top-0 h-screen flex items-center justify-center overflow-hidden";
 
     scene.innerHTML = `
-      <div class="max-w-6xl mx-auto w-full h-full flex flex-col items-center justify-center px-4 text-center space-y-6">
+      <div class="relative w-full h-full flex items-center justify-center">
         <img 
           src="${photo.src}" 
           alt="${alt || ''}" 
-          class="immersive-photo max-h-[80vh] w-auto md:max-w-[85vw] max-h-[65vh] object-contain scale-100 opacity-100 transition-transform duration-700 ease-in-out"
+          class="immersive-photo absolute object-contain max-h-[85vh] w-auto scale-[0.85] opacity-90 transition-all duration-1000 ease-in-out"
           data-slide="${index}"
         >
-        <p 
-          class="immersive-caption opacity-0 pt-4 text-white text-base md:text-lg leading-relaxed font-light md:max-w-xl transition-opacity duration-700 ease-in-out"
-          data-slide="${index}"
+        <div 
+          class="immersive-caption absolute bottom-12 left-1/2 -translate-x-1/2 z-20 text-white opacity-0 transition-opacity duration-1000 ease-in-out px-6"
+          style="max-width: 90%;"
         >
-          ${caption || ''}
-        </p>
+          <p class="text-base md:text-lg leading-relaxed text-shadow-md">
+        ${caption || ''}
+      </p>
+    </div>
       </div>
     `;
 
@@ -93,14 +95,9 @@ function buildImmersiveSlides(storyId, photos, lang) {
       spacer.className = "h-[100vh] bg-black";
       container.appendChild(spacer);
     }
-
-    const imgEl = scene.querySelector('img');
-    imgEl.onload = () => {
-      const isLandscape = imgEl.naturalWidth > imgEl.naturalHeight;
-      section.classList.add(isLandscape ? 'landscape' : 'portrait');
-    };
   });
 
+  // Animate scroll-based zoom and caption fade
   const scenes = document.querySelectorAll(`#immersive-content-${storyId} section`);
 
   const observer = new IntersectionObserver((entries) => {
@@ -110,24 +107,25 @@ function buildImmersiveSlides(storyId, photos, lang) {
       const caption = section.querySelector('.immersive-caption');
 
       if (entry.isIntersecting) {
-        const index = parseInt(img.dataset.slide);
-        if (index === 0) {
-          const overlay = document.getElementById(`title-overlay-${storyId}`);
-          overlay?.classList.add('opacity-0');
-          overlay?.classList.remove('opacity-100');
-        }
+        img.classList.remove('scale-[0.85]', 'opacity-90');
+        img.classList.add('scale-100', 'opacity-100');
 
-        img.classList.add('scale-90');
-        caption.classList.add('opacity-100');
+        setTimeout(() => {
+          caption.classList.add('opacity-100');
+        }, 500);
       } else {
-        img.classList.remove('scale-90');
+        img.classList.add('scale-[0.85]', 'opacity-90');
+        img.classList.remove('scale-100', 'opacity-100');
+
         caption.classList.remove('opacity-100');
       }
     });
-  }, { threshold: 0.5 });
+  }, { threshold: 0.6 });
 
   scenes.forEach(scene => observer.observe(scene));
 }
+
+
 
 window.initPhotoExperience = initPhotoExperience;
 
