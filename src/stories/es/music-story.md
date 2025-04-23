@@ -1,15 +1,16 @@
 ---
 layout: layouts/story
-title: Aun así, canto
-reporter_byline: Shelby Swanson
-slug: spanish-music-name
 language: es
+title: Aun así, canto
 subtitle: En medio de la represión de Milei, los artistas underground de Buenos
   Aires mantienen viva la resistencia
+reporter_byline: Shelby Swanson
 video_1_byline: Aayas Joshi
 video_2_byline: Quincy Marks
-photo_byline: Grace Richards
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: spanish-music-name
+photo_byline: Grace Richards
 body_copy: >-
   La luz del atardecer se cuela por la única ventana del tercer piso del
   apartamento de Lola Tabarovsky en el barrio del Abasto, tiñendo la pequeña
@@ -43,6 +44,9 @@ body_copy: >-
 
 
   La escena musical underground de Buenos Aires — que Lola y sus compañeros llaman “el under” — no es un movimiento masivo y comercial. Es rebelde, antiestablishment y local. No se trata de bandas que llenan estadios, sino de grupos de jóvenes adultos que prosperan en locales íntimos, pequeños clubes y bares de mala muerte donde pueden crear una base de seguidores “boca a boca.” Puede que su alcance no sea masivo, pero su influencia en la cultura local — proporcionando música auténtica y sin filtros que habla directamente de las luchas y frustraciones de hoy en día — es innegable.
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   Y aquí está la cosa: Lola cree — no, sabe — que la música puede ofrecer una vía de escape. Que una guitarra rosa, una camisa de tul y un estribillo pop que se puede corear a gritos pueden ser reafirmantes y catárticos a partes iguales.
