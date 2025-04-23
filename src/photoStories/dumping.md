@@ -51,7 +51,7 @@ en:
       alt_es: Un grupo de cartoneros comienza a buscar entre los desechos que deja un
         camión de volteo en La Quema.
     - src: /assets/img/uploads/lindell_finalsequence-4.jpg
-      order: 3
+      order: 4
       caption_en: A proposal for the creation of a “school of thought” is left beneath
         the mud at La Quema. Many personal items left at La Quema are found
         intertwined with the environment of trash, metal, and even dead animals.
@@ -66,6 +66,20 @@ en:
         manchadas en el suelo fangoso. Gran parte de la carta es
         intranscribible, pero menciona una "cosmovisión" o "escuela de
         pensamiento".
+    - src: /assets/img/uploads/lindell_finalsequence-5.jpg
+      order: 5
+      caption_en: "The fires from the morning leave a thick toxic fog that plagues
+        workers at the dump. The environmental pollution in the area has caused
+        health concerns for cartoneros and the neighborhoods surrounding La
+        Quema. "
+      caption_es: Los incendios de la mañana dejan una espesa niebla tóxica que plaga
+        a los trabajadores en el vertedero. La contaminación ambiental en la
+        zona ha causado problemas de salud para los cartoneros y los barrios
+        aledaños a La Quema.
+      alt_en: Workers walk through a pile of waste while a single bird flies through
+        thick toxic smoke.
+      alt_es: Los trabajadores caminan a través de una pila de desechos mientras un
+        solo pájaro vuela a través de un espeso humo tóxico.
 es:
   id: dumping
 ---
