@@ -94,7 +94,7 @@ body_copy: >-
   El actual presidente Javier Milei ha negado la cifra de desaparecidos durante la dictadura militar, culpando en su lugar a grupos militares de izquierda o peronistas. En su discurso de victoria en 2023, dijo: “No fueron 30,000”. Muchos defensores del negacionismo en Argentina afirman que los grupos terroristas de izquierda causaron un número mayor de desapariciones.
 
 
-  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
+  {% photoExperience { "storyId": "Migration", "lang": lang or "es" } %}
 
 
   ## **FUERA MILEI**
