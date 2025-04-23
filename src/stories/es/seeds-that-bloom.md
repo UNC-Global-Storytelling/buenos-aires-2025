@@ -1,6 +1,7 @@
 ---
 layout: layouts/story
 language: es
+topic: Communidad
 title: Semillas Que Florecen
 subtitle: Cómo Las Manos Trabajadoras Mantienen Vivo al Barrio Rodrigo Bueno
 reporter_byline: Anna Laible
@@ -8,11 +9,10 @@ video_1_byline: Maggie McIntyre
 video_2_byline: Hannah Zinn
 photo_byline: McKenzie Bulris
 interactive_1_byline: Emily Rollins
+interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
-topic: Communidad
-interactive_2_byline: Hailey Patterson
 body_copy: >-
   En un suburbio de Buenos Aires, Argentina, caminos de tierra rodean un barrio
   argentino de dos caras, dividido únicamente por una calle: Yma Sumac. Nombrada
@@ -53,7 +53,7 @@ body_copy: >-
   "Me gusta vivir aquí en mi barrio porque siento que tengo más compañía, tener un país, ver a mis compatriotas", dijo. "Ahora aún más, porque mi familia ha crecido, y nada me movería de aquí".​
 
 
-  {% photoExperience { "storyId": "community", "lang": lang or "es" } %}
+  {% photoExperience { "storyId": "community", "lang": lang or "es", "title": "La Vida en el Barrio" } %}
 
 
   Al igual que Oviedo, muchos residentes del barrio emigraron de Perú y Paraguay. Sin embargo, muchos no comparten su visión positiva de sus pobres circunstancias. Debido a la grave pobreza que enfrentan, los residentes están social y físicamente desconectados de sus barrios adyacentes. Muchas partes del barrio carecen de acceso a servicios urbanos, con altos riesgos de delincuencia y problemas de drogas que resultan en una fuerte presencia policial.​
