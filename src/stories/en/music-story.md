@@ -101,6 +101,9 @@ body_copy: >-
   Rising rap star Milo J faced similar repression. When he planned a show at the [ex-ESMA memorial site](https://whc.unesco.org/en/list/1681/) — once a torture center under Argentina’s 1980s military junta dictatorship — Milei’s government blocked it, sparking outrage and accusations of censorship.
 
 
+  {% inlinePhoto "music-story", 2, lang %}
+
+
   This crackdown on culture assault echoes Argentina’s past. Under the military junta (1976-1983), artists were censored, exiled or disappeared. Today, Milei’s administration engages in a similar form of erasure — downplaying human rights violations of that era. Milei has slashed funding for the National Genetic Database, which identifies the remains of the military dictatorship’s victims, and closed the National Identity Commission’s [investigation unit](https://buenosairesherald.com/human-rights/milei-dissolves-investigation-unit-that-helped-find-dictatorship-era-appropiated-children) for forced disappearances. 
 
 
@@ -120,6 +123,9 @@ body_copy: >-
 
 
   At underground shows across Buenos Aires, the air is thick with smoke, sweat and something harder to define — something electric. The government may be cracking down on public dissent, but in these cramped “DIY” venues, the resistance is louder than ever. 
+
+
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   On stage with her band, Lola grips the mic and surveys the crowd — a sea of young faces cheering, reaching their arms out. 
