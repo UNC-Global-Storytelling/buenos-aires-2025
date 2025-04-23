@@ -47,9 +47,9 @@
       <nav class="hidden md:flex items-center">
         <ul class="flex space-x-6 text-base font-bold">
           {% if currentLang == "en" %}
-            {% set menuStories = collections.storiesEN %}
+            {% set menuStories = collections.storiesEN | sort(false, false, 'data.order') %}
           {% else %}
-            {% set menuStories = collections.storiesES %}
+            {% set menuStories = collections.storiesES | sort(false, false, 'data.order')  %}
           {% endif %}
 
           {% for story in menuStories %}
@@ -63,7 +63,7 @@
       <!-- Right section - About + Language toggle (desktop) / Hamburger (mobile) -->
       <div class="flex items-center space-x-4 text-base font-bold">
         <!-- About link (desktop only) -->
-        <a href="/{{ currentLang }}/about/" class="hidden md:inline hover:underline">
+        <a href="/{{ currentLang }}/about/" class="hidden md:inline hover:underline" style="text-align: center;">
           {% if currentLang == "en" %}About{% else %}Sobre nosotros{% endif %}
         </a>
 
@@ -136,18 +136,18 @@
       </h2>
       <div class="flex flex-col items-center gap-4 mb-10">
         {% if currentLang == "en" %}
-          {% for story in collections.storiesEN %}
+          {% for story in collections.storiesEN | sort(false, false, 'data.order')  %}
             <a href="{{ story.url }}" class="text-white text-xl font-lora hover:text-color-blue transition-colors">{{ story.data.title }}</a>
           {% endfor %}
         {% else %}
-          {% for story in collections.storiesES %}
+          {% for story in collections.storiesES | sort(false, false, 'data.order')  %}
             <a href="{{ story.url }}" class="text-white text-xl font-lora hover:text-color-blue transition-colors">{{ story.data.title }}</a>
           {% endfor %}
         {% endif %}
       </div>
       <!-- About link -->
-      <a href="/{{ currentLang }}/about/" class="text-white text-2xl font-montserrat hover:text-color-blue transition-colors mb-10">
-        {% if currentLang == "es" %}Sobre Nostros{% else %}About{% endif %}
+      <a href="/{{ currentLang }}/about/" class="text-white text-2xl font-montserrat hover:text-color-blue transition-colors mb-10" style="text-align: center;">
+        {% if currentLang == "es" %}Sobre Nosotros{% else %}About{% endif %}
       </a>
     </div>
   </div>

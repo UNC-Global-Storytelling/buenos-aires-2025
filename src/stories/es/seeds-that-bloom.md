@@ -1,7 +1,6 @@
 ---
 layout: layouts/story
 language: es
-topic: Communidad
 title: Semillas Que Florecen
 subtitle: Cómo Las Manos Trabajadoras Mantienen Vivo al Barrio Rodrigo Bueno
 reporter_byline: Anna Laible
@@ -13,6 +12,8 @@ interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+order: 1
+topic: Communidad
 body_copy: >-
   En un suburbio de Buenos Aires, Argentina, caminos de tierra rodean un barrio
   argentino de dos caras, dividido únicamente por una calle: Yma Sumac. Nombrada

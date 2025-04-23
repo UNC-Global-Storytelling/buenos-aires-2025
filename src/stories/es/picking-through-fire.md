@@ -12,6 +12,8 @@ interactive_1_byline: Ella Campbell
 uca_contributor_1_byline: Agustina Tettamanti
 uca_contributor_2_byline: Guadalupe Zapata Vicario
 slug: picking-through-fire-es
+order: 3
+topic: Ambiente
 body_copy: >-
   A las 10 de la mañana, Joana Enriques comienza su turno para alimentar el
   fuego. En Luján, una ciudad a 80 kilómetros de la capital argentina, Buenos

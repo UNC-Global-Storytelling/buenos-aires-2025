@@ -1,7 +1,6 @@
 ---
 layout: layouts/story
 language: en
-topic: Economy
 title: Hustles and Survival
 subtitle: Gig Work and Multiple Jobs Now Defining Life in Buenos Aires
 reporter_byline: Ashley Santillan
@@ -12,6 +11,8 @@ interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
+order: 4
+topic: Economy
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
   is already on her feet. As the chill of the early morning lingers in the air,

@@ -1,7 +1,6 @@
 ---
 layout: layouts/story
 language: en
-topic: Community
 title: Seeds That Bloom
 subtitle: How Working Hands Keep Barrio Rodrigo Bueno Alive
 reporter_byline: Anna Laible
@@ -13,6 +12,8 @@ interactive_2_byline: Hailey Patterson
 uca_contributor_1_byline: Cinthia Savoy
 uca_contributor_2_byline: Lucía Simoncelli
 slug: seeds-that-bloom
+order: 1
+topic: Community
 body_copy: >-
   In a suburb of Buenos Aires, Argentina, dirt roads surround a two-sided
   Argentine neighborhood contrasted by the sole divide of one street – Yma

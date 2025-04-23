@@ -1,7 +1,6 @@
 ---
 layout: layouts/story
 language: es
-topic: Familia
 title: La Dispersión
 subtitle: Una Historia de Hogar y Migración
 reporter_byline: Walker Livingston
@@ -13,6 +12,8 @@ interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering-es
+order: 2
+topic: Migración
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner es conocida por sus 11 hijos y 34
   nietos como Sofia. No llega a medir metro y medio, está sentada tranquilamente
