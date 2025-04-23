@@ -5,25 +5,23 @@ export default function(data) {
   const hasDescription = data.description && data.description.trim() !== '';
 
   return `
-    <div class="photo-experience flex items-center justify-between" id="photo-experience-${storyId}">
+    <div class="photo-experience" id="photo-experience-${storyId}">
       <!-- Title and Description -->
       <div class="photo-header flex justify-between items-center mb-4 w-full">
         <h2 class="photo-title text-xl font-semibold">
           ${title}
-      </h2>
-      <button class="immersive-btn bg-[#D2DCA9] text-black text-sm px-4 py-2 rounded hover:bg-green-700 transition">
-        Launch Immersive Mode
-      </button>
+        </h2>
+        <button class="immersive-btn bg-[#D2DCA9] text-black text-sm px-4 py-2 rounded hover:bg-green-700 transition" onclick="launchImmersive('${storyId}', '${lang}')">
+          Launch Immersive Mode
+        </button>
       </div>
 
       <!-- Main Photo Slider -->
       <div class="photo-slider">
-        <!-- Image Section -->
         <div class="photo-container">
           <img id="slider-img-${storyId}" src="" alt="" class="photo-image">
         </div>
 
-        <!-- Caption and Controls Section -->
         <div class="caption-container">
           <div class="caption-text-wrapper">
             <p id="slider-caption-${storyId}" class="caption-text"></p>
@@ -43,6 +41,27 @@ export default function(data) {
           initPhotoExperience('${storyId}', '${lang}');
         });
       </script>
+    </div>
+
+    <!-- Immersive Mode Container (separate from .photo-experience layout) -->
+    <div 
+      id="immersive-${storyId}" 
+      class="fixed inset-0 bg-black text-white z-[1000] hidden flex-col overflow-y-auto scroll-smooth"
+    >
+      <div class="flex justify-end p-4">
+        <button 
+          id="close-immersive-${storyId}" 
+          class="text-white text-2xl font-bold hover:text-gray-300" 
+          aria-label="Close immersive experience"
+        >
+          &times;
+        </button>
+      </div>
+      <div id="immersive-content-${storyId}" class="w-full">
+        <div class="w-full h-screen flex items-center justify-center text-center px-4">
+          <h1 class="text-4xl font-bold">${title}</h1>
+        </div>
+      </div>
     </div>
   `;
 }

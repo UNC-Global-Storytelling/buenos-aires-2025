@@ -5,24 +5,21 @@ function initPhotoExperience(storyId, language) {
     .then(res => res.json())
     .then(data => {
       const photos = (data[lang] && data[lang].photos) || data.en.photos || [];
-
-      // Sort photos by order
       photos.sort((a, b) => a.order - b.order);
-
+      buildImmersiveSlides(storyId, photos, lang);
+      
       if (photos.length === 0) {
         const container = document.getElementById(`photo-experience-${storyId}`);
         container.innerHTML += '<p class="text-center">No photos available</p>';
         return;
       }
 
-      // Set up the slider functionality
       let currentIndex = 0;
       const sliderImg = document.getElementById(`slider-img-${storyId}`);
       const sliderCaption = document.getElementById(`slider-caption-${storyId}`);
       const currentPosition = document.getElementById(`current-position-${storyId}`);
       const totalCount = document.getElementById(`total-count-${storyId}`);
 
-      // Set total count
       totalCount.textContent = photos.length;
 
       function updateSlide() {
@@ -45,11 +42,9 @@ function initPhotoExperience(storyId, language) {
         updateSlide();
       }
 
-      // Add event listeners
       document.getElementById(`next-btn-${storyId}`).addEventListener('click', nextSlide);
       document.getElementById(`prev-btn-${storyId}`).addEventListener('click', prevSlide);
 
-      // Initialize with first photo
       updateSlide();
     })
     .catch(error => {
@@ -59,5 +54,62 @@ function initPhotoExperience(storyId, language) {
     });
 }
 
-// Make the function accessible globally
+function buildImmersiveSlides(storyId, photos, lang) {
+  const container = document.getElementById(`immersive-content-${storyId}`);
+  container.innerHTML = ''; // clear placeholder
+
+  photos.forEach((photo, index) => {
+    const caption = lang === "es" ? photo.caption_es : photo.caption_en;
+    const alt = lang === "es" ? photo.alt_es : photo.alt_en;
+
+    const slide = document.createElement('section');
+    slide.className = "h-screen flex flex-col justify-center items-center px-4 space-y-6";
+
+    slide.innerHTML = `
+      <img 
+        src="${photo.src}" 
+        alt="${alt || ''}" 
+        class="max-h-[70vh] w-auto opacity-0 translate-x-20 transition-all duration-700 ease-in-out immersive-photo"
+        data-slide="${index}"
+      >
+      <p 
+        class="max-w-3xl text-lg md:text-xl text-center text-white opacity-0 translate-x-20 transition-all delay-200 duration-700 ease-in-out immersive-caption"
+        data-slide="${index}"
+      >
+        ${caption || ''}
+      </p>
+    `;
+
+    container.appendChild(slide);
+  });
+
+  // Observe and animate on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.remove('opacity-0', 'translate-x-20');
+        entry.target.classList.add('opacity-100', 'translate-x-0');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  document.querySelectorAll(`#immersive-content-${storyId} .immersive-photo, #immersive-content-${storyId} .immersive-caption`)
+    .forEach(el => observer.observe(el));
+}
+
+
 window.initPhotoExperience = initPhotoExperience;
+
+window.launchImmersive = function(storyId, lang) {
+  const immersive = document.getElementById(`immersive-${storyId}`);
+  immersive.classList.remove("hidden");
+  immersive.scrollTo({ top: 0, behavior: 'smooth' });
+};
+
+document.addEventListener('click', (e) => {
+  if (e.target.matches('[id^="close-immersive-"]')) {
+    const id = e.target.id.replace("close-immersive-", "");
+    const immersive = document.getElementById(`immersive-${id}`);
+    immersive.classList.add("hidden");
+  }
+});
