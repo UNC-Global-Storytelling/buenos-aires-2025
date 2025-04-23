@@ -179,5 +179,5 @@ body_copy: >-
 
 
   El hermano menor de Orellana, de 13 años, a quien cuida desde la muerte de su madre, representa el futuro del trabajo gig. Compaginando la escuela y la adolescencia, también trabaja como repartidor de Rappi, navegando las mismas calles que enfrenta su hermana.
-image: /assets/img/uploads/hustle.jpg
+image: /assets/img/uploads/hustle-hero.jpg
 ---
