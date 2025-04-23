@@ -99,9 +99,6 @@ body_copy: >-
   As the ranks of gig workers has grown so too have the types of jobs people are jumping into for more money. Many women find themselves restricted from some gig jobs like food delivery with its male dominated culture and bare-knuckled competition and pushed towards sex work where money can bring big rewards. 
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
-
-
   ## **ONLY YOU**
 
 
