@@ -7,10 +7,11 @@ reporter_byline: Ashley Santillan
 video_1_byline: Chrissy Wang
 video_2_byline: Jing Chen
 photo_byline: Anna Riddle
-interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
+topic: Economy
+interactive_1_byline: Hailey Clodfelter
 body_copy: >-
   The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
   is already on her feet. As the chill of the early morning lingers in the air,

@@ -30,9 +30,9 @@ layout: layouts/base.njk
             <div class="container-about">
                 {% for member in aboutPage %}
                 <div class="team-member mix {{ member.role }}">
-                    <img src="{{ member.imgOneURL }}" alt="{{ member.name }}">
+                    <img src="{{ member.imgOneURL }}.jpg" alt="{{ member.name }}">
                     <h4>{{ member.name }}</h4>
-                    <p>{{ member.role }}</p>
+                    {% if member.name === "Pat Davison" %}<p>Director y {{ member.role }}</p>{% else %}<p>{{ member.role }}</p>{% endif %}
                     <div class="flex">
                         {% if member.instagram %}
                             <a href="https://instagram.com/{{ member.instagram | replace('@', '') }}" target="_blank">

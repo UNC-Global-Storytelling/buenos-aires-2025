@@ -43,6 +43,9 @@ body_copy: >-
   Pero el trabajo de Lola no trata sólo del pasado o del futuro. Ante el creciente autoritarismo de la Argentina del Presidente Javier Milei, Lola y otros artistas canalizan sus frustraciones en la música.
 
 
+  {% inlinePhoto "music-story", 1, lang %}
+
+
   La escena musical underground de Buenos Aires — que Lola y sus compañeros llaman “el under” — no es un movimiento masivo y comercial. Es rebelde, antiestablishment y local. No se trata de bandas que llenan estadios, sino de grupos de jóvenes adultos que prosperan en locales íntimos, pequeños clubes y bares de mala muerte donde pueden crear una base de seguidores “boca a boca.” Puede que su alcance no sea masivo, pero su influencia en la cultura local — proporcionando música auténtica y sin filtros que habla directamente de las luchas y frustraciones de hoy en día — es innegable.
 
 
@@ -133,6 +136,9 @@ body_copy: >-
   Y en un país gobernado por el machismo, bajo un presidente que se burla del feminismo, ese tipo de liberación parece radical.
 
 
+  {% musicflourish %}
+
+
   Para los artistas underground argentinos, la lucha contra Milei no es abstracta, aunque su arte lo sea. Sus políticas han afectado directamente a las artes. En marzo, su administración desreguló el cobro de derechos de autor a través de sociedades de gestión colectiva que apoyan a los artistas con pensiones, ayuda financiera y servicios legales. En agosto, eliminó los derechos de autor de la música en espacios privados como hoteles y fiestas, una medida que, según los críticos, recorta una fuente de ingresos vital para los artistas.
 
 
@@ -160,7 +166,7 @@ body_copy: >-
   Sakatumba, otra banda de neo-rock, describe su música como la del típico joven argentino de 23 años, arruinado y preocupado por el futuro. Buenos Vampiros, de Mar del Plata, que debutará este año en Europa, explora la tensión entre la luz y la oscuridad tanto en su sonido como en sus temas. Su canción “Desmotivada” capta los sentimientos de los jóvenes “desmotivados, tristes y aburridos.” 
 
 
-  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Merda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
+  Por ejemplo, Fama y Guita, un dúo de punk queer conocido por sus caóticos directos, su humor mordaz y sus mezclas de géneros que van de la cumbia al hard bass. Descritos como una banda y una fiesta a la vez, sus canciones — como la ferozmente satírica ¡Yankees de Mierda! — se burlan del neoliberalismo y la pretensión cultural con un guiño y un grito. 
 
 
   {% photoExperience { "storyId": "music", "lang": lang or "es" } %}
