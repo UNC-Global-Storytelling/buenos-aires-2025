@@ -27,6 +27,9 @@ body_copy: >-
   Orellana se abre paso entre las caóticas calles con una concentración aguda. En dos ruedas, forma parte de un mundo feroz e implacable, donde la supervivencia depende de reflejos rápidos y determinación fría. Como mujer en un trabajo dominado por hombres, enfrenta una dinámica constante de tensión: los hombres, a menudo desdeñosos, la ven como competencia, mientras que otras mujeres la miran con desconfianza por trabajar junto a ellos en este entorno duro y estresante.
 
 
+  {% video { videoId: "1077988398" } %}
+
+
   Hay poco espacio para la camaradería; cada persona vela por sí misma. Con la presión aumentando desde todos los frentes, Orellana ha aprendido a mantener la guardia alta y los ojos siempre atentos a la calle. En cada turno, lucha contra el agotamiento, equilibrando las necesidades de sus hijos con las exigencias de una economía informal que no perdona. El reloj es su enemigo constante, mientras corre contra el tiempo; cada entrega es una pequeña victoria en la lucha continua por la supervivencia de su familia.
 
 
