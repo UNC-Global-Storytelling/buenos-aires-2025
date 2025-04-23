@@ -3,10 +3,13 @@ layout: layouts/base.njk
 ---
 <section class="relative h-[75vh]">
   <img src="{{ image }}" alt="" class="object-cover w-full h-full">
-  <div class="absolute inset-0 flex items-center justify-center">
-    <h1 class="text-ivory font-lora md:text-5xl font-semibold text-center px-4 text-shadow-prominent">
-      {{ title }}
-    </h1>
+  <div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
+  <h1 class="text-ivory font-lora md:text-5xl font-semibold text-shadow-prominent">
+    {{ title }}
+  </h1>
+  <h4 class="ivory-text font-montserrat font-normal mt-2 text-shadow-prominent">
+    {{ subtitle }}
+  </h4>
   </div>
 </section>
 

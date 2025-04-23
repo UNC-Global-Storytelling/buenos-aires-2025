@@ -30,10 +30,19 @@
   color: var(--color-green);
 }
 
+.lightest-green-text {
+  color: var(--color-lightest-green);
+}
+
+.ivory-text {
+  color: var(--color-ivory);
+}
+
 h1 {
   font-size: 3.875rem; /* 62px */
   font-weight: bold;
   line-height: 4.5rem; /* 72px */
+  font-family: var(--font-lora)
 }
 
 h2 {
@@ -49,9 +58,9 @@ h3 {
 }
 
 h4 {
-  font-size: 1.125rem; /* 18px */
+  font-size: 1.5rem;
   font-weight: bold;
-  line-height: 3.625rem; /* 58px */
+  font-family: var(--font-montserrat);
 }
 
 button {
