@@ -1,26 +1,27 @@
 ---
 en:
   id: music
-  title: Music
+  title: Songs from Underground
   photos:
     - src: /assets/img/uploads/20250416_richards_music-story_1.jpg
-      caption_en: Mari is a 24-year-old Argentine writer, performer and singer born in
-        Venezuela, a self-proclaimed "transvestite daughter of a teenage
-        marriage." Almost six years ago, Mari began making music alongside
-        Ricardo Ache, a 74-year old. Together, they formed the duo Fama y Guita,
-        mixing cumbia, punk and pop underneath political satire.
+      caption_en: Juana María Alejandra Galdona Sánchez, or Mari, is a 24-year-old
+        Argentine writer, performer and singer born in Venezuela, a
+        self-proclaimed "transvestite daughter of a teenage marriage." Almost
+        six years ago, Mari began making music alongside Ricardo Ache, a 74-year
+        old. Together, they formed the duo Fama y Guita, mixing cumbia, punk and
+        pop underneath political satire.
       alt_en: Two young people talk in a dimly lit empty venue.
-      caption_es: Mari es una escritora y cantante Venezolana-Argentina, la "hija
-        travesti de un matrimonio adolescente". Hace casi seis años, Mari
-        comenzó a crear música junto a Ricardo Ache, un músico de 74 años.
-        Juntos formaron el dúo Fama y Guita, mezclando cumbia, punk y pop con
-        sátira política.
+      caption_es: Juana María Alejandra Galdona Sánchez, o Mari, es una escritora y
+        cantante Venezolana-Argentina, la "hija travesti de un matrimonio
+        adolescente". Hace casi seis años, Mari comenzó a crear música junto a
+        Ricardo Ache, un músico de 74 años. Juntos formaron el dúo Fama y Guita,
+        mezclando cumbia, punk y pop con sátira política.
       alt_es: "Dos personas se conversan en una sala vacía y oscura. "
       order: 1
     - src: /assets/img/uploads/20250416_richards_music-story_2.jpg
-      caption_en: “Before migrating here my grandfather grabbed me and made me promise
-        that in Argentina I would not become homosexual, a drug addict or a
-        communist," says Mari. "And here we are.”
+      caption_en: “Before migrating here, my grandfather grabbed me and made me
+        promise that in Argentina I would not become homosexual, a drug addict
+        or a communist," says Mari. "And here we are.”
       alt_en: A woman draws a sickle on her face with makeup.
       caption_es: “Antes de migrar mi Abuelo me agarró y me hizo prometerle que en
         Argentina no me iba a hacer homosexual, drogadicto ni comunista. Y acá
@@ -108,9 +109,11 @@ en:
         dictadura.
       alt_es: Un hombre fuma en su cama.
     - src: /assets/img/uploads/20250416_richards_music-story_11.jpg
-      caption_en: 'Ric and Mari rehearse in Ric’s house. They use the "Pomodoro
-        Method" to budget their time. After each 20 minutes of rehearsal, a
-        timer goes off, and they take a five-minute break. '
+      caption_en: "Left, Ric and Mari rehearse in Ric’s house. They use the \"Pomodoro
+        Method\" to budget their time. After each 20 minutes of rehearsal, a
+        timer goes off, and they take a five-minute break. Right, Mari's
+        bookshelf is piled high: she has The Communist Manifesto, books on Lou
+        Reed, and many volumes of poetry."
       alt_en: A man makes a hand motion toward a pile of books.
       caption_es: Ric y Mari ensayan en casa de Ric. Usan el "Método Pomodoro" para
         administrar su tiempo. Después de cada 20 minutos de ensayo, suena un
@@ -118,7 +121,7 @@ en:
       alt_es: Un hombre hace gestos en la luz de una ventana.
       order: 11
     - src: /assets/img/uploads/20250416_richards_music-story_12.jpg
-      order: 112
+      order: 12
       caption_en: ​​In the morning, Mari cleans the lipstick stains off her flags. “I
         have no idea how they got there,” she says. Fama y Guita will have
         another show tomorrow.
@@ -130,10 +133,16 @@ en:
         por el frente.
     - src: /assets/img/uploads/20250313_richards_casa-de-mari-857.jpg
       order: 13
-      caption_en: Mari in her windowsill.
+      caption_en: Mari started making music with Ric just before she transitioned.
+        Fama y Guita developed as Mari grew into her gender identity, finishing
+        a stage of physical metamorphosis. Her name, "Mariposa," means
+        butterfly.
       alt_en: A woman stands pressed against her windowsill.
-      caption_es: Mari en su ventana.
+      caption_es: "Mari empezó a componer música con Ric justo antes de su transición.
+        Fama y Guita se desarrolló a medida que Mari desarrollaba su identidad
+        de género, culminando una etapa de metamorfosis física. "
       alt_es: Una mujer en la ventana.
 es:
   id: music
+  title: Canciones del Underground
 ---
