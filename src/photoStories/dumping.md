@@ -80,6 +80,22 @@ en:
         thick toxic smoke.
       alt_es: Los trabajadores caminan a través de una pila de desechos mientras un
         solo pájaro vuela a través de un espeso humo tóxico.
+    - src: /assets/img/uploads/lindell_finalsequence-6.jpg
+      order: 6
+      caption_en: The lack of safety and fair treatment of cartoneros draws many to
+        formal recycling cooperatives funded by the government. Marcelo Santiago
+        Viagra, who rests his hand on the wood bench, is a recycler at Open Sky,
+        Three Stars Cooperative where he receives the benefit of fair treatment
+        and pay.
+      caption_es: La falta de seguridad y el trato justo de los cartoneros atrae a
+        muchos a las cooperativas formales de reciclaje financiadas por el
+        gobierno. Marcelo Santiago Viagra, quien descansa su mano en el banco de
+        madera, es reciclador en Open Sky, Cooperativa Tres Estrellas, donde
+        recibe el beneficio de un trato justo y salario.
+      alt_en: The hand of Marcelo Santiago Viagra holds a burning cigarette while it
+        rests on the wooden bench.
+      alt_es: La mano de Marcelo Santiago Viagra sostiene un cigarrillo encendido
+        mientras descansa sobre el banco de madera.
 es:
   id: dumping
 ---
