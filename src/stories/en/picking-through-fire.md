@@ -1,15 +1,16 @@
 ---
 layout: layouts/story
 language: en
-reporter_byline: Gowri Abhinanda
-slug: picking-through-fire
-topic: Environment
 title: Picking Through Fire
 subtitle: Amid economic turmoil, Argentines sort through waste to survive.
+reporter_byline: Gowri Abhinanda
 video_1_byline: Max Feliu
 video_2_byline: Sophie Hughett
 photo_byline: Dallia Lindell
 interactive_1_byline: Ella Campbell
+uca_contributor_1_byline: Agustina Tettamanti
+uca_contributor_2_byline: Guadalupe Zapata Vicario
+slug: picking-through-fire
 body_copy: >-
   At 10 a.m., Joana Enriques begins her shift to feed the fire. In Luján, a city
   50 miles from Argentina’s capital of Buenos Aires, exists “La Quema,” an
@@ -27,6 +28,14 @@ body_copy: >-
   As workers are obliged to the dump’s demands, smoke billows into the humid sky of Luján. The air thickens with putrid sulfur stench and dust when one of the 15 trucks passes by the 700-meter dirt path to unload around 180 tons of cargo onto La Playa—“The Beach”—the landing zone of trash. With their piercing gaze and talons, scavenger birds are undeterred, cutting through the haze and landing only when they find something of value. 
 
 
+  ### PHOTO #9
+
+
+
+  {% inlinePhoto "picking-through-fire", 3, lang %}
+
+
+
   Between rotting onions, teddy bears, discarded school notebooks, dirt and the occasional dead goat, workers of La Quema, much like scavenger birds, dig for gold across the 27-acre scape.
 
 
@@ -39,13 +48,21 @@ body_copy: >-
   “We always came here as kids, even just to play with the birds,” Enriques, 26, said. “Most people don’t just come here to work—women come looking for clothes or they sell things they find at fairs.”
 
 
+  ### PHOTO #3
+
+
+
+  {% inlinePhoto "picking-through-fire", 1, lang %}
+
+
+
   Her family has worked here for generations, and she has worked at the dump since she was 12. 
 
 
-  {%dumpingFlourish%}
-
-
   La Quema is the biggest open-air dump in Argentina and one of the largest in South America. It is also illegal. The burning of waste releases toxins into the air, and trucks plow through the sea of trash, crushing birds or the occasional worker in the field. While the waste pickers are willing to take on this risk, it conflicts with people living around the acres-long waste pile in Luján.
+
+
+  {%dumpingFlourish%}
 
 
   Environmentalists in Luján have urged the closure of La Quema. In December, a federal court ordered cleanup efforts to resume converting the dump to an environmental center. The court also called for Luján’s municipal government to stop waste disposal and to work on incorporating “informal recyclers” into reformed waste management processes.
@@ -117,6 +134,14 @@ body_copy: >-
   “I was ashamed,” Almada said. “It was hard to move, but the real pain was the shame; I couldn’t watch myself.”
 
 
+  ### PHOTO OF SERGIO OVER MOWER
+
+
+
+  {% inlinePhoto "picking-through-fire", 5, lang %}
+
+
+
   That changed when Almada started protesting the dump.
 
 
@@ -136,6 +161,15 @@ body_copy: >-
 
 
   Almada said that sixty percent of the community suffers from chronic illnesses such as skin, bone and respiratory diseases and miscarriages for women.
+
+
+  ### PHOTO #20
+
+
+
+
+  {% inlinePhoto "picking-through-fire", 6, lang %}
+
 
 
   Almada took all of these complaints and evidence of La Quema’s impact on the community to the municipal government. In 2019, Juan Cabandié, the Minister of Environment and Sustainable Development of Argentina, visited Luján to begin plans to build an environmental center.
@@ -177,6 +211,14 @@ body_copy: >-
   “I’ve had health problems because of this, but my coworkers still come because it’s their livelihood,” Enriques said.
 
 
+  ### PHOTO #5
+
+
+
+  {% inlinePhoto "picking-through-fire", 2, lang %}
+
+
+
   The court freeze was lifted in 2024, and the center resumed construction. Despite this court mandate, the center has been stalled as the Milei administration is reluctant to utilize government funds to carry out the project.
 
 
@@ -199,6 +241,14 @@ body_copy: >-
 
 
   Viagra collects materials from the street or homes, including plastic, PVC and cardboard. Although those at Open Sky pick similar materials like the cartoneros, those working at the collective do not identify with the title and instead prefer “recycler.”
+
+
+  ### PHOTO #22
+
+
+
+  {% inlinePhoto "picking-through-fire", 4, lang %}
+
 
 
   To the recyclers, there is a distinction between them and those at La Quema. At the illegal dump site, each person works for themselves, whereas Open Sky is a collective, where earnings are split fairly among workers, Viagra said.

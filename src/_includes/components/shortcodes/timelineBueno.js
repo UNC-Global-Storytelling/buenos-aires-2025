@@ -41,7 +41,7 @@ export default function () {
     />
   
     <!-- Title -->
-    <h1 style="position: absolute; top: 4%; left: 60%; transform: translateX(-50%); line-height: 1.1; color: #57622E; font-size: 1.8rem; font-family: sans-serif;">
+    <h1 style="position: absolute; top: 4%; left: 40%; line-height: 1.1; width: 34%; color: #57622E; font-size: 1.5rem; font-family: sans-serif;">
       The History of Rodrigo Bueno
     </h1>
   
