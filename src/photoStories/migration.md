@@ -87,5 +87,5 @@ en:
         viernes 14 de marzo de 2025 (abajo).
 es:
   id: migration
-  title: Spanish Title
+  title: " Una historia de hogar y migración"
 ---
