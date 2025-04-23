@@ -263,6 +263,11 @@ body .story-content .video-player {
   padding-top: 1rem;
 }
 
+.photo-experience h2{
+  font-size: 1.8rem;
+  color: black;
+}
+
 /* pull quote component styling */
 /* Pull quote container */
 .pull-quote {
