@@ -1,6 +1,7 @@
 ---
 layout: layouts/story
 language: es
+topic: Familia
 title: La Dispersión
 subtitle: "Mientras Argentina Cambia, las Familias se Dispersan: Una Historia de
   Hogar y Migración"
@@ -9,11 +10,10 @@ video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
 photo_byline: Emma Denman
 interactive_1_byline: Anna Fetter
+interactive_2_byline: Kyren Ual
 uca_contributor_1_byline: Delfina Bassini
 uca_contributor_2_byline: Clara Cullen
 slug: scattering-es
-topic: Familia
-interactive_2_byline: Kyren Ual
 body_copy: >-
   Maria Sofia Emma Piacentina de Arsena Eisner es conocida por sus 11 hijos y 34
   nietos como Sofia. No llega a medir metro y medio, está sentada tranquilamente
@@ -42,7 +42,11 @@ body_copy: >-
 
 
   Ha vivido en Buenos Aires durante los 88 años de su vida; ahí crió a sus hijos, los envió a la escuela y los vio mudarse a otros países. Su familia se ha dispersado.
+
    Sus hijos y nietos han ido y venido. Pero cada vez que uno regresa, otro se va. El pasto está crecido en su antigua casa, donde solían vivir todos sus hijos, a veces cuatro por cuarto.
+
+  {% video { videoId: "1077827152" } %}
+
 
   La familia sigue siendo todo. Tiene planes para visitar pronto a los hijos de su hijo Pablo en Texas y asistir a un bar mitzvá. Sentada en su silla, rechaza llamadas, hace callar a sus hijos y nietos con gestos, sacudiendo las manos hacia su teléfono, como si estuviera en la misma habitación con ellos.
 
