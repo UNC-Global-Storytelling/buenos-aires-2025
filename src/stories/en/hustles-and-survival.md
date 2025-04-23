@@ -13,24 +13,16 @@ uca_contributor_2_byline: Saia Stefanazzi
 slug: hustles-and-survival
 topic: Economy
 body_copy: >-
-  The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana
-  is already on her feet. As the chill of the early morning lingers in the air,
-  the 24-year-old mother of three prepares to face once again a busy schedule.
-  By day, she is the nurturing heart of her family; by night, she becomes a
-  daring, racing street worker weaving through traffic to deliver food,
-  groceries, and other goods to customers on the streets of Buenos Aires in some
-  of the toughest neighborhoods. She risks her life nightly to earn a little
-  extra money based on how far she peddles her bike and the time it takes to get
-  there.  
+  emily
+
+
+  The sun has yet to rise over the Buenos Aires skyline, and Milagros Orellana is already on her feet. As the chill of the early morning lingers in the air, the 24-year-old mother of three prepares to face once again a busy schedule. By day, she is the nurturing heart of her family; by night, she becomes a daring, racing street worker weaving through traffic to deliver food, groceries, and other goods to customers on the streets of Buenos Aires in some of the toughest neighborhoods. She risks her life nightly to earn a little extra money based on how far she peddles her bike and the time it takes to get there.  
 
 
   Orellana weaves through the chaotic streets with a sharp focus. On two wheels, she’s part of a fierce, unforgiving world where survival depends on quick reflexes and cold determination. As a woman in a male-dominated gig, she faces a constant push-and-pull dynamic; men, often dismissive of her presence, see her as competition, while other women eye her with distrust, resenting her for working alongside men in this gritty, high-stress environment. 
 
 
   There’s little room for camaraderie—every person is out for themselves. With the pressure mounting from all sides, Orellana has learned to keep her guard up and her eyes always scanning the road. With each shift, she pushes through exhaustion, balancing the weight of her children's needs with the demands of an unforgiving gig economy. The clock is her constant enemy, as she races against time, each delivery another small victory in the ongoing struggle for her family’s survival. 
-
-
-  {% inlinePhoto "hustles-and-survival", 1, lang %}
 
 
   Milagros is a Rappi driver and a member of the growing gig economy in Argentina as people take on multiple jobs just to survive. For Orellana, her resilience comes back to her main purpose, motherhood. 
@@ -112,9 +104,6 @@ body_copy: >-
 
 
   The hotel room, rented for just three hours, is her studio—her safe space to perform, create, and, most importantly, survive in a financial landscape that offers few options for young women like her. As the country grapples with inflation and unemployment, Fernández’s world now revolves around the precarious balance between her online persona and the unpredictable market she’s learned to navigate—one click at a time.
-
-
-  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   Through Only Fans and Telegram, a messaging app, she has been able to survive. Her increased platform has also been able to get her a “sugar daddy,” which is typically an older man who gives gifts or money for a younger woman’s company and sometimes sex work. She sees him and spends a day with him during the week in exchange for up to $300 USD, which is about $323,000 in Argentine pesos. Only knowing him for five months, he has gifted her many things like jewelry, handbags, shoes, and expensive perfumes.  
