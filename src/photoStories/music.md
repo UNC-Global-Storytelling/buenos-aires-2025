@@ -133,9 +133,14 @@ en:
         por el frente.
     - src: /assets/img/uploads/20250313_richards_casa-de-mari-857.jpg
       order: 13
-      caption_en: Mari started making music with Ric as she began her gender transition.
+      caption_en: Mari started making music with Ric just before she transitioned.
+        Fama y Guita developed as Mari grew into her gender identity, finishing
+        a stage of physical metamorphosis. Her name, "Mariposa," means
+        butterfly.
       alt_en: A woman stands pressed against her windowsill.
-      caption_es: Mari en su ventana.
+      caption_es: "Mari empezó a componer música con Ric justo antes de su transición.
+        Fama y Guita se desarrolló a medida que Mari desarrollaba su identidad
+        de género, culminando una etapa de metamorfosis física. "
       alt_es: Una mujer en la ventana.
 es:
   id: music
