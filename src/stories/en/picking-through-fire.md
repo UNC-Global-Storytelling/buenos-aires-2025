@@ -98,9 +98,6 @@ body_copy: >-
   Eduardo Donza, a professor at the University of Buenos Aires specializing in the labor market, social inequality and poverty, said the rate of informal labor continues to increase nationwide. 
 
 
-  ### PHOTO #19
-
-
   An estimated 33% of the Argentine workforce operates within what economists like Donza call the “popular economy,” where jobs diverge from traditional employment and lack labor protections. Cartoneros are a part of this popular economy. These professions grow out of survival as the labor market fails to support its citizens, he said.
 
 
@@ -138,6 +135,11 @@ body_copy: >-
 
 
   ### PHOTO OF SERGIO OVER MOWER
+
+
+
+  {% inlinePhoto "picking-through-fire", 5, lang %}
+
 
 
   That changed when Almada started protesting the dump.
@@ -206,6 +208,11 @@ body_copy: >-
   ### PHOTO #5
 
 
+
+  {% inlinePhoto "picking-through-fire", 2, lang %}
+
+
+
   The court freeze was lifted in 2024, and the center resumed construction. Despite this court mandate, the center has been stalled as the Milei administration is reluctant to utilize government funds to carry out the project.
 
 
@@ -231,6 +238,11 @@ body_copy: >-
 
 
   ### PHOTO #22
+
+
+
+  {% inlinePhoto "picking-through-fire", 4, lang %}
+
 
 
   To the recyclers, there is a distinction between them and those at La Quema. At the illegal dump site, each person works for themselves, whereas Open Sky is a collective, where earnings are split fairly among workers, Viagra said.
