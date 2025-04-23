@@ -2,7 +2,10 @@
   {
     "name": "Aayas Joshi",
     "storyGroup": "Music",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/aayas/",
     "instagram": "@aayas.o",
     "Facebook": "",
@@ -16,7 +19,10 @@
   {
     "name": "Agustina Tettamanti",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -30,7 +36,10 @@
   {
     "name": "Anna Fetter",
     "storyGroup": "Migration",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/anna-fetter/",
     "instagram": "@anna.fetter",
     "Facebook": "",
@@ -44,7 +53,10 @@
   {
     "name": "Anna Laible",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Reporter",
+    "role": {
+      "en": "Reporter",
+      "es": "Reportera"
+    },
     "LinkedIn": "https://www.linkedin.com/in/anna-laible?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     "instagram": "@anna_laible",
     "Facebook": "",
@@ -58,7 +70,10 @@
   {
     "name": "Anna Riddle",
     "storyGroup": "Gig Economy",
-    "role": "Photographer",
+    "role": {
+      "en": "Photographer",
+      "es": "Fotógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/anna-riddle-284778196/",
     "instagram": "@Annaaarid",
     "Facebook": "",
@@ -72,7 +87,10 @@
   {
     "name": "Ashley Santillan",
     "storyGroup": "Gig Economy",
-    "role": "Reporter",
+    "role": {
+      "en": "Reporter",
+      "es": "Reportera"
+    },
     "LinkedIn": "https://www.linkedin.com/in/ashley-santillan-b743b2256/",
     "instagram": "@aly.s.v",
     "Facebook": "",
@@ -86,7 +104,10 @@
   {
     "name": "Brooke Bond",
     "storyGroup": "N/A",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "https://linkedin.com/in/brooke-fisher-bond",
     "instagram": "",
     "Facebook": "",
@@ -100,7 +121,10 @@
   {
     "name": "Cinthia Rico",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -114,7 +138,10 @@
   {
     "name": "Clara Cullen",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -128,7 +155,10 @@
   {
     "name": "Clara Etchegoyhen",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -142,7 +172,10 @@
   {
     "name": "Dallia Lindell",
     "storyGroup": "Dumping",
-    "role": "Photographer",
+    "role": {
+      "en": "Photographer",
+      "es": "Fotógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
     "instagram": "@elysiansplace",
     "Facebook": "",
@@ -156,7 +189,10 @@
   {
     "name": "Darian Woehr",
     "storyGroup": "Family Migration",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "https://www.linkedin.com/in/darian-woehr/?lipi=urn%3Ali%3Apage%3Ap_mwlite_my_network%3BLEmgQq3KSQq5XcGXr72Amw%3D%3D",
     "instagram": "@darian.woehr",
     "Facebook": "",
@@ -170,7 +206,10 @@
   {
     "name": "Delfina Bassini",
     "storyGroup": "Family Migration",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "https://www.linkedin.com/in/delfina-bassini-3a224127a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "instagram": "delfibassini",
     "Facebook": "Delfina Bassini",
@@ -184,7 +223,10 @@
   {
     "name": "Dylan Thiessen",
     "storyGroup": "family migration",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/dylan-thiessen",
     "instagram": "@thiessenphotos",
     "Facebook": "",
@@ -198,7 +240,10 @@
   {
     "name": "Ella Campbell",
     "storyGroup": "Dumping",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/ellaclairecampbell/",
     "instagram": "@ellacampb3ll",
     "Facebook": "",
@@ -212,7 +257,10 @@
   {
     "name": "Emily Rollins",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "www.linkedin.com/in/emroll",
     "instagram": "",
     "Facebook": "",
@@ -226,7 +274,10 @@
   {
     "name": "Emma Denman",
     "storyGroup": "Family Migration",
-    "role": "Photographer",
+    "role": {
+      "en": "Photographer",
+      "es": "Fotógrafo"
+    },
     "LinkedIn": "https://linkedin.com/in/emmadenman",
     "instagram": "emmadenmanphoto",
     "Facebook": "",
@@ -240,7 +291,10 @@
   {
     "name": "Gowri Abhinanda",
     "storyGroup": "Dumping",
-    "role": "Reporter",
+    "role": {
+      "en": "Reporter",
+      "es": "Reportera"
+    },
     "LinkedIn": "LinkedIn.com/in/gowriabhinanda",
     "instagram": "@gowglitz",
     "Facebook": "",
@@ -254,7 +308,10 @@
   {
     "name": "Grace Richards",
     "storyGroup": "Music",
-    "role": "Photographer",
+    "role": {
+      "en": "Photographer",
+      "es": "Fotógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/grace-richards-758512266/",
     "instagram": "grace.richards.photo",
     "Facebook": "",
@@ -268,7 +325,10 @@
   {
     "name": "Guadalupe Zapata Vicario",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -282,7 +342,10 @@
   {
     "name": "Hailey Clodfelter",
     "storyGroup": "Gig Economy",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/haileyclodfelter812/",
     "instagram": "hailey.812",
     "Facebook": "https://www.facebook.com/hailey.clodfelter.31/",
@@ -296,7 +359,10 @@
   {
     "name": "Hailey Patterson",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/haileyrpatterson/",
     "instagram": "",
     "Facebook": "",
@@ -310,7 +376,10 @@
   {
     "name": "Hannah Zinn",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/hannahzinn001",
     "instagram": "Instagram.com/zinnvisual",
     "Facebook": "",
@@ -324,7 +393,10 @@
   {
     "name": "Hernan Cappiello",
     "storyGroup": "N/A",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -338,7 +410,10 @@
   {
     "name": "Jazmín Lell",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -352,7 +427,10 @@
   {
     "name": "Jiayi Zhang",
     "storyGroup": "Music",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -366,7 +444,10 @@
   {
     "name": "Jing Chen",
     "storyGroup": "Gig Economy",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "",
     "instagram": "https://www.instagram.com/floraxpal?igsh=YmxoZnBsN3lycXBu&utm_source=qr",
     "Facebook": "",
@@ -380,7 +461,10 @@
   {
     "name": "Kyle Winters",
     "storyGroup": "Illegal Dumping",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "https://www.linkedin.com/in/kyle-winters-51303b285/",
     "instagram": "",
     "Facebook": "",
@@ -394,7 +478,10 @@
   {
     "name": "Kyren Ual",
     "storyGroup": "family migration",
-    "role": "Interactive",
+    "role": {
+      "en" : "Interactive",
+      "es" : "Interactivo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/kyren-ual/",
     "instagram": "",
     "Facebook": "",
@@ -408,7 +495,10 @@
   {
     "name": "Lucía Simoncelli",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -422,7 +512,10 @@
   {
     "name": "Maggie McIntyre",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/maggie-mcintyre-016a4a210/",
     "instagram": "@maggie__mcintyre",
     "Facebook": "",
@@ -436,7 +529,10 @@
   {
     "name": "Margarita Restrepo",
     "storyGroup": "n/a",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -450,7 +546,10 @@
   {
     "name": "Max Feliu",
     "storyGroup": "Illegal Dumping",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://linkedin.com/in/maxfeliu",
     "instagram": "maxfeliu",
     "Facebook": "",
@@ -464,7 +563,10 @@
   {
     "name": "McKenzie Bulris",
     "storyGroup": "Rodrigo Bueno",
-    "role": "Photographer",
+    "role": {
+      "en": "Photographer",
+      "es": "Fotógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/mckenzie-bulris-818468235/",
     "instagram": "@mckbul",
     "Facebook": "",
@@ -478,7 +580,10 @@
   {
     "name": "Pasquale Hinrichs",
     "storyGroup": "family migration",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/pasquale-hinrichs?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     "instagram": "@pasqua111e",
     "Facebook": "",
@@ -492,7 +597,10 @@
   {
     "name": "Pat Davison",
     "storyGroup": "Director",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "https://www.linkedin.com/in/patrickdavison/",
     "instagram": "",
     "Facebook": "",
@@ -506,7 +614,10 @@
   {
     "name": "Quincy Marks",
     "storyGroup": "Music",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://linkedin.com/in/quincy-marks",
     "instagram": "quincymarksmedia",
     "Facebook": "",
@@ -520,7 +631,10 @@
   {
     "name": "Shelby Swanson",
     "storyGroup": "Music",
-    "role": "Reporter",
+    "role": {
+      "en": "Reporter",
+      "es": "Reportera"
+    },
     "LinkedIn": "linkedin.com/in/shelby-swanson-sports/",
     "instagram": "@shelbyswanson_",
     "Facebook": "",
@@ -534,7 +648,10 @@
   {
     "name": "Soledad Arreguez",
     "storyGroup": "N/A",
-    "role": "Coach",
+    "role": {
+      "en": "Coach",
+      "es": "Instructor"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -548,7 +665,10 @@
   {
     "name": "Sophie Hughett",
     "storyGroup": "Illegal Dumping",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "www.linkedin.com/in/sophie-hughett-5ba391271",
     "instagram": "@hugsfromsophie",
     "Facebook": "",
@@ -562,7 +682,10 @@
   {
     "name": "Valentín Stefanizzi",
     "storyGroup": "",
-    "role": "UCA Producer",
+    "role": {
+      "en": "UCA Producer",
+      "es": "Productora UCA"
+    },
     "LinkedIn": "",
     "instagram": "",
     "Facebook": "",
@@ -576,7 +699,10 @@
   {
     "name": "Walker Livingston",
     "storyGroup": "family migration",
-    "role": "Reporter",
+    "role": {
+      "en": "Reporter",
+      "es": "Reportera"
+    },
     "LinkedIn": "https://www.linkedin.com/in/walker-livingston/",
     "instagram": "@walker.livingston",
     "Facebook": "",
@@ -590,7 +716,10 @@
   {
     "name": "Xiaohua (Chrissy) Wang",
     "storyGroup": "Gig Economy",
-    "role": "Videographer",
+    "role": {
+      "en": "Videographer",
+      "es": "Videógrafo"
+    },
     "LinkedIn": "https://www.linkedin.com/in/xiaohuawang/",
     "instagram": "",
     "Facebook": "",
