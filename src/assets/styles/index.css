@@ -345,7 +345,7 @@ body .story-content .interactive-container {
   display: flex;
   flex-direction: column; /* Stack title and slider vertically */
   width: 140%; /* 140% of the parent width */
-  height: 90vh; /* Fixed height of 90% of the viewport */
+  height: 91vh; /* Fixed height of 90% of the viewport */
   position: relative;
   left: 50%; /* Center the container horizontally */
   transform: translateX(-50%); /* Adjust for extra width */
