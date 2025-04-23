@@ -37,13 +37,16 @@ body_copy: >-
   “Primero soy feminista,” afirma Lola. “Y luego soy música, productora, estudiante, mujer... cualquiera de esas cosas. Creo que pongo un sello feminista en todo lo que hago.”
 
 
+  {% video { videoId: "1077838533" } %}
+
+
   Lola rodó aquí su último videoclip. Encima de su cama, carteles de películas de los 80 — *Footloose* y *The Breakfast Club* — han sido retocados con Photoshop para incluir los nombres de canciones que su banda aún no ha publicado. Pequeños huevos de Pascua para los fans. El apartamento es un collage de pasados prestados y futuros imaginados, cuidadosamente dispuestos como el lienzo de un artista.
 
 
   Pero el trabajo de Lola no trata sólo del pasado o del futuro. Ante el creciente autoritarismo de la Argentina del Presidente Javier Milei, Lola y otros artistas canalizan sus frustraciones en la música.
 
 
-  {% inlinePhoto "music-story", 1, lang %}
+  {% inlinePhoto "music-story", 1, lang or "es" %}
 
 
   La escena musical underground de Buenos Aires — que Lola y sus compañeros llaman “el under” — no es un movimiento masivo y comercial. Es rebelde, antiestablishment y local. No se trata de bandas que llenan estadios, sino de grupos de jóvenes adultos que prosperan en locales íntimos, pequeños clubes y bares de mala muerte donde pueden crear una base de seguidores “boca a boca.” Puede que su alcance no sea masivo, pero su influencia en la cultura local — proporcionando música auténtica y sin filtros que habla directamente de las luchas y frustraciones de hoy en día — es innegable.
