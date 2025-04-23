@@ -116,9 +116,6 @@ body_copy: >-
   Like so many others in Argentina’s underground scene, Lola’s using her music to preserve what the government is trying to erase.
 
 
-  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
-
-
   ## DEEP SADNESS
 
 
@@ -167,7 +164,7 @@ body_copy: >-
   Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Merda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
-  **(PHOTO STORY HERE)**
+  {% photoExperience { "storyId": "music", "lang": lang or "en" } %}
 
 
   But the "under" isn’t defined by one sound or style. Where Fama y Guita choose irony and volume, Lola leans into vulnerability and glitter.
