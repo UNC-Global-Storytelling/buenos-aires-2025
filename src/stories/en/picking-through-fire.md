@@ -31,6 +31,11 @@ body_copy: >-
   ### PHOTO #9
 
 
+
+  {% inlinePhoto "picking-through-fire", 3, lang %}
+
+
+
   Between rotting onions, teddy bears, discarded school notebooks, dirt and the occasional dead goat, workers of La Quema, much like scavenger birds, dig for gold across the 27-acre scape.
 
 
