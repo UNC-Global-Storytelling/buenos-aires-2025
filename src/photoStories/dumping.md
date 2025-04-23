@@ -183,6 +183,20 @@ en:
       alt_en: Marcelo Pérez looking into a garbage can at the crosswalk full of people.
       alt_es: Marcelo Pérez mirando un bote de basura en el paso de peatones lleno de
         gente.
+    - src: /assets/img/uploads/lindell_finalsequence-13.jpg
+      order: 13
+      caption_en: Pérez works everyday within the area surrounding La Plaza de Mayo in
+        Buenos Aires. The plaza is very populated, and gives Pérez opportunities
+        to find metal cans. He routinely follows a path where he comes across
+        familiar faces.
+      caption_es: Pérez trabaja todos los días dentro del área que rodea La Plaza de
+        Mayo en Buenos Aires. La plaza está muy poblada, y le da a Pérez la
+        oportunidad de encontrar latas de metal. Él sigue rutinariamente un
+        camino donde se encuentra con caras familiares.
+      alt_en: Pérez holds two cans and smokes a cigarette while talking with a lady
+        passing by.
+      alt_es: Pérez sostiene dos latas y fuma un cigarrillo mientras conversa con una
+        señora que pasa.
 es:
   id: dumping
 ---
