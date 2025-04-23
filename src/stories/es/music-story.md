@@ -136,6 +136,9 @@ body_copy: >-
   Y en un país gobernado por el machismo, bajo un presidente que se burla del feminismo, ese tipo de liberación parece radical.
 
 
+  {% musicflourish %}
+
+
   Para los artistas underground argentinos, la lucha contra Milei no es abstracta, aunque su arte lo sea. Sus políticas han afectado directamente a las artes. En marzo, su administración desreguló el cobro de derechos de autor a través de sociedades de gestión colectiva que apoyan a los artistas con pensiones, ayuda financiera y servicios legales. En agosto, eliminó los derechos de autor de la música en espacios privados como hoteles y fiestas, una medida que, según los críticos, recorta una fuente de ingresos vital para los artistas.
 
 

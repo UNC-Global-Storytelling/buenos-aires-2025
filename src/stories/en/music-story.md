@@ -138,6 +138,9 @@ body_copy: >-
   And in a country ruled by machismo, under a president who mocks feminism, that kind of release feels radical.
 
 
+  {% musicflourish %}
+
+
   For Argentina’s underground artists, the fight against Milei isn’t abstract — although their art may be. His policies have directly impacted the arts. In March, his administration deregulated royalty collection through collective management societies that support artists with pensions, financial aid and legal services. In August, he removed copyright fees for music in private spaces like hotels and parties, a move critics say cuts a vital income source for artists.
 
 
