@@ -52,11 +52,7 @@ body_copy: >-
   La familia de Sofia no es una excepción. Se ha convertido casi en una tradición para los argentinos, especialmente los de ascendencia europea, dispersarse por el mundo en busca de oportunidades fuera de la inestabilidad económica e inflación de su país. Incluso con un nuevo gobierno y recortes en el gasto y privatización de recursos nacionales, los argentinos empiezan a tener esperanzas de días mejores, aunque siguen conteniendo el aliento, pues las crisis económicas se han repetido una y otra vez. Familias desgarradas por la inestabilidad económica tal vez nunca vuelvan a unirse.
 
 
-
-
-
-
-  **NACIÓN DE MIGRANTES**
+  ## **NACIÓN DE MIGRANTES**
 
 
   Sofia se quedó en Argentina porque el negocio de su esposo estaba allí. Vivió la Guerra Sucia, las presidencias de Perón, Macri y ahora Milei. Nada de eso ya la conmueve.
@@ -92,11 +88,10 @@ body_copy: >-
   El actual presidente Javier Milei ha negado la cifra de desaparecidos durante la dictadura militar, culpando en su lugar a grupos militares de izquierda o peronistas. En su discurso de victoria en 2023, dijo: “No fueron 30,000”. Muchos defensores del negacionismo en Argentina afirman que los grupos terroristas de izquierda causaron un número mayor de desapariciones.
 
 
+  {% photoExperience { "storyId": "Migration", "lang": lang or "en" } %}
 
 
-
-
-  **FUERA MILEI**
+  ## **FUERA MILEI**
 
 
   La economía argentina ha estado marcada por la inflación durante décadas. El FMI y la revista *Forbes* han declarado que Argentina es el país con más inflación del mundo—especialmente después de la crisis financiera de 2001. Este patrón cíclico ha llevado a muchos argentinos a huir del país—ya sea a pie o con pasaportes, buscando ciudadanía en otros lugares mediante el trabajo.
@@ -135,11 +130,7 @@ body_copy: >-
   La partida de jóvenes profesionales ha sido llamada casualmente una “fuga de cerebros”. La Asociación Americana para el Avance de la Ciencia informa que, desde que Milei asumió el cargo, la principal agencia científica de Argentina perdió el 9 por ciento de su personal. Vaccarro y Bofelli dicen que esto ocurre también en otras industrias.
 
 
-
-
-
-
-  **FAMILIAS QUEBRADAS**
+  ## **FAMILIAS QUEBRADAS**
 
 
   Los argentinos empezaron a irse mucho antes de Milei. A principios de los 2000, cuando Argentina vivía una crisis económica, el hijo de Sofia, Jorge, dejó Buenos Aires para hacer una maestría en negocios en Purdue University, EE.UU. Regresó a Argentina unos años después y comenzó a trabajar en Shell, donde introdujo el concepto de tiendas de conveniencia en el país. Sus hijos nacieron y se criaron aquí. Pero recuerda los años noventa de Perón y cómo volvió a una inflación peor que nunca.
