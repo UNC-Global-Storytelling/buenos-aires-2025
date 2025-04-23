@@ -28,7 +28,7 @@
     },
     {
       "photo": "/assets/img/uploads/lindell_inlines-10.jpg",
-      "order": 7,
+      "order": 4,
       "caption_en": "Marcelo Santiago Viera weighs bags of recycled materials at Open Sky, Three Stars Cooperative in Lujan on March 10.",
       "caption_es": "Marcelo Santiago Viera pesa bolsas de materiales reciclados en la Cooperativa de Open Sky, Tres Estrellas en Luján el 10 de marzo.",
       "alt_en": "Marcelo Santiago Viera, a recycler at Open Sky, Three Stars Cooperative, weighs bags of recycled materials.",
@@ -41,6 +41,14 @@
       "caption_es": "Sergio Esteban Almada se agarra a la rueda de su cortadora de césped mientras se prepara para cortar el césped.",
       "alt_en": "Sergio Esteban Almada gets onto his lawnmower.",
       "alt_es": "Sergio Esteban Almada se sube a su cortadora de césped."
+    },
+    {
+      "photo": "/assets/img/uploads/lindell_inlines-9.jpg",
+      "order": 6,
+      "caption_en": "Waste sits on the edge of the Luján River that comes through the dumping area at La Quema.",
+      "caption_es": "Los residuos se encuentran en la orilla del Río Luján que pasa por el área de vertedero de La Quema.",
+      "alt_en": "The Luján River stands in the background with a pile of waste in the foreground.",
+      "alt_es": "El río Luján se alza al fondo con una pila de desechos en primer plano."
     }
   ]
 }
