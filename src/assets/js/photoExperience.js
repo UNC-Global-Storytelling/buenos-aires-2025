@@ -1,3 +1,13 @@
+
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[^\w\s-]/g, '')     // remove punctuation
+    .trim()
+    .replace(/\s+/g, '-')         // replace spaces with hyphens
+    .replace(/--+/g, '-');         // remove double hyphens
+}
+
 function initPhotoExperience(storyId, language) {
   const lang = language || 'en';
 
@@ -46,6 +56,13 @@ function initPhotoExperience(storyId, language) {
       document.getElementById(`prev-btn-${storyId}`).addEventListener('click', prevSlide);
 
       updateSlide();
+
+      // Auto-launch immersive mode if URL matches hash
+      const title = document.querySelector(`#photo-experience-${storyId} .photo-title`)?.innerText || 'photo-story';
+      const slug = slugify(title);
+      if (window.location.hash === `#photo-${slug}`) {
+        launchImmersive(storyId, lang);
+      }
     })
     .catch(error => {
       console.error('Error loading photo story:', error);
@@ -63,7 +80,7 @@ function buildImmersiveSlides(storyId, photos, lang) {
     const alt = lang === "es" ? photo.alt_es : photo.alt_en;
 
     const section = document.createElement('section');
-    section.className = "relative h-[200vh] bg-black"; // extended scroll time
+    section.className = "relative h-[200vh] bg-black";
 
     section.innerHTML = `
       <div class="sticky top-0 h-screen w-full flex flex-col items-center justify-center px-4">
@@ -86,12 +103,11 @@ function buildImmersiveSlides(storyId, photos, lang) {
 
     if (index < photos.length - 1) {
       const spacer = document.createElement('div');
-      spacer.className = "h-[20vh] bg-black"; // slightly reduced spacer now that sections are taller
+      spacer.className = "h-[20vh] bg-black";
       container.appendChild(spacer);
     }
   });
 
-  // Scroll-based fade/scale observer
   const observers = document.querySelectorAll(`#immersive-content-${storyId} section`);
 
   const observer = new IntersectionObserver((entries) => {
@@ -119,9 +135,6 @@ function buildImmersiveSlides(storyId, photos, lang) {
 
   observers.forEach(section => observer.observe(section));
 }
-
-
-
 
 window.initPhotoExperience = initPhotoExperience;
 
@@ -153,7 +166,10 @@ window.launchImmersive = function(storyId, lang) {
     });
   }
 
-  const hash = `#immersive-${storyId}`;
+  const title = document.querySelector(`#photo-experience-${storyId} .photo-title`)?.innerText || 'photo-story';
+  const slug = slugify(title);
+  const hash = `#photo-${slug}`;
+
   if (window.location.hash !== hash) {
     history.pushState(null, "", hash);
   }
@@ -173,5 +189,9 @@ document.addEventListener('click', (e) => {
     const id = e.target.id.replace("close-immersive-", "");
     const immersive = document.getElementById(`immersive-${id}`);
     immersive.classList.add("hidden");
+
+    if (window.location.hash.startsWith('#photo-')) {
+      history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
   }
 });
