@@ -26,6 +26,9 @@ body_copy: >-
   El lado derecho de Yma Sumac cuenta con edificios de ladrillo de tres pisos recién construidos, con una vivienda en cada nivel y balcones que las acompañan. Las familias suelen tener uno o dos refrigeradores y lavadoras, a diferencia de los del otro lado de la calle, que a menudo lavan su ropa a mano y carecen de electrodomésticos modernos.​
 
 
+  {% inlinePhoto "seeds-that-bloom", 1, lang %}
+
+
   En el centro del barrio se encuentra un moderno centro municipal y un parque limpio donde los niños juegan al fútbol todas las noches. Más allá de las casas, pasando la calle principal, está el paseo: una acera de concreto que da al Río de la Plata y es una representación de Buenos Aires.​
 
 
@@ -107,6 +110,11 @@ body_copy: >-
   Cada parte de La Vivera tiene un significado más profundo: el nombre es femenino porque todas las que trabajan allí son mujeres. El vínculo de amistad entre ellas es único.
 
 
+  {% inlinePhoto "seeds-that-bloom", 2, lang %}
+
+
+
+
   > “La relación entre todas nosotras es magnífica”, dijo Oviedo.
 
   > Oviedo comenzó a trabajar en el jardín en 2017, un año y medio antes de la urbanización del barrio. Cuando llegó a Argentina, no sabía plantar en macetas, así que aprendió sola. Ahora es una experta: organiza las plantas en hileras ordenadas de cuatro, lleva la cuenta de cada nueva adición con una lapicera rosa y un pequeño papel.Una de las amigas que trabaja con Oviedo en el jardín siempre le saca una sonrisa cuando la visita: Rosa de la Cruz, una mujer de mediana edad con largo cabello rojo, aros grandes y labial fucsia.
@@ -164,6 +172,9 @@ body_copy: >-
 
 
   > En el lado opuesto de Yma Sumac, a solo unas cuadras de donde vive Ángela Oviedo, hay un hogar lleno de comida y familia. Adentro, una gran cocina donde mujeres cocinan y se preparan para una noche agitada. En el centro, una mujer con delantal color bordó: Rosa de la Cruz.
+
+
+  {% inlinePhoto "seeds-that-bloom", 3, lang %}
 
 
   De la Cruz es otra residente de larga data que vive en el barrio desde 1999 y actualmente reside con sus tres hijas. En 2020, fue la impulsora del Comedor del Centro de Adulto Mayor, una cocina comunitaria creada para ofrecer comidas frescas a personas mayores durante la pandemia del COVID-19.
