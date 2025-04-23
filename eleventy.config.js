@@ -19,6 +19,7 @@ import { EleventyI18nPlugin } from '@11ty/eleventy';
 
 //import configs for plugins
 import configI18n from './src/config/plugins/i18n.js'
+import musicflourish from './src/_includes/components/shortcodes/musicflourish.js';
 
 export default function (eleventyConfig) {
   // Compile Tailwind before Eleventy processes the files
@@ -142,6 +143,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addShortcode("pullQuote", pullQuote);
   eleventyConfig.addAsyncShortcode("inlinePhoto", inlinePhoto);
   eleventyConfig.addShortcode("photoExperience", photoExperience);
+  eleventyConfig.addShortcode("musicflourish", musicflourish);
 
   // Run after build to create JSON files from photo stories
   eleventyConfig.on('eleventy.after', async ({ dir }) => {
