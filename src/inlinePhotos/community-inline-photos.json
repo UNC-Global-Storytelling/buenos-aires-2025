@@ -1,4 +1,30 @@
 {
   "title": "Community inline photos",
-  "storyId": "seeds-that-bloom"
+  "storyId": "seeds-that-bloom",
+  "photos": [
+    {
+      "photo": "/assets/img/uploads/20250421_-bulris_communityinlineb-1.jpg",
+      "order": 1,
+      "caption_en": "A resident of Rodrigo Bueno uses her phone on the balcony of one of the buildings constructed as part of the neighborhood's urbanization effort.",
+      "caption_es": "Una residente de Rodrigo Bueno utiliza su teléfono en el balcón de uno de los edificios construidos en el marco de la urbanización del barrio.",
+      "alt_en": "A woman leans on the balcony of a four story brick building.",
+      "alt_es": "Una mujer se asoma al balcón de un edificio de ladrillo de cuatro plantas."
+    },
+    {
+      "photo": "/assets/img/uploads/20250421_bulris_comminlinesc-1.jpg",
+      "order": 2,
+      "caption_en": "Left:  Flor de terciopelo, also known as the crested cockscomb, is one plant grown in La Vivera, alongside native Argentine plants.   Right: Members of La Vivera’s staff pot various plants.",
+      "caption_es": "Izquierda: La flor de terciopelo, también conocida como cresta de gallo, es una de las plantas cultivadas en La Vivera, junto con plantas autóctonas argentinas. Derecha: Miembros del personal de La Vivera cultivan varias plantas.",
+      "alt_en": "Left: A bed of red flowers is hit by the morning sun. Right: Two women pot plants with a mural in the background.",
+      "alt_es": "Izquierda: Un parterre de flores rojas es golpeado por el sol de la mañana. Derecha: Dos mujeres macean plantas con un mural al fondo."
+    },
+    {
+      "photo": "/assets/img/uploads/20250421_-bulris_communityinline-2.jpg",
+      "order": 3,
+      "caption_en": "Rosa de la Cruz cooks beef in her kitchen in the historic section of Rodrigo Bueno. Cruz cookeds portions of meals served at Comedor del Centro de Adulto Mayor in her home before finishing preparation at the soup kitchen.",
+      "caption_es": "Rosa de la Cruz cocina ternera en su cocina del barrio histórico de Rodrigo Bueno. Cruz cocina en su casa porciones de las comidas que se sirven en el Comedor del Centro de Adulto Mayor antes de terminar la preparación en el comedor social.",
+      "alt_en": "A woman in a red apron cooks beef on a stove.",
+      "alt_es": "Una mujer con delantal rojo cocina carne en un fogón."
+    }
+  ]
 }
