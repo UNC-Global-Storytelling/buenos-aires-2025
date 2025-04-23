@@ -46,7 +46,7 @@ body_copy: >-
   Pero el trabajo de Lola no trata sólo del pasado o del futuro. Ante el creciente autoritarismo de la Argentina del Presidente Javier Milei, Lola y otros artistas canalizan sus frustraciones en la música.
 
 
-  {% inlinePhoto "music-story", 1, lang or "es" %}
+  {% inlinePhoto "music-story", 1, lang %}
 
 
   La escena musical underground de Buenos Aires — que Lola y sus compañeros llaman “el under” — no es un movimiento masivo y comercial. Es rebelde, antiestablishment y local. No se trata de bandas que llenan estadios, sino de grupos de jóvenes adultos que prosperan en locales íntimos, pequeños clubes y bares de mala muerte donde pueden crear una base de seguidores “boca a boca.” Puede que su alcance no sea masivo, pero su influencia en la cultura local — proporcionando música auténtica y sin filtros que habla directamente de las luchas y frustraciones de hoy en día — es innegable.
