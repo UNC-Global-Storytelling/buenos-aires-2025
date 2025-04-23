@@ -171,7 +171,7 @@ body_copy: >-
   Take Fama y Guita, a queer punk duo known for their chaotic live shows, biting humor and genre mashups that range from cumbia to hard bass. Described as both a band and a party, their songs — like the ferociously satirical “Yankees de Mierda!” — mock neoliberalism and cultural pretension with a wink and a scream. 
 
 
-  {% photoExperience { "storyId": "music", "lang": lang or "en", "title": "In the Rhythm of Enough" } %}
+  {% photoExperience { "storyId": "music", "lang": lang or "en", "title": "Songs from Underground" } %}
 
 
   But the "under" isn’t defined by one sound or style. Where Fama y Guita choose irony and volume, Lola leans into vulnerability and glitter.
