@@ -182,5 +182,5 @@ body_copy: >-
 
 
   Orellana’s 13-year-old brother, whom she has cared for since their mother’s death, represents the future of gig work. Juggling school and teenage life, he also works as a Rappi driver, navigating the same streets and traffic that his sister faces.
-image: /assets/img/uploads/hustle.jpg
+image: /assets/img/uploads/hustle-hero.jpg
 ---
