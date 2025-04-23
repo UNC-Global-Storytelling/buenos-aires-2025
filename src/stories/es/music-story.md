@@ -37,6 +37,9 @@ body_copy: >-
   “Primero soy feminista,” afirma Lola. “Y luego soy música, productora, estudiante, mujer... cualquiera de esas cosas. Creo que pongo un sello feminista en todo lo que hago.”
 
 
+  {% video { videoId: "1077838533" } %}
+
+
   Lola rodó aquí su último videoclip. Encima de su cama, carteles de películas de los 80 — *Footloose* y *The Breakfast Club* — han sido retocados con Photoshop para incluir los nombres de canciones que su banda aún no ha publicado. Pequeños huevos de Pascua para los fans. El apartamento es un collage de pasados prestados y futuros imaginados, cuidadosamente dispuestos como el lienzo de un artista.
 
 

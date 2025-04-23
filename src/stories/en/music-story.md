@@ -36,6 +36,9 @@ body_copy: >-
   “I am a feminist first,” Lola said. “And then I’m a musician, producer, student, woman — any of those things. I believe I put a feminist stamp on everything I do.”
 
 
+  {% video { videoId: "1077838533" } %}
+
+
   Lola filmed her last music video here. Above her bed, old ’80s movie posters *—* “Footloose,” and “The Breakfast Club” *—* have been Photoshopped to include the names of songs her band hasn’t released yet. Little Easter eggs for the fans. The apartment is a collage of borrowed pasts and imagined futures, carefully arranged like an artist’s canvas. 
 
 
