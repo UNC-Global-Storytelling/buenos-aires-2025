@@ -1,8 +1,9 @@
 ---
 layout: layouts/story
 language: es
-title: The Scattering
-subtitle: "As Argentina Shifts, Families Break Apart: A Story of Home and Migration"
+title: La Dispersión
+subtitle: "Mientras Argentina Cambia, las Familias se Dispersan: Una Historia de
+  Hogar y Migración"
 reporter_byline: Walker Livingston
 video_1_byline: Pasquale Hinrichs
 video_2_byline: Dylan Thiessen
