@@ -1,16 +1,16 @@
 ---
 layout: layouts/story
 language: en
-reporter_byline: Shelby Swanson
-video_1_byline: Aayas Joshi
-video_2_byline: Quincy Marks
-photo_byline: Grace Richards
-uca_contributor_1_byline: Clara Etchegoyhen
-slug: music-story
 title: Aun así, canto
 subtitle: Amid Milei’s Crackdown, Buenos Aires’ Underground Artists Keep the
   Resistance Loud
+reporter_byline: Shelby Swanson
+video_1_byline: Aayas Joshi
+video_2_byline: Quincy Marks
 interactive_1_byline: Jiayi Zhang
+uca_contributor_1_byline: Clara Etchegoyhen
+slug: music-story
+photo_byline: Grace Richards
 body_copy: >-
   Late afternoon light spills through the only window in Lola Tabarovsky’s
   third-floor apartment in the Abasto barrio, turning the small room the same
@@ -226,5 +226,5 @@ body_copy: >-
 
 
   And that, in its own way, is a kind of revolution.
-image: /assets/img/uploads/20250315_richards_lola-rehearsal-567.jpg
+image: /assets/img/uploads/20250311_richards_lola-bedroom-554.jpg
 ---
