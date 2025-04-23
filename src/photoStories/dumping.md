@@ -159,28 +159,26 @@ en:
         ya clasificados.
     - src: /assets/img/uploads/lindell_finalsequence-11.jpg
       order: 11
-      caption_en: The city of Buenos Aires produces 5,792 tons of waste a day. One
-        third of approximately 25,000 recorded recyclers are formally contracted
-        with a cooperative, leaving the rest to sell to private companies or the
+      caption_en: The city of Buenos Aires produces around 5,800 tons of waste a day.
+        One third of approximately 25,000 recyclers are formally contracted with
+        a cooperative, leaving the rest to sell to private companies or the
         black market.
-      caption_es: La ciudad de Buenos Aires produce 5.792 toneladas de residuos al
-        día. Un tercio de los aproximadamente 25.000 recicladores registrados se
-        contrata formalmente con una cooperativa, dejando el resto para vender a
-        empresas privadas o al mercado negro.
+      caption_es: La ciudad de Buenos Aires produce alrededor de 5.800 toneladas de
+        residuos al día. Un tercio de los aproximadamente 25.000 recicladores
+        son contratados formalmente con una cooperativa, dejando el resto para
+        vender a empresas privadas o al mercado negro.
       alt_en: A mountain of white, “city of Buenos Aires” marked bags filled with
         separated materials sits in the corner of a building.
       alt_es: En la esquina de un edificio se encuentra una montaña de bolsas blancas
         con la leyenda "ciudad de Buenos Aires" llenas de materiales separados.
     - src: /assets/img/uploads/lindell_finalsequence-12.jpg
       order: 12
-      caption_en: "Marcelo Pérez is an informal recycler who has worked for the last
-        four years to provide for his family. He only collects metal cans
-        because the selling price, 10 pesos per kilogram, is the highest rate at
-        the moment. "
-      caption_es: Marcelo Pérez es un reciclador informal que ha trabajado durante los
-        últimos cuatro años para mantener a su familia. Solo recoge latas de
-        metal porque el precio de venta, 10 pesos por kilogramo, es la tasa más
-        alta en este momento.
+      caption_en: Marcelo Pérez is an informal recycler who has worked for the last
+        four years on his own. He collects metal cans for the low price of 10
+        pesos per kilogram of metal.
+      caption_es: Marcelo Pérez es un reciclador informal que trabaja por su cuenta
+        desde hace cuatro años. Colecciona latas de metal por el módico precio
+        de 10 pesos el kilo de metal.
       alt_en: Marcelo Pérez looking into a garbage can at the crosswalk full of people.
       alt_es: Marcelo Pérez mirando un bote de basura en el paso de peatones lleno de
         gente.
