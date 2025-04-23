@@ -30,9 +30,6 @@ body_copy: >-
   Hay poco espacio para la camaradería; cada persona vela por sí misma. Con la presión aumentando desde todos los frentes, Orellana ha aprendido a mantener la guardia alta y los ojos siempre atentos a la calle. En cada turno, lucha contra el agotamiento, equilibrando las necesidades de sus hijos con las exigencias de una economía informal que no perdona. El reloj es su enemigo constante, mientras corre contra el tiempo; cada entrega es una pequeña victoria en la lucha continua por la supervivencia de su familia.
 
 
-  {% inlinePhoto "hustles-and-survival", 1, lang %}
-
-
   Milagros es repartidora de Rappi y forma parte de la creciente economía de trabajos informal en Argentina, donde muchas personas se ven obligadas a tener múltiples empleos solo para sobrevivir. Para Orellana, su resiliencia se sostiene en su propósito principal: la maternidad.
 
 
@@ -81,9 +78,6 @@ body_copy: >-
   La vida de Rixner es un acto de equilibrio entre la pasión y la incertidumbre financiera. “Nunca sé cuánto voy a ganar… a veces me preocupo, pero siempre me va bien”, comenta.
 
 
-  {% inlinePhoto "hustles-and-survival", 2, lang %}
-
-
   En un país donde la estabilidad económica es cada vez más escasa, ha logrado forjar su camino enseñando a otros no solo a moverse, sino a reconectarse: con sus cuerpos, su respiración y la constante incertidumbre de la vida en Buenos Aires.
 
 
@@ -102,7 +96,7 @@ body_copy: >-
   A medida que crece el número de trabajadores independientes, también lo hacen los tipos de trabajos a los que las personas recurren para ganar dinero. Muchas mujeres se ven excluidas de empleos como el reparto de comida por su cultura masculina y la competencia feroz, y se ven empujadas hacia el trabajo sexual, donde las ganancias pueden ser significativas.
 
 
-  {% photoExperience { "storyId": "economy", "lang": lang or "es" } %}
+  {% photoExperience { "storyId": "economy", "lang": lang or "en" } %}
 
 
   ## **SÓLO TÚ**
@@ -112,9 +106,6 @@ body_copy: >-
 
 
   La habitación, rentada por solo tres horas, es su estudio: su espacio seguro para actuar, crear y, lo más importante, sobrevivir en un panorama financiero que ofrece pocas opciones para mujeres jóvenes como ella. Mientras el país lidia con la inflación y el desempleo, el mundo de Fernández gira en torno al equilibrio precario entre su personaje online y un mercado impredecible que ha aprendido a navegar, clic a clic.
-
-
-  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   Gracias a OnlyFans y Telegrama, ha logrado sobrevivir. Su plataforma también le consiguió un “sugar daddy”, un hombre mayor que le da regalos o dinero a cambio de compañía, y en ocasiones, sexo. Lo ve una vez a la semana y pasa el día con él a cambio de hasta 300 dólares, unos 323.000 pesos argentinos. En solo cinco meses, él le ha regalado joyas, carteras, zapatos y perfumes caros.
