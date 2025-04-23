@@ -81,6 +81,9 @@ body_copy: >-
   La vida de Rixner es un acto de equilibrio entre la pasión y la incertidumbre financiera. “Nunca sé cuánto voy a ganar… a veces me preocupo, pero siempre me va bien”, comenta.
 
 
+  {% inlinePhoto "hustles-and-survival", 2, lang %}
+
+
   En un país donde la estabilidad económica es cada vez más escasa, ha logrado forjar su camino enseñando a otros no solo a moverse, sino a reconectarse: con sus cuerpos, su respiración y la constante incertidumbre de la vida en Buenos Aires.
 
 
@@ -109,6 +112,9 @@ body_copy: >-
 
 
   La habitación, rentada por solo tres horas, es su estudio: su espacio seguro para actuar, crear y, lo más importante, sobrevivir en un panorama financiero que ofrece pocas opciones para mujeres jóvenes como ella. Mientras el país lidia con la inflación y el desempleo, el mundo de Fernández gira en torno al equilibrio precario entre su personaje online y un mercado impredecible que ha aprendido a navegar, clic a clic.
+
+
+  {% inlinePhoto "hustles-and-survival", 3, lang %}
 
 
   Gracias a OnlyFans y Telegrama, ha logrado sobrevivir. Su plataforma también le consiguió un “sugar daddy”, un hombre mayor que le da regalos o dinero a cambio de compañía, y en ocasiones, sexo. Lo ve una vez a la semana y pasa el día con él a cambio de hasta 300 dólares, unos 323.000 pesos argentinos. En solo cinco meses, él le ha regalado joyas, carteras, zapatos y perfumes caros.
