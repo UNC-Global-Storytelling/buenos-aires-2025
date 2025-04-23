@@ -1,6 +1,8 @@
 ---
+order: 4
 layout: layouts/story
 language: es
+topic: Economía
 title: Rebusques y Supervivencia
 subtitle: El trabajo informal y los empleos múltiples definen la vida en Buenos Aires.
 reporter_byline: Ashley Santillan
@@ -11,8 +13,6 @@ interactive_1_byline: Hailey Clodfelter
 uca_contributor_1_byline: Jazmín Lell
 uca_contributor_2_byline: Saia Stefanazzi
 slug: rebusques-y-supervivencia
-order: 4
-topic: Economía
 body_copy: >-
   El sol aún no ha salido sobre el horizonte de Buenos Aires, y Milagros
   Orellana ya está de pie. Mientras el frío de la madrugada se aferra al aire,
@@ -179,5 +179,5 @@ body_copy: >-
 
 
   El hermano menor de Orellana, de 13 años, a quien cuida desde la muerte de su madre, representa el futuro del trabajo gig. Compaginando la escuela y la adolescencia, también trabaja como repartidor de Rappi, navegando las mismas calles que enfrenta su hermana.
-image: /assets/img/uploads/GIGECON-TANGO.jpg
+image: /assets/img/uploads/hustle.jpg
 ---
