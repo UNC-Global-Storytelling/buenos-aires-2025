@@ -33,6 +33,23 @@ en:
         other waste burn out. "
       alt_es: Dos llamas están rodeadas de humo a medida que el papel, el plástico, el
         caucho y otros desechos se queman.
+    - src: /assets/img/uploads/lindell_finalsequence-3.jpg
+      order: 3
+      caption_en: Dump trucks come in continually to unload tons of waste for
+        individuals who collect discarded materials called ‘cartoneros.’ Many
+        cartoneros spend hours searching through piles of waste for valuable
+        materials like metal and cardboard to sell to a middleman for profit, or
+        to find clothes and food for their families.
+      caption_es: Los camiones volquetes vienen continuamente para descargar toneladas
+        de residuos para las personas que recogen materiales desechados llamados
+        ‘cartoneros’ Muchos cartoneros pasan horas buscando entre montones de
+        desechos materiales valiosos como metal y cartón para venderlos a un
+        intermediario con fines de lucro, o para encontrar ropa y alimentos para
+        sus familias.
+      alt_en: A group of cartoneros begin to search through waste being left by a dump
+        truck in La Quema.
+      alt_es: Un grupo de cartoneros comienza a buscar entre los desechos que deja un
+        camión de volteo en La Quema.
 es:
   id: dumping
 ---
