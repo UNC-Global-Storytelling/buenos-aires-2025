@@ -1,7 +1,7 @@
 ---
 en:
   id: dumping
-  title: "From Waste to Worth: Chronicles of Buenos Aires Recycling"
+  title: From Waste to Worth
   photos:
     - src: /assets/img/uploads/lindell_finalsequence.jpg
       order: 1
@@ -232,4 +232,5 @@ en:
         del Congreso Nacional.
 es:
   id: dumping
+  title: Del Residuo al Valor
 ---
