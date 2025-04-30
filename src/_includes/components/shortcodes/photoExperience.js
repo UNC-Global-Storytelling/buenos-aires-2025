@@ -12,7 +12,7 @@ export default function(data) {
           ${title}
         </h2>
         <button class="immersive-btn bg-[#D2DCA9] text-black text-sm px-4 py-2 rounded hover:bg-green-700 transition" onclick="launchImmersive('${storyId}', '${lang}')">
-          Launch Immersive Mode
+          ${lang === 'es' ? 'Iniciar Modo Inmersivo' : 'Launch Immersive Mode'}
         </button>
       </div>
 
