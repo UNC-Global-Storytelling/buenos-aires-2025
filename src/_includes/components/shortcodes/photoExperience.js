@@ -23,15 +23,16 @@ export default function(data) {
         </div>
 
         <div class="caption-container">
-          <div class="caption-text-wrapper">
-            <p id="slider-caption-${storyId}" class="caption-text"></p>
-          </div>
-          <div class="position-indicator">
-            <button id="prev-btn-${storyId}" class="prev-slide" aria-label="Previous photo">←</button>
-            <span id="current-position-${storyId}">1</span>/<span id="total-count-${storyId}">10</span>
-            <button id="next-btn-${storyId}" class="next-slide" aria-label="Next photo">→</button>
-          </div>
-        </div>
+  <div class="caption-text-wrapper">
+    <p id="slider-caption-${storyId}" class="caption-text"></p>
+  </div>
+</div>
+<div class="position-indicator">
+  <button id="prev-btn-${storyId}" class="prev-slide" aria-label="Previous photo">←</button>
+  <span id="current-position-${storyId}">1</span>/<span id="total-count-${storyId}">10</span>
+  <button id="next-btn-${storyId}" class="next-slide" aria-label="Next photo">→</button>
+</div>
+
       </div>
 
       <!-- Scripts -->
