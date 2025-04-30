@@ -218,29 +218,107 @@ body.overflow-hidden {
 /* video styling, make it 120% of the parent width and center it */
 body .story-content .video-container,
 body .story-content .video-player {
-  width: 140%; /* 140% of the parent width, so it expands past 3/5 of grid */
-  max-width: none;
   position: relative;
-  left: 50%; /* Move the video to the center of the parent */
-  transform: translateX(-50%); /* Adjust for the extra width */
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  z-index: 1000;
+  max-width: 900px; /* Limit the width to 900px */
+  margin: 0 auto; /* Center the container */
+  text-align: center; /* Center-align content */
+  width: 100%; /* Ensure it doesn't exceed the viewport width */
 }
 
-.story-content .video-container iframe,
-.story-content .video-player iframe {
-  width: 100%; /* Ensure the iframe fills the parent container, when respondive */
-  aspect-ratio: 16/9; /* Maintain the aspect ratio */
+.video-player {
+  padding-top: 56.25%; /* Maintain a 16:9 aspect ratio */
+  position: relative;
+  z-index: 1000;
+  width: 100%; /* Ensure it fills the parent container */
+}
+
+.video-player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensure the iframe fills the parent container */
+  height: 100%; /* Maintain the aspect ratio */
   display: block;
 }
 
-/* Make videos responsive on smaller screens */
+
+/* Responsive Adjustments for Mobile */
 @media (max-width: 768px) {
-  .story-content .video-container {
+  .interactive-container {
+    width: 100%; /* Full width on mobile */
+    max-width: 100%; /* Remove any width constraints */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+    margin: 0 auto; /* Center the container */
+  }
+
+  .photo-experience {
+    width: 100%; /* Full width on mobile */
+    max-width: 100%; /* Remove any width constraints */
+    left: 0; /* Reset left position */
+    transform: none; /* Reset transform */
+    margin: 0 auto; /* Center the container */
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  /* Override for mobile specifically */
+  @media (max-width: 768px) {
+  .photo-slider {
+    flex-direction: column; /* Stack on mobile */
+    height: auto;
+  }
+  
+  .photo-container {
     width: 100%;
-    transform: none;
-    left: auto;
+    max-height: 60vh; /* Limit height on mobile */
+    overflow: hidden;
+  }
+  
+  .photo-image {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    padding: 0;
+  }
+  
+  .caption-container {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .caption-text {
+    font-size: 1.2rem; /* Slightly smaller on mobile */
+  }
+  
+  /* Fix for interactive containers on mobile */
+  body .story-content .interactive-container {
+    width: 100% !important; /* Force 100% width */
+    left: 0 !important; /* Reset position */
+    transform: none !important; /* Reset transform */
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* Ensure Flourish embeds resize properly */
+  .interactive-container iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+  .photo-slider {
+    flex-direction: column; /* Stack image and caption vertically */
+    height: auto; /* Allow height to adjust dynamically */
+  }
+
+  .photo-container {
+    flex: 1 1 auto; /* Allow the image section to adjust dynamically */
+    padding: 0; /* Remove padding for better fit */
+  }
+
+  .caption-container {
+    flex: 0 0 auto; /* Allow the caption section to adjust dynamically */
+    padding: 0.5rem; /* Add some padding for spacing */
   }
 }
 
@@ -325,207 +403,168 @@ body .story-content .video-player {
 /* interactive styling */
 /* Interactive styling: make it 140% of parent width & center it, same process as videos */
 body .story-content .interactive-container {
-  width: 180%; /* 140% of the parent width, might need to adjust this per story */
-  max-width: none; /* Prevent max-width constraints */
+  width: 100%; /* Use 100% width by default */
+  max-width: 1200px; /* Limit max width */
+  margin: 2.5rem auto; /* Center with margin */
   position: relative;
-  left: 50%; /* Move the interactive to the center of the parent */
-  transform: translateX(-50%); /* Adjust for the extra width */
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-  z-index: 1000; /* Ensure it appears above other content */
+  overflow: hidden; /* Prevent overflow */
 }
 
-.story-content .interactive-container {
-  width: 100%;
-  display: block;
+/* For larger screens only, expand the interactive container */
+@media (min-width: 769px) {
+  body .story-content .interactive-container {
+    width: 180%; /* 180% width for larger screens */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: none; /* Remove max-width constraint */
+  }
 }
 
-/* Photo Experience Component Styles */
+/* Photo experience styles */
 .photo-experience {
   display: flex;
-  flex-direction: column; /* Stack title and slider vertically */
-  width: 140%; /* 140% of the parent width */
-  height: 91vh; /* Fixed height of 90% of the viewport */
-  position: relative;
-  left: 50%; /* Center the container horizontally */
-  transform: translateX(-50%); /* Adjust for extra width */
-  margin: 0 auto;
-  font-family: var(--font-lora); /* Use the Lora font */
-  overflow: hidden; /* Ensure no content overflows */
-}
-
-.photo-experience{
-  margin: 0;
-}
-
-/* Title and Description */
-.photo-header {
-  text-align: left;
-  margin-bottom: 0; /* Remove extra spacing below */
-  padding-bottom: 0; /* Just in case */
-}
-
-.photo-title {
-  font-size: 2.5rem; /* Adjust title size */
-  font-weight: bold;
-  font-family: var(--font-montserrat);
-  color: var(--color-green); /* Use the green color */
-}
-
-.photo-description {
-  font-size: 1.125rem;
-  color: var(--color-black);
-}
-
-/* Photo Slider */
-.photo-slider {
-  display: flex;
-  flex-direction: row; /* Align image and caption horizontally */
+  flex-direction: column;
   width: 100%;
-  height: calc(100% - 4rem); /* Take up remaining height after the title (adjust 4rem as needed) */
-}
-
-/* Photo Container (Image Section) */
-.photo-container {
-  flex: 1 1 70%; /* 80% of the width for the image */
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: hidden; /* Prevent image overflow */
-}
-
-.photo-image {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  align-items: top;
-  padding-top: 1rem; 
-  padding-right: 1rem;
-}
-
-/* Caption and Controls Container */
-.caption-container {
-  flex: 0 0 30%; /* Fixed 20% width for the caption and controls */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem;
-}
-
-.caption-text {
-  font-size: 1.5rem;
-  color: var(--color-black);
-  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  position: relative;
+  height: auto; /* Auto height instead of fixed */
   font-family: var(--font-lora);
-  font-style:italic;
-  border-left: 4px solid var(--color-green);
-  padding-left: .8rem;
+  overflow: hidden;
 }
 
-.position-indicator {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem;
-}
-
-.position-indicator button {
-  background-color: var(--color-green);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  font-size: 1.25rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.position-indicator button:hover {
-  background-color: var(--color-light-green);
-}
-
-/* inline photo styles */
-.inline-photo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.inline-photo-image {
-  max-width: 100%;
-  max-height: 80vh;
-  height: auto;
-  object-fit: contain;
-}
-
-.inline-photo-caption {
-  font-size: 1rem;
-  color: var(--color-black);
-  font-family: var(--font-lora);
-  font-style: italic;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-
-
-
-/* Responsive Adjustments for Mobile */
+/* Mobile: Adjust the layout so the image & text remain at the top and the clickers (arrows) are fixed at the bottom */
 @media (max-width: 768px) {
-  .photo-experience,
-  .interactive-container,
-  .video-container {
-    width: 100%; /* Full width on mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
+  .photo-experience {
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    transform: none;
+    margin: 0 auto;
+    height: auto; /* Let the height adapt */
   }
-  .photo-experience{
-    width: 100%; /* Full width on mobile */
-    height: auto; /* Auto height for mobile */
-    margin: 0; /* Remove margin for mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
+  
+  .photo-slider {
+    flex-direction: column; /* Ensure stacking on mobile */
+    height: auto;
   }
-  .interactive-container {
-    width: 100%; /* Full width on mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
+  
+  .photo-container {
+    width: 100%;
+    max-height: 60vh; /* Limit image height on mobile */
+    overflow: hidden;
   }
-  body .story-content .interactive-container {
-    width: 100%; /* Full width on mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
-    margin-top: 1rem; /* Adjust margin for mobile */
-    margin-bottom: 1rem; /* Adjust margin for mobile */
+  
+  .photo-image {
+    width: 100%;
+    height: auto;
+    max-height: 60vh;
+    padding: 0;
   }
-  .video-container {
-    width: 90%; /* Full width on mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
+  
+  .caption-container {
+    width: 100%;
+    padding: 1rem 0;
   }
+  
+  .caption-text {
+    font-size: 1.125rem;
+    font-style: italic;
+    border-left: 4px solid var(--color-green);
+    padding-left: 0.8rem;
+    line-height: 1.6;
+  }
+  
+  .position-indicator {
+    margin-top: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  
+  .position-indicator button {
+    background-color: var(--color-green);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
+  }
+}
 
-  .video-player {
-    width: 100%; /* Full width on mobile */
-    left: 0; /* Reset left position */
-    transform: none; /* Reset transform */
+@media (min-width: 769px) {
+  .photo-experience {
+    width: 140%;
+    height: 91vh;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: none;
+    overflow: hidden;
   }
 
   .photo-slider {
-    flex-direction: column; /* Stack content vertically on smaller screens */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+  }
+
+  .photo-container {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .photo-image {
+    width: 100%;
+    height: auto;
+    max-height: 75vh; /* Reduce to avoid overlapping caption/buttons */
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
   }
 
   .caption-container {
-    flex: 1 1 auto;
-    border-left: none; /* Remove the border for mobile */
-    padding: 0.5rem;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    position: relative;
   }
-
+  
   .caption-text {
-    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    font-style: italic;
+    border-left: 4px solid var(--color-green);
+    padding-left: 1.2rem;
+    max-width: 90%;
+  }
+  
+  .position-indicator {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
   }
 
-  .position-indicator {
-    justify-content: center;
+  .position-indicator button {
+    background-color: var(--color-green);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
   }
 }
+
 
